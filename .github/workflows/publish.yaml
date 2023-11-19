@@ -3,7 +3,8 @@ description: 'Pulls deals and writes latest values to csv'
 on:
   schedule:
     - cron:  '0 0 * * *'
-  workflow_dispatch
+  workflow_dispatch:
+  push: main
 jobs:
   publish-csv:
     runs-on: ubuntu-latest
