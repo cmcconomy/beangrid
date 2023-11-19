@@ -7,6 +7,7 @@ function startAGGrid(data) {
         for (i in header) {
             key = header[i]
             val = row[i]
+            if (val == 'Default Title') {val = ''}
             if (['grams', 'price'].includes(key)) {
                 val = Number(val)
             }
