@@ -1,5 +1,4 @@
 name: 'Publish Coffee Deals'
-description: 'Pulls deals and writes latest values to csv'
 on:
   schedule:
     - cron:  '0 0 * * *'
