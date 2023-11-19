@@ -1,0 +1,32 @@
+name: 'Publish Coffee Deals'
+description: 'Pulls deals and writes latest values to csv'
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch
+jobs:
+  publish-csv:
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    steps:
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - name: Install Dependencies
+      run: |
+              pip install poetry
+              poetry install
+      shell: bash
+    - name: Create CSV
+      run: |
+              echo "" > coffeedeals.csv
+              poetry run python src/scrape_shopify.py >> coffeedeals.csv
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        file_pattern: 'coffeedeals.csv'
+
+
