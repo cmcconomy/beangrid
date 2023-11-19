@@ -32,8 +32,13 @@ def scrape_shopify(base_url: str) -> pd.DataFrame:
             vdf = pd.json_normalize(variants)
             prdf = pd.json_normalize(product)
             prdf['product_url'] = base_url + '/products/' + product['handle']
-            prdf['description'] = BeautifulSoup(prdf['body_html'], 'html.parser').text
-            del prdf['body_html']
+            prdf['description'] = None
+            if 'body_html' in prdf:
+                try:
+                    prdf['description'] = BeautifulSoup(prdf['body_html'], 'html.parser').text
+                except Exception:
+                    pass
+                del prdf['body_html']
             rename_variant_dupe_cols(vdf, prdf)
             dfs.append(vdf.merge(prdf, how='cross'))
 
