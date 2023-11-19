@@ -27,8 +27,8 @@ jobs:
       shell: bash
     - name: Create CSV
       run: |
-              printf "" > coffeedeals.csv
-              poetry run python src/coffeedeals/scrape_shopify.py >> coffeedeals.csv
+              printf "" > docs/coffeedeals.csv
+              poetry run python src/coffeedeals/scrape_shopify.py >> docs/coffeedeals.csv
     - name: Commit new CSV to github
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
