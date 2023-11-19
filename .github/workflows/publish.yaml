@@ -23,14 +23,11 @@ jobs:
     - name: Install Dependencies
       run: |
               pip install poetry
-              echo ===================
-              ls -R
-              echo ===================
               poetry install
       shell: bash
     - name: Create CSV
       run: |
-              echo "" > coffeedeals.csv
+              printf "" > coffeedeals.csv
               poetry run python src/coffeedeals/scrape_shopify.py >> coffeedeals.csv
     - name: Commit new CSV to github
       uses: stefanzweifel/git-auto-commit-action@v5

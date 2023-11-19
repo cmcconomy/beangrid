@@ -1,5 +1,6 @@
 import json
 from importlib import resources as impresources
+from bs4 import BeautifulSoup
 
 import httpx
 import pandas as pd
@@ -31,6 +32,8 @@ def scrape_shopify(base_url: str) -> pd.DataFrame:
             vdf = pd.json_normalize(variants)
             prdf = pd.json_normalize(product)
             prdf['product_url'] = base_url + '/products/' + product['handle']
+            prdf['description'] = BeautifulSoup(prdf['body_html'], 'html.parser').text
+            del prdf['body_html']
             rename_variant_dupe_cols(vdf, prdf)
             dfs.append(vdf.merge(prdf, how='cross'))
 
