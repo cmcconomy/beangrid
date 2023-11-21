@@ -1,13 +1,13 @@
 name: 'Publish Coffee Deals'
 on:
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '0 5 * * *'
   workflow_dispatch:
   push: 
     branches:
     - main
 jobs:
-  publish-csv:
+  gather-csv:
     runs-on: ubuntu-latest
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
@@ -34,4 +34,23 @@ jobs:
       with:
         file_pattern: 'coffeedeals.csv'
 
+  github-pages-deploy:
+    # Add a dependency to the build job
+    needs: gather-csv
 
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
