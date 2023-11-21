@@ -33,7 +33,7 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         file_pattern: 'coffeedeals.csv'
-    - name: Commit new CSV to github
+    - name: Upload artifact for pages
       uses: actions/upload-artifact@master
       with:
         name: page
@@ -64,6 +64,7 @@ jobs:
     - uses: actions/configure-pages@v1
     - uses: actions/upload-pages-artifact@v1
       with:
-        path: .      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
+        path: .
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
