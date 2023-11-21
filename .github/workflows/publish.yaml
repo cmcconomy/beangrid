@@ -33,6 +33,12 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         file_pattern: 'coffeedeals.csv'
+    - name: Commit new CSV to github
+      uses: actions/upload-artifact@master
+        with:
+          name: page
+          path: docs
+          if-no-files-found: error        
 
   github-pages-deploy:
     # Add a dependency to the build job
@@ -51,6 +57,13 @@ jobs:
     # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+    - uses: actions/download-artifact@master
+      with:
+        name: page
+        path: .
+    - uses: actions/configure-pages@v1
+    - uses: actions/upload-pages-artifact@v1
+      with:
+        path: .      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2 # or the latest "vX.X.X" version tag for this action
