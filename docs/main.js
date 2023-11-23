@@ -124,15 +124,15 @@ function startAGGrid(data) {
         rowData: rows,
     }
     
-    const eGridDiv = document.querySelector('#coffeedeals-grid')
-    console.log('Grid Options:')
-    console.log(gridOptions)
+    const eGridDiv = document.querySelector('#beangrid')
+    // console.log('Grid Options:')
+    // console.log(gridOptions)
     new agGrid.Grid(eGridDiv, gridOptions)
 }
 
 // Kick off the download of CSV, transform to data arrays, and start AG Grid.
 Papa.parse(
-    './coffeedeals.csv', {
+    './beangrid.csv', {
         download: true,
         complete: function(results){
             startAGGrid(results.data)
