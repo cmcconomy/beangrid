@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import httpx
 import pandas as pd
 
-import coffeedeals
+import beangrid
 
 
 def scrape_shopify(base_url: str) -> pd.DataFrame:
@@ -47,7 +47,7 @@ def scrape_shopify(base_url: str) -> pd.DataFrame:
     return pd.concat(dfs).reset_index().drop(columns='index').dropna(how='all')
 
 if __name__ == '__main__':
-    inp_file = (impresources.files(coffeedeals) / 'shopify_sites.txt')
+    inp_file = (impresources.files(beangrid) / 'shopify_sites.txt')
     with open(inp_file, 'r') as f:
         sites = f.read().split('\n')
 

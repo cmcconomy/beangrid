@@ -1,9 +1,9 @@
-# Canadian Coffee Details
+# Beangrid: Canadian Coffee Details
 
 A little side project for me - I wanted to be able to search across various vendors' beans and find what I want to buy.
 
-The interface is accessible here: https://cmcconomy.github.io/coffeedeals  
-The CSV can be directly accessed via https://cmcconomy.github.io/coffeedeals/coffeedeals.csv
+The interface is accessible here: https://beangrid.mcconomy.org/
+The CSV can be directly accessed via https://beangrid.mcconomy.org//coffeedeals.csv
 
 ## Data processing
 The approach is fairly simple: 
@@ -15,7 +15,7 @@ A new push to main will also publish the most recent contents of [`./docs`](docs
 
 ## Presentation
 - The main landing page uses AG Grid for data querying and exploration
-- For the nerdier folks, a [link on the page](https://lite.datasette.io/?csv=https%3A%2F%2Fcmcconomy.github.io%2Fcoffeedeals%2Fcoffeedeals.csv#/data/coffeedeals) loads the data into datasette-lite. Datasette reads the CSV and converts on the fly to a sqlite database, which datasette then provides access for
+- For the nerdier folks, a [link on the page](https://lite.datasette.io/?csv=https%3A%2F%2Fbeangrid.mcconomy.org%2Fcoffeedeals.csv#/data/beangrid) loads the data into datasette-lite. Datasette reads the CSV and converts on the fly to a sqlite database, which datasette then provides access for
 - If that's not enough, I also added a Jupyter Lite environment where you can delve into the data.
 
 # Contributing

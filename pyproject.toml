@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "coffeedeals"
+name = "beangrid"
 version = "0.1.0"
 description = "Pulls Canadian Coffee prices from various places"
 authors = ["Craig McConomy <cmcconomy@gmail.com>"]
