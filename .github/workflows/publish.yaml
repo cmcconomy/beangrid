@@ -1,4 +1,4 @@
-name: 'Publish Coffee Deals'
+name: 'Beangrid'
 on:
   schedule:
     - cron:  '0 5 * * *'
@@ -27,12 +27,12 @@ jobs:
       shell: bash
     - name: Create CSV
       run: |
-              printf "" > docs/coffeedeals.csv
-              poetry run python src/coffeedeals/scrape_shopify.py >> docs/coffeedeals.csv
+              printf "" > docs/beangrid.csv
+              poetry run python src/beangrid/scrape_shopify.py >> docs/beangrid.csv
     - name: Commit new CSV to github
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        file_pattern: 'coffeedeals.csv'    
+        file_pattern: 'beangrid.csv'    
     - name: Set Up Jupyter Lite
       run: |
         poetry run jupyter lite build --contents notebooks/jupyterlite --output-dir docs/jupyterlite
