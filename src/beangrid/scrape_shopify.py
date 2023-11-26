@@ -1,18 +1,20 @@
-import json
+import asyncio
 from importlib import resources as impresources
-from bs4 import BeautifulSoup
+import json
+import sys
 
+from bs4 import BeautifulSoup
 import httpx
 import pandas as pd
 
 import beangrid
 
 
-def scrape_shopify(base_url: str) -> pd.DataFrame:
+async def scrape_shopify(base_url: str, client: httpx.AsyncClient) -> pd.DataFrame:
     url = base_url + '/products.json'
 
-    def get_page(page):
-        data = httpx.get(url + '?page={}'.format(page)).text
+    async def get_page(page):
+        data = (await client.get(url + '?page={}'.format(page))).text
         products = json.loads(data)['products']
         return products
     
@@ -23,7 +25,7 @@ def scrape_shopify(base_url: str) -> pd.DataFrame:
     
     dfs = []
     page = 1
-    products = get_page(page)
+    products = await get_page(page)
     while products:
         for product in products:
             variants = product['variants']
@@ -43,20 +45,33 @@ def scrape_shopify(base_url: str) -> pd.DataFrame:
             dfs.append(vdf.merge(prdf, how='cross'))
 
         page += 1
-        products = get_page(page)
+        products = await get_page(page)
     return pd.concat(dfs).reset_index().drop(columns='index').dropna(how='all')
 
-if __name__ == '__main__':
+
+async def scrape_all():
     inp_file = (impresources.files(beangrid) / 'shopify_sites.txt')
     with open(inp_file, 'r') as f:
         sites = f.read().split('\n')
 
     dfs = []
-    for site in sites:
-        try:
-            dfs.append(scrape_shopify(site))
-        except Exception as e:
-            raise Exception("Error processing site %s" % site) from e
+    async with httpx.AsyncClient() as client:
+        async with asyncio.TaskGroup() as tg:
+            tasks = [tg.create_task(scrape_shopify(site, client)) for site in sites if site]
 
-    df = pd.concat(dfs)
+    return pd.concat([task.result() for task in tasks])
+
+
+async def scrape_one(site: str):
+    async with httpx.AsyncClient() as client:
+        df = await scrape_shopify(site, client)
+
+    return df
+
+
+if __name__ == '__main__':
+    if sys.argv[1]:
+        df = asyncio.run(scrape_one(sys.argv[1]))
+    else:
+        df = asyncio.run(scrape_all())
     print(df.to_csv())
