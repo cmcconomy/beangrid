@@ -70,7 +70,7 @@ async def scrape_one(site: str):
 
 
 if __name__ == '__main__':
-    if sys.argv[1]:
+    if len(sys.argv) == 2:
         df = asyncio.run(scrape_one(sys.argv[1]))
     else:
         df = asyncio.run(scrape_all())
