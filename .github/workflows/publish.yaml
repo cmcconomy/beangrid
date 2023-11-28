@@ -32,7 +32,7 @@ jobs:
     - name: Commit new CSV to github
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        file_pattern: 'beangrid.csv'    
+        file_pattern: 'docs/beangrid.csv'    
     - name: Set Up Jupyter Lite
       run: |
         poetry run jupyter lite build --contents notebooks/jupyterlite --output-dir docs/jupyterlite
