@@ -15,7 +15,7 @@ async def scrape_shopify(base_url: str, client: httpx.AsyncClient) -> pd.DataFra
 
     async def get_page(page):
         data = (await client.get(url + '?page={}'.format(page))).text
-        products = json.loads(data)['products']
+        products = json.loads(data).get('products')
         return products
     
     def rename_variant_dupe_cols(vdf: pd.DataFrame, prdf: pd.DataFrame):
