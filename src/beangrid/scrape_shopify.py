@@ -46,7 +46,7 @@ async def scrape_shopify(base_url: str, client: httpx.AsyncClient) -> pd.DataFra
 
         page += 1
         products = await get_page(page)
-    return pd.concat(dfs).reset_index().drop(columns='index').dropna(how='all')
+    return pd.concat(dfs).reset_index().drop(columns='index').dropna(how='all') if dfs else None
 
 
 async def scrape_all():
@@ -59,7 +59,8 @@ async def scrape_all():
         async with asyncio.TaskGroup() as tg:
             tasks = [tg.create_task(scrape_shopify(site, client)) for site in sites if site]
 
-    return pd.concat([task.result() for task in tasks])
+    results = [task.result() for task in tasks if task.result()]
+    return pd.concat(results) if results else None
 
 
 async def scrape_one(site: str):
@@ -74,4 +75,4 @@ if __name__ == '__main__':
         df = asyncio.run(scrape_one(sys.argv[1]))
     else:
         df = asyncio.run(scrape_all())
-    print(df.to_csv())
+    print(df.to_csv() if df else "")
