@@ -59,7 +59,7 @@ async def scrape_all():
         async with asyncio.TaskGroup() as tg:
             tasks = [tg.create_task(scrape_shopify(site, client)) for site in sites if site]
 
-    results = [task.result() for task in tasks if task.result()]
+    results = [task.result() for task in tasks if task.result() is not None and not task.result().empty]
     return pd.concat(results) if results else None
 
 
@@ -75,4 +75,4 @@ if __name__ == '__main__':
         df = asyncio.run(scrape_one(sys.argv[1]))
     else:
         df = asyncio.run(scrape_all())
-    print(df.to_csv() if df else "")
+    print(df.to_csv() if df is not None and not df.empty else "")
