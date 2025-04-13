@@ -1,6 +1,7 @@
 import asyncio
 from importlib import resources as impresources
 import json
+import logging
 import sys
 
 from bs4 import BeautifulSoup
@@ -15,7 +16,12 @@ async def scrape_shopify(base_url: str, client: httpx.AsyncClient) -> pd.DataFra
 
     async def get_page(page):
         data = (await client.get(url + '?page={}'.format(page))).text
-        products = json.loads(data).get('products')
+        try:            
+            products = json.loads(data).get('products', [])
+        except json.JSONDecodeError:
+            logging.error(f"Failed to decode JSON from {url + '?page={}'.format(page)}")
+            products = []
+        
         return products
     
     def rename_variant_dupe_cols(vdf: pd.DataFrame, prdf: pd.DataFrame):
