@@ -127,7 +127,7 @@ function startAGGrid(data) {
     const eGridDiv = document.querySelector('#beangrid')
     // console.log('Grid Options:')
     // console.log(gridOptions)
-    new agGrid.Grid(eGridDiv, gridOptions)
+    agGrid.createGrid(eGridDiv, gridOptions)
 }
 
 // Kick off the download of CSV, transform to data arrays, and start AG Grid.
