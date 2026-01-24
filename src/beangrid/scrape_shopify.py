@@ -15,13 +15,16 @@ async def scrape_shopify(base_url: str, client: httpx.AsyncClient) -> pd.DataFra
     url = base_url + '/products.json'
 
     async def get_page(page):
-        data = (await client.get(url + '?page={}'.format(page))).text
-        try:            
+        try:
+            data = (await client.get(url + '?page={}'.format(page))).text
             products = json.loads(data).get('products', [])
-        except json.JSONDecodeError:
-            logging.error(f"Failed to decode JSON from {url + '?page={}'.format(page)}")
+        except httpx.HTTPError as e:
+            logging.error(f"HTTP error fetching {url}?page={page}: {e}")
             products = []
-        
+        except json.JSONDecodeError:
+            logging.error(f"Failed to decode JSON from {url}?page={page}")
+            products = []
+
         return products
     
     def rename_variant_dupe_cols(vdf: pd.DataFrame, prdf: pd.DataFrame):
