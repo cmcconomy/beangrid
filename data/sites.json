@@ -10,6 +10,39 @@
   "pending_count": null,
   "pending_runs": 0
  },
+ "94celcius.com": {
+  "url": "https://94celcius.com",
+  "roaster": "94Celcius",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 86,
+  "last_count": 89,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "acecoffeeroasters.com": {
+  "url": "https://acecoffeeroasters.com",
+  "roaster": "ACE Coffee Roasters",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 88,
+  "last_count": 246,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "agroroasters.com": {
+  "url": "https://agroroasters.com",
+  "roaster": "Agro Roasters",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 266,
+  "last_count": 27,
+  "pending_count": null,
+  "pending_runs": 0
+ },
  "anchoredcoffee.com": {
   "url": "https://anchoredcoffee.com",
   "roaster": "Anchored Coffee Dartmouth",
@@ -21,6 +54,17 @@
   "pending_count": null,
   "pending_runs": 0
  },
+ "balzacs.com": {
+  "url": "https://balzacs.com",
+  "roaster": "balzacs.com",
+  "status": "failed",
+  "error": "gave up after 7 attempts: HTTP 429",
+  "last_ok": null,
+  "coffee_variants": 0,
+  "last_count": null,
+  "pending_count": null,
+  "pending_runs": null
+ },
  "beannorth.com": {
   "url": "https://beannorth.com",
   "roaster": "Bean North Coffee Roasting Co. Ltd.",
@@ -29,6 +73,28 @@
   "last_ok": "2026-11-13",
   "coffee_variants": 670,
   "last_count": 117,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "birdycoffeeco.ca": {
+  "url": "https://birdycoffeeco.ca",
+  "roaster": "Birdy Coffee Co.",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 95,
+  "last_count": 92,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "botany-rd.com": {
+  "url": "https://botany-rd.com",
+  "roaster": "BOTANY RD",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 59,
+  "last_count": 55,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -84,6 +150,28 @@
   "last_ok": "2026-11-13",
   "coffee_variants": 496,
   "last_count": 27,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "coffeewallas.com": {
+  "url": "https://coffeewallas.com",
+  "roaster": "Coffee Wallas",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 36,
+  "last_count": 22,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "continuumcoffee.ca": {
+  "url": "https://continuumcoffee.ca",
+  "roaster": "Continuum Coffee Roasters",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 59,
+  "last_count": 42,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -153,6 +241,17 @@
   "pending_count": null,
   "pending_runs": 0
  },
+ "elysiancoffee.com": {
+  "url": "https://elysiancoffee.com",
+  "roaster": "Elysian Coffee",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 126,
+  "last_count": 30,
+  "pending_count": null,
+  "pending_runs": 0
+ },
  "enjoylunacoffee.com": {
   "url": "https://enjoylunacoffee.com",
   "roaster": "Luna Coffee",
@@ -161,6 +260,50 @@
   "last_ok": "2026-11-13",
   "coffee_variants": 183,
   "last_count": 108,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "epochchemistry.ca": {
+  "url": "https://epochchemistry.ca",
+  "roaster": "Epoch Chemistry Coffee House",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 53,
+  "last_count": 122,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "equatorcoffeeroasters.com": {
+  "url": "https://equatorcoffeeroasters.com",
+  "roaster": "equatorcoffeeroasters.com",
+  "status": "failed",
+  "error": "gave up after 7 attempts: HTTP 429",
+  "last_ok": null,
+  "coffee_variants": 0,
+  "last_count": null,
+  "pending_count": null,
+  "pending_runs": null
+ },
+ "ethicalbean.com": {
+  "url": "https://ethicalbean.com",
+  "roaster": "ethicalbean.com",
+  "status": "failed",
+  "error": "gave up after 7 attempts: HTTP 429",
+  "last_ok": null,
+  "coffee_variants": 0,
+  "last_count": null,
+  "pending_count": null,
+  "pending_runs": null
+ },
+ "evencoffee.ca": {
+  "url": "https://evencoffee.ca",
+  "roaster": "Even Coffee",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 20,
+  "last_count": 23,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -183,6 +326,28 @@
   "last_ok": "2026-11-13",
   "coffee_variants": 81,
   "last_count": 74,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "firebeancoffee.ca": {
+  "url": "https://firebeancoffee.ca",
+  "roaster": "Firebean Coffee INC",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 72,
+  "last_count": 22,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "flatlandcoffee.com": {
+  "url": "https://flatlandcoffee.com",
+  "roaster": "Flatland Coffee Roasters",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 22,
+  "last_count": 15,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -252,6 +417,28 @@
   "pending_count": null,
   "pending_runs": 0
  },
+ "justuscoffee.com": {
+  "url": "https://justuscoffee.com",
+  "roaster": "justuscoffee.com",
+  "status": "failed",
+  "error": "gave up after 7 attempts: HTTP 429",
+  "last_ok": null,
+  "coffee_variants": 0,
+  "last_count": null,
+  "pending_count": null,
+  "pending_runs": null
+ },
+ "kickinghorsecoffee.ca": {
+  "url": "https://kickinghorsecoffee.ca",
+  "roaster": "kickinghorsecoffee.ca",
+  "status": "failed",
+  "error": "gave up after 7 attempts: HTTP 429",
+  "last_ok": null,
+  "coffee_variants": 0,
+  "last_count": null,
+  "pending_count": null,
+  "pending_runs": null
+ },
  "lebruloir.com": {
   "url": "https://www.lebruloir.com",
   "roaster": "Le Br\u00fbloir",
@@ -282,6 +469,17 @@
   "last_ok": "2026-11-13",
   "coffee_variants": 6,
   "last_count": 3,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "melk.cafe": {
+  "url": "https://melk.cafe",
+  "roaster": "Melk Cafe",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 132,
+  "last_count": 30,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -337,6 +535,28 @@
   "last_ok": "2026-11-13",
   "coffee_variants": 17,
   "last_count": 18,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "noctcoffee.myshopify.com": {
+  "url": "https://noctcoffee.myshopify.com",
+  "roaster": "NOCT. COFFEE",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 21,
+  "last_count": 30,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "originhillcoffee.com": {
+  "url": "https://originhillcoffee.com",
+  "roaster": "Origin Hill Coffee Roasters",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 9,
+  "last_count": 6,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -428,6 +648,17 @@
   "pending_count": null,
   "pending_runs": 0
  },
+ "receivercoffee.com": {
+  "url": "https://receivercoffee.com",
+  "roaster": "receivercoffee.com",
+  "status": "failed",
+  "error": "gave up after 7 attempts: HTTP 429",
+  "last_ok": null,
+  "coffee_variants": 0,
+  "last_count": null,
+  "pending_count": null,
+  "pending_runs": null
+ },
  "regardcoffee.com": {
   "url": "https://www.regardcoffee.com",
   "roaster": "Regard Coffee Roasters",
@@ -436,6 +667,17 @@
   "last_ok": "2026-11-13",
   "coffee_variants": 36,
   "last_count": 10,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "reunioncoffeeroasters.com": {
+  "url": "https://reunioncoffeeroasters.com",
+  "roaster": "Reunion Coffee Roasters",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 61,
+  "last_count": 26,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -464,9 +706,9 @@
  "roguewavecoffee.ca": {
   "url": "https://www.roguewavecoffee.ca",
   "roaster": "Rogue Wave Coffee",
-  "status": "stale",
-  "error": "gave up after 7 attempts: HTTP 429",
-  "last_ok": null,
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
   "coffee_variants": 799,
   "last_count": 805,
   "pending_count": null,
@@ -530,9 +772,9 @@
  "sethtaylor.ca": {
   "url": "https://sethtaylor.ca",
   "roaster": "Seth Taylor Coffee",
-  "status": "stale",
-  "error": "gave up after 7 attempts: HTTP 429",
-  "last_ok": null,
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
   "coffee_variants": 105,
   "last_count": 43,
   "pending_count": null,
@@ -546,6 +788,28 @@
   "last_ok": "2026-11-13",
   "coffee_variants": 67,
   "last_count": 62,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "smiletigercoffee.com": {
+  "url": "https://smiletigercoffee.com",
+  "roaster": "smiletigercoffee.com",
+  "status": "failed",
+  "error": "gave up after 7 attempts: HTTP 429",
+  "last_ok": null,
+  "coffee_variants": 0,
+  "last_count": null,
+  "pending_count": null,
+  "pending_runs": null
+ },
+ "sorellina.ca": {
+  "url": "https://sorellina.ca",
+  "roaster": "Sorellina Coffee",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 25,
+  "last_count": 15,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -618,11 +882,11 @@
  "trafficcoffee.com": {
   "url": "https://www.trafficcoffee.com",
   "roaster": "Traffic Coffee",
-  "status": "stale",
-  "error": "gave up after 7 attempts: HTTP 429",
-  "last_ok": null,
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
   "coffee_variants": 116,
-  "last_count": 67,
+  "last_count": 66,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -648,12 +912,34 @@
   "pending_count": null,
   "pending_runs": 0
  },
+ "yourstrulycoffee.myshopify.com": {
+  "url": "https://yourstrulycoffee.myshopify.com",
+  "roaster": "Yours Truly",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 8,
+  "last_count": 8,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "za-klo-torrefactrices.myshopify.com": {
+  "url": "https://za-klo-torrefactrices.myshopify.com",
+  "roaster": "Za & Klo Torr\u00e9factrices",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
+  "coffee_variants": 840,
+  "last_count": 34,
+  "pending_count": null,
+  "pending_runs": 0
+ },
  "zabcafe.com": {
   "url": "https://zabcafe.com",
   "roaster": "ZAB",
-  "status": "stale",
-  "error": "gave up after 7 attempts: HTTP 429",
-  "last_ok": null,
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-13",
   "coffee_variants": 110,
   "last_count": 177,
   "pending_count": null,
