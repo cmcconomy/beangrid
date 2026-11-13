@@ -1,24 +1,65 @@
-# Beangrid: Canadian Coffee Details
+# Beangrid: Canadian coffee bean deals
 
-A little side project for me - I wanted to be able to search across various vendors' beans and find what I want to buy.
+A daily price survey of whole-bean coffee from Canadian specialty roasters: **https://beangrid.mcconomy.org/**
 
-The interface is accessible here: https://beangrid.mcconomy.org/
-The CSV can be directly accessed via https://beangrid.mcconomy.org//coffeedeals.csv
+Every morning a GitHub Action reads each roaster's public Shopify catalogue, keeps only roasted coffee
+beans, works out the real bag size, records any price/stock changes in a permanent archive, and publishes
+a static site that surfaces price drops, sales, best value per kilo and new arrivals.
 
-## Data processing
-The approach is fairly simple: 
-- parse Shopify product published on various vendors sites
-- assemble into a single CSV file
+## How it works
 
-A new run is launched via github action on a cron schedule, which replaces the CSV content.  
-A new push to main will also publish the most recent contents of [`./docs`](docs) to the github pages site above.
+```
+sites.txt ─► fetch (httpx, retries, per-site isolation)
+          ─► validate (truncated/failed store? carry yesterday's copy forward)
+          ─► normalize + classify (coffee or not, bag size, origin, process, roast, decaf)
+          ─► history (append price/stock *changes* to data/history/<year>.csv)
+          ─► deals (sale %, drop vs 30-day typical price, $/kg percentile, new, back in stock)
+          ─► _site/ (static HTML/JS + data/offers.json) ─► GitHub Pages
+```
 
-## Presentation
-- The main landing page uses AG Grid for data querying and exploration
-- For the nerdier folks, a [link on the page](https://lite.datasette.io/?csv=https%3A%2F%2Fbeangrid.mcconomy.org%2Fcoffeedeals.csv#/data/beangrid) loads the data into datasette-lite. Datasette reads the CSV and converts on the fly to a sqlite database, which datasette then provides access for
-- If that's not enough, I also added a Jupyter Lite environment where you can delve into the data.
+* **Coffee only.** `src/beangrid/classify.py` filters out gear, merch, syrups, tea, subscriptions, gift
+  cards, bundles, pods, instant, ready-to-drink and green coffee, in English and French. Everything is still
+  published in `beangrid.csv` with its category, for transparency.
+* **Real bag sizes.** Shopify's `grams` is a shipping weight and is often wrong (a 5 lb bag at 454 g,
+  10.6 oz at 170 g). The size printed on the label wins; shipping weight is only a fallback, with packaging
+  stripped. `src/beangrid/weights.py`.
+* **Questionable data is flagged, not trusted.** Missing sizes, implausible $/kg, or a bag far cheaper per kg
+  than the roaster's own norm are marked `suspect`. They're hidden by default and never ranked as deals.
+* **Bad runs don't publish.** A store that errors or returns far fewer products than last time is treated as
+  failed and its previous data is carried forward (marked stale) for up to 5 days. If too many stores fail,
+  the run aborts before committing or deploying.
 
-# Contributing
-You can send in pull requests if there are URLS for other shopify-based canadian coffee roasters you would like me to add to the list.
+## The archive
+
+`data/` is committed daily and is the long-term record (backfilled from the old daily CSV snapshots back to
+Nov 2023):
+
+| file | contents |
+|---|---|
+| `data/history/<year>.csv` | `date,key,price,compare_at,available,listed`: one row per variant per *change* |
+| `data/catalog.csv` | what each `key` (`<store>:<variant id>`) is: title, size, category, url, first seen |
+| `data/sites.json` | per-store status, last good scrape and product count |
+
+To get the price of any variant on any day, take the latest history row on or before that day.
+
+## Development
+
+```bash
+uv sync --all-groups
+uv run pytest                                           # tests
+uv run beangrid probe https://pilotcoffeeroasters.com   # how one store's coffee gets classified
+uv run beangrid probe https://pilotcoffeeroasters.com --all
+uv run beangrid run                                     # full scrape -> data/ and _site/
+python -m http.server -d _site                          # view the site locally
+uv run beangrid backfill origin/main                    # rebuild history from git snapshots (one-off)
+```
+
+Settings can be overridden with `BEANGRID_*` environment variables (see `src/beangrid/config.py`).
+
+## Contributing
+
+Know a Canadian roaster on Shopify that's missing? Add its URL to
+[`src/beangrid/sites.txt`](src/beangrid/sites.txt) and open a PR. `uv run beangrid probe <url>` shows how its
+products will be classified.
 
 Appreciate this project? [Buy me a coffee!](https://www.buymeacoffee.com/Cmcconomy)

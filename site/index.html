@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beangrid · Canadian coffee bean deals</title>
+  <meta name="description" content="Daily price survey of whole-bean coffee from Canadian specialty roasters. Find price drops, sales and the best value per kilo.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div>
+        <h1>Beangrid</h1>
+        <p class="tagline">Whole-bean coffee from Canadian roasters, priced and compared every morning.</p>
+      </div>
+      <p class="meta" id="meta">Loading today's prices…</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="deals-h" class="deals">
+      <div class="section-head">
+        <h2 id="deals-h">Today's deals</h2>
+        <div class="tabs" role="tablist" id="deal-tabs"></div>
+      </div>
+      <p class="hint" id="deal-hint"></p>
+      <div class="cards" id="deal-cards"></div>
+    </section>
+
+    <section aria-labelledby="browse-h" class="browse">
+      <div class="section-head">
+        <h2 id="browse-h">Browse every coffee</h2>
+        <span class="count" id="count"></span>
+      </div>
+
+      <form class="filters" id="filters" autocomplete="off">
+        <label class="f-search">
+          <span>Search</span>
+          <input type="search" name="q" placeholder="Gesha, Kenya, blueberry, Pilot…">
+        </label>
+        <label><span>Roaster</span><select name="roaster"><option value="">All roasters</option></select></label>
+        <label><span>Origin</span><select name="origin"><option value="">Any origin</option></select></label>
+        <label><span>Process</span><select name="process"><option value="">Any process</option></select></label>
+        <label><span>Roast</span><select name="roast"><option value="">Any roast</option></select></label>
+        <label><span>Caffeine</span>
+          <select name="decaf">
+            <option value="">Regular + decaf</option>
+            <option value="no">No decaf</option>
+            <option value="only">Decaf only</option>
+          </select>
+        </label>
+        <label><span>Bag size</span>
+          <select name="bucket">
+            <option value="">Any size</option>
+            <option value="bag">Retail bag (150–599 g)</option>
+            <option value="large">Large (0.6–1.5 kg)</option>
+            <option value="bulk">Bulk (1.5 kg+)</option>
+          </select>
+        </label>
+        <label><span>Max $/kg</span><input type="number" name="maxppk" min="0" step="5" inputmode="numeric" placeholder="any"></label>
+        <label><span>Sort by</span>
+          <select name="sort">
+            <option value="deal">Best deal</option>
+            <option value="ppk">Lowest $/kg</option>
+            <option value="price">Lowest price</option>
+            <option value="drop">Biggest price drop</option>
+            <option value="new">Newest</option>
+            <option value="roaster">Roaster A–Z</option>
+          </select>
+        </label>
+        <fieldset class="toggles">
+          <label><input type="checkbox" name="instock" checked> In stock</label>
+          <label><input type="checkbox" name="nosamples" checked> Hide samples</label>
+          <label><input type="checkbox" name="clean" checked> Hide questionable data</label>
+        </fieldset>
+        <button type="reset" class="linkish">Reset filters</button>
+      </form>
+
+      <div class="table-wrap">
+        <table class="results" id="results">
+          <thead>
+            <tr>
+              <th scope="col">Coffee</th>
+              <th scope="col" class="num">Size</th>
+              <th scope="col" class="num">Price</th>
+              <th scope="col" class="num">$/kg</th>
+              <th scope="col">Deal</th>
+              <th scope="col" class="trend-col">120-day price</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <button class="more" id="more" hidden>Show more</button>
+    </section>
+
+    <section class="about" aria-labelledby="about-h">
+      <h2 id="about-h">How this works</h2>
+      <div class="about-grid">
+        <div>
+          <h3>What's included</h3>
+          <p>Every morning Beangrid reads the public product catalogue of each roaster's Shopify store and keeps
+            only roasted coffee beans. Gear, merch, syrups, tea, subscriptions, gift cards, pods, instant and green
+            coffee are filtered out. Grind options of the same bag are merged into one row.</p>
+        </div>
+        <div>
+          <h3>How deals are scored</h3>
+          <p><b>Price drop</b>: at least 5% below the coffee's typical price over the past 30 days.
+            <b>On sale</b>: the roaster lists a higher "compare at" price (markdowns running 60+ days count as the regular price). <b>Value</b>: how its price per kilo
+            ranks against every other in-stock coffee in the same bag size. The deal score blends discount (60%) and value (40%).</p>
+        </div>
+        <div>
+          <h3>Questionable data</h3>
+          <p>Bag sizes come from the label ("340g", "5 lb") rather than Shopify's shipping weight, which is often
+            wrong. Rows are hidden by default when the size can't be found, or the price per kilo is implausible or
+            far below the roaster's norm. Those are almost always typos in the store.
+            Untick <i>Hide questionable data</i> to see them.</p>
+        </div>
+        <div>
+          <h3>Data</h3>
+          <ul class="downloads">
+            <li><a href="data/coffee.csv">coffee.csv</a>: today's coffees, as shown here</li>
+            <li><a href="beangrid.csv">beangrid.csv</a>: every product scraped today, with its category</li>
+            <li>Price history, one file per year (every price and stock change since Nov 2023): <span id="history-links">…</span></li>
+            <li><a href="data/catalog.csv">catalog.csv</a>: what each history key refers to</li>
+            <li><a id="datasette" href="#">Explore in Datasette</a> · <a href="jupyterlite/">Jupyter Lite</a></li>
+          </ul>
+        </div>
+      </div>
+      <details class="coverage">
+        <summary id="coverage-summary">Roaster coverage</summary>
+        <div class="table-wrap"><table id="coverage"><thead><tr><th>Roaster</th><th class="num">Coffees</th><th>Status</th></tr></thead><tbody></tbody></table></div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Prices in CAD as listed by each roaster; shipping not included. Always check the roaster's site before buying.</p>
+    <p><a href="https://github.com/cmcconomy/beangrid">Source on GitHub</a> · Know a Canadian roaster on Shopify we're missing? Open a PR. ·
+      <a href="https://www.buymeacoffee.com/Cmcconomy">Buy me a coffee</a></p>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <a class="card-link" target="_blank" rel="noopener">
+        <div class="card-top">
+          <span class="roaster"></span>
+          <span class="badge"></span>
+        </div>
+        <h3 class="title"></h3>
+        <p class="chips"></p>
+        <div class="card-bottom">
+          <div class="price-block">
+            <span class="price"></span>
+            <span class="size"></span>
+            <span class="ppk"></span>
+          </div>
+          <span class="spark"></span>
+        </div>
+      </a>
+    </article>
+  </template>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

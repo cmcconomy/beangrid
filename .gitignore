@@ -3,3 +3,6 @@
 .ipynb_checkpoints
 __pycache__
 .jupyterlite.doit.db
+.cache/
+_site/
+.pytest_cache/

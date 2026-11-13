@@ -1,3 +1,5 @@
+# One Shopify storefront per line. Lines starting with # are ignored.
+# A site is scraped via <url>/products.json; redirects are followed.
 https://49thcoffee.com
 https://anchoredcoffee.com
 https://beannorth.com
@@ -5,11 +7,14 @@ https://bowscoffee.com
 https://cafepista.com
 https://candidcoffeeroasters.ca
 https://cantookcafe.com
+https://darkcitycoffee.com
 https://detourcoffee.com
 https://discoverycoffee.com
+https://enjoylunacoffee.com
 https://ethicaroasters.com
 https://farocoffee.com
 https://fernwoodcoffee.com
+https://hellodemello.com
 https://javablendcoffee.com
 https://javaroasters.ca
 https://jjbeancoffee.com
@@ -17,6 +22,7 @@ https://matchstickyvr.com
 https://mikkocoffee.com
 https://monogramcoffee.com
 https://nektar.ca
+https://paradigmspark.com
 https://philsebastian.com
 https://pivot-coffee-roastery.myshopify.com
 https://prairielilycoffee.com
@@ -31,8 +37,10 @@ https://stereocoffee.com
 https://structurecoffeeroasters.com
 https://theangryroaster.com
 https://transcendcoffee.ca
+https://virginhillcoffee.com
 https://www.brulerieduquai.com
 https://www.downeastcoffee.ca
+https://www.drumroaster.com
 https://www.elevenspeedcoffee.ca
 https://www.fratellocoffee.com
 https://www.halecoffee.com
@@ -40,6 +48,7 @@ https://www.lebruloir.com
 https://www.littlesistercoffeemaker.ca
 https://www.movingcoffee.com
 https://www.nemesis.coffee
+https://www.pilotcoffeeroasters.com
 https://www.propellercoffee.com
 https://www.quietlycoffee.com
 https://www.regardcoffee.com

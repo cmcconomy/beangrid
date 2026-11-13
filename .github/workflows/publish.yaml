@@ -1,73 +1,79 @@
-name: 'Beangrid'
+name: Beangrid
+
 on:
   schedule:
-    - cron:  '0 5 * * *'
+    - cron: "0 5 * * *"
   workflow_dispatch:
-  # push: 
-  #   branches:
-  #   - main
+  push:
+    branches: [main]
+    paths: ["site/**", "src/**", "notebooks/**", "pyproject.toml", "uv.lock", ".github/workflows/**"]
+
+concurrency:
+  group: beangrid
+  cancel-in-progress: false
+
 jobs:
-  gather-csv:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write # commit the data/ archive
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen --all-groups
+
+      - name: Test
+        run: uv run pytest -q
+
+      # Last good raw payload per store, so a store that is down today can be carried forward.
+      # Kept in the Actions cache rather than git to keep the repository small.
+      - name: Restore store cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/sites
+          key: beangrid-sites-${{ github.run_id }}
+          restore-keys: beangrid-sites-
+
+      - name: Scrape, archive and build site
+        # Exits non-zero (and so skips commit + deploy) if too many stores fail.
+        run: uv run beangrid run
+
+      - name: Save store cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/sites
+          key: beangrid-sites-${{ github.run_id }}
+
+      - name: Commit archive
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Daily price archive"
+          file_pattern: "data/*"
+
+      - name: Build Jupyter Lite
+        run: uv run jupyter lite build --contents notebooks/jupyterlite --output-dir _site/jupyterlite
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
     runs-on: ubuntu-latest
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
-      contents: write
-    steps:
-    - name: Clone Repo
-      uses: actions/checkout@v4
-    - name: Install Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-    - name: Install Dependencies
-      run: |
-              pip install poetry
-              poetry install
-      shell: bash
-    - name: Create CSV
-      run: |
-              printf "" > docs/beangrid.csv
-              poetry run python src/beangrid/scrape_shopify.py >> docs/beangrid.csv
-    - name: Commit new CSV to github
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        file_pattern: 'docs/beangrid.csv'    
-    - name: Set Up Jupyter Lite
-      run: |
-        poetry run jupyter lite build --contents notebooks/jupyterlite --output-dir docs/jupyterlite
-    - name: Upload artifact for pages
-      uses: actions/upload-artifact@master
-      with:
-        name: page
-        path: docs
-        if-no-files-found: error        
-
-  github-pages-deploy:
-    # Add a dependency to the build job
-    needs: gather-csv
-
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
-    permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
-
-    # Deploy to the github-pages environment
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    # Specify runner + deployment step
-    runs-on: ubuntu-latest
     steps:
-    - uses: actions/download-artifact@master
-      with:
-        name: page
-        path: .
-    - uses: actions/configure-pages@v1
-    - uses: actions/upload-pages-artifact@v3
-      with:
-        path: .
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4 # or the latest "vX.X.X" version tag for this action
+      - id: deployment
+        uses: actions/deploy-pages@v4

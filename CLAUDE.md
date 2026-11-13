@@ -1,41 +1,31 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
-## Project Overview
-
-Beangrid scrapes Canadian coffee roaster Shopify stores and aggregates product data into a searchable interface at https://beangrid.mcconomy.org/
+Beangrid scrapes Canadian coffee roasters' Shopify stores daily, keeps only roasted coffee beans, archives
+price changes, and publishes a static deals site at https://beangrid.mcconomy.org/
 
 ## Commands
 
 ```bash
-# Install dependencies
-poetry install
-
-# Run scraper for all sites (outputs CSV to stdout)
-poetry run python src/beangrid/scrape_shopify.py
-
-# Run scraper for a single site
-poetry run python src/beangrid/scrape_shopify.py <url>
-
-# Build Jupyter Lite environment
-poetry run jupyter lite build --contents notebooks/jupyterlite --output-dir docs/jupyterlite
+uv sync --all-groups
+uv run pytest
+uv run beangrid run                 # scrape -> data/ (archive) + _site/ (static site)
+uv run beangrid probe <store-url>   # debug classification/weights for one store (--all for non-coffee)
+uv run beangrid backfill <ref>      # rebuild data/history/ from git snapshots of docs/beangrid.csv
 ```
 
-## Architecture
+## Layout
 
-**Data Flow:** Shopify sites → Python scraper → CSV → Static frontend (AG Grid)
+- `src/beangrid/fetch.py`: async Shopify `products.json` fetch (limit=250, retries, redirects, per-site isolation)
+- `src/beangrid/classify.py`: coffee vs. not (EN/FR keyword rules) + origin/process/roast/decaf attributes
+- `src/beangrid/weights.py`: bag size from labels; Shopify `grams` is shipping weight and only a fallback
+- `src/beangrid/normalize.py`: Shopify JSON -> `Variant` records, quality flags
+- `src/beangrid/history.py`: append-only change log (`data/history/<year>.csv`) + `data/catalog.csv`
+- `src/beangrid/deals.py`: collapse grind variants into offers; sale / drop / value / new scoring
+- `src/beangrid/pipeline.py`: daily run, per-site validation + carry-forward, quality gate, site build
+- `site/`: static front end (vanilla JS, no build). Reads `_site/data/offers.json`
+- `.github/workflows/publish.yaml`: daily cron; commits `data/`, deploys `_site/` to Pages
 
-**Backend (`src/beangrid/`):**
-- `scrape_shopify.py` - Async scraper using httpx to fetch `/products.json` endpoints from Shopify stores. Handles pagination, merges product/variant data with pandas, strips HTML from descriptions.
-- `shopify_sites.txt` - List of Shopify store URLs to scrape
-- `non_shopify_sites.txt` - Placeholder for future non-Shopify sites
+## Conventions
 
-**Frontend (`docs/`):**
-- `index.html` + `main.js` - AG Grid interface with filtering, sorting, computed price-per-kilo column
-- `beangrid.csv` - Generated data file (committed by CI)
-- Served via GitHub Pages
-
-**CI/CD (`.github/workflows/publish.yaml`):**
-- Runs daily at 05:00 UTC via cron
-- Scrapes all sites, commits updated CSV, builds Jupyter Lite, deploys to GitHub Pages
+- When a classification is wrong, add a case to `tests/test_classify.py` first, then adjust rules.
+- Never commit generated site output; only `data/` is committed (by CI).
