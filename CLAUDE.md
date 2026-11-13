@@ -11,6 +11,7 @@ uv run pytest
 uv run beangrid run                 # scrape -> data/ (archive) + _site/ (static site)
 uv run beangrid probe <store-url>   # debug classification/weights for one store (--all for non-coffee)
 uv run beangrid backfill <ref>      # rebuild data/history/ from git snapshots of docs/beangrid.csv
+uv run beangrid canvass [--write]   # prune dead stores from sites.txt, propose new Canadian roasters
 ```
 
 ## Layout
@@ -23,7 +24,11 @@ uv run beangrid backfill <ref>      # rebuild data/history/ from git snapshots o
 - `src/beangrid/deals.py`: collapse grind variants into offers; sale / drop / value / new scoring
 - `src/beangrid/pipeline.py`: daily run, per-site validation + carry-forward, quality gate, site build
 - `site/`: static front end (vanilla JS, no build). Reads `_site/data/offers.json`
+- `src/beangrid/canvass.py`: weekly store-list upkeep. Prunes only failures that look permanent (404, non-JSON,
+  DNS) *and* that `data/sites.json` shows failing for `prune_after_days`; discovers via `candidates.txt` and
+  `aggregator_sites` vendors, validated with Shopify `/meta.json` (country) + coffee classification
 - `.github/workflows/publish.yaml`: daily cron; commits `data/`, deploys `_site/` to Pages
+- `.github/workflows/canvass.yaml`: weekly cron; opens a PR editing `sites.txt`
 
 ## Conventions
 

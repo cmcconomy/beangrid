@@ -1,0 +1,16 @@
+# Leads for the weekly canvass (`beangrid canvass`): one roaster name or storefront URL per line.
+# Names are resolved by guessing hosts (<name>.ca, <name>.com, <name>.myshopify.com, ...); give the
+# URL when the domain is unusual. Leads that are already listed, not Shopify, not in Canada, or that
+# sell too little coffee are skipped and shown in the PR's "rejected" list, so they can stay here.
+Reunion Coffee Roasters
+Equator Coffee Roasters
+Just Us! Coffee Roasters
+Receiver Coffee
+Escarpment Coffee Roasters
+Hatch Crafted Coffee
+Smile Tiger Coffee Roasters
+Ace Coffee Roasters
+Kicking Horse Coffee
+Ethical Bean Coffee
+Balzac's Coffee Roasters
+Elysian Coffee

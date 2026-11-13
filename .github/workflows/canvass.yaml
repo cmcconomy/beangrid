@@ -1,0 +1,48 @@
+name: Canvass stores
+
+# Weekly, separate from the daily scrape: comment out stores that no longer serve a Shopify
+# products.json, look for new Canadian roasters, and open a PR with the proposed sites.txt.
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Mondays, clear of the 05:00 daily run
+  workflow_dispatch:
+
+concurrency:
+  group: beangrid-canvass
+  cancel-in-progress: false
+
+jobs:
+  canvass:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write # push the canvass branch
+      pull-requests: write # requires "Allow GitHub Actions to create pull requests" in repo settings
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen --all-groups
+
+      # Reads data/sites.json (committed by the daily run) so a store is only commented out
+      # once the daily scrape has also been failing on it for prune_after_days.
+      - name: Canvass
+        run: uv run beangrid canvass --write --report canvass.md
+
+      - name: Summary
+        run: cat canvass.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open or update PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: canvass/stores
+          delete-branch: true
+          add-paths: src/beangrid/sites.txt
+          commit-message: "Canvass: update store list"
+          title: "Canvass: store list updates"
+          body-path: canvass.md

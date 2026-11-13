@@ -41,11 +41,28 @@ class Settings(BaseSettings):
     # Carry a failed site's last good data forward for at most this many days.
     carry_forward_days: int = 5
 
+    # Weekly canvass (`beangrid canvass`): prune dead stores, propose new Canadian roasters.
+    # Roaster names or storefront URLs to try, one per line; reviewed additions get moved to sites_file.
+    candidates_file: Path = PACKAGE_DIR / "candidates.txt"
+    # Multi-roaster Canadian Shopify retailers; the vendors of their coffee products are candidate roasters.
+    aggregator_sites: list[str] = ["https://theroasterspack.com", "https://www.idrinkcoffee.com"]
+    aggregator_pages: int = 5
+    # Only comment a store out if the daily run has also not scraped it for this long.
+    prune_after_days: int = 7
+    # A discovered store needs at least this many products classified as coffee.
+    canvass_min_coffee: int = 3
+    canvass_countries: list[str] = ["CA"]
+    # Upper bound on roaster names resolved per run (each name costs a handful of requests).
+    canvass_max_names: int = 60
+    # products.json pages read per store during the canvass; one page of 250 is plenty to classify.
+    canvass_pages: int = 1
+
 
 def load_sites(path: Path) -> list[str]:
+    """Active site URLs; `#` starts a comment, either for a whole line or after the URL."""
     sites = []
     for line in path.read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#"):
+        line = line.split("#", 1)[0].strip()
+        if line:
             sites.append(line.rstrip("/"))
     return sites

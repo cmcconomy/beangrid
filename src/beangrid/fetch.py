@@ -22,27 +22,44 @@ class SiteResult:
     products: list[dict[str, Any]] = field(default_factory=list)
     ok: bool = False
     error: str | None = None
+    transient: bool = False  # failure looks temporary (rate limit, 5xx, timeout) rather than a dead store
     pages: int = 0
+    final_url: str | None = None  # where products.json was actually served from, after redirects
 
 
 class FetchError(Exception):
-    pass
+    """`transient` is True for failures worth retrying another day (rate limits, 5xx, timeouts)."""
+
+    def __init__(self, message: str, transient: bool = False):
+        super().__init__(message)
+        self.transient = transient
 
 
 async def _get_json(client: httpx.AsyncClient, url: str, params: dict[str, Any], settings: Settings) -> dict[str, Any]:
+    return (await _get_json_at(client, url, params, settings))[0]
+
+
+async def _get_json_at(
+    client: httpx.AsyncClient, url: str, params: dict[str, Any], settings: Settings
+) -> tuple[dict[str, Any], str]:
+    """JSON body and the final URL it came from."""
     last_error = "unknown"
+    transient = True
     for attempt in range(settings.max_retries + 1):
         try:
             resp = await client.get(url, params=params)
         except httpx.HTTPError as e:
             last_error = f"{type(e).__name__}: {e}"
+            # DNS failure / refused connection points to a dead domain; timeouts may be a bad day.
+            transient = not isinstance(e, httpx.ConnectError)
         else:
             if resp.status_code == 200:
                 try:
-                    return resp.json()
+                    return resp.json(), str(resp.url)
                 except json.JSONDecodeError:
                     raise FetchError(f"non-JSON response from {resp.url} (not a Shopify store?)") from None
             last_error = f"HTTP {resp.status_code}"
+            transient = True
             if resp.status_code not in RETRY_STATUSES:
                 raise FetchError(f"{last_error} from {resp.url}")
             if retry_after := resp.headers.get("retry-after"):
@@ -54,7 +71,7 @@ async def _get_json(client: httpx.AsyncClient, url: str, params: dict[str, Any],
         if attempt < settings.max_retries:
             delay = settings.backoff_base_s * 2**attempt
             await asyncio.sleep(min(delay, settings.backoff_max_s) * (0.75 + random.random() / 2))
-    raise FetchError(f"gave up after {settings.max_retries + 1} attempts: {last_error}")
+    raise FetchError(f"gave up after {settings.max_retries + 1} attempts: {last_error}", transient=transient)
 
 
 async def fetch_site(site_url: str, client: httpx.AsyncClient, settings: Settings) -> SiteResult:
@@ -62,7 +79,9 @@ async def fetch_site(site_url: str, client: httpx.AsyncClient, settings: Setting
     url = f"{site_url}/products.json"
     try:
         for page in range(1, settings.max_pages + 1):
-            data = await _get_json(client, url, {"limit": settings.page_limit, "page": page}, settings)
+            data, final = await _get_json_at(client, url, {"limit": settings.page_limit, "page": page}, settings)
+            if page == 1:
+                result.final_url = final.split("/products.json", 1)[0]
             products = data.get("products") if isinstance(data, dict) else None
             if products is None:
                 raise FetchError("response has no 'products' key")
@@ -77,6 +96,7 @@ async def fetch_site(site_url: str, client: httpx.AsyncClient, settings: Setting
         result.ok = True
     except Exception as e:  # one broken site must never sink the others
         result.error = str(e) or type(e).__name__
+        result.transient = e.transient if isinstance(e, FetchError) else True
         logger.warning("%s failed: %s", site_url, result.error)
     return result
 

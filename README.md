@@ -52,6 +52,7 @@ uv run beangrid probe https://pilotcoffeeroasters.com --all
 uv run beangrid run                                     # full scrape -> data/ and _site/
 python -m http.server -d _site                          # view the site locally
 uv run beangrid backfill origin/main                    # rebuild history from git snapshots (one-off)
+uv run beangrid canvass                                 # report dead stores + new roaster leads (add --write)
 ```
 
 Settings can be overridden with `BEANGRID_*` environment variables (see `src/beangrid/config.py`).
@@ -60,6 +61,9 @@ Settings can be overridden with `BEANGRID_*` environment variables (see `src/bea
 
 Know a Canadian roaster on Shopify that's missing? Add its URL to
 [`src/beangrid/sites.txt`](src/beangrid/sites.txt) and open a PR. `uv run beangrid probe <url>` shows how its
-products will be classified.
+products will be classified. Or just drop the roaster's name into
+[`src/beangrid/candidates.txt`](src/beangrid/candidates.txt): a weekly canvass job
+(`.github/workflows/canvass.yaml`) resolves leads to Shopify storefronts, keeps Canadian ones that sell coffee,
+comments out listed stores that no longer serve `products.json`, and opens a PR with the changes.
 
 Appreciate this project? [Buy me a coffee!](https://www.buymeacoffee.com/Cmcconomy)
