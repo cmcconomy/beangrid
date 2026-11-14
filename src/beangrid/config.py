@@ -30,6 +30,8 @@ class Settings(BaseSettings):
     backoff_max_s: float = 60.0
     page_limit: int = 250  # Shopify's maximum page size for products.json
     max_pages: int = 40
+    # Stop starting requests/retries after this long; must stay well under the CI job timeout.
+    fetch_budget_s: float = 1200.0
 
     # A site whose product count drops below this fraction of its last good count is
     # treated as a failed scrape (truncated pagination, maintenance page, ...).

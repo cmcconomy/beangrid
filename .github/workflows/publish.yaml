@@ -15,7 +15,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45 # scrape stops retrying after fetch_budget_s (20 min)
     permissions:
       contents: write # commit the data/ archive
     steps:

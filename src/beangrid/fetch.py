@@ -1,9 +1,11 @@
 """Download every product from Shopify storefronts, one isolated task per site."""
 
 import asyncio
+import contextvars
 import json
 import logging
 import random
+import time
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -14,6 +16,8 @@ from beangrid.config import Settings
 logger = logging.getLogger(__name__)
 
 RETRY_STATUSES = {429, 500, 502, 503, 504}
+# Monotonic time after which no request or retry wait is started (set by fetch_all from fetch_budget_s).
+_deadline: contextvars.ContextVar[float | None] = contextvars.ContextVar("fetch_deadline", default=None)
 
 
 @dataclass
@@ -45,7 +49,15 @@ async def _get_json_at(
     """JSON body and the final URL it came from."""
     last_error = "unknown"
     transient = True
+
+    async def wait(seconds: float) -> None:
+        deadline = _deadline.get()
+        if deadline is not None and time.monotonic() + seconds > deadline:
+            raise FetchError(f"out of scrape time budget: {last_error}", transient=True)
+        await asyncio.sleep(seconds)
+
     for attempt in range(settings.max_retries + 1):
+        await wait(0)
         try:
             resp = await client.get(url, params=params)
         except httpx.HTTPError as e:
@@ -64,13 +76,15 @@ async def _get_json_at(
                 raise FetchError(f"{last_error} from {resp.url}")
             if retry_after := resp.headers.get("retry-after"):
                 try:
-                    await asyncio.sleep(min(float(retry_after), settings.backoff_max_s))
-                    continue
+                    pause: float | None = min(float(retry_after), settings.backoff_max_s)
                 except ValueError:
-                    pass
+                    pause = None
+                if pause is not None:
+                    await wait(pause)
+                    continue
         if attempt < settings.max_retries:
             delay = settings.backoff_base_s * 2**attempt
-            await asyncio.sleep(min(delay, settings.backoff_max_s) * (0.75 + random.random() / 2))
+            await wait(min(delay, settings.backoff_max_s) * (0.75 + random.random() / 2))
     raise FetchError(f"gave up after {settings.max_retries + 1} attempts: {last_error}", transient=transient)
 
 
@@ -114,4 +128,10 @@ async def fetch_all(sites: list[str], settings: Settings, transport: httpx.Async
             async with sem:
                 return await fetch_site(site, client, settings)
 
-        return await asyncio.gather(*(one(s) for s in sites))
+        # Once the budget is spent, sites still failing are reported as transient failures (and carried
+        # forward by the pipeline) instead of letting a rate-limit storm run into the job timeout.
+        token = _deadline.set(time.monotonic() + settings.fetch_budget_s)
+        try:
+            return await asyncio.gather(*(one(s) for s in sites))
+        finally:
+            _deadline.reset(token)

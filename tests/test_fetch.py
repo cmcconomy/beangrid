@@ -1,4 +1,5 @@
 import asyncio
+import time
 
 import httpx
 
@@ -40,3 +41,29 @@ def test_fetch_paginates_retries_and_isolates_failures(settings):
     assert not by["https://html.example"].ok and "non-JSON" in by["https://html.example"].error
     assert not by["https://gone.example"].ok and "404" in by["https://gone.example"].error
     assert by["https://old.example"].ok and by["https://old.example"].products == [{"id": 7}]  # redirect followed
+
+
+def test_scrape_time_budget_stops_retrying_and_fails_transiently(settings):
+    # Every store is rate-limited; long backoffs would run far past the budget.
+    settings.fetch_budget_s = 0.3
+    settings.backoff_base_s = 5.0
+    settings.max_retries = 6
+    settings.concurrency = 1
+    calls: list[str] = []
+
+    def always_429(request: httpx.Request) -> httpx.Response:
+        calls.append(request.url.host)
+        return httpx.Response(429)
+
+    sites = [f"https://s{i}.example" for i in range(5)]
+    start = time.monotonic()
+    results = asyncio.run(fetch_all(sites, settings, transport=httpx.MockTransport(always_429)))
+    assert time.monotonic() - start < 2
+    assert all(not r.ok and r.transient and "time budget" in r.error for r in results)
+    assert sorted(calls) == [f"s{i}.example" for i in range(5)]  # one attempt each; no 5s retry waits
+
+    # Budget already spent: remaining stores fail without touching the network.
+    settings.fetch_budget_s = 0
+    calls.clear()
+    results = asyncio.run(fetch_all(sites, settings, transport=httpx.MockTransport(always_429)))
+    assert calls == [] and all(r.transient and "time budget" in r.error for r in results)
