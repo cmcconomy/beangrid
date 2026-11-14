@@ -52,11 +52,17 @@ jobs:
           path: .cache/sites
           key: beangrid-sites-${{ github.run_id }}
 
+      # Rebase before pushing: code pushed to main while the scrape ran would otherwise reject the
+      # push. Safe because only this workflow writes data/ and its runs never overlap (concurrency).
       - name: Commit archive
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "Daily price archive"
-          file_pattern: "data/*"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "No archive changes"; exit 0; fi
+          git commit -q -m "Daily price archive"
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Build Jupyter Lite
         run: uv run jupyter lite build --contents notebooks/jupyterlite --output-dir _site/jupyterlite
