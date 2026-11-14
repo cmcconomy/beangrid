@@ -19,11 +19,11 @@ jobs:
     permissions:
       contents: write # commit the data/ archive
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@v10.3.3
         with:
-          python-version: "3.12"
+          python-version: "3.14"
           enable-cache: true
 
       - name: Install
@@ -35,7 +35,7 @@ jobs:
       # Last good raw payload per store, so a store that is down today can be carried forward.
       # Kept in the Actions cache rather than git to keep the repository small.
       - name: Restore store cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: .cache/sites
           key: beangrid-sites-${{ github.run_id }}
@@ -47,13 +47,13 @@ jobs:
 
       - name: Save store cache
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: .cache/sites
           key: beangrid-sites-${{ github.run_id }}
 
       - name: Commit archive
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Daily price archive"
           file_pattern: "data/*"
@@ -61,7 +61,7 @@ jobs:
       - name: Build Jupyter Lite
         run: uv run jupyter lite build --contents notebooks/jupyterlite --output-dir _site/jupyterlite
 
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
@@ -76,4 +76,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
