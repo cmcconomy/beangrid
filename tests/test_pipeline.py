@@ -50,6 +50,9 @@ def test_end_to_end(settings):
     rows = list(csv.DictReader((settings.site_out_dir / "beangrid.csv").open()))
     assert len(rows) == 15 and {r["category"] for r in rows} == {"coffee", "drinkware"}
     assert (settings.site_out_dir / "data" / "history" / "2026.csv").exists()
+    for name in ("history.parquet", "catalog.parquet"):
+        assert (settings.site_out_dir / "data" / name).exists()
+    assert not list(settings.data_dir.glob("*.parquet"))  # never written into the committed archive
 
     # Day 2: beta's store is down -> carried forward from cache, nothing marked delisted.
     run(settings, D0 + timedelta(days=1), results(alpha(), beta(), b_ok=False))

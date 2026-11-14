@@ -23,6 +23,7 @@ uv run beangrid canvass [--write]   # prune dead stores from sites.txt, propose 
 - `src/beangrid/history.py`: append-only change log (`data/history/<year>.csv`) + `data/catalog.csv`
 - `src/beangrid/deals.py`: collapse grind variants into offers; sale / drop / value / new scoring
 - `src/beangrid/pipeline.py`: daily run, per-site validation + carry-forward, quality gate, site build
+- `src/beangrid/export.py`: Parquet copies of history + catalog for `_site/data/` (built each run, never committed)
 - `site/`: static front end (vanilla JS, no build). Reads `_site/data/offers.json`
 - `src/beangrid/canvass.py`: weekly store-list upkeep. Prunes only failures that look permanent (404, non-JSON,
   DNS) *and* that `data/sites.json` shows failing for `prune_after_days`; discovers via `candidates.txt` and

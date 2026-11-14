@@ -125,6 +125,8 @@
             <li><a href="beangrid.csv">beangrid.csv</a>: every product scraped today, with its category</li>
             <li>Price history, one file per year (every price and stock change since Nov 2023): <span id="history-links">…</span></li>
             <li><a href="data/catalog.csv">catalog.csv</a>: what each history key refers to</li>
+            <li>The same as Parquet, all years in one file: <a href="data/history.parquet">history.parquet</a>,
+              <a href="data/catalog.parquet">catalog.parquet</a> (e.g. <code>duckdb -c "from 'https://beangrid.mcconomy.org/data/history.parquet'"</code>)</li>
             <li><a id="datasette" href="#">Explore in Datasette</a> · <a href="jupyterlite/">Jupyter Lite</a></li>
           </ul>
         </div>

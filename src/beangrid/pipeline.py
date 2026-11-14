@@ -13,6 +13,7 @@ from typing import Any
 
 from beangrid.config import Settings, load_sites
 from beangrid.deals import Offer, collapse, score_offers
+from beangrid.export import write_parquet
 from beangrid.fetch import SiteResult, fetch_all
 from beangrid.history import History, Observation, update_catalog
 from beangrid.normalize import Variant, normalize_site, site_id
@@ -178,6 +179,7 @@ def build_site(
         shutil.copy(settings.data_dir / "catalog.csv", data_dir / "catalog.csv")
     if (settings.data_dir / "history").exists():
         shutil.copytree(settings.data_dir / "history", data_dir / "history")
+    write_parquet(settings.data_dir, data_dir)
 
 
 def run(settings: Settings, today: date | None = None, results: list[SiteResult] | None = None) -> dict[str, Any]:
