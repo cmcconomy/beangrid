@@ -134,6 +134,8 @@ h2 { font-size: 20px; letter-spacing: -.01em; }
 .stale { color: var(--warn); font-size: 12px; }
 .vbar { display: block; height: 3px; border-radius: 2px; background: var(--line); margin-top: 4px; margin-left: auto; width: 60px; overflow: hidden; }
 .vbar i { display: block; height: 100%; background: var(--good); }
+/* Author display rules (like .more's) would otherwise beat the UA's [hidden] { display: none }. */
+[hidden] { display: none !important; }
 .more { display: block; margin: 16px auto 0; font: inherit; padding: 8px 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
 
 svg.spark { display: block; overflow: visible; }

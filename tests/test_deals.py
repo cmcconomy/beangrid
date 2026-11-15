@@ -82,3 +82,31 @@ def test_long_running_sale_is_not_a_deal():
     brazil = next(o for o in offers if o.title == "Brazil Cerrado")
     assert brazil.sale_pct == 0.15 and brazil.sale_days == 90 and brazil.perma_sale
     assert brazil.deal_score == round(40 * (1 - brazil.value_pct), 1)  # value only, no discount credit
+
+
+def test_wholesale_listings_are_flagged_and_left_out_of_value_ranking():
+    products = [
+        make_product(pid=1, title="Kenya AA", variants=[
+            {"id": 11, "title": "340g", "price": "20.00", "grams": 340, "available": True},
+            # A retail product that also sells a cafe size through a "Wholesale" option.
+            {"id": 12, "title": "Wholesale 2.27kg", "price": "60.00", "grams": 2270, "available": True}]),
+        make_product(pid=2, title="Cafe Blend", product_type="b2b coffee", variants=[
+            {"id": 21, "title": "2.27kg", "price": "55.00", "grams": 2270, "available": True}]),
+        make_product(pid=3, title="Polaris Espresso - W", variants=[
+            {"id": 31, "title": "340g", "price": "9.00", "grams": 340, "available": True}]),
+        make_product(pid=4, title="Colombia Huila", variants=[
+            {"id": 41, "title": "340g", "price": "30.00", "grams": 340, "available": True}]),
+    ]
+    variants = normalize_site("https://www.shop.example", products)
+    assert {v.key: v.wholesale for v in variants} == {
+        "shop.example:11": False, "shop.example:12": True, "shop.example:21": True, "shop.example:31": True,
+        "shop.example:41": False}
+    assert all(v.category == "coffee" for v in variants)  # still beans, just flagged
+
+    offers = collapse(variants)
+    score_offers(offers, History(), TODAY)
+    by_id = {o.id: o for o in offers}
+    for wid in ("shop.example:12", "shop.example:21", "shop.example:31"):
+        assert by_id[wid].wholesale and by_id[wid].value_pct is None and by_id[wid].deal_score is None
+    # The cheap wholesale 340g doesn't push retail bags up the value scale: Kenya is cheapest retail.
+    assert by_id["shop.example:11"].value_pct == 0.0 and by_id["shop.example:41"].value_pct == 1.0

@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
 
-from beangrid.classify import classify, is_sample
+from beangrid.classify import classify, is_sample, is_wholesale
 from beangrid.weights import parse_weight, resolve_weight
 
 logger = logging.getLogger(__name__)
@@ -51,6 +51,7 @@ class Variant(BaseModel):
     blend: bool = False
     style: str | None = None
     sample: bool = False
+    wholesale: bool = False  # cafe/restaurant/B2B listing (see classify.is_wholesale)
     flags: list[str] = []
 
 
@@ -115,6 +116,7 @@ def normalize_product(site_url: str, product: dict[str, Any]) -> list[Variant]:
     product_image = images[0].get("src") if images and isinstance(images[0], dict) else None
     url = f"{site_url.rstrip('/')}/products/{product.get('handle', '')}"
     description = html_to_text(product.get("body_html")) if cls.category == "coffee" else ""
+    wholesale_product = cls.category == "coffee" and bool(is_wholesale(title, product.get("product_type") or "", tags))
 
     out = []
     for v, label in zip(variants, variant_labels):
@@ -169,6 +171,8 @@ def normalize_product(site_url: str, product: dict[str, Any]) -> list[Variant]:
                 blend=cls.blend,
                 style=cls.style,
                 sample=is_sample(label, weight.grams),
+                # A product can also offer a "Wholesale 5lb" option next to its retail sizes.
+                wholesale=wholesale_product or (cls.category == "coffee" and bool(is_wholesale(label))),
                 flags=flags,
             )
         )

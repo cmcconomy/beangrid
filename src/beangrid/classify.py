@@ -263,5 +263,38 @@ def classify(
     )
 
 
+# Beans meant for cafes, restaurants and offices: often listed publicly (and cheap per kg) but not
+# really a retail offer. They stay "coffee"; this only flags them.
+WHOLESALE_RX = _rx("wholesale", "b2b", "grossistes?", "white ?label", "whitelabel", "private label",
+                   "food ?service", "horeca", "office coffee", "cafe ?service")
+# Too generic for titles ("Restaurant Blend" is a retail name too), fine as a product type.
+WHOLESALE_TYPE_RX = _rx("restaurants?")
+# Title suffix conventions: "Polaris Espresso - W" (Equator), "Dark Roast Blend (WS 5lb)" (Birdy).
+WHOLESALE_TITLE_RX = re.compile(r"\s[-–—]\s*ws?\s*$|\(\s*ws?(?:\)|\s)")
+# Tags are noisier: wholesale-portal apps tag retail products too ("wholesale-app-category-..."), a bare
+# "wholesale" tag often means "also sold wholesale", and "no-wholesale" means the opposite. Only tags
+# that say the product is *for* wholesale count.
+WHOLESALE_TAG_RX = re.compile(
+    r"^(?:wholesale[- ]?only|standard wholesale|wholesale[_:].+|white ?label|whitelabel|private ?label"
+    r"|b2b(?:[- ].*)?|grossiste[- ]?seulement)$"
+)
+
+
+def is_wholesale(title: str, product_type: str = "", tags: list[str] | None = None) -> str | None:
+    """Why a listing looks like wholesale/B2B rather than retail, or None."""
+    t_title, t_type = fold(title), fold(product_type or "")
+    if m := _first_match(WHOLESALE_RX, t_title, t_type):
+        return m
+    if m := _first_match(WHOLESALE_TYPE_RX, t_type):
+        return m
+    if WHOLESALE_TITLE_RX.search(t_title):
+        return "title marker"
+    for tag in tags or []:
+        t = fold(tag).strip()
+        if WHOLESALE_TAG_RX.match(t):
+            return f"tag '{t}'"
+    return None
+
+
 def is_sample(variant_title: str, grams: float | None) -> bool:
     return bool(SAMPLE_RX.search(fold(variant_title or ""))) or (grams is not None and grams < 150)

@@ -1,6 +1,6 @@
 import pytest
 
-from beangrid.classify import classify, detect_roast, fold
+from beangrid.classify import classify, detect_roast, fold, is_wholesale
 
 
 @pytest.mark.parametrize(
@@ -92,3 +92,46 @@ def test_roast_requires_context():
     assert detect_roast(fold("notes: dark chocolate, cherry")) is None
     assert detect_roast(fold("Torréfaction foncée")) == "Dark"
     assert detect_roast("medium-dark roast") == "Medium-dark"
+
+
+@pytest.mark.parametrize("title, ptype, tags", [
+    ("Louisa", "b2b coffee", []),  # Traffic: private-label cafe blends
+    ("Café Zuzu", "Sac de café", ["whitelabel", "wholesale-only"]),  # Café Pista
+    ("El Camino - LNV", "Sac de café", ["wholesale-only"]),
+    ("EARLY BIRD | Medium Roast Blend", "Bag", ["standard wholesale"]),  # Birdy
+    ("FIGHT OR FLIGHT | Dark Roast Blend (WS)", "", []),
+    ("Polaris Espresso - W", "Coffee", []),  # Equator's wholesale line
+    ("Outlier – W", "Coffee", []),
+    ("Test Wholesale Product", "", []),
+    ("House Blend", "Café / Restaurant Service", []),
+    ("Espresso Blend", "Café grossiste", []),
+    ("Lost & Found - Locals Brew Dark", "wholesale", ["FYEO"]),  # Smile Tiger
+    ("Butter & Blue - Iced Blend", "", ["wholesale_butterblue"]),  # Coffee Wallas: per-customer blends
+    ("Berlingot", "", ["wholesale:buckets"]),  # Melk
+    ("Tima - Éthiopie", "Sac de café", ["wholesale only"]),
+    ("Pie Face", "coffee", ["b2b-only"]),
+    ("Office Coffee - Medium", "Coffee", []),
+    ("Bistro Blend", "Foodservice", []),
+    ("Private Label Espresso", "Coffee", []),
+])
+def test_wholesale_listings(title, ptype, tags):
+    assert is_wholesale(title, ptype, tags)
+
+
+@pytest.mark.parametrize("title, ptype, tags", [
+    ("Kenya Nyeri - Washed", "Coffee", ["washed"]),
+    ("Willow Blend", "Coffee", []),
+    ("Brazil - Walter Ferreira", "Coffee", []),
+    ("Ethiopia Guji W1", "Coffee", []),
+    ("Espresso Blend 5lb", "Coffee", ["5lb", "bulk"]),  # big bags alone are retail too
+    ("Deep Groove Espresso", "Dark Espresso", ["Espresso"]),
+    ("Café du Monde Blend", "Coffee", ["cafe"]),
+    # Retail coffees that a store's wholesale app or catalog also lists (Phil & Sebastian, September...)
+    ("Snow Day", "Filter", ["wholesale-app-category-coffee-2-sub-filter-1", "wholesale-app-xero-account-5033"]),
+    ("Marmalade Cola - Guatemala Espresso", "", ["wholesale"]),
+    ("Le Club Expé", "Café", ["Filtre", "no-wholesale"]),  # 94Celcius: explicitly *not* wholesale
+    ("Las Moras", "Café", ["commandes succursales", "commercial"]),  # Café Saint-Henri
+    ("Swiss Water Decaf", "Coffee", []),
+])
+def test_retail_listings_are_not_wholesale(title, ptype, tags):
+    assert not is_wholesale(title, ptype, tags)

@@ -17,7 +17,7 @@ const FLAG_TEXT = {
 const DEAL_TABS = [
   {
     id: "top", label: "Top deals",
-    hint: "Highest deal score: discounts weighted 60%, price-per-kg value 40%. Retail bags and up; samples excluded.",
+    hint: "Highest deal score: discounts weighted 60%, price-per-kg value 40%. Retail bags and up; samples and café/wholesale listings excluded.",
     pick: (o) => o.deal_score != null && (o.drop_pct || o.sale_pct || o.value_pct <= 0.1),
     sort: (a, b) => b.deal_score - a.deal_score,
   },
@@ -48,13 +48,13 @@ const DEAL_TABS = [
   {
     id: "new", label: "New arrivals",
     hint: "First seen in the last 7 days.",
-    pick: (o) => o.available && o.is_new && !o.sample,
+    pick: (o) => o.available && o.is_new && !o.sample && !o.wholesale,
     sort: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""),
   },
   {
     id: "back", label: "Back in stock",
     hint: "Restocked this week after being sold out for 3+ days.",
-    pick: (o) => o.available && o.back_in_stock && !o.sample,
+    pick: (o) => o.available && o.back_in_stock && !o.sample && !o.wholesale,
     sort: (a, b) => (b.deal_score ?? 0) - (a.deal_score ?? 0),
   },
 ];
@@ -62,7 +62,7 @@ const DEAL_TABS = [
 const state = { data: null, offers: [], shown: PAGE, tab: "top" };
 
 function eligible(o) {
-  return o.available && !o.suspect && !o.sample && o.ppk != null;
+  return o.available && !o.suspect && !o.sample && !o.wholesale && o.ppk != null;
 }
 
 function el(tag, attrs = {}, ...children) {
@@ -141,6 +141,7 @@ function badges(o, { compact = false } = {}) {
   if (o.value_pct != null && o.value_pct <= 0.1 && !compact) {
     out.push(el("span", { class: "badge b-value", title: "Price per kg in the cheapest 10% for this bag size", text: "Top 10% value" }));
   }
+  if (o.wholesale) out.push(el("span", { class: "badge b-warn", title: "Listed for cafes, restaurants or wholesale accounts; may not be sold to the public", text: "Café / wholesale" }));
   const warn = (o.flags || []).filter((f) => FLAG_TEXT[f] && (o.suspect || f === "weight_from_shipping"));
   if (warn.length && !compact) {
     out.push(el("span", { class: "badge b-warn", title: warn.map((f) => FLAG_TEXT[f]).join("\n"), text: o.suspect ? "⚠ check listing" : "~ size guessed" }));
@@ -208,7 +209,7 @@ function readFilters() {
     roaster: f.get("roaster"), origin: f.get("origin"), process: f.get("process"), roast: f.get("roast"),
     decaf: f.get("decaf"), bucket: f.get("bucket"), maxppk: parseFloat(f.get("maxppk")) || null,
     sort: f.get("sort"), instock: f.get("instock") === "on", nosamples: f.get("nosamples") === "on",
-    clean: f.get("clean") === "on",
+    clean: f.get("clean") === "on", nowholesale: f.get("nowholesale") === "on",
   };
 }
 
@@ -216,6 +217,7 @@ function matches(o, f) {
   if (f.instock && !o.available) return false;
   if (f.nosamples && o.sample) return false;
   if (f.clean && o.suspect) return false;
+  if (f.nowholesale && o.wholesale) return false;
   if (f.roaster && o.roaster !== f.roaster) return false;
   if (f.origin && !(o.origins || []).includes(f.origin)) return false;
   if (f.process && !(o.process || []).includes(f.process)) return false;
@@ -282,14 +284,16 @@ function renderTable(resetPaging = false) {
   $("#count").textContent = `${list.length.toLocaleString()} matching`;
   $("#results tbody").replaceChildren(...list.slice(0, state.shown).map(row));
   const more = $("#more");
-  more.hidden = list.length <= state.shown;
-  more.textContent = `Show more (${(list.length - state.shown).toLocaleString()} left)`;
+  state.shown = Math.min(state.shown, Math.max(list.length, PAGE));
+  const left = list.length - state.shown;
+  more.hidden = left <= 0;
+  more.textContent = `Show more (${left.toLocaleString()} left)`;
   writeHash(f);
 }
 
 // ---- URL state so filtered views can be shared ------------------------------------------
 
-const DEFAULTS = { sort: "deal", instock: true, nosamples: true, clean: true };
+const DEFAULTS = { sort: "deal", instock: true, nosamples: true, clean: true, nowholesale: true };
 
 function writeHash(f) {
   const p = new URLSearchParams();

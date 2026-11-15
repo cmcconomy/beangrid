@@ -38,6 +38,7 @@ class Offer(BaseModel):
     blend: bool
     style: str | None
     sample: bool
+    wholesale: bool
     flags: list[str]
     suspect: bool
     weight_source: str
@@ -122,6 +123,7 @@ def collapse(variants: list[Variant], stale_sites: set[str] | None = None) -> li
                 blend=rep.blend,
                 style=rep.style,
                 sample=rep.sample,
+                wholesale=any(m.wholesale for m in members),
                 flags=flags,
                 suspect=bool(SUSPECT_FLAGS & set(rep.flags)),
                 weight_source=rep.weight_source,
@@ -134,7 +136,8 @@ def collapse(variants: list[Variant], stale_sites: set[str] | None = None) -> li
 
 
 def _eligible(o: Offer) -> bool:
-    return o.available and not o.suspect and not o.sample and o.ppk is not None
+    """Retail offers that get ranked and scored; wholesale prices would skew the retail value scale."""
+    return o.available and not o.suspect and not o.sample and not o.wholesale and o.ppk is not None
 
 
 def _percentile_ranks(values: list[float]) -> list[float]:
