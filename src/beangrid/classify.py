@@ -69,6 +69,29 @@ EXCLUDE_RULES: list[tuple[str, re.Pattern[str]]] = [
 # Roast", "Chocolate Bomb"), so they only exclude when the roaster hasn't typed the product as coffee.
 SOFT_CATEGORIES = {"syrup_food", "merch", "equipment"}
 LIQUID_RX = re.compile(r"\d\s*(?:ml|l|litres?|liters?|cl)(?![a-z])|bouteilles?|bottles?|cans?(?![a-z])|canettes?")
+# "4-Pack", "12 Pack": cold brew sold by the pack is cans/bottles, not beans.
+PACK_COUNT_RX = re.compile(r"(?<![a-z0-9])\d+\s*[- x]?\s*packs?(?![a-z])")
+
+# Words no coffee name uses, so they exclude even when the product is typed or sized like coffee
+# ("Autumn Leaves 9oz VH Candle" tagged coffee, "Tablette de chocolat Pérou 72%", "Coffee Rub").
+HARD_RULES: list[tuple[str, re.Pattern[str]]] = [
+    ("seasoning", _rx("seasoning(?: coffee| beans?)?", "grinder seasoning")),  # beans for breaking in grinders
+    ("syrup_food", _rx("hot chocolate", "chocolat chaud", "tablettes? de chocolat", "chocolate bars?", "pop ?corn",
+                       "(?:coffee|bbq|steak|spice) rubs?")),
+    ("merch", _rx("candles?", "bougies?", "soaps?", "savons?", "lip balms?", "baumes? a levres")),
+    ("equipment", _rx("airscape", "canisters?", "knock (?:box|drawer)s?", "funnels?", "replacements?", "wdt",
+                      "tools?", "outils?")),
+    ("drinkware", _rx("huskee ?cups?")),
+    ("cleaning", _rx("clean powder", "brew clean", "cafetto")),
+    ("service", _rx("masterclass(?:es)?")),
+]
+# Product types that are never beans even though they may contain "cafe"/"coffee" ("Cafe Supplies").
+NON_COFFEE_TYPE_RX = _rx("supplies", "fournitures", "tools?", "outils?", "marchandise", "thes?")
+TEA_TYPE_RX = _rx("thes?")
+# Only as a product type: titles name blends after bakeries ("Kinden's Bakery and Café Blend").
+BAKERY_TYPE_RX = _rx("bakehouse", "bakery", "boulangerie", "patisserie")
+# Options like "$25.00 / $50.00": a gift card dressed up as a product ("A Gift of Coffee").
+MONEY_OPTION_RX = re.compile(r"\$\s*\d+(?:[.,]\d{2})?|\d+(?:[.,]\d{2})?\s*\$")
 
 # Strong evidence the product is coffee beans.
 COFFEE_TYPE_RX = _rx(
@@ -194,7 +217,17 @@ def classify(
 
     # Exclusion categories win when they appear in the title or product type. The coffee words in
     # a title like "Coffee Mug" or "Café Subscription" don't rescue it.
-    type_is_coffee = bool(COFFEE_TYPE_RX.search(t_type))
+    type_is_coffee = bool(COFFEE_TYPE_RX.search(t_type)) and not NON_COFFEE_TYPE_RX.search(t_type)
+    for category, rx in HARD_RULES:
+        if hit := _first_match(rx, t_title, t_type):
+            return Classification(category=category, reason=f"'{hit}' in title/type")
+    if TEA_TYPE_RX.search(t_type):
+        return Classification(category="tea", reason=f"tea product type '{t_type}'")
+    if BAKERY_TYPE_RX.search(t_type):
+        return Classification(category="syrup_food", reason=f"bakery product type '{t_type}'")
+    values = [fold(v).strip() for v in option_values or [] if v.strip()]
+    if values and all(MONEY_OPTION_RX.fullmatch(v) for v in values):
+        return Classification(category="gift_card", reason="options are dollar amounts")
     for category, rx in EXCLUDE_RULES:
         hit = _first_match(rx, t_title, t_type)
         if hit is None:
@@ -209,7 +242,7 @@ def classify(
                     continue
             elif has_weight:
                 continue  # sold in labelled bag sizes, e.g. "Espresso Bar Blend 340g"
-        if category == "ready_to_drink" and not LIQUID_RX.search(t_title + " | " + t_opts):
+        if category == "ready_to_drink" and not (LIQUID_RX.search(t_title + " | " + t_opts) or PACK_COUNT_RX.search(t_opts)):
             continue  # "Cold Brew Blend" sold as beans
         if category == "instant" and hit in {"can", "cans", "bottle", "bottles"} and (type_is_coffee or has_weight):
             continue

@@ -58,6 +58,63 @@ def test_not_coffee(title, ptype, category):
     assert classify(title, ptype, has_weight=False).category == category
 
 
+# Real listings that leaked into the coffee table, with the type/tags/options/size their stores give them.
+@pytest.mark.parametrize(
+    "title, ptype, tags, opts, has_weight, category",
+    [
+        ("1883 MAISON ROUTIN 1L SYRUP PUMP", "Cafe Supplies", ["1883", "pump", "syrup"], [], False, "syrup_food"),
+        ("1883 MAISON ROUTIN CHOCOLATE SAUCE 1.89L CASE OF 2", "Cafe Supplies", ["chocolate", "syrup"], [], True, "syrup_food"),
+        ("Tablette de chocolat Pérou 72%", "Tablette", [], ["40g"], True, "syrup_food"),
+        ("DECADENT HOT CHOCOLATE BLEND - 250G", "Coffee", [], ["250g"], True, "syrup_food"),
+        ("Espresso Double Chocolate Cookie", "Dope Bakehouse", [], [], False, "syrup_food"),
+        ("Klondike Kettle Pop Corn", "", ["coffee"], ["Reg Size / Blood Orange"], False, "syrup_food"),
+        ("The Original Blend (75g) Coffee Rub | FREE GIFT", "Coffee Rub", [], [], True, "syrup_food"),
+        ("Autumn Leaves 9oz VH Candle", "Boutique", ["coffee", "candle"], [], True, "merch"),
+        ("Black Coffee Soap from François Lambert", "Boutique", ["coffee", "soap"], [], False, "merch"),
+        ("Down East Coffee Lip Balm", "Gifts", ["coffee"], [], False, "merch"),
+        ("Bialetti Moka Express Funnel Filter Replacements", "Boutique", ["bialetti", "filter", "funnel"],
+         ["3 cup", "6 cup"], False, "equipment"),
+        ("1 KG Wood Buffalo Coffee Airscape® Classic Canister", "", ["merch"], [], True, "equipment"),
+        ("Rhino Coffee Knock Drawer", "Tools", ["Coffee Addicts"], ["Black"], False, "equipment"),
+        ("Subminimal Flick WDT Tool | Outil de Distribution", "Marchandise", [], ["Noir"], False, "equipment"),
+        ("Coffee Tool", "", ["bf-exclude"], [], False, "equipment"),
+        ("HuskeeCup", "Retail Coffee", [], ["Huskee Cup Natural 6oz"], False, "drinkware"),
+        ("Cafetto Brew Clean Powder (500G)", "Retail", ["Accessories", "Cleaners"], [], True, "cleaning"),
+        ("Espresso Masterclass", "", ["class"], [], False, "service"),
+        ("Nitro Cold Brew Coffee", "Cold Brew Coffee", [], ["12 Pack"], False, "ready_to_drink"),
+        ("Cold Brew Multi-Packs", "Retail Coffee", ["coldbrew", "pickuponly"], ["4-Pack"], False, "ready_to_drink"),
+        ("Seasoning Coffee", "", [], ["1 kg"], True, "seasoning"),
+        ("Seasoning Beans", "Beans", [], ["1lb"], True, "seasoning"),
+        ("Thé - Décaf Pêche Abricot", "Thés", ["Thé"], [], False, "tea"),
+        ("A Gift of Coffee", "Espresso, Filter", [], ["$25.00", "$50.00", "$100.00"], False, "gift_card"),
+    ],
+)
+def test_non_bean_listings(title, ptype, tags, opts, has_weight, category):
+    c = classify(title, ptype, tags, option_values=opts, has_weight=has_weight)
+    assert c.category == category, c.reason
+
+
+# Coffees whose names collide with the words above.
+@pytest.mark.parametrize(
+    "title, ptype, opts, has_weight",
+    [
+        ("Cold Brew Coffee Blend", "Coffee", ["1 lb", "5 lb"], True),
+        ("Gingerbread Spice - Cozy & Nostalgic", "", ["12oz (340g) / Ground"], True),
+        ("Sugar & Spice - Holiday Blend", "", ["250 g"], True),
+        ("Hugo's Choice, The \"Strong Tarrazu\" Dark Roast", "Coffee", ["Whole Beans"], True),
+        ("Ruby - Ethiopia Natural", "Coffee", ["340g"], True),
+        ("Kirinyaga Kiamugumo PB", "Coffee", ["250 g"], True),
+        ("Melon Syrup - Caturra by Maria Guetio", "Archive", ["250 grams"], True),
+        ("Gift Size Coffee", "Special Blend", ["170g"], True),
+        ("Mt. Water (Dancing Goats Decaf)", "Roasted Coffee Beans", ["227g"], True),
+        ("Kinden's Bakery and Café Blend", "Coffee", ["Whole Bean / 340 g"], True),  # named for a customer
+        ("Terroir Artisan Bakery", "Sac de café", ["300g / En grain"], True),
+    ],
+)
+def test_coffee_names_that_look_like_other_things(title, ptype, opts, has_weight):
+    assert classify(title, ptype, option_values=opts, has_weight=has_weight).category == "coffee"
+
+
 def test_ready_to_drink_needs_liquid_sizes():
     assert classify("FARO COLD BREW - LEMONADE", "Coffee", option_values=["4 x 250ml"]).category == "ready_to_drink"
     assert classify("Cold Brew en bouteille", "Café", option_values=["6 x 1L"]).category == "ready_to_drink"
