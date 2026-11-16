@@ -7,6 +7,7 @@ import logging
 import random
 import time
 from dataclasses import dataclass, field
+from collections.abc import Awaitable, Callable
 from typing import Any
 
 import httpx
@@ -68,6 +69,15 @@ async def _get_json_at(
     client: httpx.AsyncClient, url: str, params: dict[str, Any], settings: Settings
 ) -> tuple[dict[str, Any], str]:
     """JSON body and the final URL it came from."""
+    resp = await get_ok(client, url, params, settings)
+    try:
+        return resp.json(), str(resp.url)
+    except json.JSONDecodeError:
+        raise FetchError(f"non-JSON response from {resp.url} (not a Shopify store?)") from None
+
+
+async def get_ok(client: httpx.AsyncClient, url: str, params: dict[str, Any], settings: Settings) -> httpx.Response:
+    """A 200 response, with pacing, retries on rate limits/5xx, and the run's time budget."""
     last_error = "unknown"
     transient = True
 
@@ -90,10 +100,7 @@ async def _get_json_at(
             transient = not isinstance(e, httpx.ConnectError)
         else:
             if resp.status_code == 200:
-                try:
-                    return resp.json(), str(resp.url)
-                except json.JSONDecodeError:
-                    raise FetchError(f"non-JSON response from {resp.url} (not a Shopify store?)") from None
+                return resp
             last_error = f"HTTP {resp.status_code}"
             transient = True
             if resp.status_code not in RETRY_STATUSES:
@@ -140,9 +147,21 @@ async def fetch_site(site_url: str, client: httpx.AsyncClient, settings: Setting
 
 
 async def fetch_all(sites: list[str], settings: Settings, transport: httpx.AsyncBaseTransport | None = None) -> list[SiteResult]:
+    return await paced_map(sites, fetch_site, settings, transport, settings.fetch_budget_s, accept="application/json")
+
+
+async def paced_map(
+    sites: list[str],
+    job: Callable[[str, httpx.AsyncClient, Settings], Awaitable[SiteResult]],
+    settings: Settings,
+    transport: httpx.AsyncBaseTransport | None,
+    budget_s: float,
+    accept: str,
+) -> list[SiteResult]:
+    """Run `job` per site in list order, sharing one pacer, time budget and circuit breaker."""
     sem = asyncio.Semaphore(settings.concurrency)
     async with httpx.AsyncClient(
-        headers={"User-Agent": settings.user_agent, "Accept": "application/json"},
+        headers={"User-Agent": settings.user_agent, "Accept": accept},
         timeout=settings.timeout_s,
         follow_redirects=True,
         transport=transport,
@@ -156,7 +175,7 @@ async def fetch_all(sites: list[str], settings: Settings, transport: httpx.Async
                 if streak >= settings.breaker_after:
                     return SiteResult(site_url=site, error=f"deferred: {streak} stores in a row rate-limited",
                                       transient=True)
-                result = await fetch_site(site, client, settings)
+                result = await job(site, client, settings)
                 if result.ok:
                     streak = 0
                 elif result.transient:
@@ -165,7 +184,7 @@ async def fetch_all(sites: list[str], settings: Settings, transport: httpx.Async
 
         # Once the budget is spent, sites still failing are reported as transient failures (and carried
         # forward by the pipeline) instead of letting a rate-limit storm run into the job timeout.
-        token = _deadline.set(time.monotonic() + settings.fetch_budget_s)
+        token = _deadline.set(time.monotonic() + budget_s)
         pacer_token = _pacer.set(Pacer(settings.request_interval_s))
         try:
             # Semaphore waiters are served in arrival order, so stores are attempted in list order.

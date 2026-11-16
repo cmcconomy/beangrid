@@ -28,6 +28,9 @@ uv run beangrid canvass [--write]   # prune dead stores from sites.txt, propose 
   gate counts carried-forward stores as usable but needs some fresh ones
 - `src/beangrid/export.py`: Parquet copies of history + catalog for `_site/data/` (built each run, never committed)
 - `site/`: static front end (vanilla JS, no build). Reads `_site/data/offers.json`
+- `src/beangrid/promos.py`: homepage promo scan (codes, free-shipping thresholds, subscriber %), only in the
+  14:23 run (`BEANGRID_SCAN_PROMOS`); `data/promos.json` keeps last known per store, `data/promo_log.csv`
+  logs codes appearing/disappearing. Add a real banner to `tests/test_promos.py` before changing the regexes
 - `src/beangrid/canvass.py`: weekly store-list upkeep. Prunes only failures that look permanent (404, non-JSON,
   DNS) *and* that `data/sites.json` shows failing for `prune_after_days`; discovers via `candidates.txt` and
   `aggregator_sites` vendors, validated with Shopify `/meta.json` (country) + coffee classification

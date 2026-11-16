@@ -17,6 +17,7 @@ from beangrid.export import write_parquet
 from beangrid.fetch import SiteResult, fetch_all
 from beangrid.history import History, Observation, update_catalog
 from beangrid.normalize import Variant, normalize_site, site_id
+from beangrid.promos import load_promos, scan_homepages, update_promos
 
 logger = logging.getLogger(__name__)
 
@@ -200,6 +201,7 @@ def build_site(
     variants: list[Variant],
     site_status: dict[str, dict[str, Any]],
     today: date,
+    promos: dict[str, Any] | None = None,
 ) -> None:
     out = settings.site_out_dir
     if out.exists():
@@ -217,16 +219,34 @@ def build_site(
         "category_counts": counts,
         "history_years": sorted(int(f.stem) for f in (settings.data_dir / "history").glob("*.csv")),
         "sites": site_status,
+        "promos": {k: v for k, v in (promos or {}).items() if k in site_status},
         "offers": [o.model_dump(exclude_none=True, exclude={"image", "weight_source"}) for o in offers],
     }
     (data_dir / "offers.json").write_text(json.dumps(payload, separators=(",", ":"), ensure_ascii=False))
     write_offers_csv(data_dir / "coffee.csv", offers)
     write_flat_csv(out / "beangrid.csv", variants)  # every product, all categories; legacy URL
+    if (settings.data_dir / "promo_log.csv").exists():
+        shutil.copy(settings.data_dir / "promo_log.csv", data_dir / "promo_log.csv")
     if (settings.data_dir / "catalog.csv").exists():
         shutil.copy(settings.data_dir / "catalog.csv", data_dir / "catalog.csv")
     if (settings.data_dir / "history").exists():
         shutil.copytree(settings.data_dir / "history", data_dir / "history")
     write_parquet(settings.data_dir, data_dir)
+
+
+def refresh_promos(
+    settings: Settings, sites: list[str], status: dict[str, dict[str, Any]], today: date
+) -> dict[str, Any]:
+    """Promos for the site: freshly scanned in the catch-up run, otherwise the last known. Never fails the run."""
+    path = settings.data_dir / "promos.json"
+    if not settings.scan_promos:
+        return load_promos(path)
+    try:
+        scanned = asyncio.run(scan_homepages(order_sites(sites, status, today), settings))
+        return update_promos(path, settings.data_dir / "promo_log.csv", scanned, today)
+    except Exception:
+        logger.exception("Promo scan failed; keeping the last known promos")
+        return load_promos(path)
 
 
 def run(settings: Settings, today: date | None = None, results: list[SiteResult] | None = None) -> dict[str, Any]:
@@ -275,7 +295,7 @@ def run(settings: Settings, today: date | None = None, results: list[SiteResult]
     stale = {o.site for o in outcomes if o.status == "stale"}
     offers = collapse(all_variants, stale)
     score_offers(offers, history, today)
-    build_site(settings, offers, all_variants, new_status, today)
+    build_site(settings, offers, all_variants, new_status, today, refresh_promos(settings, sites, prev_status, today))
 
     summary = {
         "sites_ok": len(ok),

@@ -40,6 +40,9 @@ class Settings(BaseSettings):
     max_pages: int = 40
     # Stop starting requests/retries after this long; must stay well under the CI job timeout.
     fetch_budget_s: float = 1200.0
+    # Read store homepages for promo codes / free-shipping thresholds this run (the 14:23 catch-up run).
+    scan_promos: bool = False
+    promo_budget_s: float = 600.0
 
     # A site whose product count drops below this fraction of its last good count is
     # treated as a failed scrape (truncated pagination, maintenance page, ...).

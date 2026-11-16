@@ -144,10 +144,27 @@ svg.spark { display: block; overflow: visible; }
 svg.spark path { fill: none; stroke: var(--spark); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
 svg.spark circle { fill: var(--spark); }
 
+.b-code { background: var(--info-bg); color: var(--info); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.promo-cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.promo { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; }
+.promo .roaster { color: var(--ink-3); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+.promo-code { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.promo-code code { font-size: 17px; font-weight: 700; letter-spacing: .03em; background: var(--surface-2); border: 1px dashed var(--ink-3); border-radius: 6px; padding: 2px 8px; }
+.promo-code .pct { font-weight: 700; color: var(--sale); }
+.promo .copy { border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); border-radius: 6px; font: inherit; font-size: 12px; padding: 2px 8px; cursor: pointer; }
+.promo .terms { margin: 0; color: var(--ink-2); font-size: 13px; overflow-wrap: anywhere; }
+.promo .since { color: var(--ink-3); font-size: 12px; }
+.promo-ship { margin-top: 14px; }
+.promo-ship summary { cursor: pointer; color: var(--ink-2); }
+.promo-ship table { border-collapse: collapse; margin-top: 8px; font-size: 13px; }
+.promo-ship td, .promo-ship th { padding: 4px 14px 4px 0; text-align: left; border-bottom: 1px solid var(--line); }
+.promo-ship .num { text-align: right; }
+
 .about-grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); color: var(--ink-2); }
 .about h3 { font-size: 15px; color: var(--ink); margin-bottom: 4px; }
 .about p { margin: 0; }
 .downloads { margin: 0; padding-left: 18px; }
+.downloads code { overflow-wrap: anywhere; }  /* the long duckdb example must wrap on phones */
 .coverage { margin-top: 20px; }
 .coverage summary { cursor: pointer; color: var(--ink-2); }
 .coverage table { border-collapse: collapse; margin-top: 8px; font-size: 13px; }

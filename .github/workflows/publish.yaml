@@ -48,6 +48,9 @@ jobs:
       - name: Scrape, archive and build site
         # Exits non-zero (and so skips commit + deploy) if too many stores fail.
         run: uv run beangrid run
+        env:
+          # Homepage promo scan: only in the 14:23 catch-up run (spare rate-limit budget) or by hand.
+          BEANGRID_SCAN_PROMOS: ${{ github.event.schedule == '23 14 * * *' || github.event_name == 'workflow_dispatch' }}
 
       - name: Save store cache
         if: always()

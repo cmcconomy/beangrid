@@ -59,7 +59,14 @@ const DEAL_TABS = [
   },
 ];
 
-const state = { data: null, offers: [], shown: PAGE, tab: "top" };
+const state = { data: null, offers: [], shown: PAGE, tab: "top", promos: {} };
+
+// Codes that need something first (first order, newsletter signup, subscription) are flagged as such.
+const CONDITIONAL = new Set(["first order", "newsletter", "subscription"]);
+
+function codeLabel(c) {
+  return `${c.code}${c.pct ? ` −${c.pct}%` : ""}`;
+}
 
 function eligible(o) {
   return o.available && !o.suspect && !o.sample && !o.wholesale && o.ppk != null;
@@ -142,6 +149,14 @@ function badges(o, { compact = false } = {}) {
     out.push(el("span", { class: "badge b-value", title: "Price per kg in the cheapest 10% for this bag size", text: "Top 10% value" }));
   }
   if (o.wholesale) out.push(el("span", { class: "badge b-warn", title: "Listed for cafes, restaurants or wholesale accounts; may not be sold to the public", text: "Café / wholesale" }));
+  for (const c of (state.promos[o.site]?.codes || []).slice(0, compact ? 1 : 2)) {
+    const cond = (c.conditions || []).filter((x) => CONDITIONAL.has(x));
+    out.push(el("span", {
+      class: "badge b-code",
+      title: `Store code${cond.length ? ` (${cond.join(", ")})` : ""}: ${c.text || ""}`,
+      text: `🏷 ${codeLabel(c)}${cond.length ? "*" : ""}`,
+    }));
+  }
   const warn = (o.flags || []).filter((f) => FLAG_TEXT[f] && (o.suspect || f === "weight_from_shipping"));
   if (warn.length && !compact) {
     out.push(el("span", { class: "badge b-warn", title: warn.map((f) => FLAG_TEXT[f]).join("\n"), text: o.suspect ? "⚠ check listing" : "~ size guessed" }));
@@ -332,10 +347,49 @@ function renderCoverage(sites) {
   )));
 }
 
+function renderPromos(promos, sites) {
+  const roaster = (site) => sites[site]?.roaster || site;
+  const entries = Object.entries(promos);
+  const codes = entries.flatMap(([site, p]) => (p.codes || []).map((c) => ({ site, url: p.url, ...c })))
+    .sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || roaster(a.site).localeCompare(roaster(b.site)));
+  const ship = entries.filter(([, p]) => p.free_shipping || p.subscription_pct)
+    .sort(([, a], [, b]) => (a.free_shipping?.amount ?? 1e9) - (b.free_shipping?.amount ?? 1e9));
+  if (!codes.length && !ship.length) return;
+  $("#promos").hidden = false;
+  const checked = entries.map(([, p]) => p.checked).filter(Boolean).sort().pop();
+  if (checked) $("#promos-checked").textContent = `checked ${checked}`;
+
+  $("#promo-codes").replaceChildren(...(codes.length ? codes.map((c) => {
+    const copy = el("button", { class: "copy", type: "button", text: "Copy" });
+    copy.addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(c.code); copy.textContent = "Copied"; }
+      catch { copy.textContent = "Select & copy"; }
+    });
+    const cond = (c.conditions || []).filter((x) => CONDITIONAL.has(x) || x === "Ontario" || x === "Québec");
+    return el("article", { class: "promo" },
+      el("a", { class: "roaster", href: c.url, target: "_blank", rel: "noopener", text: roaster(c.site) }),
+      el("div", { class: "promo-code" }, el("code", { text: c.code }),
+        c.pct ? el("span", { class: "pct", text: `−${c.pct}%` }) : "",
+        copy),
+      cond.length ? el("div", {}, ...cond.map((x) => el("span", { class: "chip", text: x }))) : "",
+      el("p", { class: "terms", text: c.text.length > 180 ? `${c.text.slice(0, 180)}…` : c.text }),
+      c.first_seen ? el("span", { class: "since", text: `seen since ${c.first_seen}` }) : "");
+  }) : [el("p", { class: "empty", text: "No published codes right now." })]));
+
+  $("#promo-ship-summary").textContent = `Free shipping thresholds (${ship.filter(([, p]) => p.free_shipping).length} roasters)`;
+  $("#promo-ship tbody").replaceChildren(...ship.map(([site, p]) => el("tr", {},
+    el("td", {}, el("a", { href: p.url, target: "_blank", rel: "noopener", text: roaster(site) })),
+    el("td", { class: "num", text: p.free_shipping ? `$${p.free_shipping.amount}` : "–" }),
+    el("td", { text: p.free_shipping?.region || "" }),
+    el("td", { class: "num", text: p.subscription_pct ? `${p.subscription_pct}%` : "" }),
+  )));
+}
+
 async function main() {
   const res = await fetch("data/offers.json", { cache: "no-cache" });
   const data = await res.json();
   state.data = data;
+  state.promos = data.promos || {};
   state.offers = data.offers.map((o) => ({
     ...o,
     _text: [o.title, o.roaster, o.size, ...(o.origins || []), ...(o.process || []), o.roast, o.desc, ...(o.options || [])]
@@ -365,6 +419,7 @@ async function main() {
   readHash();
   renderTable(true);
   renderCoverage(data.sites || {});
+  renderPromos(state.promos, data.sites || {});
 
   const form = $("#filters");
   let t;
