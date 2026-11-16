@@ -2,7 +2,9 @@ name: Beangrid
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+    # 02:23 UTC: off the top of the hour (GitHub delays those crons most) and outside the daytime
+    # window when Shopify has been rate-limiting Actions runners.
+    - cron: "23 2 * * *"
   workflow_dispatch:
   push:
     branches: [main]
