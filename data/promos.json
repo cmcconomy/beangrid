@@ -1,0 +1,1031 @@
+{
+ "49thcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://49thcoffee.com",
+  "banners": [
+   "FREE SHIPPING ON ORDERS $60+"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": null,
+   "text": "FREE SHIPPING ON ORDERS $60+"
+  },
+  "subscription_pct": 10
+ },
+ "94celcius.com": {
+  "checked": "2026-11-16",
+  "url": "https://94celcius.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": 5
+ },
+ "acecoffeeroasters.com": {
+  "checked": "2026-11-16",
+  "url": "https://acecoffeeroasters.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": 30
+ },
+ "agroroasters.com": {
+  "checked": "2026-11-16",
+  "url": "https://agroroasters.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 45,
+   "region": "Canada",
+   "text": "…FREE SHIPPING ACROSS CANADA ON ORDERS $45+ || U.S. ORDERS $80+ USD FREE SHIPPING…"
+  },
+  "subscription_pct": null
+ },
+ "anchoredcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://anchoredcoffee.com",
+  "banners": [
+   "Free shipping over $75 CAD Left Right Currency CAD $ Down Canada (CAD $) United States (USD $)"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 75,
+   "region": null,
+   "text": "Free shipping over $75 CAD Left Right Currency CAD $ Down…"
+  },
+  "subscription_pct": null
+ },
+ "balzacs.com": {
+  "checked": "2026-11-16",
+  "url": "https://balzacs.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 50,
+   "region": null,
+   "text": "…Free Shipping! On purchases of $50 or more *Canada only Shop Now"
+  },
+  "subscription_pct": null
+ },
+ "beannorth.com": {
+  "checked": "2026-11-16",
+  "url": "https://beannorth.com",
+  "banners": [
+   "Pause slideshow Play slideshow Monthly Subscriptions Save 5% 10% or 20% when you select subscribe! Cafe is OPEN 9am - 5pm Wednesday Novemeber 11, 2026 **Coming November 16** POP up cafe downtown! 205 Main Street North Of Ordinary"
+  ],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": 5
+ },
+ "birdycoffeeco.ca": {
+  "checked": "2026-11-16",
+  "url": "https://birdycoffeeco.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "botany-rd.com": {
+  "checked": "2026-11-16",
+  "url": "https://botany-rd.com",
+  "banners": [
+   "10% OFF FIRST ORDER USING CODE 'COFFEE10' FREE SHIPPING ON ORDERS OVER $70"
+  ],
+  "codes": [
+   {
+    "code": "COFFEE10",
+    "pct": 10,
+    "conditions": [
+     "first order",
+     "free shipping"
+    ],
+    "text": "10% OFF FIRST ORDER USING CODE 'COFFEE10' FREE SHIPPING ON ORDERS OVER $70",
+    "first_seen": "2026-11-16"
+   }
+  ],
+  "free_shipping": {
+   "amount": 70,
+   "region": null,
+   "text": "…FREE SHIPPING ON ORDERS OVER $70"
+  },
+  "subscription_pct": null
+ },
+ "bowscoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://bowscoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": "Canada",
+   "text": "…Free shipping within Canada on orders over $60 Menu 0 Home Shop Coffees Chocolate…"
+  },
+  "subscription_pct": null
+ },
+ "brulerieduquai.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.brulerieduquai.com",
+  "banners": [
+   "Email Facebook Instagram livraison gratuite dès 65$ (100$ zone Atlantique) économisez 20% en vous abonnant à votre café préféré Langue français français english Pays/région Canada (CAD $)"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 65,
+   "region": null,
+   "text": "…livraison gratuite dès 65$ (100$ zone Atlantique) économisez 20%…"
+  },
+  "subscription_pct": 20
+ },
+ "cafepista.com": {
+  "checked": "2026-11-16",
+  "url": "https://cafepista.com",
+  "banners": [
+   "Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada) Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada) 🎄 Le calendrier de l’avent Pista x Found est arrivé. Précommander le vôtre 🎄 🎄 Le calendrier de l’avent Pista x Found est arrivé. Précommander le vôtre 🎄"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 49,
+   "region": "Québec",
+   "text": "Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada)…"
+  },
+  "subscription_pct": null
+ },
+ "candidcoffeeroasters.ca": {
+  "checked": "2026-11-16",
+  "url": "https://candidcoffeeroasters.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "cantookcafe.com": {
+  "checked": "2026-11-16",
+  "url": "https://cantookcafe.com",
+  "banners": [
+   "LIVRAISON GRATUITE AVEC TOUT ACHAT DE 49$ ET PLUS."
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 49,
+   "region": null,
+   "text": "LIVRAISON GRATUITE AVEC TOUT ACHAT DE 49$ ET PLUS."
+  },
+  "subscription_pct": null
+ },
+ "coffeewallas.com": {
+  "checked": "2026-11-16",
+  "url": "https://coffeewallas.com",
+  "banners": [
+   "FREE SHIPPING on all orders over $45 CAD in Canada & $85 USD in the USA ✈️",
+   "ASIAN-OWNED FREE SHIPPING OVER $45 CAD & $85 USD FROM TORONTO PEOPLE OF COFFEE"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 45,
+   "region": "Canada",
+   "text": "FREE SHIPPING on all orders over $45 CAD in Canada & $85 USD in the USA ✈️"
+  },
+  "subscription_pct": null
+ },
+ "continuumcoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://continuumcoffee.ca",
+  "banners": [
+   "Enjoy Free Shipping on Coffee Orders Over $50 (Canada Only)"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 50,
+   "region": "Canada",
+   "text": "…Free Shipping on Coffee Orders Over $50 (Canada Only)"
+  },
+  "subscription_pct": null
+ },
+ "darkcitycoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://darkcitycoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "detourcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://detourcoffee.com",
+  "banners": [
+   "Merry Coffee'mas!! 🎄 Tis' the season for Limited Seasonal Blends! 🎁 Holiday Blend & Holiday Espresso 🎄 NOW Roasting!🔥 🚨 FREE SHIPPING on all ☕️ orders over $60 nationwide! 📦 🇨🇦 Subscribe & SAVE 15% 📥"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": null,
+   "text": "…FREE SHIPPING on all ☕️ orders over $60 nationwide! 📦 🇨🇦 Subscribe & SAVE 15% 📥"
+  },
+  "subscription_pct": 15
+ },
+ "discoverycoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://discoverycoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": null,
+   "text": "Spend $60.00 more and get free shipping"
+  },
+  "subscription_pct": null
+ },
+ "downeastcoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://www.downeastcoffee.ca",
+  "banners": [
+   "FREE SHIPPING on all orders over $90 FREE SHIPPING - orders $90+"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 90,
+   "region": null,
+   "text": "FREE SHIPPING on all orders over $90 FREE SHIPPING - orders $90+"
+  },
+  "subscription_pct": null
+ },
+ "drumroaster.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.drumroaster.com",
+  "banners": [
+   "Free Shipping on coffee orders over $60!"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": null,
+   "text": "Free Shipping on coffee orders over $60!"
+  },
+  "subscription_pct": null
+ },
+ "elevenspeedcoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://www.elevenspeedcoffee.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "elysiancoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://elysiancoffee.com",
+  "banners": [
+   "Free shipping on orders of $60 or more in Canada, $50 for subscriptions Our Cafes About Wholesale Contact"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": null,
+   "text": "Free shipping on orders of $60 or more in Canada, $50 for…"
+  },
+  "subscription_pct": null
+ },
+ "enjoylunacoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://enjoylunacoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "epochchemistry.ca": {
+  "checked": "2026-11-16",
+  "url": "https://epochchemistry.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "equatorcoffeeroasters.com": {
+  "checked": "2026-11-16",
+  "url": "https://equatorcoffeeroasters.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": null,
+   "text": "…Free shipping orders $60+ in QC/ON, $79+ for rest of Canada…"
+  },
+  "subscription_pct": 15
+ },
+ "ethicalbean.com": {
+  "checked": "2026-11-16",
+  "url": "https://ethicalbean.com",
+  "banners": [
+   "free shipping for all orders over $99 Contact ca ca us"
+  ],
+  "codes": [
+   {
+    "code": "SUBSCRIBE10",
+    "pct": 10,
+    "conditions": [
+     "subscription"
+    ],
+    "text": "…for a truly delicious delivery. new subscribers get an extra 10% off on your first charge - this week only. use code SUBSCRIBE10 at checkout. shop subscription colourful like your personality OUR RAINBOW OF…",
+    "first_seen": "2026-11-16"
+   }
+  ],
+  "free_shipping": {
+   "amount": 99,
+   "region": null,
+   "text": "free shipping for all orders over $99 Contact ca ca us"
+  },
+  "subscription_pct": 10
+ },
+ "evencoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://evencoffee.ca",
+  "banners": [
+   "FREE SHIPPING ON ORDERS OVER $70 WITHIN CANADA"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 70,
+   "region": "Canada",
+   "text": "FREE SHIPPING ON ORDERS OVER $70 WITHIN CANADA"
+  },
+  "subscription_pct": null
+ },
+ "farocoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://farocoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "fernwoodcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://fernwoodcoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 50,
+   "region": null,
+   "text": "…Free shipping on orders over $50 Free shipping on orders over $50 Shop…"
+  },
+  "subscription_pct": 10
+ },
+ "firebeancoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://firebeancoffee.ca",
+  "banners": [
+   "Free Shipping on orders over $80 CAD"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 80,
+   "region": null,
+   "text": "Free Shipping on orders over $80 CAD"
+  },
+  "subscription_pct": null
+ },
+ "flatlandcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://flatlandcoffee.com",
+  "banners": [
+   "FREE SHIPPING ON ALL NEW 2.5LB BAG SUBSCRIPTIONS Brand-new Flatland swag is here. Check them out here!"
+  ],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "fratellocoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.fratellocoffee.com",
+  "banners": [
+   "Subscribers save 20% on every order · Roasted in Calgary"
+  ],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": 20
+ },
+ "halecoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.halecoffee.com",
+  "banners": [
+   "Free shipping Canada wide for all orders over $75!"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 75,
+   "region": "Canada",
+   "text": "Free shipping Canada wide for all orders over $75!"
+  },
+  "subscription_pct": null
+ },
+ "hellodemello.com": {
+  "checked": "2026-11-16",
+  "url": "https://hellodemello.com",
+  "banners": [
+   "FREE SHIPPING ON ORDERS OVER $45"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 45,
+   "region": null,
+   "text": "FREE SHIPPING ON ORDERS OVER $45"
+  },
+  "subscription_pct": null
+ },
+ "javablendcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://javablendcoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "javaroasters.ca": {
+  "checked": "2026-11-16",
+  "url": "https://javaroasters.ca",
+  "banners": [
+   "FREE SHIPPING ON $67+ ORDERS"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 67,
+   "region": null,
+   "text": "FREE SHIPPING ON $67+ ORDERS"
+  },
+  "subscription_pct": null
+ },
+ "jjbeancoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://jjbeancoffee.com",
+  "banners": [
+   "Save 10% With Coffee Subscriptions Free Shipping On Orders Over $55 Within Canada"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 55,
+   "region": "Canada",
+   "text": "…Free Shipping On Orders Over $55 Within Canada"
+  },
+  "subscription_pct": 10
+ },
+ "justuscoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://justuscoffee.com",
+  "banners": [
+   "Facebook Instagram YouTube Free Shipping on orders over $59"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 59,
+   "region": null,
+   "text": "…Free Shipping on orders over $59"
+  },
+  "subscription_pct": null
+ },
+ "kickinghorsecoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://kickinghorsecoffee.ca",
+  "banners": [
+   "WAKE UP. KICK ASS. FREE SHIPPING IN CANADA* ON ORDERS $75+ ROASTED IN CANADA"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 75,
+   "region": "Canada",
+   "text": "…FREE SHIPPING IN CANADA* ON ORDERS $75+ ROASTED IN CANADA"
+  },
+  "subscription_pct": null
+ },
+ "lebruloir.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.lebruloir.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "littlesistercoffeemaker.ca": {
+  "checked": "2026-11-16",
+  "url": "https://www.littlesistercoffeemaker.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "matchstickyvr.com": {
+  "checked": "2026-11-16",
+  "url": "https://matchstickyvr.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "melk.cafe": {
+  "checked": "2026-11-16",
+  "url": "https://melk.cafe",
+  "banners": [
+   "Diaporama Pause Lire le diaporama Livraison gratuite à l’achat de 35 $ au QC / 45 $ au Canada et aux É.-U. Nous torréfions tous les lundis et mercredis!"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 35,
+   "region": null,
+   "text": "…Livraison gratuite à l’achat de 35 $ au QC / 45 $ au Canada et aux É.-U.…"
+  },
+  "subscription_pct": 15
+ },
+ "mikkocoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://mikkocoffee.com",
+  "banners": [
+   "Free Shipping on Orders Over $65"
+  ],
+  "codes": [
+   {
+    "code": "CLUB10",
+    "pct": 10,
+    "conditions": [
+     "newsletter"
+    ],
+    "text": "…coffee, brewing tips, and exclusive offers. Subscribe to the Mikko newsletter and enjoy 10% off your next order. Use code CLUB10 at checkout to enjoy 10% off your next order. Thanks for joining us! This…",
+    "first_seen": "2026-11-16"
+   }
+  ],
+  "free_shipping": {
+   "amount": 65,
+   "region": null,
+   "text": "Free Shipping on Orders Over $65"
+  },
+  "subscription_pct": 10
+ },
+ "monogramcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://monogramcoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": "Canada",
+   "text": "…Free Shipping Free shipping across Canada and the US for orders over $60 WORLD BARISTA CHAMPIONSHIP 2026 🏆 Jill…"
+  },
+  "subscription_pct": null
+ },
+ "movingcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.movingcoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "nektar.ca": {
+  "checked": "2026-11-16",
+  "url": "https://nektar.ca",
+  "banners": [
+   "LIVRAISON GRATUITE au Canada sur les achats de 45$ et +"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 45,
+   "region": "Canada",
+   "text": "LIVRAISON GRATUITE au Canada sur les achats de 45$ et +"
+  },
+  "subscription_pct": null
+ },
+ "nemesis.coffee": {
+  "checked": "2026-11-16",
+  "url": "https://www.nemesis.coffee",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "noctcoffee.myshopify.com": {
+  "checked": "2026-11-16",
+  "url": "https://noctcoffee.myshopify.com",
+  "banners": [
+   "Free shipping in Canada on orders over $80",
+   "Free shipping in US on orders over $80"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 80,
+   "region": "Canada",
+   "text": "Free shipping in Canada on orders over $80"
+  },
+  "subscription_pct": 15
+ },
+ "originhillcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://originhillcoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "paradigmspark.com": {
+  "checked": "2026-11-16",
+  "url": "https://paradigmspark.com",
+  "banners": [
+   "Instagram Email Free shipping on orders over $50 in Canada Country/region Canada (CAD $)"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 50,
+   "region": "Canada",
+   "text": "…Free shipping on orders over $50 in Canada Country/region Canada (CAD $)"
+  },
+  "subscription_pct": null
+ },
+ "philsebastian.com": {
+  "checked": "2026-11-16",
+  "url": "https://philsebastian.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": 10
+ },
+ "pilotcoffeeroasters.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.pilotcoffeeroasters.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "pivot-coffee-roastery.myshopify.com": {
+  "checked": "2026-11-16",
+  "url": "https://pivot-coffee-roastery.myshopify.com",
+  "banners": [
+   "FREE SHIPPING! ANYWHERE IN ONTARIO WITH A MINIMUM PURCHASE OF $125 OR MORE, USE PROMO CODE PCR125. (SUBSCRIPTIONS EXCLUDED)"
+  ],
+  "codes": [
+   {
+    "code": "PCR125",
+    "pct": null,
+    "conditions": [
+     "free shipping",
+     "Ontario"
+    ],
+    "text": "FREE SHIPPING! ANYWHERE IN ONTARIO WITH A MINIMUM PURCHASE OF $125 OR MORE, USE PROMO CODE PCR125. (SUBSCRIPTIONS EXCLUDED)",
+    "first_seen": "2026-11-16"
+   }
+  ],
+  "free_shipping": {
+   "amount": 125,
+   "region": "Ontario",
+   "text": "FREE SHIPPING! ANYWHERE IN ONTARIO WITH A MINIMUM PURCHASE OF $125 OR MORE, USE PROMO CODE PCR125.…"
+  },
+  "subscription_pct": null
+ },
+ "prairielilycoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://prairielilycoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "propellercoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.propellercoffee.com",
+  "banners": [
+   "🎉 Free Shipping on Coffee Orders Over $50 🎉"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 50,
+   "region": null,
+   "text": "…Free Shipping on Coffee Orders Over $50 🎉"
+  },
+  "subscription_pct": 10
+ },
+ "quietlycoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.quietlycoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "rampagecoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://rampagecoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 100,
+   "region": null,
+   "text": "…FREE SHIPPING OVER $100CAD Call: (555) 555-5555 Login Rampage…"
+  },
+  "subscription_pct": 10
+ },
+ "receivercoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://receivercoffee.com",
+  "banners": [
+   "FREE SHIPPING ON ORDERS OVER $95"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 95,
+   "region": null,
+   "text": "FREE SHIPPING ON ORDERS OVER $95"
+  },
+  "subscription_pct": null
+ },
+ "regardcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.regardcoffee.com",
+  "banners": [
+   "Free shipping over $100. Orders will be shipped on Thursdays."
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 100,
+   "region": null,
+   "text": "Free shipping over $100. Orders will be shipped on Thursdays."
+  },
+  "subscription_pct": null
+ },
+ "reunioncoffeeroasters.com": {
+  "checked": "2026-11-16",
+  "url": "https://reunioncoffeeroasters.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "revolvercoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://revolvercoffee.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "rocanini.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.rocanini.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "roguewavecoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://www.roguewavecoffee.ca",
+  "banners": [
+   "Free Shipping in Canada on Orders Over $45 We are currently accepting US orders with extra processing time. Click here to learn more."
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 45,
+   "region": "Canada",
+   "text": "Free Shipping in Canada on Orders Over $45 We are currently accepting US orders…"
+  },
+  "subscription_pct": null
+ },
+ "rohicoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://rohicoffee.ca",
+  "banners": [
+   "Whatsapp 647-230-3300 Ships from Markham, ON Free shipping on most orders over $75"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 75,
+   "region": null,
+   "text": "…Free shipping on most orders over $75"
+  },
+  "subscription_pct": null
+ },
+ "rossocoffeeroasters.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.rossocoffeeroasters.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 75,
+   "region": null,
+   "text": "…free shipping Spend $75.00 to get free shipping Menu Coffee…"
+  },
+  "subscription_pct": null
+ },
+ "sainthenri.ca": {
+  "checked": "2026-11-16",
+  "url": "https://sainthenri.ca",
+  "banners": [
+   "Livraison gratuite au Québec pour les commandes de 65 $ et + (avant taxes et après rabais) hors produits Breville. États-Unis : livraisons suspendues jusqu'à nouvel ordre."
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 65,
+   "region": "Québec",
+   "text": "Livraison gratuite au Québec pour les commandes de 65 $ et + (avant taxes et après rabais)…"
+  },
+  "subscription_pct": 10
+ },
+ "samjamescoffeebar.com": {
+  "checked": "2026-11-16",
+  "url": "https://samjamescoffeebar.com",
+  "banners": [
+   "FREE SHIPPING CANADA WIDE WITH A $75 SUBSCRIPTION click here FREE SHIPPING ONTARIO OVER $75 learn more"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 75,
+   "region": "Canada",
+   "text": "FREE SHIPPING CANADA WIDE WITH A $75 SUBSCRIPTION click here FREE SHIPPING…"
+  },
+  "subscription_pct": 10
+ },
+ "september.coffee": {
+  "checked": "2026-11-16",
+  "url": "https://september.coffee",
+  "banners": [
+   "Previous Free Shipping on Orders Over $70 CAD & USA $80 USD USA - We are now shipping with UPS and FedEx - Please allow extra time for package processing, clearance and shipping (4-10 days) Subscribers gain access to free shipping without order minimums. Learn more... Next"
+  ],
+  "codes": [
+   {
+    "code": "ADDON",
+    "pct": null,
+    "conditions": [
+     "subscription",
+     "free shipping"
+    ],
+    "text": "…in Canada, USA, Europe and Australia. Subscribers also gain access to free shipping on additional orders with code \"ADDON\", and 10% off all Squall series coffees. Shop Subscriptions Join our…",
+    "first_seen": "2026-11-16"
+   }
+  ],
+  "free_shipping": {
+   "amount": 70,
+   "region": null,
+   "text": "…Free Shipping on Orders Over $70 CAD & USA $80 USD USA - We are now…"
+  },
+  "subscription_pct": null
+ },
+ "sethtaylor.ca": {
+  "checked": "2026-11-16",
+  "url": "https://sethtaylor.ca",
+  "banners": [
+   "SHIPPING VIA UPS, PUROLATOR & CANADA POST. FREE SHIPPING IN CANADA AT $65"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 65,
+   "region": "Canada",
+   "text": "…FREE SHIPPING IN CANADA AT $65"
+  },
+  "subscription_pct": null
+ },
+ "shop.ethicaroasters.com": {
+  "checked": "2026-11-16",
+  "url": "https://shop.ethicaroasters.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "smiletigercoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://smiletigercoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "sorellina.ca": {
+  "checked": "2026-11-16",
+  "url": "https://sorellina.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "stereocoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://stereocoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "structurecoffeeroasters.com": {
+  "checked": "2026-11-16",
+  "url": "https://structurecoffeeroasters.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "subtext.coffee": {
+  "checked": "2026-11-16",
+  "url": "https://www.subtext.coffee",
+  "banners": [
+   "Free shipping in Canada on coffee orders over $60 CAD. Free shipping to the continental US on coffee orders over $75 USD. New flat rate shipping : To the UK on orders over £60. To most of Europe on orders over €65."
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 60,
+   "region": "Canada",
+   "text": "Free shipping in Canada on coffee orders over $60 CAD. Free shipping to the continental…"
+  },
+  "subscription_pct": null
+ },
+ "theangryroaster.com": {
+  "checked": "2026-11-16",
+  "url": "https://theangryroaster.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 65,
+   "region": null,
+   "text": "…Free shipping on Canadian orders over $65 Shipped worldwide ★★★★★ 4.90 from 83…"
+  },
+  "subscription_pct": null
+ },
+ "thelibraryspecialtycoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.thelibraryspecialtycoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "thombargen.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.thombargen.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": 10
+ },
+ "trafficcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://www.trafficcoffee.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "transcendcoffee.ca": {
+  "checked": "2026-11-16",
+  "url": "https://transcendcoffee.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 65,
+   "region": "Canada",
+   "text": "…free shipping Free shipping: AB over $65.00 • Canada over $75.00 Top up for…"
+  },
+  "subscription_pct": null
+ },
+ "virginhillcoffee.com": {
+  "checked": "2026-11-16",
+  "url": "https://virginhillcoffee.com",
+  "banners": [
+   "Canadian owned 🍁 Roasted in Québec ⚜️ FREE SHIPPING accross Canada on orders over $59! English English Français"
+  ],
+  "codes": [],
+  "free_shipping": {
+   "amount": 59,
+   "region": "Canada",
+   "text": "…FREE SHIPPING accross Canada on orders over $59! English English Français"
+  },
+  "subscription_pct": null
+ },
+ "yourstrulycoffee.myshopify.com": {
+  "checked": "2026-11-16",
+  "url": "https://yourstrulycoffee.myshopify.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 45,
+   "region": "Canada",
+   "text": "…Free shipping on orders over $45 in Canada Shop Wholesale Co-roasting…"
+  },
+  "subscription_pct": null
+ },
+ "za-klo-torrefactrices.myshopify.com": {
+  "checked": "2026-11-16",
+  "url": "https://za-klo-torrefactrices.myshopify.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null
+ },
+ "zabcafe.com": {
+  "checked": "2026-11-16",
+  "url": "https://zabcafe.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 40,
+   "region": "Canada",
+   "text": "…Livraison gratuite partout au Canada pour toutes commandes de 40$ et plus. Autres liens Inscription…"
+  },
+  "subscription_pct": null
+ }
+}
