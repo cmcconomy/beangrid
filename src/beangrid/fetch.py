@@ -20,6 +20,27 @@ RETRY_STATUSES = {429, 500, 502, 503, 504}
 _deadline: contextvars.ContextVar[float | None] = contextvars.ContextVar("fetch_deadline", default=None)
 
 
+class Pacer:
+    """Spaces request starts at least `interval` seconds apart across all concurrent workers."""
+
+    def __init__(self, interval: float):
+        self.interval = interval
+        self._next = 0.0
+        self._lock = asyncio.Lock()
+
+    async def wait(self) -> None:
+        if self.interval <= 0:
+            return
+        async with self._lock:
+            now = time.monotonic()
+            if self._next > now:
+                await asyncio.sleep(self._next - now)
+            self._next = max(now, self._next) + self.interval
+
+
+_pacer: contextvars.ContextVar[Pacer | None] = contextvars.ContextVar("fetch_pacer", default=None)
+
+
 @dataclass
 class SiteResult:
     site_url: str
@@ -58,6 +79,9 @@ async def _get_json_at(
 
     for attempt in range(settings.max_retries + 1):
         await wait(0)
+        if pacer := _pacer.get():
+            await pacer.wait()
+            await wait(0)
         try:
             resp = await client.get(url, params=params)
         except httpx.HTTPError as e:
@@ -124,14 +148,28 @@ async def fetch_all(sites: list[str], settings: Settings, transport: httpx.Async
         transport=transport,
     ) as client:
 
+        streak = 0  # stores in a row that failed transiently (rate limit, 5xx, timeout)
+
         async def one(site: str) -> SiteResult:
+            nonlocal streak
             async with sem:
-                return await fetch_site(site, client, settings)
+                if streak >= settings.breaker_after:
+                    return SiteResult(site_url=site, error=f"deferred: {streak} stores in a row rate-limited",
+                                      transient=True)
+                result = await fetch_site(site, client, settings)
+                if result.ok:
+                    streak = 0
+                elif result.transient:
+                    streak += 1
+                return result
 
         # Once the budget is spent, sites still failing are reported as transient failures (and carried
         # forward by the pipeline) instead of letting a rate-limit storm run into the job timeout.
         token = _deadline.set(time.monotonic() + settings.fetch_budget_s)
+        pacer_token = _pacer.set(Pacer(settings.request_interval_s))
         try:
+            # Semaphore waiters are served in arrival order, so stores are attempted in list order.
             return await asyncio.gather(*(one(s) for s in sites))
         finally:
+            _pacer.reset(pacer_token)
             _deadline.reset(token)

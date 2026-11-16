@@ -23,7 +23,15 @@ class Settings(BaseSettings):
 
     user_agent: str = "beangrid/2.0 (+https://beangrid.mcconomy.org)"
     # Shopify rate-limits products.json per client IP across *all* its stores, so stay gentle.
-    concurrency: int = 3
+    concurrency: int = 2
+    # Minimum gap between any two request starts (all workers share it): a steady trickle stays under
+    # Shopify's per-IP limit far better than bursts plus retries.
+    request_interval_s: float = 1.0
+    # After this many stores in a row fail on rate limits/timeouts (no success in between), stop
+    # starting new ones; they keep their last good data and lead the queue next run.
+    breaker_after: int = 5
+    # A store already scraped OK today reuses that scrape (a second daily run only retries the misses).
+    reuse_scraped_today: bool = True
     timeout_s: float = 30.0
     max_retries: int = 6
     backoff_base_s: float = 5.0
@@ -39,9 +47,10 @@ class Settings(BaseSettings):
     # ...unless the lower count repeats this many runs in a row: then it's the new normal.
     confirm_shrink_runs: int = 2
     # Abort the run (no commit, no deploy) if fewer than this fraction of sites succeed.
-    min_sites_ok_ratio: float = 0.6
+    min_sites_ok_ratio: float = 0.6  # of sites that must be usable: fresh today or carried forward
+    min_fresh_ratio: float = 0.1  # ...and at least this share freshly scraped, or there's nothing to publish
     # Carry a failed site's last good data forward for at most this many days.
-    carry_forward_days: int = 5
+    carry_forward_days: int = 7
 
     # Weekly canvass (`beangrid canvass`): prune dead stores, propose new Canadian roasters.
     # Roaster names or storefront URLs to try, one per line; reviewed additions get moved to sites_file.

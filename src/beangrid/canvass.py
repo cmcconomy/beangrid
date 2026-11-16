@@ -342,7 +342,13 @@ async def canvass(
         relocated: dict[str, str] = {}
 
         if prune:
-            for check in await _gather_checks(active, client, settings):
+            # The daily run already re-checks every store; only revisit the ones it couldn't scrape,
+            # to keep this weekly job's requests (and Shopify's rate limit) for discovery.
+            to_check = [u for u in active if site_status.get(site_id(u), {}).get("status") != "ok"]
+            if len(to_check) < len(active):
+                logger.info("re-checking %d of %d stores (the rest scraped OK in the daily run)",
+                            len(to_check), len(active))
+            for check in await _gather_checks(to_check, client, settings):
                 if check.alive:
                     known_names.add(name_key(check.name))
                     if check.myshopify:

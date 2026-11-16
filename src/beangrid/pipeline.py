@@ -42,6 +42,53 @@ class SiteOutcome:
     gate: dict[str, Any] = field(default_factory=dict)
 
 
+@dataclass
+class FetchPlan:
+    to_fetch: list[str]  # stalest first
+    reused: list[SiteResult]  # already scraped OK today (cached payload)
+
+
+def order_sites(sites: list[str], status: dict[str, dict[str, Any]], today: date) -> list[str]:
+    """Least recently scraped first, so stores missed by a rate-limited run lead the next one.
+
+    Stores scraped on the same day rotate daily within their group; a fixed order would make the same
+    stores lose every time the limit kicks in partway through.
+    """
+    groups: dict[str, list[str]] = {}
+    for url in sites:
+        groups.setdefault(status.get(site_id(url), {}).get("last_ok") or "", []).append(url)
+    ordered = []
+    for last_ok in sorted(groups):  # "" (never scraped OK / new) sorts first
+        group = groups[last_ok]
+        k = today.toordinal() % len(group)
+        ordered += group[k:] + group[:k]
+    return ordered
+
+
+def plan_sites(sites: list[str], status: dict[str, dict[str, Any]], settings: Settings, today: date) -> FetchPlan:
+    plan = FetchPlan([], [])
+    for url in order_sites(sites, status, today):
+        site = site_id(url)
+        if settings.reuse_scraped_today and status.get(site, {}).get("last_ok") == today.isoformat():
+            cached = _read_cache(settings, site)
+            if cached and cached[0] == today and cached[1]:
+                plan.reused.append(SiteResult(site_url=url, products=cached[1], ok=True))
+                continue
+        plan.to_fetch.append(url)
+    return plan
+
+
+def check_gate(outcomes: list[SiteOutcome], settings: Settings) -> None:
+    """Publish if most stores have usable data (fresh or carried forward) and some of it is new."""
+    total = len(outcomes)
+    fresh = sum(1 for o in outcomes if o.status == "ok")
+    usable = fresh + sum(1 for o in outcomes if o.status == "stale")
+    if usable < total * settings.min_sites_ok_ratio:
+        raise QualityGateError(f"only {usable}/{total} sites usable (fresh or carried forward); not publishing")
+    if fresh < total * settings.min_fresh_ratio:
+        raise QualityGateError(f"only {fresh}/{total} sites fresh today; not publishing")
+
+
 def _cache_path(settings: Settings, site: str) -> Path:
     return settings.cache_dir / f"{site}.json.gz"
 
@@ -189,12 +236,14 @@ def run(settings: Settings, today: date | None = None, results: list[SiteResult]
     prev_status = load_site_status(status_path)
 
     if results is None:
-        results = asyncio.run(fetch_all(sites, settings))
+        plan = plan_sites(sites, prev_status, settings, today)
+        if plan.reused:
+            logger.info("Reusing today's scrape for %d sites; fetching %d", len(plan.reused), len(plan.to_fetch))
+        results = plan.reused + asyncio.run(fetch_all(plan.to_fetch, settings))
     outcomes = validate_sites(results, prev_status, settings, today)
 
     ok = [o for o in outcomes if o.status == "ok"]
-    if len(ok) < len(outcomes) * settings.min_sites_ok_ratio:
-        raise QualityGateError(f"only {len(ok)}/{len(outcomes)} sites scraped cleanly; not publishing")
+    check_gate(outcomes, settings)
 
     history = History.load(settings.data_dir / "history")
     if (last := history.last_date) and last > today:

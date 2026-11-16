@@ -5,6 +5,8 @@ on:
     # 02:23 UTC: off the top of the hour (GitHub delays those crons most) and outside the daytime
     # window when Shopify has been rate-limiting Actions runners.
     - cron: "23 2 * * *"
+    # Catch-up run: stores already scraped OK today are reused, so it only retries the morning's misses.
+    - cron: "23 14 * * *"
   workflow_dispatch:
   push:
     branches: [main]

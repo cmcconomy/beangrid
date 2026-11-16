@@ -42,4 +42,5 @@ def settings(tmp_path: Path) -> Settings:
         site_out_dir=tmp_path / "_site",
         max_retries=1,
         backoff_base_s=0.01,
+        request_interval_s=0,
     )

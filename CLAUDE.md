@@ -22,7 +22,10 @@ uv run beangrid canvass [--write]   # prune dead stores from sites.txt, propose 
 - `src/beangrid/normalize.py`: Shopify JSON -> `Variant` records, quality flags
 - `src/beangrid/history.py`: append-only change log (`data/history/<year>.csv`) + `data/catalog.csv`
 - `src/beangrid/deals.py`: collapse grind variants into offers; sale / drop / value / new scoring
-- `src/beangrid/pipeline.py`: daily run, per-site validation + carry-forward, quality gate, site build
+- `src/beangrid/pipeline.py`: daily run, per-site validation + carry-forward, quality gate, site build.
+  Shopify rate-limits per IP, so: stalest stores first (`last_ok` in `data/sites.json`, ties rotate daily),
+  paced requests + circuit breaker in `fetch.py`, stores already scraped today reused (02:23 + 14:23 UTC runs),
+  gate counts carried-forward stores as usable but needs some fresh ones
 - `src/beangrid/export.py`: Parquet copies of history + catalog for `_site/data/` (built each run, never committed)
 - `site/`: static front end (vanilla JS, no build). Reads `_site/data/offers.json`
 - `src/beangrid/canvass.py`: weekly store-list upkeep. Prunes only failures that look permanent (404, non-JSON,
