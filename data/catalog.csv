@@ -766,7 +766,7 @@ key,site,product_id,title,variant_title,grams,category,url,first_seen
 49thcoffee.com:44134745964607,49thcoffee.com,8433606131775,Holiday Single Origin Gift Set,,601,bundle,https://49thcoffee.com/products/holiday-single-origin-gift-set,2026-11-01
 49thcoffee.com:44134746456127,49thcoffee.com,8433606328383,Holiday Roast Coffee Gift Set,,680,bundle,https://49thcoffee.com/products/holiday-roast-coffee-gift-set,2026-11-01
 49thcoffee.com:44233128280127,49thcoffee.com,8457352642623,49th x MiiR 360 Holiday Traveler Gift Set,,680,bundle,https://49thcoffee.com/products/49th-x-miir-360-holiday-traveler-gift-set,2026-11-01
-49thcoffee.com:44233135456319,49thcoffee.com,8457356017727,49th x Mala the Brand Holiday Candle Gift Set,,680,bundle,https://49thcoffee.com/products/49th-x-mala-the-brand-holiday-candle-gift-set,2026-11-01
+49thcoffee.com:44233135456319,49thcoffee.com,8457356017727,49th x Mala the Brand Holiday Candle Gift Set,,680,merch,https://49thcoffee.com/products/49th-x-mala-the-brand-holiday-candle-gift-set,2026-11-01
 49thcoffee.com:44233140568127,49thcoffee.com,8457358803007,49th Classic Mug Holiday Gift Set,,680,bundle,https://49thcoffee.com/products/49th-classic-mug-holiday-gift-set,2026-11-01
 49thcoffee.com:44233243623487,49thcoffee.com,8457414410303,Holiday Sticker Sheet,,,merch,https://49thcoffee.com/products/holiday-2026-stickers,2026-11-01
 49thcoffee.com:44233473097791,49thcoffee.com,8457535356991,Silver Snowflake - Ethiopia Dobenawicho Filter Roast,10.6oz,300.5,coffee,https://49thcoffee.com/products/silver-snowflake-ethiopia-dobenawicho-filter-roast,2026-11-01
@@ -887,7 +887,7 @@ key,site,product_id,title,variant_title,grams,category,url,first_seen
 94celcius.com:43695175532623,94celcius.com,7877457477711,Zenkouen - Hojicha par ASAP (30g),,30,unknown,https://94celcius.com/products/zenkouen-hojicha-30g,2026-11-13
 94celcius.com:43695183921231,94celcius.com,7877460328527,Amazora Bio - Matcha par ASAP (25g),,25,tea,https://94celcius.com/products/amazora-matcha-par-asap-25g,2026-11-13
 94celcius.com:43796959363151,94celcius.com,7902696407119,Subminimal Subscale | Balance Numérique de Café – Tasse de Dosage Intégrée,Noir,,equipment,https://94celcius.com/products/subminimal-subscale-balance-numerique-de-cafe-tasse-de-dosage-integree,2026-11-13
-94celcius.com:43796972634191,94celcius.com,7902698766415,Normcore – Outil de Distribution WDT V3 (avec support),Noir,,unknown,https://94celcius.com/products/normcore-outil-de-distribution-wdt-v3-avec-support,2026-11-13
+94celcius.com:43796972634191,94celcius.com,7902698766415,Normcore – Outil de Distribution WDT V3 (avec support),Noir,,equipment,https://94celcius.com/products/normcore-outil-de-distribution-wdt-v3-avec-support,2026-11-13
 94celcius.com:43816552792143,94celcius.com,7908467048527,Sirop d’Érable Vieilli en Fût de Chêne (Rhum),,,syrup_food,https://94celcius.com/products/sirop-d-erable-vieilli-en-fut-de-chene-rhum,2026-11-13
 94celcius.com:4394073161759,94celcius.com,319803686943,Cascara Bolivie Caranavi,50 g,50,syrup_food,https://94celcius.com/products/bolivie-caranavi,2026-11-13
 94celcius.com:44043272290383,94celcius.com,7174419447887,Trio surprise - filtre ou espresso ou premium,Premium,900,bundle,https://94celcius.com/products/trio-surprise-filtre-ou-espresso,2026-11-13
@@ -939,7 +939,7 @@ key,site,product_id,title,variant_title,grams,category,url,first_seen
 94celcius.com:46037918220367,94celcius.com,8920085921871,T-shirt 94 Celcius × Philippe Mathieu – Montréal illustré,Large,100,merch,https://94celcius.com/products/t-shirt-94-celcius-x-philippe-mathieu-montreal-illustre,2026-11-13
 94celcius.com:46037918253135,94celcius.com,8920085921871,T-shirt 94 Celcius × Philippe Mathieu – Montréal illustré,X-Large,100,merch,https://94celcius.com/products/t-shirt-94-celcius-x-philippe-mathieu-montreal-illustre,2026-11-13
 94celcius.com:46048032718927,94celcius.com,8922999947343,Fermentation Project James Hoffmann ft. 94 celcius,,400,coffee,https://94celcius.com/products/pre-vente-james-hoffman-ft-94-celcius,2026-11-13
-94celcius.com:46107134820431,94celcius.com,8936199028815,Subminimal Flick WDT Tool | Outil de Distribution Espresso Rétractable,Noir,,coffee,https://94celcius.com/products/subminimal-flick-wdt-tool,2026-11-13
+94celcius.com:46107134820431,94celcius.com,8936199028815,Subminimal Flick WDT Tool | Outil de Distribution Espresso Rétractable,Noir,,equipment,https://94celcius.com/products/subminimal-flick-wdt-tool,2026-11-13
 94celcius.com:46465187676239,94celcius.com,9017695141967,Othosololo - Éthiopie,300g,300,coffee,https://94celcius.com/products/othosololo-cafe-ethiopie-honey,2026-11-13
 94celcius.com:46465187709007,94celcius.com,9017695141967,Othosololo - Éthiopie,907g,907,coffee,https://94celcius.com/products/othosololo-cafe-ethiopie-honey,2026-11-13
 94celcius.com:46465187741775,94celcius.com,9017695141967,Othosololo - Éthiopie,2253g,2253,coffee,https://94celcius.com/products/othosololo-cafe-ethiopie-honey,2026-11-13
@@ -979,7 +979,7 @@ acecoffeeroasters.com:12479006539818,acecoffeeroasters.com,1367534534698,Portafi
 acecoffeeroasters.com:12479094849578,acecoffeeroasters.com,1367552360490,Flat Tamping Mat,,375,equipment,https://acecoffeeroasters.com/products/lf-flat-tamping-mat,2026-11-13
 acecoffeeroasters.com:12780930203690,acecoffeeroasters.com,1443554263082,Fellow Stagg EKG Electric Pour Over Kettle,Matte Black,1134,equipment,https://acecoffeeroasters.com/products/fellow-stagg-ekg-electronic-pour-over-kettle-matte-black,2026-11-13
 acecoffeeroasters.com:12780932071466,acecoffeeroasters.com,1443555213354,PALLO CLEANING BRUSH,,68,cleaning,https://acecoffeeroasters.com/products/pallo-cleaning-brush,2026-11-13
-acecoffeeroasters.com:12780932431914,acecoffeeroasters.com,1443555344426,PALLO STIFF REPLACEMENT BRISTLES (3 UNITS/PCK),,,cleaning,https://acecoffeeroasters.com/products/pallo-stiff-replacement-bristles-3-units-pck,2026-11-13
+acecoffeeroasters.com:12780932431914,acecoffeeroasters.com,1443555344426,PALLO STIFF REPLACEMENT BRISTLES (3 UNITS/PCK),,,equipment,https://acecoffeeroasters.com/products/pallo-stiff-replacement-bristles-3-units-pck,2026-11-13
 acecoffeeroasters.com:12780959334442,acecoffeeroasters.com,1443562192938,"Rocket Tamper, 58mm",,,equipment,https://acecoffeeroasters.com/products/rocket-tamper-58mm,2026-11-13
 acecoffeeroasters.com:13382378848298,acecoffeeroasters.com,1545770500138,Urnex Grindz Grinder Cleaning Tablets,,454,cleaning,https://acecoffeeroasters.com/products/grindz,2026-11-13
 acecoffeeroasters.com:13823751585834,acecoffeeroasters.com,1649569529898,Stainless Milk Frothing Pitcher,12oz,340.2,equipment,https://acecoffeeroasters.com/products/update-12oz-frothing-pitcher,2026-11-13
@@ -1015,12 +1015,12 @@ acecoffeeroasters.com:31306793189399,acecoffeeroasters.com,4397441286167,Rotatin
 acecoffeeroasters.com:31316515029015,acecoffeeroasters.com,604044165162,Able Disk Set,Disk Set,,equipment,https://acecoffeeroasters.com/products/able-disk-aeropress,2026-11-13
 acecoffeeroasters.com:31430993149975,acecoffeeroasters.com,4423702937623,SMALL GEM 6 FILTERS (500/BOX),,2000,equipment,https://acecoffeeroasters.com/products/small-gem-6-filters-500-box,2026-11-13
 acecoffeeroasters.com:31430998458391,acecoffeeroasters.com,4423704051735,LARGE GEM 6-101 FILTERS,,2500,equipment,https://acecoffeeroasters.com/products/large-gem-6-101-filters,2026-11-13
-acecoffeeroasters.com:31431005536279,acecoffeeroasters.com,4423705559063,1883 MAISON ROUTIN 1L SYRUP PUMP,,200,coffee,https://acecoffeeroasters.com/products/1883-maison-routin-1l-syrup-pump,2026-11-13
-acecoffeeroasters.com:31431008059415,acecoffeeroasters.com,4423706869783,1883 MAISON ROUTIN 2L SAUCE PUMP,,300,coffee,https://acecoffeeroasters.com/products/1883-maison-routin-2l-sauce-pump,2026-11-13
-acecoffeeroasters.com:31431022018583,acecoffeeroasters.com,4423708639255,1883 MAISON ROUTIN SYRUP 1L CASE OF 6 BOTTLES,Cane Syrup,8200,drinkware,https://acecoffeeroasters.com/products/1883-maison-routin-syrup-1l-case-of-6-bottles,2026-11-13
-acecoffeeroasters.com:31431022051351,acecoffeeroasters.com,4423708639255,1883 MAISON ROUTIN SYRUP 1L CASE OF 6 BOTTLES,Vanilla,8200,drinkware,https://acecoffeeroasters.com/products/1883-maison-routin-syrup-1l-case-of-6-bottles,2026-11-13
+acecoffeeroasters.com:31431005536279,acecoffeeroasters.com,4423705559063,1883 MAISON ROUTIN 1L SYRUP PUMP,,200,syrup_food,https://acecoffeeroasters.com/products/1883-maison-routin-1l-syrup-pump,2026-11-13
+acecoffeeroasters.com:31431008059415,acecoffeeroasters.com,4423706869783,1883 MAISON ROUTIN 2L SAUCE PUMP,,300,syrup_food,https://acecoffeeroasters.com/products/1883-maison-routin-2l-sauce-pump,2026-11-13
+acecoffeeroasters.com:31431022018583,acecoffeeroasters.com,4423708639255,1883 MAISON ROUTIN SYRUP 1L CASE OF 6 BOTTLES,Cane Syrup,8200,instant,https://acecoffeeroasters.com/products/1883-maison-routin-syrup-1l-case-of-6-bottles,2026-11-13
+acecoffeeroasters.com:31431022051351,acecoffeeroasters.com,4423708639255,1883 MAISON ROUTIN SYRUP 1L CASE OF 6 BOTTLES,Vanilla,8200,instant,https://acecoffeeroasters.com/products/1883-maison-routin-syrup-1l-case-of-6-bottles,2026-11-13
 acecoffeeroasters.com:31431116455959,acecoffeeroasters.com,4423725088791,CHAI COMPANY 1L (CASE OF 12x1L),,12000,tea,https://acecoffeeroasters.com/products/chai-company-1l-case-of-12x1l,2026-11-13
-acecoffeeroasters.com:31431144734743,acecoffeeroasters.com,4423729119255,1883 MAISON ROUTIN CHOCOLATE SAUCE 1.89L CASE OF 2,,5000,coffee,https://acecoffeeroasters.com/products/1883-maison-routin-chocolate-sauce-1-89l-case-of-2,2026-11-13
+acecoffeeroasters.com:31431144734743,acecoffeeroasters.com,4423729119255,1883 MAISON ROUTIN CHOCOLATE SAUCE 1.89L CASE OF 2,,5000,syrup_food,https://acecoffeeroasters.com/products/1883-maison-routin-chocolate-sauce-1-89l-case-of-2,2026-11-13
 acecoffeeroasters.com:31444762329111,acecoffeeroasters.com,4427252465687,ACE NO.1 Espresso,300G / Whole Bean,300,coffee,https://acecoffeeroasters.com/products/ace-no-1,2026-11-13
 acecoffeeroasters.com:31444762361879,acecoffeeroasters.com,4427252465687,ACE NO.1 Espresso,300G / Aeropress,300,coffee,https://acecoffeeroasters.com/products/ace-no-1,2026-11-13
 acecoffeeroasters.com:31444762394647,acecoffeeroasters.com,4427252465687,ACE NO.1 Espresso,300G / Stove Top,300,coffee,https://acecoffeeroasters.com/products/ace-no-1,2026-11-13
@@ -1394,7 +1394,7 @@ acecoffeeroasters.com:45111402954775,acecoffeeroasters.com,8815554953239,"Ace ""
 acecoffeeroasters.com:45111451385879,acecoffeeroasters.com,8815554953239,"Ace ""Blackletter"" Cap",Brown,300,merch,https://acecoffeeroasters.com/products/ace-blackletter-cap,2026-11-13
 acecoffeeroasters.com:45219616129047,acecoffeeroasters.com,6561724727319,ECM Tamping Station,Anthracite,,coffee,https://acecoffeeroasters.com/products/ecm-tamping-stand,2026-11-13
 acecoffeeroasters.com:45219616161815,acecoffeeroasters.com,6561724727319,ECM Tamping Station,Polished Aluminum,,coffee,https://acecoffeeroasters.com/products/ecm-tamping-stand,2026-11-13
-acecoffeeroasters.com:45219650437143,acecoffeeroasters.com,8857879543831,ECM WDT Tool,,500,unknown,https://acecoffeeroasters.com/products/ecm-wdt-tool,2026-11-13
+acecoffeeroasters.com:45219650437143,acecoffeeroasters.com,8857879543831,ECM WDT Tool,,500,equipment,https://acecoffeeroasters.com/products/ecm-wdt-tool,2026-11-13
 acecoffeeroasters.com:45253814386711,acecoffeeroasters.com,8869210325015,Eureka Atom W 65 Grind By Weight Espresso Grinder - Matte Black,300 g,300,equipment,https://acecoffeeroasters.com/products/eureka-atom-w-65-grind-by-weight-espresso-grinder-matte-black,2026-11-13
 acecoffeeroasters.com:45253814419479,acecoffeeroasters.com,8869210325015,Eureka Atom W 65 Grind By Weight Espresso Grinder - Matte Black,1000 g,1000,equipment,https://acecoffeeroasters.com/products/eureka-atom-w-65-grind-by-weight-espresso-grinder-matte-black,2026-11-13
 acecoffeeroasters.com:45253814485015,acecoffeeroasters.com,8869210390551,Eureka Atom W 65 Grind By Weight Espresso Grinder - White,300 g,300,equipment,https://acecoffeeroasters.com/products/eureka-atom-w-65-grind-by-weight-espresso-grinder-white,2026-11-13
@@ -1435,6 +1435,12 @@ acecoffeeroasters.com:45970064244759,acecoffeeroasters.com,9032110407703,"ACE ""
 acecoffeeroasters.com:45970064277527,acecoffeeroasters.com,9032110407703,"ACE ""Black Letter"" Garment Dyed Shirt - ""Shadow""",Large / Shadow,300,merch,https://acecoffeeroasters.com/products/ace-blackletter-shadow,2026-11-13
 acecoffeeroasters.com:45970064310295,acecoffeeroasters.com,9032110407703,"ACE ""Black Letter"" Garment Dyed Shirt - ""Shadow""",XL / Shadow,300,merch,https://acecoffeeroasters.com/products/ace-blackletter-shadow,2026-11-13
 acecoffeeroasters.com:45970064343063,acecoffeeroasters.com,9032110407703,"ACE ""Black Letter"" Garment Dyed Shirt - ""Shadow""",XXL / Shadow,300,merch,https://acecoffeeroasters.com/products/ace-blackletter-shadow,2026-11-13
+acecoffeeroasters.com:46051530473495,acecoffeeroasters.com,9051354300439,ACE “Hot Coffee” Performance Tee,Small,,merch,https://acecoffeeroasters.com/products/ace-oversized-tee-black,2026-11-16
+acecoffeeroasters.com:46051530506263,acecoffeeroasters.com,9051354300439,ACE “Hot Coffee” Performance Tee,Medium,,merch,https://acecoffeeroasters.com/products/ace-oversized-tee-black,2026-11-16
+acecoffeeroasters.com:46051530539031,acecoffeeroasters.com,9051354300439,ACE “Hot Coffee” Performance Tee,Large,,merch,https://acecoffeeroasters.com/products/ace-oversized-tee-black,2026-11-16
+acecoffeeroasters.com:46051530571799,acecoffeeroasters.com,9051354300439,ACE “Hot Coffee” Performance Tee,XL,,merch,https://acecoffeeroasters.com/products/ace-oversized-tee-black,2026-11-16
+acecoffeeroasters.com:46051530604567,acecoffeeroasters.com,9051354300439,ACE “Hot Coffee” Performance Tee,XXL,,merch,https://acecoffeeroasters.com/products/ace-oversized-tee-black,2026-11-16
+acecoffeeroasters.com:46070727344151,acecoffeeroasters.com,9051354300439,ACE “Hot Coffee” Performance Tee,XS,,merch,https://acecoffeeroasters.com/products/ace-oversized-tee-black,2026-11-16
 acecoffeeroasters.com:46093594329111,acecoffeeroasters.com,9063193378839,Moccamaster KM5 Grinder- Matte Black,Matte Black,4500,equipment,https://acecoffeeroasters.com/products/moccamaster-km5-grinder-matte-black,2026-11-13
 acecoffeeroasters.com:46093595639831,acecoffeeroasters.com,9063193509911,Holiday Coffee - Brazil Single Origin,300G / Whole Bean,300,coffee,https://acecoffeeroasters.com/products/holiday-coffee-brazil-single-origin,2026-11-13
 acecoffeeroasters.com:46107228667927,acecoffeeroasters.com,9070776877079,Technivorm Moccamaster KBGV Select Brewer - EUCALYPTUS,,2500,equipment,https://acecoffeeroasters.com/products/technivorm-moccamaster-kbgv-select-brewer-eucalyptus,2026-11-13
@@ -2222,7 +2228,7 @@ balzacs.com:45384658583708,balzacs.com,7469688455324,Bards Blend,Whole bean / 90
 balzacs.com:45387601903772,balzacs.com,7689265938588,Balzac's Anniversary Blend (SEASONAL),Whole bean / 907g / 2lb,907,coffee,https://balzacs.com/products/balzacs-anniversary-blend,2026-11-15
 balzacs.com:45825624113308,balzacs.com,7471533621404,Las Rosas (SEASONAL),Whole bean / 2.27kg / 5lb,2270,coffee,https://balzacs.com/products/las-rosas,2026-11-15
 balzacs.com:46299982692508,balzacs.com,8863010488476,NEW! Cabin Blend,Whole bean / 340 g / 12 oz,340,coffee,https://balzacs.com/products/cabin-blend,2026-11-15
-beannorth.com:1037004013574,beannorth.com,50009047046,Donation to Coffee Producers,$5,,service,https://beannorth.com/products/donation-to-coffee-producers,2023-11-28
+beannorth.com:1037004013574,beannorth.com,50009047046,Donation to Coffee Producers,$5,,gift_card,https://beannorth.com/products/donation-to-coffee-producers,2023-11-28
 beannorth.com:32972722995263,beannorth.com,1392731324502,Salad Spoons - Taking Root,1+,100,equipment,https://beannorth.com/products/salad-spoons-taking-root,2023-11-28
 beannorth.com:32972728467519,beannorth.com,1392730734678,Serving Board - Taking Root,1+,400,merch,https://beannorth.com/products/serving-board-taking-root,2023-11-28
 beannorth.com:32973217595455,beannorth.com,4531547308095,Bean North Slouch Beanie Toque,Black / Bean North Character,454,merch,https://beannorth.com/products/bean-north-slouch-beanie-toque,2025-11-11
@@ -7669,8 +7675,8 @@ beannorth.com:40440791695423,beannorth.com,6663585693759,Sumatra Permata Gayo Si
 beannorth.com:40440791728191,beannorth.com,6663585693759,Sumatra Permata Gayo Single Origin - Light Roast,Percolator (default) 10+ / 454 gr / 1 lb (default) 10+,454,coffee,https://beannorth.com/products/sumatra-permata-gayo,2024-02-16
 beannorth.com:40440791760959,beannorth.com,6663585693759,Sumatra Permata Gayo Single Origin - Light Roast,Percolator (default) 15+ / 454 gr / 1 lb (default) 15+,454,coffee,https://beannorth.com/products/sumatra-permata-gayo,2024-02-16
 beannorth.com:40440791826495,beannorth.com,6663585693759,Sumatra Permata Gayo Single Origin - Light Roast,Percolator (default) 21+ / 454 gr / 1 lb (default) 21+,454,coffee,https://beannorth.com/products/sumatra-permata-gayo,2024-02-16
-beannorth.com:40443546861631,beannorth.com,50009047046,Donation to Coffee Producers,$10,,service,https://beannorth.com/products/donation-to-coffee-producers,2024-02-17
-beannorth.com:40443546894399,beannorth.com,50009047046,Donation to Coffee Producers,$15,,service,https://beannorth.com/products/donation-to-coffee-producers,2024-02-17
+beannorth.com:40443546861631,beannorth.com,50009047046,Donation to Coffee Producers,$10,,gift_card,https://beannorth.com/products/donation-to-coffee-producers,2024-02-17
+beannorth.com:40443546894399,beannorth.com,50009047046,Donation to Coffee Producers,$15,,gift_card,https://beannorth.com/products/donation-to-coffee-producers,2024-02-17
 beannorth.com:40453528911935,beannorth.com,7298694545471,2lb Coffee Bag,Whole bean (Distributor) / 908g / 2lb (Distributor) / Tombstone Espresso (Distributor),908,coffee,https://beannorth.com/products/2lb-coffee-bag,2024-02-22
 beannorth.com:40453528944703,beannorth.com,7298694545471,2lb Coffee Bag,Whole bean (NonProf&SmallBus) / 908g / 2lb (NonProf&SmallBus) / Tombstone Espresso (NonProf&SmallBus),908,coffee,https://beannorth.com/products/2lb-coffee-bag,2024-02-22
 beannorth.com:40453528977471,beannorth.com,7298694545471,2lb Coffee Bag,Whole bean (MailCanada) / 908g / 2lb (MailCanada) / Tombstone Espresso (MailCanada),908,coffee,https://beannorth.com/products/2lb-coffee-bag,2024-02-22
@@ -7685,7 +7691,7 @@ beannorth.com:40453529403455,beannorth.com,7298694545471,2lb Coffee Bag,Whole be
 beannorth.com:40453529436223,beannorth.com,7298694545471,2lb Coffee Bag,Whole bean (WholesaleYukon) / 908g / 2lb (WholesaleYukon) / Bird Lovers Espresso (WholesaleYukon),908,coffee,https://beannorth.com/products/2lb-coffee-bag,2024-02-22
 beannorth.com:40453529468991,beannorth.com,7298694545471,2lb Coffee Bag,Whole bean (Distributor) / 908g / 2lb (Distributor) / Bean North House (Distributor),908,coffee,https://beannorth.com/products/2lb-coffee-bag,2024-02-22
 beannorth.com:40586999103551,beannorth.com,7343952101439,When we walked on Frozen Rivers,,500,unknown,https://beannorth.com/products/when-we-walked-on-frozen-rivers,2024-03-31
-beannorth.com:40637583130687,beannorth.com,7360096862271,1 KG Wood Buffalo Coffee Airscape® Classic Canister,,1000,coffee,https://beannorth.com/products/1-kg-wood-buffalo-coffee-airscape-classic-canister,2024-04-08
+beannorth.com:40637583130687,beannorth.com,7360096862271,1 KG Wood Buffalo Coffee Airscape® Classic Canister,,1000,equipment,https://beannorth.com/products/1-kg-wood-buffalo-coffee-airscape-classic-canister,2024-04-08
 beannorth.com:40639102746687,beannorth.com,7360605028415,Saint Elias Espresso,Whole bean / 340g,340,coffee,https://beannorth.com/products/saint-elias-espresso,2024-04-09
 beannorth.com:40639102779455,beannorth.com,7360605028415,Saint Elias Espresso,Auto Filter / 340g,340,coffee,https://beannorth.com/products/saint-elias-espresso,2024-04-09
 beannorth.com:40639102812223,beannorth.com,7360605028415,Saint Elias Espresso,Cone Filter / 454 gr / 1 lb,454,coffee,https://beannorth.com/products/saint-elias-espresso,2024-04-09
@@ -8476,12 +8482,12 @@ beannorth.com:41133676527679,beannorth.com,7572706033727,Nicaraguan Las Segovias
 beannorth.com:41133676560447,beannorth.com,7572706033727,Nicaraguan Las Segovias Single Origin - Darker Roast,Espresso Grind / 454 gr / 1 lb,454,coffee,https://beannorth.com/products/nicaraguan-las-segovias-single-origin-darker-roast,2024-08-09
 beannorth.com:41133676593215,beannorth.com,7572706033727,Nicaraguan Las Segovias Single Origin - Darker Roast,French Press / 454 gr / 1 lb,454,coffee,https://beannorth.com/products/nicaraguan-las-segovias-single-origin-darker-roast,2024-08-09
 beannorth.com:41133676625983,beannorth.com,7572706033727,Nicaraguan Las Segovias Single Origin - Darker Roast,Percolator / 454 gr / 1 lb,454,coffee,https://beannorth.com/products/nicaraguan-las-segovias-single-origin-darker-roast,2024-08-09
-beannorth.com:41135079850047,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Dill Pickle,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
-beannorth.com:41135079882815,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 65G / Dark Chocolate Sea Salt,65,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
+beannorth.com:41135079850047,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Dill Pickle,50,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
+beannorth.com:41135079882815,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 65G / Dark Chocolate Sea Salt,65,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
 beannorth.com:41135079915583,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Sweet & Salty,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
-beannorth.com:41135079948351,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Dill Pickle,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
-beannorth.com:41135079981119,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Dark Chocolate Sea Salt,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
-beannorth.com:41135080013887,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Sweet & Salty,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
+beannorth.com:41135079948351,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Dill Pickle,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
+beannorth.com:41135079981119,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Dark Chocolate Sea Salt,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
+beannorth.com:41135080013887,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Sweet & Salty,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2024-08-10
 beannorth.com:41187012247615,beannorth.com,7591874232383,Mexican Union Majomut Single Origin - Darker Roast,Whole bean / 340 g,340,coffee,https://beannorth.com/products/mexican-union-majomut-single-origin-darker-roast,2024-09-07
 beannorth.com:41187012280383,beannorth.com,7591874232383,Mexican Union Majomut Single Origin - Darker Roast,Auto Filter / 340 g,340,coffee,https://beannorth.com/products/mexican-union-majomut-single-origin-darker-roast,2024-09-07
 beannorth.com:41187012313151,beannorth.com,7591874232383,Mexican Union Majomut Single Origin - Darker Roast,Cone Filter / 340 g,340,coffee,https://beannorth.com/products/mexican-union-majomut-single-origin-darker-roast,2024-09-07
@@ -12305,7 +12311,7 @@ beannorth.com:41272349065279,beannorth.com,7573276000319,Klondike Kettle Pop Cor
 beannorth.com:41272349098047,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Candy Cane Crunch (chocolate drizzle),50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-10-24
 beannorth.com:41272349130815,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Solstice Cranberry & White Chocolate,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-10-24
 beannorth.com:41272349163583,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Gingerbread Spice,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-10-24
-beannorth.com:41272349196351,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Yukon Gold,200,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-10-24
+beannorth.com:41272349196351,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Yukon Gold,200,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2024-10-24
 beannorth.com:41272349229119,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size 90G / Candy Cane Crunch (chocolate drizzle),90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-10-24
 beannorth.com:41272349261887,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Solstice Cranberry & White Chocolate,113,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-10-24
 beannorth.com:41272349294655,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Gingerbread Spice,200,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2024-10-24
@@ -18970,9 +18976,9 @@ beannorth.com:41495343267903,beannorth.com,7715214327871,Yukon Curls Multigrain 
 beannorth.com:41495419191359,beannorth.com,7440577888319,Hinterland Baking Mixes- Made in the Yukon,Chilkoot Trail - Apple Muffin Mix 475G,475,unknown,https://beannorth.com/products/hinterland-baking-mixes,2025-04-13
 beannorth.com:41535693291583,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Movie Night,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-13
 beannorth.com:41535693324351,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Movie Night,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-13
-beannorth.com:41535833342015,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Blood Orange & Drk Chocolate,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-13
-beannorth.com:41535833374783,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Birch Syrup,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-13
-beannorth.com:41577741189183,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Salt & Vinegar,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-13
+beannorth.com:41535833342015,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Blood Orange & Drk Chocolate,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-13
+beannorth.com:41535833374783,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Birch Syrup,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-13
+beannorth.com:41577741189183,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Salt & Vinegar,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-13
 beannorth.com:41606637355071,beannorth.com,7750511296575,Yukon Fudge Cupcakes,,,unknown,https://beannorth.com/products/yukon-fudge-cupcakes,2025-04-13
 beannorth.com:41650028511295,beannorth.com,7764720877631,Bennett Brew,Whole bean / 340 g,340,coffee,https://beannorth.com/products/grizzly-grind-copy,2025-04-24
 beannorth.com:41650028544063,beannorth.com,7764720877631,Bennett Brew,Whole bean / 908 g,908,coffee,https://beannorth.com/products/grizzly-grind-copy,2025-04-24
@@ -18980,7 +18986,7 @@ beannorth.com:41650028576831,beannorth.com,7764720877631,Bennett Brew,Auto Filte
 beannorth.com:41650028609599,beannorth.com,7764720877631,Bennett Brew,Auto Filter / 908 g,908,coffee,https://beannorth.com/products/grizzly-grind-copy,2025-04-24
 beannorth.com:41650028642367,beannorth.com,7764720877631,Bennett Brew,Cone Filter / 340 g,340,coffee,https://beannorth.com/products/grizzly-grind-copy,2025-04-24
 beannorth.com:41650028675135,beannorth.com,7764720877631,Bennett Brew,Cone Filter / 908 g,908,coffee,https://beannorth.com/products/grizzly-grind-copy,2025-04-24
-beannorth.com:41663780159551,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / White Cheddar,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-30
+beannorth.com:41663780159551,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / White Cheddar,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-04-30
 beannorth.com:41682707054655,beannorth.com,7715214327871,Yukon Curls Multigrain Snacks,Dill Pickle / 120 g,120,unknown,https://beannorth.com/products/yukon-curls-multigrain-snacks,2025-05-08
 beannorth.com:41682707087423,beannorth.com,7715214327871,Yukon Curls Multigrain Snacks,Sweet Chili / 120 g,120,unknown,https://beannorth.com/products/yukon-curls-multigrain-snacks,2025-05-08
 beannorth.com:41682707120191,beannorth.com,7715214327871,Yukon Curls Multigrain Snacks,Creamy Ranch / 120 g,120,unknown,https://beannorth.com/products/yukon-curls-multigrain-snacks,2025-05-08
@@ -18990,9 +18996,9 @@ beannorth.com:41684733919295,beannorth.com,7778274115647,Guatemala Chajul - Medi
 beannorth.com:41684733952063,beannorth.com,7778274115647,Guatemala Chajul - Medium Roast,Auto Filter / 908 g,908,coffee,https://beannorth.com/products/guatemala-san-marcos-medium-roast-copy,2025-05-21
 beannorth.com:41707011407935,beannorth.com,7683066462271,Lara Melnik Yukon Artist,Spring Snow Blooms Grow 3 x 4.5,,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-05-15
 beannorth.com:41774818721855,beannorth.com,7440577888319,Hinterland Baking Mixes- Made in the Yukon,Pancake Mix Small bag- 400G,400,unknown,https://beannorth.com/products/hinterland-baking-mixes,2025-06-14
-beannorth.com:41778249007167,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Hikers Delight,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-06-14
-beannorth.com:41778249039935,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Buffalo Cheddar,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-06-14
-beannorth.com:41778280169535,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Salted Caramel,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-06-14
+beannorth.com:41778249007167,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Hikers Delight,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-06-14
+beannorth.com:41778249039935,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Buffalo Cheddar,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-06-14
+beannorth.com:41778280169535,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Salted Caramel,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-06-14
 beannorth.com:41788912238655,beannorth.com,7683066462271,Lara Melnik Yukon Artist,"Jours d or art size:  3"" x 4.5""",,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-06-16
 beannorth.com:41788912271423,beannorth.com,7683066462271,Lara Melnik Yukon Artist,"Mountains in Moonlight art size:  3"" x 4.5""",,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-06-16
 beannorth.com:41813735014463,beannorth.com,7830187081791,Wood Buffalo Coffee French Press BruTrek™ BaseCamp,32 oz -946 ml- Smaller size,907.2,equipment,https://beannorth.com/products/wood-buffalo-coffee-french-press-brutrek-basecamp,2025-06-26
@@ -19014,9 +19020,9 @@ beannorth.com:41928703606847,beannorth.com,7683066462271,Lara Melnik Yukon Artis
 beannorth.com:41928709832767,beannorth.com,7683066462271,Lara Melnik Yukon Artist,"Garden Buddies  Framed size 6"" x 7""",,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-08-03
 beannorth.com:41951689146431,beannorth.com,7683066462271,Lara Melnik Yukon Artist,"Glow of happiness framed size: 10"" x 11.5""",,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-08-15
 beannorth.com:41951693537343,beannorth.com,7683066462271,Lara Melnik Yukon Artist,"Forest candy framed size:  10"" x 12",,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-08-15
-beannorth.com:41989474680895,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Pumpkin Spice White Chocolate,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-08-30
-beannorth.com:41989474943039,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Spruce Tip,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-08-30
-beannorth.com:41989476515903,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Snack Size Salt and Vinegar 50g,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-08-30
+beannorth.com:41989474680895,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Pumpkin Spice White Chocolate,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-08-30
+beannorth.com:41989474943039,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Spruce Tip,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-08-30
+beannorth.com:41989476515903,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Snack Size Salt and Vinegar 50g,50,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-08-30
 beannorth.com:41995820924991,beannorth.com,7683066462271,Lara Melnik Yukon Artist,"Best Skies in Yukon mounted on 3/4"" plywood board",,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-09-02
 beannorth.com:41995823185983,beannorth.com,7683066462271,Lara Melnik Yukon Artist,"Yearning for Yukon mounted on 3/4"" plywood board birch trim",,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-09-02
 beannorth.com:41995902124095,beannorth.com,7683066462271,Lara Melnik Yukon Artist,Rainbow & Co. art size 3 x 4.5,,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2025-09-02
@@ -19094,13 +19100,13 @@ beannorth.com:42538578083903,beannorth.com,6796773490751,Holiday Cheer - Dark Ro
 beannorth.com:42538578116671,beannorth.com,6796773490751,Holiday Cheer - Dark Roast,Percolator / 908 g,908,coffee,https://beannorth.com/products/holiday-cheer-dark-roast,2025-11-11
 beannorth.com:42538578149439,beannorth.com,6796773490751,Holiday Cheer - Dark Roast,Percolator / 5 Lb,2268,coffee,https://beannorth.com/products/holiday-cheer-dark-roast,2025-11-11
 beannorth.com:42550165209151,beannorth.com,7968207667263,Honduran Honey Micro lot,,340,coffee,https://beannorth.com/products/honduran-honey-micro-lot,2026-05-10
-beannorth.com:42599361904703,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Candy Cane Crunch,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
+beannorth.com:42599361904703,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Candy Cane Crunch,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
 beannorth.com:42599361937471,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Candy Cane Crunch,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
-beannorth.com:42599383105599,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Solstice Cranberry,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
+beannorth.com:42599383105599,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Solstice Cranberry,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
 beannorth.com:42599383138367,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Solstice Cranberry,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
-beannorth.com:42599458144319,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Gingerbread Spice,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
+beannorth.com:42599458144319,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Gingerbread Spice,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
 beannorth.com:42599458177087,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Gingerbread Spice,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
-beannorth.com:42599528366143,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Truffle Oil and Black Pepper,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
+beannorth.com:42599528366143,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Truffle Oil and Black Pepper,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2025-11-21
 beannorth.com:42612030308415,beannorth.com,7980418170943,Britannia Cookies Pistachio-Almond,,75,syrup_food,https://beannorth.com/products/britannia-cookies-pista-almond,2025-11-23
 beannorth.com:42613646164031,beannorth.com,7980856836159,Parle Gold Cardamom Cookies,,75,syrup_food,https://beannorth.com/products/parle-gold-cardamom-cookies,2025-11-23
 beannorth.com:42613648064575,beannorth.com,7980857622591,Britannia Bourbon Cream Biscuit with Chocolate,,75,syrup_food,https://beannorth.com/products/britannia-bourbon-cream-biscuit-with-chocolate,2025-11-23
@@ -19187,19 +19193,19 @@ beannorth.com:42943086002239,beannorth.com,8073810083903,3/4lb Blends 340G,Bean 
 beannorth.com:42943086035007,beannorth.com,8073810083903,3/4lb Blends 340G,Bean Caribou / Auto Filter,340.2,coffee,https://beannorth.com/products/yukon-wild-copy,2026-03-17
 beannorth.com:42974954750015,beannorth.com,7683066462271,Lara Melnik Yukon Artist,let's go there,,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2026-03-03
 beannorth.com:42974954782783,beannorth.com,7683066462271,Lara Melnik Yukon Artist,summertime in my favourite place,,merch,https://beannorth.com/products/lara-melnik-jewelry-copy,2026-03-03
-beannorth.com:42995198591039,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Easter Bunny Party Mix,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-03-12
+beannorth.com:42995198591039,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Easter Bunny Party Mix,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2026-03-12
 beannorth.com:42995198623807,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Easter Bunny Party Mix,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-03-12
 beannorth.com:43048980447295,beannorth.com,6663540375615,Ethiopian Sidama Single Origin - Light Roast,Whole bean / 5LB,2268,coffee,https://beannorth.com/products/ethiopian-sidama-1,2026-04-15
 beannorth.com:43048980480063,beannorth.com,6663540375615,Ethiopian Sidama Single Origin - Light Roast,Auto Filter / 5LB,2268,coffee,https://beannorth.com/products/ethiopian-sidama-1,2026-04-15
-beannorth.com:43065127436351,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Buffalo Cheddar,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-04-15
+beannorth.com:43065127436351,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Buffalo Cheddar,50,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2026-04-15
 beannorth.com:43069322887231,beannorth.com,8121115312191,"""Whitehorse Bear"" Colour changing Mug 11oz",,311.8,drinkware,https://beannorth.com/products/custom-aurora-lake-mtn-colour-changing-mug,2026-04-04
 beannorth.com:43069331275839,beannorth.com,8121117048895,ALL MY RELATIVES ART TRAVEL MUG 18oz,,510.3,drinkware,https://beannorth.com/products/art-travel-mug-all-my-relatives,2026-04-04
 beannorth.com:43069366403135,beannorth.com,8121125175359,FOXES ESPRESSO MUG 3oz,,85,drinkware,https://beannorth.com/products/espresso-mug-foxes,2026-04-04
 beannorth.com:43069381967935,beannorth.com,8121127469119,HUMMINGBIRD ESPRESSO MUG 3oz,,85,drinkware,https://beannorth.com/products/espresso-mug-hummingbird,2026-04-04
 beannorth.com:43069382328383,beannorth.com,8121127698495,RAVEN MOON ESPRESSO MUG 3oz,,85,drinkware,https://beannorth.com/products/espresso-mug-raven-moon,2026-04-04
 beannorth.com:43069385998399,beannorth.com,8121128583231,SIGNATURE MUG SKY DANCE NORTHERN LIGHTS,,500,drinkware,https://beannorth.com/products/signature-mug-sky-dance-northern,2026-04-04
-beannorth.com:43069839015999,beannorth.com,8121335283775,ANTO Bar Soap YUKON RIVER Made in the Yukon,,113,unknown,https://beannorth.com/products/bar-soap-yukon-river,2026-04-04
-beannorth.com:43069922312255,beannorth.com,8121367035967,ANTO Bar Soap KLONDIKE WOODS/SPICE Made in the Yukon,,340,unknown,https://beannorth.com/products/bar-soap-klondike-woods-spice,2026-04-04
+beannorth.com:43069839015999,beannorth.com,8121335283775,ANTO Bar Soap YUKON RIVER Made in the Yukon,,113,merch,https://beannorth.com/products/bar-soap-yukon-river,2026-04-04
+beannorth.com:43069922312255,beannorth.com,8121367035967,ANTO Bar Soap KLONDIKE WOODS/SPICE Made in the Yukon,,340,merch,https://beannorth.com/products/bar-soap-klondike-woods-spice,2026-04-04
 beannorth.com:43069959798847,beannorth.com,8121382567999,ANTO BAR SOAP LOG CABIN PINE/FIR Made in the Yukon,,340,unknown,https://beannorth.com/products/bar-soap-log-cabin-pine-fir,2026-04-04
 beannorth.com:43070337744959,beannorth.com,8121523437631,FIREWEED SEEDS,,340,unknown,https://beannorth.com/products/fireweed-seeds,2026-04-04
 beannorth.com:43070353604671,beannorth.com,8121526222911,PLAYING CARDS SINGLE DECK SASQUATCH,,340,merch,https://beannorth.com/products/playing-cards-single-deck-sasquatch,2026-04-04
@@ -19555,7 +19561,7 @@ beannorth.com:43725945929791,beannorth.com,8302700462143,Mexican Single Origin -
 beannorth.com:43725945962559,beannorth.com,8302700462143,Mexican Single Origin - Darker Roast,Cone Filter / 340 g,340,coffee,https://beannorth.com/products/mexican-single-origin-darker-roast,2026-08-12
 beannorth.com:43725945995327,beannorth.com,8302700462143,Mexican Single Origin - Darker Roast,Cone Filter / 908 g,908,coffee,https://beannorth.com/products/mexican-single-origin-darker-roast,2026-08-12
 beannorth.com:43725946028095,beannorth.com,8302700462143,Mexican Single Origin - Darker Roast,Cone Filter / 5lb,2268,coffee,https://beannorth.com/products/mexican-single-origin-darker-roast,2026-08-12
-beannorth.com:43815452049471,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Candied Apple Caramel,200,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-09-13
+beannorth.com:43815452049471,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Candied Apple Caramel,200,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2026-09-13
 beannorth.com:43883752161343,beannorth.com,8361502146623,Biscoff Caramelised Sandwich Biscuits 150g,,150,syrup_food,https://beannorth.com/products/festive-lotus-biscoff-250g-copy,2026-09-16
 beannorth.com:43883851972671,beannorth.com,8361580986431,Biscoff Small Biscuit 12 x 2 Pocket 250g,,250,syrup_food,https://beannorth.com/products/biscoff-caramelised-sandwich-biscuits-150g-copy,2026-09-16
 beannorth.com:43890164269119,beannorth.com,8365981171775,Dubai Style Hot Chocolate,,,syrup_food,https://beannorth.com/products/dubai-style-hot-chocolate,2026-09-17
@@ -19569,12 +19575,17 @@ beannorth.com:44178513264703,beannorth.com,8451588030527,"""Life is a Journey"" 
 beannorth.com:44420743135295,beannorth.com,7258046234687,Made in the Yukon All Canadian Gift Basket,Whole bean / Dark,2000,bundle,https://beannorth.com/products/copy-of-christmas-basket-medium,2026-11-08
 beannorth.com:44420743168063,beannorth.com,7258046234687,Made in the Yukon All Canadian Gift Basket,auto filter / Dark,2000,bundle,https://beannorth.com/products/copy-of-christmas-basket-medium,2026-11-08
 beannorth.com:44420743200831,beannorth.com,7258046234687,Made in the Yukon All Canadian Gift Basket,French Press / Dark,2000,bundle,https://beannorth.com/products/copy-of-christmas-basket-medium,2026-11-08
-beannorth.com:44480359858239,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Whisky Caramel,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-15
-beannorth.com:44480359891007,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Maple Bacon Caramel,90,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-15
+beannorth.com:44480359858239,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Whisky Caramel,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-15
+beannorth.com:44480359891007,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Reg Size / Maple Bacon Caramel,90,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-15
 beannorth.com:44480359923775,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 65G / Whisky Caramel,65,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-15
 beannorth.com:44480359956543,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 65G / Maple Bacon Caramel,65,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-15
 beannorth.com:44480359989311,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Whisky Caramel,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-15
 beannorth.com:44480360022079,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 50G / Maple Bacon Caramel,50,coffee,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-15
+beannorth.com:44480891879487,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 105gr / Yukon Gold,105,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-16
+beannorth.com:44480910164031,beannorth.com,7573276000319,Klondike Kettle Pop Corn,Snack Size 65G / Candy Cane Crunch,65,syrup_food,https://beannorth.com/products/klondike-kettle-pop-corn,2026-11-16
+beannorth.com:44480982777919,beannorth.com,8527473180735,Maple Creme Oreo,,250,unknown,https://beannorth.com/products/britannia-cookies-pistachio-almond-copy,2026-11-16
+beannorth.com:44480996704319,beannorth.com,8527485665343,Ultimate Maple Creme,,300,unknown,https://beannorth.com/products/maple-creme-oreo-copy,2026-11-16
+beannorth.com:44481073086527,beannorth.com,8527541698623,Lindt Pistachio,,150,unknown,https://beannorth.com/products/ultimate-maple-creme-copy,2026-11-16
 beannorth.com:50927447046,beannorth.com,11818941702,🌟 Dark Roast 4 Lb Coffee Subscription,whole bean,1814.4,subscription,https://beannorth.com/products/dark-roast-coffee-subscription,2023-11-28
 beannorth.com:50927447110,beannorth.com,11818941702,🌟 Dark Roast 4 Lb Coffee Subscription,percolator,1814.4,subscription,https://beannorth.com/products/dark-roast-coffee-subscription,2023-11-28
 beannorth.com:50927447174,beannorth.com,11818941702,🌟 Dark Roast 4 Lb Coffee Subscription,auto filter,1814.4,subscription,https://beannorth.com/products/dark-roast-coffee-subscription,2023-11-28
@@ -19783,8 +19794,8 @@ birdycoffeeco.ca:45883292155961,birdycoffeeco.ca,8279320657977,Eureka Mignon Lib
 birdycoffeeco.ca:45883292188729,birdycoffeeco.ca,8279320657977,Eureka Mignon Libra Grinder,Chrome,6000,equipment,https://birdycoffeeco.ca/products/eureka-mignon-libra-grinder,2026-11-13
 birdycoffeeco.ca:45883292221497,birdycoffeeco.ca,8279320723513,Rhino Coffee Gear Stealth Espresso Scale,,750,equipment,https://birdycoffeeco.ca/products/rhino-coffee-gear-stealth-espresso-scale,2026-11-13
 birdycoffeeco.ca:45883292254265,birdycoffeeco.ca,8279320690745,Flair Royal Hand Grinder,,1000,equipment,https://birdycoffeeco.ca/products/flair-royal-hand-grinder,2026-11-13
-birdycoffeeco.ca:45883292287033,birdycoffeeco.ca,8279320821817,Pesado Impact Gravity Distributor 58.5mm,Black,500,unknown,https://birdycoffeeco.ca/products/pesado-impact-gravity-distributor-58-5mm,2026-11-13
-birdycoffeeco.ca:45883292319801,birdycoffeeco.ca,8279320821817,Pesado Impact Gravity Distributor 58.5mm,White,500,unknown,https://birdycoffeeco.ca/products/pesado-impact-gravity-distributor-58-5mm,2026-11-13
+birdycoffeeco.ca:45883292287033,birdycoffeeco.ca,8279320821817,Pesado Impact Gravity Distributor 58.5mm,Black,500,equipment,https://birdycoffeeco.ca/products/pesado-impact-gravity-distributor-58-5mm,2026-11-13
+birdycoffeeco.ca:45883292319801,birdycoffeeco.ca,8279320821817,Pesado Impact Gravity Distributor 58.5mm,White,500,equipment,https://birdycoffeeco.ca/products/pesado-impact-gravity-distributor-58-5mm,2026-11-13
 birdycoffeeco.ca:45883292352569,birdycoffeeco.ca,8279320756281,Brewista Artisan Variable Temperature Kettle 1.0L,All black,2000,equipment,https://birdycoffeeco.ca/products/brewista-artisan-variable-temperature-kettle-1-0l,2026-11-13
 birdycoffeeco.ca:45883292385337,birdycoffeeco.ca,8279320756281,Brewista Artisan Variable Temperature Kettle 1.0L,Matte black,2000,equipment,https://birdycoffeeco.ca/products/brewista-artisan-variable-temperature-kettle-1-0l,2026-11-13
 birdycoffeeco.ca:45883292418105,birdycoffeeco.ca,8279320756281,Brewista Artisan Variable Temperature Kettle 1.0L,All white,2000,equipment,https://birdycoffeeco.ca/products/brewista-artisan-variable-temperature-kettle-1-0l,2026-11-13
@@ -19852,8 +19863,8 @@ birdycoffeeco.ca:45883294449721,birdycoffeeco.ca,8279321215033,Eureka Mignon Man
 birdycoffeeco.ca:45883294482489,birdycoffeeco.ca,8279321149497,Technivorm KM5 Brew Grinder,White,5000,equipment,https://birdycoffeeco.ca/products/technivorm-km5-brew-grinder,2026-11-13
 birdycoffeeco.ca:45883294515257,birdycoffeeco.ca,8279321149497,Technivorm KM5 Brew Grinder,Polished Silver,5000,equipment,https://birdycoffeeco.ca/products/technivorm-km5-brew-grinder,2026-11-13
 birdycoffeeco.ca:45883294548025,birdycoffeeco.ca,8279321247801,Pesado HD - High Diffusion E61 Shower Screen,,100,unknown,https://birdycoffeeco.ca/products/pesado-hd-high-diffusion-e61-shower-screen,2026-11-13
-birdycoffeeco.ca:45883294580793,birdycoffeeco.ca,8279321280569,Rhino Coffee Knock Drawer,Black,3700,coffee,https://birdycoffeeco.ca/products/rhino-coffee-knock-drawer,2026-11-13
-birdycoffeeco.ca:45883294613561,birdycoffeeco.ca,8279321280569,Rhino Coffee Knock Drawer,White,3700,coffee,https://birdycoffeeco.ca/products/rhino-coffee-knock-drawer,2026-11-13
+birdycoffeeco.ca:45883294580793,birdycoffeeco.ca,8279321280569,Rhino Coffee Knock Drawer,Black,3700,equipment,https://birdycoffeeco.ca/products/rhino-coffee-knock-drawer,2026-11-13
+birdycoffeeco.ca:45883294613561,birdycoffeeco.ca,8279321280569,Rhino Coffee Knock Drawer,White,3700,equipment,https://birdycoffeeco.ca/products/rhino-coffee-knock-drawer,2026-11-13
 birdycoffeeco.ca:45883294646329,birdycoffeeco.ca,8279321313337,Technivorm Moccamaster KBGV Select,Black,4000,equipment,https://birdycoffeeco.ca/products/technivorm-moccamaster-kbgv-select,2026-11-13
 birdycoffeeco.ca:45883294679097,birdycoffeeco.ca,8279321313337,Technivorm Moccamaster KBGV Select,Off-White,4000,equipment,https://birdycoffeeco.ca/products/technivorm-moccamaster-kbgv-select,2026-11-13
 birdycoffeeco.ca:45883294711865,birdycoffeeco.ca,8279321313337,Technivorm Moccamaster KBGV Select,Matte black,4000,equipment,https://birdycoffeeco.ca/products/technivorm-moccamaster-kbgv-select,2026-11-13
@@ -19876,7 +19887,7 @@ birdycoffeeco.ca:45883295236153,birdycoffeeco.ca,8279321313337,Technivorm Moccam
 birdycoffeeco.ca:45883295268921,birdycoffeeco.ca,8279321346105,Bonavita Enthusiast 8-Cup Drip Coffee Brewer with Thermal Carafe,Stainless Steel,3000,equipment,https://birdycoffeeco.ca/products/bonavita-enthusiast-8-cup-drip-coffee-brewer-with-thermal-carafe,2026-11-13
 birdycoffeeco.ca:45883295301689,birdycoffeeco.ca,8279321346105,Bonavita Enthusiast 8-Cup Drip Coffee Brewer with Thermal Carafe,Matte black,3000,equipment,https://birdycoffeeco.ca/products/bonavita-enthusiast-8-cup-drip-coffee-brewer-with-thermal-carafe,2026-11-13
 birdycoffeeco.ca:45883295334457,birdycoffeeco.ca,8279321378873,Flair Power Tower,,1000,equipment,https://birdycoffeeco.ca/products/flair-power-tower,2026-11-13
-birdycoffeeco.ca:45883295367225,birdycoffeeco.ca,8279321411641,Pesado Gravity Distributor 54mm,,500,unknown,https://birdycoffeeco.ca/products/pesado-gravity-distributor-54mm,2026-11-13
+birdycoffeeco.ca:45883295367225,birdycoffeeco.ca,8279321411641,Pesado Gravity Distributor 54mm,,500,equipment,https://birdycoffeeco.ca/products/pesado-gravity-distributor-54mm,2026-11-13
 birdycoffeeco.ca:45883295399993,birdycoffeeco.ca,8279321444409,Bonavita Enthusiast 8-Cup Drip Coffee Brewer with Glass Carafe,Stainless Steel,3000,equipment,https://birdycoffeeco.ca/products/bonavita-enthusiast-8-cup-drip-coffee-brewer-with-glass-carafe,2026-11-13
 birdycoffeeco.ca:45883295432761,birdycoffeeco.ca,8279321444409,Bonavita Enthusiast 8-Cup Drip Coffee Brewer with Glass Carafe,Matte black,3000,equipment,https://birdycoffeeco.ca/products/bonavita-enthusiast-8-cup-drip-coffee-brewer-with-glass-carafe,2026-11-13
 birdycoffeeco.ca:45883295465529,birdycoffeeco.ca,8279321477177,Pesado HD - High Diffusion La Marzocco Shower Screen,,100,equipment,https://birdycoffeeco.ca/products/pesado-hd-high-diffusion-la-marzocco-shower-screen,2026-11-13
@@ -22345,15 +22356,15 @@ brulerieduquai.com:766612144129,brulerieduquai.com,136417411073,Pastilles de cho
 brulerieduquai.com:766612176897,brulerieduquai.com,136417411073,Nicaruja 62 % — Chocolat de couverture biologique,1kg,1000,syrup_food,https://www.brulerieduquai.com/products/pastilles-nicaruja-62,2023-11-23
 brulerieduquai.com:766612209665,brulerieduquai.com,136417411073,Nicaruja 62 % — Chocolat de couverture biologique,5kg,5000,syrup_food,https://www.brulerieduquai.com/products/pastilles-nicaruja-62,2023-11-23
 brulerieduquai.com:7676648423470,brulerieduquai.com,649334292526,Tablette de chocolat Madagascar 70%,40g,40,syrup_food,https://www.brulerieduquai.com/products/tablette-madagascar-70,2023-11-23
-brulerieduquai.com:7676669853742,brulerieduquai.com,649340387374,Tablette de chocolat Tanzanie 79%,40g,40,coffee,https://www.brulerieduquai.com/products/tablette-tanzanie-79,2023-11-23
+brulerieduquai.com:7676669853742,brulerieduquai.com,649340387374,Tablette de chocolat Tanzanie 79%,40g,40,syrup_food,https://www.brulerieduquai.com/products/tablette-tanzanie-79,2023-11-23
 brulerieduquai.com:7874479390766,brulerieduquai.com,687092924462,Moulin électrique Bodum Bistro,Noir,3000,equipment,https://www.brulerieduquai.com/products/bistro-bodum-broyeur-cafe-electrique,2023-11-23
 brulerieduquai.com:7910942146606,brulerieduquai.com,693219295278,Cuisinart : CBM 18-C,Noir,3000,equipment,https://www.brulerieduquai.com/products/cuisinart-cbn-18-c,2023-11-23
 brulerieduquai.com:8009131196462,brulerieduquai.com,711415627822,Nettoyant à moulin Puly Grind Cristalli - 10 doses,150g,150,cleaning,https://www.brulerieduquai.com/products/puly-grind-cristalli-nettoyant-moulin-cafe,2023-11-23
-brulerieduquai.com:8009875619886,brulerieduquai.com,8188634817,Meilleur Brownie au Monde,1 x original,100,unknown,https://www.brulerieduquai.com/products/brownie,2023-11-23
+brulerieduquai.com:8009875619886,brulerieduquai.com,8188634817,Meilleur Brownie au Monde,1 x original,100,syrup_food,https://www.brulerieduquai.com/products/brownie,2023-11-23
 brulerieduquai.com:809744765,brulerieduquai.com,334095489,Thé Chaï à la Citrouille,75 g,75,tea,https://www.brulerieduquai.com/products/the-chai-a-la-citrouille,2023-11-23
 brulerieduquai.com:8183472947246,brulerieduquai.com,752532193326,Café Panama - Geisha La Esmeralda,200 g (bouteille),200,coffee,https://www.brulerieduquai.com/products/la-esmeralda,2023-11-23
 brulerieduquai.com:827110064129,brulerieduquai.com,153044156417,sélection du torréfacteur,2 sacs (1 de chaque),907,subscription,https://www.brulerieduquai.com/products/selection-du-torrefacteur,2023-11-23
-brulerieduquai.com:8360214036526,brulerieduquai.com,783763734574,Tablette de chocolat Pérou 72%,40g,40,coffee,https://www.brulerieduquai.com/products/tablette-ucayali-72,2023-11-23
+brulerieduquai.com:8360214036526,brulerieduquai.com,783763734574,Tablette de chocolat Pérou 72%,40g,40,syrup_food,https://www.brulerieduquai.com/products/tablette-ucayali-72,2023-11-23
 brulerieduquai.com:8370597363758,brulerieduquai.com,786256265262,Hario : V60-01 - Paquet de filtres,40 filtres,113,equipment,https://www.brulerieduquai.com/products/hario-v60-01-filtres,2023-11-23
 brulerieduquai.com:8370633900078,brulerieduquai.com,786265800750,Hario : V60-01,plastique,150,equipment,https://www.brulerieduquai.com/products/v60-01,2023-11-23
 brulerieduquai.com:8405631729710,brulerieduquai.com,794638745646,Tanzanie Kokoa Kamili 79 % — Chocolat de couverture biologique,1kg,1000,syrup_food,https://www.brulerieduquai.com/products/pastilles-tanzanie-79,2023-11-23
@@ -32483,7 +32494,7 @@ downeastcoffee.ca:32673397080142,downeastcoffee.ca,7798548043,Ethiopia Natural S
 downeastcoffee.ca:32719891890254,downeastcoffee.ca,4870396772430,Monin Holiday Cheer Collection,,680,syrup_food,https://www.downeastcoffee.ca/products/monin-syrups,2023-11-28
 downeastcoffee.ca:32719903621198,downeastcoffee.ca,4870400245838,Monin Coffee Collection,,680,syrup_food,https://www.downeastcoffee.ca/products/monin-coffee-collection,2023-11-28
 downeastcoffee.ca:32719907389518,downeastcoffee.ca,4870400770126,Mini Monin Mango,,113,syrup_food,https://www.downeastcoffee.ca/products/mini-monin-mango,2023-11-28
-downeastcoffee.ca:32720024600654,downeastcoffee.ca,4870410240078,Down East Coffee Lip Balm,,,coffee,https://www.downeastcoffee.ca/products/down-east-coffee-lip-balm,2023-11-28
+downeastcoffee.ca:32720024600654,downeastcoffee.ca,4870410240078,Down East Coffee Lip Balm,,,merch,https://www.downeastcoffee.ca/products/down-east-coffee-lip-balm,2023-11-28
 downeastcoffee.ca:39281524768846,downeastcoffee.ca,7798587339,Espresso Down East,5 lb / Whole beans,2268,coffee,https://www.downeastcoffee.ca/products/espresso-down-east,2023-11-28
 downeastcoffee.ca:39281526702158,downeastcoffee.ca,7798588107,Espresso du Marquis Organic,5 lb / Whole beans,2268,coffee,https://www.downeastcoffee.ca/products/espresso-du-marquis-organic,2023-11-28
 downeastcoffee.ca:39281527324750,downeastcoffee.ca,7798591947,Espresso Lescarbot,5 lb / Whole beans,2268,coffee,https://www.downeastcoffee.ca/products/espresso-lescarbot,2023-11-28
@@ -34558,8 +34569,8 @@ epochchemistry.ca:46973128179935,epochchemistry.ca,9052926804191,NUTTII Geo-C Li
 epochchemistry.ca:46973203906783,epochchemistry.ca,9052946039007,WACACO Exagrind,,500,equipment,https://epochchemistry.ca/products/1zpresso-zp6-s,2026-11-13
 epochchemistry.ca:47104634912991,epochchemistry.ca,9082055491807,Comandante C40 Nitro Blade (Mk4),,500,equipment,https://epochchemistry.ca/products/comandante-c40-nitro-blade-mk4-1,2026-11-13
 epochchemistry.ca:47104941457631,epochchemistry.ca,9082089046239,Cafetto Liquid Descaler Espresso Machine,,600,cleaning,https://epochchemistry.ca/products/cafetto-liquid-descaler-espresso-machine,2026-11-13
-epochchemistry.ca:47104941752543,epochchemistry.ca,9082089144543,Cafetto Milk Frother Cleaner (BLUE),,600,syrup_food,https://epochchemistry.ca/products/cafetto-liquid-descaler-espresso-machine-copy,2026-11-13
-epochchemistry.ca:47104960790751,epochchemistry.ca,9082090422495,Cafetto Espresso Clean Powder,,500,equipment,https://epochchemistry.ca/products/cafetto-espresso-clean-powder,2026-11-13
+epochchemistry.ca:47104941752543,epochchemistry.ca,9082089144543,Cafetto Milk Frother Cleaner (BLUE),,600,cleaning,https://epochchemistry.ca/products/cafetto-liquid-descaler-espresso-machine-copy,2026-11-13
+epochchemistry.ca:47104960790751,epochchemistry.ca,9082090422495,Cafetto Espresso Clean Powder,,500,cleaning,https://epochchemistry.ca/products/cafetto-espresso-clean-powder,2026-11-13
 epochchemistry.ca:47105005322463,epochchemistry.ca,9082095042783,Cafetto Swivel Head Cleaning Brush,,100,cleaning,https://epochchemistry.ca/products/cafetto-swivel-head-cleaning-brush,2026-11-13
 epochchemistry.ca:47204659167455,epochchemistry.ca,9110024290527,Sudan Rume Tee,S,,equipment,https://epochchemistry.ca/products/sudan-rume-tee,2026-11-13
 epochchemistry.ca:47204659200223,epochchemistry.ca,9110024290527,Sudan Rume Tee,M,,equipment,https://epochchemistry.ca/products/sudan-rume-tee,2026-11-13
@@ -37542,7 +37553,7 @@ farocoffee.com:45910123577541,farocoffee.com,8749982548165,Nicaragua San Antonio
 farocoffee.com:46041704169669,farocoffee.com,7705881575621,Airscape Coffee Container,Small (1LB) / White,453.6,equipment,https://farocoffee.com/products/coffee-container-airscape-faro-1kg-galvanized-steel,2026-04-28
 farocoffee.com:46041704202437,farocoffee.com,7705881575621,Airscape Coffee Container,Large (2LB) / Black,907.2,equipment,https://farocoffee.com/products/coffee-container-airscape-faro-1kg-galvanized-steel,2026-04-28
 farocoffee.com:46041704235205,farocoffee.com,7705881575621,Airscape Coffee Container,Large (2LB) / White,907.2,equipment,https://farocoffee.com/products/coffee-container-airscape-faro-1kg-galvanized-steel,2026-04-28
-farocoffee.com:46138163396805,farocoffee.com,7710071881925,DECADENT HOT CHOCOLATE BLEND - 250G,250g,250,coffee,https://farocoffee.com/products/hot-chocolate-blend-decadent-250g,2026-04-29
+farocoffee.com:46138163396805,farocoffee.com,7710071881925,DECADENT HOT CHOCOLATE BLEND - 250G,250g,250,syrup_food,https://farocoffee.com/products/hot-chocolate-blend-decadent-250g,2026-04-29
 farocoffee.com:46277378146501,farocoffee.com,8864034980037,Faro Gift Card,$50,,gift_card,https://farocoffee.com/products/loopz-gift-card,2026-08-18
 farocoffee.com:46277378179269,farocoffee.com,8864034980037,Faro Gift Card,$100,,gift_card,https://farocoffee.com/products/loopz-gift-card,2026-08-18
 farocoffee.com:46277378212037,farocoffee.com,8864034980037,Faro Gift Card,$150,,gift_card,https://farocoffee.com/products/loopz-gift-card,2026-08-18
@@ -38421,7 +38432,7 @@ fratellocoffee.com:45858213200191,fratellocoffee.com,8586910499135,"Hario Filter
 fratellocoffee.com:45858213265727,fratellocoffee.com,8586910564671,Barista Basics - Steam Pitcher 12oz,,340.2,unknown,https://www.fratellocoffee.com/products/steam-pitcher-12oz,2023-11-28
 fratellocoffee.com:45858213298495,fratellocoffee.com,8586910630207,Idle - Cream of Assam Organic Black Tea,8 oz / Loose Leaf,226.8,tea,https://www.fratellocoffee.com/products/idle-cream-of-assam-organic,2023-11-28
 fratellocoffee.com:45858213462335,fratellocoffee.com,8586910695743,HARIO V60-02 Dripper (Ceramic),,454,equipment,https://www.fratellocoffee.com/products/v60-01-ceramic-pour-over-dripper,2023-11-28
-fratellocoffee.com:45858214019391,fratellocoffee.com,8586910761279,Coffee Tool,,,coffee,https://www.fratellocoffee.com/products/coffee-tool,2023-11-28
+fratellocoffee.com:45858214019391,fratellocoffee.com,8586910761279,Coffee Tool,,,equipment,https://www.fratellocoffee.com/products/coffee-tool,2023-11-28
 fratellocoffee.com:45858214052159,fratellocoffee.com,8586910794047,Click Tamper 58mm,,,equipment,https://www.fratellocoffee.com/products/click-tamper-58mm,2023-11-28
 fratellocoffee.com:45858214084927,fratellocoffee.com,8586910826815,Idle - Earl Grey Cream Organic Black Tea,8 oz / Loose Leaf,226.8,tea,https://www.fratellocoffee.com/products/idle-earl-grey-cream,2023-11-28
 fratellocoffee.com:45858214773055,fratellocoffee.com,8586910957887,Puly Caff Cleaning Tablets (60 tabs @ 1g),,,cleaning,https://www.fratellocoffee.com/products/cleaning-tablets,2023-11-28
@@ -40233,7 +40244,7 @@ javablendcoffee.com:39603387957342,javablendcoffee.com,6646417260638,Single Serv
 javablendcoffee.com:39618564620382,javablendcoffee.com,6651532116062,Urnex Supergrindz Grinder Cleaner 330g,,330,cleaning,https://javablendcoffee.com/products/urnex-supergrindz-grinder-cleaner-330g,2023-11-28
 javablendcoffee.com:39618734948446,javablendcoffee.com,6651590312030,Hario V-60 03 Filters - White,,150,equipment,https://javablendcoffee.com/products/hario-v-60-03-filters-white,2023-11-28
 javablendcoffee.com:39618768142430,javablendcoffee.com,6651600207966,Urnex Liquid Dezcal 1L,,907,cleaning,https://javablendcoffee.com/products/urnex-liquid-dezcal-1l,2023-11-28
-javablendcoffee.com:39659769495646,javablendcoffee.com,6665701130334,Cafetto Brew Clean Powder (500G),,500,coffee,https://javablendcoffee.com/products/cafetto-brew-clean-powder-500g,2023-11-28
+javablendcoffee.com:39659769495646,javablendcoffee.com,6665701130334,Cafetto Brew Clean Powder (500G),,500,cleaning,https://javablendcoffee.com/products/cafetto-brew-clean-powder-500g,2023-11-28
 javablendcoffee.com:39695951626334,javablendcoffee.com,6680186650718,Spearmint St Helen's - Herbal Tea,100G,100,tea,https://javablendcoffee.com/products/spearmint-st-helens-herbal-tea,2023-11-28
 javablendcoffee.com:39699172491358,javablendcoffee.com,6681346474078,Maison Routin 1883 Syrup -250ml,250 ml / Caramel,227,syrup_food,https://javablendcoffee.com/products/maison-routin-1883-syrup,2023-11-28
 javablendcoffee.com:39699172524126,javablendcoffee.com,6681346474078,Maison Routin 1883 Syrup -250ml,250 ml / Vanilla,227,syrup_food,https://javablendcoffee.com/products/maison-routin-1883-syrup,2023-11-28
@@ -46575,10 +46586,10 @@ nektar.ca:32093459415115,nektar.ca,4528495591499,Hario V60-02 plastique transpar
 nektar.ca:32093535502411,nektar.ca,4528502243403,CoffeeSock Hario V60-02 (2 x Filtres réutilisables),,,equipment,https://nektar.ca/products/coffeesock-hario-v60-02-2-x-filtres-reutilisables,2023-11-23
 nektar.ca:32093576855627,nektar.ca,4528510566475,Infuseur pleine immersion (Clever),,340,equipment,https://nektar.ca/products/infuseur-pleine-immersion-clever,2023-11-23
 nektar.ca:32093617356875,nektar.ca,4528517742667,Bouilloire Fellow STAGG,,900,equipment,https://nektar.ca/products/bouilloire-fellow,2023-11-23
-nektar.ca:32094037901387,nektar.ca,4528606150731,HuskeeCup (Fait de coquilles de café),8oz / Charcoal,226.8,equipment,https://nektar.ca/products/huskee-cup,2023-11-23
-nektar.ca:32094037934155,nektar.ca,4528606150731,HuskeeCup (Fait de coquilles de café),8oz / Naturel,226.8,equipment,https://nektar.ca/products/huskee-cup,2023-11-23
-nektar.ca:32094037966923,nektar.ca,4528606150731,HuskeeCup (Fait de coquilles de café),12oz / Charcoal,340.2,equipment,https://nektar.ca/products/huskee-cup,2023-11-23
-nektar.ca:32094037999691,nektar.ca,4528606150731,HuskeeCup (Fait de coquilles de café),12oz / Naturel,340.2,equipment,https://nektar.ca/products/huskee-cup,2023-11-23
+nektar.ca:32094037901387,nektar.ca,4528606150731,HuskeeCup (Fait de coquilles de café),8oz / Charcoal,226.8,drinkware,https://nektar.ca/products/huskee-cup,2023-11-23
+nektar.ca:32094037934155,nektar.ca,4528606150731,HuskeeCup (Fait de coquilles de café),8oz / Naturel,226.8,drinkware,https://nektar.ca/products/huskee-cup,2023-11-23
+nektar.ca:32094037966923,nektar.ca,4528606150731,HuskeeCup (Fait de coquilles de café),12oz / Charcoal,340.2,drinkware,https://nektar.ca/products/huskee-cup,2023-11-23
+nektar.ca:32094037999691,nektar.ca,4528606150731,HuskeeCup (Fait de coquilles de café),12oz / Naturel,340.2,drinkware,https://nektar.ca/products/huskee-cup,2023-11-23
 nektar.ca:32189512417355,nektar.ca,4547295477835,Filtres Aeropress Papier,,65,equipment,https://nektar.ca/products/filtres-aeropress-papier,2023-11-23
 nektar.ca:32607857705035,nektar.ca,1331326255179,L'été indien,907g (2lbs),907,coffee,https://nektar.ca/products/lete-indien,2023-11-23
 nektar.ca:32607859966027,nektar.ca,1331325960267,L'ours noir,907g (2lbs),907,coffee,https://nektar.ca/products/lours-noir,2023-11-23
@@ -47015,7 +47026,7 @@ nektar.ca:53039628419356,nektar.ca,10621073588508,Éthiopie - Huro Tibiro Nature
 nektar.ca:53048539218204,nektar.ca,10622698225948,Thé - Matcha,,100,tea,https://nektar.ca/products/the-matcha,2025-10-17
 nektar.ca:53171731661084,nektar.ca,10638672986396,Thé - Chaï,,100,tea,https://nektar.ca/products/the-chai,2025-10-17
 nektar.ca:53172458488092,nektar.ca,10638747828508,Thé - Earl Grey,,100,tea,https://nektar.ca/products/the-earl-grey,2025-10-17
-nektar.ca:53172518027548,nektar.ca,10638750089500,Thé - Décaf Pêche Abricot,,100,coffee,https://nektar.ca/products/the-decaf-peche-abricot,2025-10-17
+nektar.ca:53172518027548,nektar.ca,10638750089500,Thé - Décaf Pêche Abricot,,100,tea,https://nektar.ca/products/the-decaf-peche-abricot,2025-10-17
 nektar.ca:53259029446940,nektar.ca,10647970644252,Mexique - San Isidro Zoquiapam,300g,300,coffee,https://nektar.ca/products/mexique-isidro,2025-10-31
 nektar.ca:53259029479708,nektar.ca,10647970644252,Mexique - San Isidro Zoquiapam,907g (2lbs),907,coffee,https://nektar.ca/products/mexique-isidro,2025-10-31
 nektar.ca:53259029512476,nektar.ca,10647970644252,Mexique - San Isidro Zoquiapam,2.26Kg (5lbs),2260,coffee,https://nektar.ca/products/mexique-isidro,2025-10-31
@@ -47074,11 +47085,11 @@ nektar.ca:879741143,nektar.ca,375164463,Dezcal - Détartrant pour machine espres
 nektar.ca:879741351,nektar.ca,375164491,Cafiza - Pastilles Nettoyant à café,,80,cleaning,https://nektar.ca/products/urnex-cafiza-pastilles-nettoyant-a-cafe,2023-11-23
 nektar.ca:879742207,nektar.ca,375165055,Chemex 6 tasses,,750,equipment,https://nektar.ca/products/chemex-6-tasses,2023-11-23
 nemesis.coffee:40104784887989,nemesis.coffee,6751301959861,monthly coffee subscription,1 kg bag,1000,subscription,https://www.nemesis.coffee/products/coffeesubscription,2023-11-23
-nemesis.coffee:40104832696501,nemesis.coffee,6751310512309,Classic Butter Croissant,,,unknown,https://www.nemesis.coffee/products/butter-croissant,2023-11-23
+nemesis.coffee:40104832696501,nemesis.coffee,6751310512309,Classic Butter Croissant,,,syrup_food,https://www.nemesis.coffee/products/butter-croissant,2023-11-23
 nemesis.coffee:40104876245173,nemesis.coffee,6751321325749,Pain au Chocolat,,,syrup_food,https://www.nemesis.coffee/products/pain-au-chocolat,2023-11-23
 nemesis.coffee:40104882045109,nemesis.coffee,6751322472629,Birthday Cake  Croissant,,,unknown,https://www.nemesis.coffee/products/twice-baked-almond-croissant,2024-02-14
 nemesis.coffee:40104884109493,nemesis.coffee,6751323259061,Pistachio Swirl,,,unknown,https://www.nemesis.coffee/products/pistachio-swirl,2023-11-23
-nemesis.coffee:40104886272181,nemesis.coffee,6751324143797,The Queen,,,unknown,https://www.nemesis.coffee/products/kougan-amann,2023-11-23
+nemesis.coffee:40104886272181,nemesis.coffee,6751324143797,The Queen,,,syrup_food,https://www.nemesis.coffee/products/kougan-amann,2023-11-23
 nemesis.coffee:40104915763381,nemesis.coffee,6751330926773,Tiramisu Croissant,,,unknown,https://www.nemesis.coffee/products/tiramisu-croissant,2023-11-23
 nemesis.coffee:40188857221301,nemesis.coffee,6769810571445,HONDURAS | Eduin Fernandez - La Pantera,250g,250,coffee,https://www.nemesis.coffee/products/honduras-eduin-fernandez-la-pantera,2023-11-23
 nemesis.coffee:40209424548021,nemesis.coffee,6751301959861,monthly coffee subscription,2 x 250g box,500,subscription,https://www.nemesis.coffee/products/coffeesubscription,2023-11-23
@@ -47181,7 +47192,7 @@ nemesis.coffee:51624261714101,nemesis.coffee,10217493692597,DECAF | Kenya - Nyer
 nemesis.coffee:51624323547317,nemesis.coffee,10217508012213,BRAZIL | Wesley Tomazini - Sítio Tomazini,250g,250,coffee,https://www.nemesis.coffee/products/brazil-wesley-tomazini-sitio-tomazini,2025-08-29
 nemesis.coffee:51624323580085,nemesis.coffee,10217508012213,BRAZIL | Wesley Tomazini - Sítio Tomazini,1kg,1000,coffee,https://www.nemesis.coffee/products/brazil-wesley-tomazini-sitio-tomazini,2025-08-29
 nemesis.coffee:51668736639157,nemesis.coffee,10222794637493,Tiramisu Cruffin,,,unknown,https://www.nemesis.coffee/products/tiramisu-cruffin,2025-09-06
-nemesis.coffee:51669449375925,nemesis.coffee,10222811807925,Espresso Double Chocolate Cookie,,,coffee,https://www.nemesis.coffee/products/chocolate-cashew-cookie-copy,2025-09-06
+nemesis.coffee:51669449375925,nemesis.coffee,10222811807925,Espresso Double Chocolate Cookie,,,syrup_food,https://www.nemesis.coffee/products/chocolate-cashew-cookie-copy,2025-09-06
 nemesis.coffee:51729448042677,nemesis.coffee,10232008081589,ESPRESSO | Guatemala - Familia Zelaya,250g,250,coffee,https://www.nemesis.coffee/products/espresso-guatemala-familia-zelaya,2025-09-18
 nemesis.coffee:51729448075445,nemesis.coffee,10232008081589,ESPRESSO | Guatemala - Familia Zelaya,1kg,1000,coffee,https://www.nemesis.coffee/products/espresso-guatemala-familia-zelaya,2025-09-18
 nemesis.coffee:51742238867637,nemesis.coffee,10233784697013,KENYA | Gikirima AA,250g,250,coffee,https://www.nemesis.coffee/products/kenya-gikirima-aa,2025-09-21
@@ -47250,11 +47261,11 @@ nemesis.coffee:52777864167605,nemesis.coffee,10490633879733,DECAF | BRAZIL – F
 nemesis.coffee:52957377986741,nemesis.coffee,10549687615669,DECAF | GUATEMALA - Familia Doando,250g,250,coffee,https://www.nemesis.coffee/products/decaf-guatemala-familia-doando,2026-08-14
 nemesis.coffee:52957378019509,nemesis.coffee,10549687615669,DECAF | GUATEMALA - Familia Doando,1kg,1000,coffee,https://www.nemesis.coffee/products/decaf-guatemala-familia-doando,2026-08-14
 nemesis.coffee:52961336197301,nemesis.coffee,10551470850229,COSTA RICA | Lica Torres - ET47 natural,250g,250,coffee,https://www.nemesis.coffee/products/costa-rica-lica-torres-et47-natural,2026-08-14
-nemesis.coffee:53367452008629,nemesis.coffee,10611360071861,Thai Green Curry Swirl,,,unknown,https://www.nemesis.coffee/products/thai-green-curry-swirl,2026-09-23
+nemesis.coffee:53367452008629,nemesis.coffee,10611360071861,Thai Green Curry Swirl,,,syrup_food,https://www.nemesis.coffee/products/thai-green-curry-swirl,2026-09-23
 nemesis.coffee:53367464919221,nemesis.coffee,10611365118133,"Toasted Buckwheat, dark chocolate, Olive oil Swiss",,,syrup_food,https://www.nemesis.coffee/products/toasted-buckwheat-dark-chocolate-olive-oil-swiss,2026-09-23
-nemesis.coffee:53367501160629,nemesis.coffee,10611383271605,Apple Pecan Danish,,,unknown,https://www.nemesis.coffee/products/apple-pecan-danish,2026-09-23
-nemesis.coffee:53367520264373,nemesis.coffee,10611398213813,Lemon Poppy Seeds Bun,,,unknown,https://www.nemesis.coffee/products/lemon-poppy-seeds-bun,2026-09-23
-nemesis.coffee:53367546118325,nemesis.coffee,10611423510709,Spanakopita,,,unknown,https://www.nemesis.coffee/products/spanakopita,2026-09-23
+nemesis.coffee:53367501160629,nemesis.coffee,10611383271605,Apple Pecan Danish,,,syrup_food,https://www.nemesis.coffee/products/apple-pecan-danish,2026-09-23
+nemesis.coffee:53367520264373,nemesis.coffee,10611398213813,Lemon Poppy Seeds Bun,,,syrup_food,https://www.nemesis.coffee/products/lemon-poppy-seeds-bun,2026-09-23
+nemesis.coffee:53367546118325,nemesis.coffee,10611423510709,Spanakopita,,,syrup_food,https://www.nemesis.coffee/products/spanakopita,2026-09-23
 nemesis.coffee:53408532791477,nemesis.coffee,10619047280821,BRAZIL | Serra Dos Ciganos,250g,250,coffee,https://www.nemesis.coffee/products/brazil-serra-dos-ciganos,2026-10-25
 nemesis.coffee:53408532824245,nemesis.coffee,10619047280821,BRAZIL | Serra Dos Ciganos,1kg,1000,coffee,https://www.nemesis.coffee/products/brazil-serra-dos-ciganos,2026-10-25
 nemesis.coffee:53467160510645,nemesis.coffee,10624994279605,KENYA | Kii Factory,250g,250,coffee,https://www.nemesis.coffee/products/kenya-kii-factory,2026-10-25
@@ -47482,7 +47493,7 @@ paradigmspark.com:68075459608730,paradigmspark.com,15474933465242,Coffee Omakase
 paradigmspark.com:68083630178458,paradigmspark.com,15489147338906,"Bombe - Ethiopia, Red Honey process",150g,150,coffee,https://paradigmspark.com/products/bombe-ethiopia-red-honey-process,2026-11-13
 paradigmspark.com:68083630211226,paradigmspark.com,15489147338906,"Bombe - Ethiopia, Red Honey process",250g,250,coffee,https://paradigmspark.com/products/bombe-ethiopia-red-honey-process,2026-11-13
 paradigmspark.com:68083650461850,paradigmspark.com,15489147338906,"Bombe - Ethiopia, Red Honey process",1 kg,1000,coffee,https://paradigmspark.com/products/bombe-ethiopia-red-honey-process,2026-11-13
-paradigmspark.com:68219581300890,paradigmspark.com,15506116280474,Tasting Series - African Processes,,300,coffee,https://paradigmspark.com/products/tasting-series-african-processes,2026-11-15
+paradigmspark.com:68219581300890,paradigmspark.com,15506116280474,Tasting Series - African Processes,,250,coffee,https://paradigmspark.com/products/tasting-series-african-processes,2026-11-15
 philsebastian.com:14030834794563,philsebastian.com,1564632449091,"Honduras, Margarito Herrera",3/4 lb,340.2,coffee,https://philsebastian.com/products/honduras-margarito-herrera-pacas,2023-11-23
 philsebastian.com:14030834827331,philsebastian.com,1564632449091,"Honduras, Margarito Herrera",2 lb,907.2,coffee,https://philsebastian.com/products/honduras-margarito-herrera-pacas,2023-11-23
 philsebastian.com:154232717330,philsebastian.com,20721008658,Physical Gift Card for Cafes or App,$10 / Hoopla,,gift_card,https://philsebastian.com/products/gift-cards,2023-11-23
@@ -49416,8 +49427,8 @@ pilotcoffeeroasters.com:50913220919574,pilotcoffeeroasters.com,10360516280598,Pi
 pilotcoffeeroasters.com:51025769038102,pilotcoffeeroasters.com,10406596641046,Urnex Cafiza - Espresso Machine Cleaner,,600,cleaning,https://www.pilotcoffeeroasters.com/products/urnex-cafiza-espresso-machine-cleaner,2026-11-13
 pilotcoffeeroasters.com:51025770545430,pilotcoffeeroasters.com,10406597755158,Urnex Rinza - Milk Frother Cleaner,,600,syrup_food,https://www.pilotcoffeeroasters.com/products/urnex-rinza-milk-frother-cleaner,2026-11-13
 pilotcoffeeroasters.com:51025770971414,pilotcoffeeroasters.com,10406597951766,Urnex Grindz - Grinder Cleaner,,600,cleaning,https://www.pilotcoffeeroasters.com/products/urnex-grindz-grinder-cleaner,2026-11-13
-pilotcoffeeroasters.com:51708968075542,pilotcoffeeroasters.com,10668517130518,Nitro Cold Brew Coffee,12 Pack,4000,coffee,https://www.pilotcoffeeroasters.com/products/nitro-cold-brew,2026-11-13
-pilotcoffeeroasters.com:51708968108310,pilotcoffeeroasters.com,10668517130518,Nitro Cold Brew Coffee,24 Pack,8000,coffee,https://www.pilotcoffeeroasters.com/products/nitro-cold-brew,2026-11-13
+pilotcoffeeroasters.com:51708968075542,pilotcoffeeroasters.com,10668517130518,Nitro Cold Brew Coffee,12 Pack,4000,ready_to_drink,https://www.pilotcoffeeroasters.com/products/nitro-cold-brew,2026-11-13
+pilotcoffeeroasters.com:51708968108310,pilotcoffeeroasters.com,10668517130518,Nitro Cold Brew Coffee,24 Pack,8000,ready_to_drink,https://www.pilotcoffeeroasters.com/products/nitro-cold-brew,2026-11-13
 pilotcoffeeroasters.com:51709341008150,pilotcoffeeroasters.com,10668664226070,Kii – Kenya,300g / Whole bean,300,coffee,https://www.pilotcoffeeroasters.com/products/kii-kenya,2026-11-13
 pilotcoffeeroasters.com:51709341040918,pilotcoffeeroasters.com,10668664226070,Kii – Kenya,300g / Ground,300,coffee,https://www.pilotcoffeeroasters.com/products/kii-kenya,2026-11-13
 pilotcoffeeroasters.com:51709341073686,pilotcoffeeroasters.com,10668664226070,Kii – Kenya,2.1kg / Whole bean,2100,coffee,https://www.pilotcoffeeroasters.com/products/kii-kenya,2026-11-13
@@ -49657,16 +49668,16 @@ propellercoffee.com:34751313215653,propellercoffee.com,5326050328741,Propeller T
 propellercoffee.com:34751313248421,propellercoffee.com,5326050328741,Propeller T-Shirt,Medium,,merch,https://www.propellercoffee.com/products/propeller-t-shirt,2023-11-23
 propellercoffee.com:34751313281189,propellercoffee.com,5326050328741,Propeller T-Shirt,Large,,merch,https://www.propellercoffee.com/products/propeller-t-shirt,2023-11-23
 propellercoffee.com:34751313576101,propellercoffee.com,5326050525349,Discovery Collection Espresso,,1000,coffee,https://www.propellercoffee.com/products/discovery-espresso,2023-11-23
-propellercoffee.com:34751313772709,propellercoffee.com,5326050623653,Cold Brew Multi-Packs,12-Pack,2268,coffee,https://www.propellercoffee.com/products/cold-brew-cans,2023-11-23
+propellercoffee.com:34751313772709,propellercoffee.com,5326050623653,Cold Brew Multi-Packs,12-Pack,2268,ready_to_drink,https://www.propellercoffee.com/products/cold-brew-cans,2023-11-23
 propellercoffee.com:34751314952357,propellercoffee.com,5326050984101,Retail Pluck Teas Verbena Blues,,,tea,https://www.propellercoffee.com/products/retail-pluck-teas-verbena-blues,2023-11-23
 propellercoffee.com:34751315083429,propellercoffee.com,5326051082405,Retail Pluck Teas Toffee Apple Spice,,,tea,https://www.propellercoffee.com/products/retail-pluck-teas-toffee-apple-spice,2023-11-23
 propellercoffee.com:34751315214501,propellercoffee.com,5326051147941,Retail Pluck Teas East Coast Chai,,,tea,https://www.propellercoffee.com/products/retail-pluck-teas-east-coast-chai,2023-11-23
 propellercoffee.com:34751315312805,propellercoffee.com,5326051246245,Kalita Wave-185 Coffee Filters 100pc,,,equipment,https://www.propellercoffee.com/products/kalita-wave-185-coffee-filters-100pc,2023-11-23
 propellercoffee.com:34751315443877,propellercoffee.com,5326051344549,Propeller MiiR Black Travel Tumbler,,,drinkware,https://www.propellercoffee.com/products/propeller-miir-black-travel-tumbler,2023-11-23
-propellercoffee.com:34751315706021,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Natural 6oz,170.1,coffee,https://www.propellercoffee.com/products/huskeecup,2023-11-23
-propellercoffee.com:34751315738789,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Natural 8oz,226.8,coffee,https://www.propellercoffee.com/products/huskeecup,2023-11-23
-propellercoffee.com:34751315771557,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Charcoal 6oz,170.1,coffee,https://www.propellercoffee.com/products/huskeecup,2023-11-23
-propellercoffee.com:34751315837093,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Charcoal 8oz,226.8,coffee,https://www.propellercoffee.com/products/huskeecup,2023-11-23
+propellercoffee.com:34751315706021,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Natural 6oz,170.1,drinkware,https://www.propellercoffee.com/products/huskeecup,2023-11-23
+propellercoffee.com:34751315738789,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Natural 8oz,226.8,drinkware,https://www.propellercoffee.com/products/huskeecup,2023-11-23
+propellercoffee.com:34751315771557,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Charcoal 6oz,170.1,drinkware,https://www.propellercoffee.com/products/huskeecup,2023-11-23
+propellercoffee.com:34751315837093,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Charcoal 8oz,226.8,drinkware,https://www.propellercoffee.com/products/huskeecup,2023-11-23
 propellercoffee.com:35108787585189,propellercoffee.com,5410315468965,Coffee Subscription,Turbo Espresso - Espresso / 12oz,340.2,subscription,https://www.propellercoffee.com/products/coffee-subscription,2023-11-23
 propellercoffee.com:35108787617957,propellercoffee.com,5410315468965,Coffee Subscription,Turbo Espresso - Espresso / 5lb,2268,subscription,https://www.propellercoffee.com/products/coffee-subscription,2023-11-23
 propellercoffee.com:35108787650725,propellercoffee.com,5410315468965,Coffee Subscription,Ace Espresso - Espresso / 12oz,340.2,subscription,https://www.propellercoffee.com/products/coffee-subscription,2023-11-23
@@ -49732,7 +49743,7 @@ propellercoffee.com:36797611540645,propellercoffee.com,5808014262437,Coffee Gift
 propellercoffee.com:36797611606181,propellercoffee.com,5808014262437,Coffee Gift Subscription - 3 Months,Roasters Choice Espresso - Espresso / 12oz,340.2,subscription,https://www.propellercoffee.com/products/coffee-gift-subscription,2023-11-23
 propellercoffee.com:36797611638949,propellercoffee.com,5808014262437,Coffee Gift Subscription - 3 Months,Roasters Choice Drip - Drip / 12oz,340.2,subscription,https://www.propellercoffee.com/products/coffee-gift-subscription,2023-11-23
 propellercoffee.com:36797611671717,propellercoffee.com,5808014262437,Coffee Gift Subscription - 3 Months,Roasters Choice Single Origin - Drip / 12oz,340.2,subscription,https://www.propellercoffee.com/products/coffee-gift-subscription,2023-11-23
-propellercoffee.com:36863731269797,propellercoffee.com,5326050623653,Cold Brew Multi-Packs,4-Pack,,coffee,https://www.propellercoffee.com/products/cold-brew-cans,2023-11-23
+propellercoffee.com:36863731269797,propellercoffee.com,5326050623653,Cold Brew Multi-Packs,4-Pack,,ready_to_drink,https://www.propellercoffee.com/products/cold-brew-cans,2023-11-23
 propellercoffee.com:36993298596005,propellercoffee.com,5857218330789,the Breville Precision Brewer™Thermal,,2268,equipment,https://www.propellercoffee.com/products/the-breville-precision-brewer™thermal,2023-11-23
 propellercoffee.com:36993337032869,propellercoffee.com,5857220853925,the Smart Grinder™ Pro,Brushed Stainless Steel,,unknown,https://www.propellercoffee.com/products/the-smart-grinder™-pro,2023-11-23
 propellercoffee.com:36993337065637,propellercoffee.com,5857220853925,the Smart Grinder™ Pro,Sea Salt,,unknown,https://www.propellercoffee.com/products/the-smart-grinder™-pro,2023-11-23
@@ -49799,8 +49810,8 @@ propellercoffee.com:37416022180005,propellercoffee.com,5997217087653,the Barista
 propellercoffee.com:37416022212773,propellercoffee.com,5997217087653,the Barista Pro™,Smoked Hickory,2268,unknown,https://www.propellercoffee.com/products/the-barista-pro™,2023-11-23
 propellercoffee.com:37416022245541,propellercoffee.com,5997217087653,the Barista Pro™,Damson Blue,2268,unknown,https://www.propellercoffee.com/products/the-barista-pro™,2023-11-23
 propellercoffee.com:37416022278309,propellercoffee.com,5997217087653,the Barista Pro™,Oyster Shell,2268,unknown,https://www.propellercoffee.com/products/the-barista-pro™,2023-11-23
-propellercoffee.com:37443527213221,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Charcoal 12oz,340.2,coffee,https://www.propellercoffee.com/products/huskeecup,2023-11-23
-propellercoffee.com:37443528818853,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Natural 12oz,340.2,coffee,https://www.propellercoffee.com/products/huskeecup,2023-11-23
+propellercoffee.com:37443527213221,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Charcoal 12oz,340.2,drinkware,https://www.propellercoffee.com/products/huskeecup,2023-11-23
+propellercoffee.com:37443528818853,propellercoffee.com,5326051475621,HuskeeCup,Huskee Cup Natural 12oz,340.2,drinkware,https://www.propellercoffee.com/products/huskeecup,2023-11-23
 propellercoffee.com:37454056128677,propellercoffee.com,5878187753637,Food 4 Farmers,$5,,service,https://www.propellercoffee.com/products/girls-gotta-run,2023-11-23
 propellercoffee.com:37486576566437,propellercoffee.com,6020667179173,PLUCK Organic Orange Pekoe of York,,,tea,https://www.propellercoffee.com/products/pluck-teas-organic-orange-pekoe,2023-11-23
 propellercoffee.com:39252505329829,propellercoffee.com,6537207972005,Propeller Coffee Journal,,,merch,https://www.propellercoffee.com/products/propeller-coffee-journal,2023-11-23
@@ -49999,7 +50010,7 @@ propellercoffee.com:50270949409015,propellercoffee.com,9843415089399,Turbo Espre
 propellercoffee.com:50270949441783,propellercoffee.com,9843415089399,Turbo Espresso - Gift,3 bags per month for 3 months,,coffee,https://www.propellercoffee.com/products/turbo-espresso-gift,2025-11-19
 propellercoffee.com:50300830384375,propellercoffee.com,9843415089399,Coffee Gift Subscription ~ Espresso,2 months (6 bags),,subscription,https://www.propellercoffee.com/products/turbo-espresso-gift,2025-11-26
 propellercoffee.com:50300830417143,propellercoffee.com,9843415089399,Coffee Gift Subscription ~ Espresso,3 months (9 bags),,subscription,https://www.propellercoffee.com/products/turbo-espresso-gift,2025-11-26
-propellercoffee.com:50325734490359,propellercoffee.com,9858829091063,Barista Masterclass,,,unknown,https://www.propellercoffee.com/products/barista-masterclass,2025-12-10
+propellercoffee.com:50325734490359,propellercoffee.com,9858829091063,Barista Masterclass,,,service,https://www.propellercoffee.com/products/barista-masterclass,2025-12-10
 propellercoffee.com:50331238269175,propellercoffee.com,5857247363237,the Breville Barista Express™,Stainless Steel,12000,equipment,https://www.propellercoffee.com/products/the-barista-express™,2025-12-08
 propellercoffee.com:50331297415415,propellercoffee.com,9859581608183,the Breville Luxe Brewer™Thermal,Stainless Steel,7200,equipment,https://www.propellercoffee.com/products/the-breville-precision-brewer™thermal-copy,2025-12-12
 propellercoffee.com:50331297448183,propellercoffee.com,9859581608183,the Breville Luxe Brewer™Thermal,Black Truffle,2268,equipment,https://www.propellercoffee.com/products/the-breville-precision-brewer™thermal-copy,2025-12-12
@@ -50061,10 +50072,10 @@ propellercoffee.com:50331772420343,propellercoffee.com,9859689152759,Breville Es
 propellercoffee.com:50331795718391,propellercoffee.com,9859694461175,Breville ClaroSwiss Water Filter,,,equipment,https://www.propellercoffee.com/products/breville-claroswiss-water-filter,2025-12-12
 propellercoffee.com:50331796472055,propellercoffee.com,9859694952695,Breville Charcoal Replacement Water Filters - 6pk,,,equipment,https://www.propellercoffee.com/products/breville-replacement-water-filter-charcoal,2025-12-12
 propellercoffee.com:50333336830199,propellercoffee.com,9860029874423,the Naked Portafilter™ 58mm,,,unknown,https://www.propellercoffee.com/products/the-naked-portafilter™-58mm-1,2025-12-12
-propellercoffee.com:50342375325943,propellercoffee.com,9862362235127,Breville Masterclass,,,equipment,https://www.propellercoffee.com/products/breville-masterclass,2025-12-10
-propellercoffee.com:50342454690039,propellercoffee.com,9862376456439,Homebrewing Masterclass,,,unknown,https://www.propellercoffee.com/products/homebrewing-masterclass,2025-12-10
-propellercoffee.com:50342466322679,propellercoffee.com,9862377308407,Espresso Masterclass,,,coffee,https://www.propellercoffee.com/products/espresso-masterclass,2025-12-10
-propellercoffee.com:50342476710135,propellercoffee.com,9862378029303,Milk Steaming Masterclass,,,syrup_food,https://www.propellercoffee.com/products/milk-steaming-masterclass,2025-12-10
+propellercoffee.com:50342375325943,propellercoffee.com,9862362235127,Breville Masterclass,,,service,https://www.propellercoffee.com/products/breville-masterclass,2025-12-10
+propellercoffee.com:50342454690039,propellercoffee.com,9862376456439,Homebrewing Masterclass,,,service,https://www.propellercoffee.com/products/homebrewing-masterclass,2025-12-10
+propellercoffee.com:50342466322679,propellercoffee.com,9862377308407,Espresso Masterclass,,,service,https://www.propellercoffee.com/products/espresso-masterclass,2025-12-10
+propellercoffee.com:50342476710135,propellercoffee.com,9862378029303,Milk Steaming Masterclass,,,service,https://www.propellercoffee.com/products/milk-steaming-masterclass,2025-12-10
 propellercoffee.com:50362312327415,propellercoffee.com,9866787389687,Coffee Subscription Gift,2 Months (6 bags),,subscription,https://www.propellercoffee.com/products/coffee-subscription-gift,2025-12-21
 propellercoffee.com:50362312360183,propellercoffee.com,9866787389687,Coffee Subscription Gift,3 Months (9 bags),,subscription,https://www.propellercoffee.com/products/coffee-subscription-gift,2025-12-21
 propellercoffee.com:50362312392951,propellercoffee.com,9866787389687,Coffee Subscription Gift,4 Months (12 bags),,subscription,https://www.propellercoffee.com/products/coffee-subscription-gift,2025-12-21
@@ -50078,13 +50089,13 @@ propellercoffee.com:50458678526199,propellercoffee.com,7516286877943,Food 4 Farm
 propellercoffee.com:50458678558967,propellercoffee.com,7516286877943,Food 4 Farmers,5,,service,https://www.propellercoffee.com/products/food-4-farmers,2026-02-22
 propellercoffee.com:50458678591735,propellercoffee.com,7516286877943,Food 4 Farmers,10,,service,https://www.propellercoffee.com/products/food-4-farmers,2026-02-22
 propellercoffee.com:50458678624503,propellercoffee.com,7516286877943,Food 4 Farmers,20,,service,https://www.propellercoffee.com/products/food-4-farmers,2026-02-22
-propellercoffee.com:50502994886903,propellercoffee.com,9903161344247,Breville Discovery Session,$5,,equipment,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
-propellercoffee.com:50502994919671,propellercoffee.com,9903161344247,Breville Discovery Session,$10,,equipment,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
-propellercoffee.com:50502994952439,propellercoffee.com,9903161344247,Breville Discovery Session,$20,,equipment,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
-propellercoffee.com:50502994985207,propellercoffee.com,9903161344247,Breville Discovery Session,$30,,equipment,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
-propellercoffee.com:50502995017975,propellercoffee.com,9903161344247,Breville Discovery Session,$40,,equipment,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
-propellercoffee.com:50502995050743,propellercoffee.com,9903161344247,Breville Discovery Session,$50,,equipment,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
-propellercoffee.com:50502995083511,propellercoffee.com,9903161344247,Breville Discovery Session,$60,,equipment,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
+propellercoffee.com:50502994886903,propellercoffee.com,9903161344247,Breville Discovery Session,$5,,gift_card,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
+propellercoffee.com:50502994919671,propellercoffee.com,9903161344247,Breville Discovery Session,$10,,gift_card,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
+propellercoffee.com:50502994952439,propellercoffee.com,9903161344247,Breville Discovery Session,$20,,gift_card,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
+propellercoffee.com:50502994985207,propellercoffee.com,9903161344247,Breville Discovery Session,$30,,gift_card,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
+propellercoffee.com:50502995017975,propellercoffee.com,9903161344247,Breville Discovery Session,$40,,gift_card,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
+propellercoffee.com:50502995050743,propellercoffee.com,9903161344247,Breville Discovery Session,$50,,gift_card,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
+propellercoffee.com:50502995083511,propellercoffee.com,9903161344247,Breville Discovery Session,$60,,gift_card,https://www.propellercoffee.com/products/complimentary-breville-masterclass,2026-02-19
 propellercoffee.com:50565000724727,propellercoffee.com,6703108161701,Hario V60-02 Ceramic Dripper,Matte Black,,equipment,https://www.propellercoffee.com/products/hario-v60-02-red-ceramic-dripper,2026-03-12
 propellercoffee.com:50565000757495,propellercoffee.com,6703108161701,Hario V60-02 Ceramic Dripper,Oil Green,,equipment,https://www.propellercoffee.com/products/hario-v60-02-red-ceramic-dripper,2026-03-12
 propellercoffee.com:50565002494199,propellercoffee.com,9922294808823,Chemex Coffee Maker 10 Cup,,2268,equipment,https://www.propellercoffee.com/products/chemex-coffee-maker-10-cup,2026-03-12
@@ -50330,9 +50341,9 @@ rampagecoffee.com:31613345235006,rampagecoffee.com,4344412504126,Skull Spoons | 
 rampagecoffee.com:31833350537278,rampagecoffee.com,4514684567614,The Classic Hat | Rampage Coffee Co.,Curved Brim,680,merch,https://rampagecoffee.com/products/the-classic-hat-rampage-coffee-co,2023-11-28
 rampagecoffee.com:31833350570046,rampagecoffee.com,4514684567614,The Classic Hat | Rampage Coffee Co.,Flat Brim,680,merch,https://rampagecoffee.com/products/the-classic-hat-rampage-coffee-co,2023-11-28
 rampagecoffee.com:31991935664190,rampagecoffee.com,4550974242878,Rampage Coffee Co. Holographic Logo Sticker (3 pack),,,merch,https://rampagecoffee.com/products/rampage-coffee-co-holographic-logo-sticker-3-pack,2023-11-28
-rampagecoffee.com:31997605347390,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,The Original Blend,150,coffee,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
-rampagecoffee.com:31997605609534,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,Sweet Canadian Maple,150,coffee,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
-rampagecoffee.com:31997605740606,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,Sampler Bundle 75g of each,75,coffee,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
+rampagecoffee.com:31997605347390,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,The Original Blend,150,syrup_food,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
+rampagecoffee.com:31997605609534,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,Sweet Canadian Maple,150,syrup_food,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
+rampagecoffee.com:31997605740606,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,Sampler Bundle 75g of each,75,syrup_food,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32066842787902,rampagecoffee.com,4568791908414,Custom Dad's Name Bada** Dad Mug Bundle,RIOT Bundle / Whole Bean,680,bundle,https://rampagecoffee.com/products/custom-dads-name-bada-dad-mug-bundle,2023-11-28
 rampagecoffee.com:32066842820670,rampagecoffee.com,4568791908414,Custom Dad's Name Bada** Dad Mug Bundle,RIOT Bundle / Ground,680,bundle,https://rampagecoffee.com/products/custom-dads-name-bada-dad-mug-bundle,2023-11-28
 rampagecoffee.com:32066842853438,rampagecoffee.com,4568791908414,Custom Dad's Name Bada** Dad Mug Bundle,C-4 Bundle / Whole Bean,680,bundle,https://rampagecoffee.com/products/custom-dads-name-bada-dad-mug-bundle,2023-11-28
@@ -50369,7 +50380,7 @@ rampagecoffee.com:32077299548222,rampagecoffee.com,4575558238270,"The ""Upgraded
 rampagecoffee.com:32077299580990,rampagecoffee.com,4575558238270,"The ""Upgraded Sampler"" Bundle | Rampage Coffee Co.",Whole Bean / Curved,680,bundle,https://rampagecoffee.com/products/the-upgraded-sampler-bundle-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32077299613758,rampagecoffee.com,4575558238270,"The ""Upgraded Sampler"" Bundle | Rampage Coffee Co.",Ground / Flat,680,bundle,https://rampagecoffee.com/products/the-upgraded-sampler-bundle-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32077299646526,rampagecoffee.com,4575558238270,"The ""Upgraded Sampler"" Bundle | Rampage Coffee Co.",Ground / Curved,680,bundle,https://rampagecoffee.com/products/the-upgraded-sampler-bundle-rampage-coffee-co,2023-11-28
-rampagecoffee.com:32110624407614,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,The World's Hottest,150,coffee,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
+rampagecoffee.com:32110624407614,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,The World's Hottest,150,syrup_food,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32137819815998,rampagecoffee.com,4600612749374,Rubber Logo Coasters | Rampage Coffee Co.,1 Coaster,,merch,https://rampagecoffee.com/products/rubber-logo-coasters-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32137819848766,rampagecoffee.com,4600612749374,Rubber Logo Coasters | Rampage Coffee Co.,4 pack (Best Deal),,merch,https://rampagecoffee.com/products/rubber-logo-coasters-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32484207001662,rampagecoffee.com,4734774509630,"5 Pound Bag, Sticker Pack + BONUS Coaster Set | Rampage Coffee Co.",RIOT | Medium Roast Premium Blend / Whole Bean,2268,bundle,https://rampagecoffee.com/products/5-pound-bag-bonus-coaster-set-rampage-coffee-co,2023-11-28
@@ -50380,7 +50391,7 @@ rampagecoffee.com:32484207132734,rampagecoffee.com,4734774509630,"5 Pound Bag, S
 rampagecoffee.com:32484207165502,rampagecoffee.com,4734774509630,"5 Pound Bag, Sticker Pack + BONUS Coaster Set | Rampage Coffee Co.",CODE BLK | Dark Roast Premium Blend / Ground,2268,bundle,https://rampagecoffee.com/products/5-pound-bag-bonus-coaster-set-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32484207198270,rampagecoffee.com,4734774509630,"5 Pound Bag, Sticker Pack + BONUS Coaster Set | Rampage Coffee Co.",FULL FORCE | Premium Espresso Blend / Whole Bean,2268,bundle,https://rampagecoffee.com/products/5-pound-bag-bonus-coaster-set-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32484207231038,rampagecoffee.com,4734774509630,"5 Pound Bag, Sticker Pack + BONUS Coaster Set | Rampage Coffee Co.",FULL FORCE | Premium Espresso Blend / Ground,2268,bundle,https://rampagecoffee.com/products/5-pound-bag-bonus-coaster-set-rampage-coffee-co,2023-11-28
-rampagecoffee.com:32484231872574,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,Poultry Perfection,150,coffee,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
+rampagecoffee.com:32484231872574,rampagecoffee.com,4552679686206,Coffee Rub Bags (75g) | Rampage Coffee Co.,Poultry Perfection,150,syrup_food,https://rampagecoffee.com/products/coffee-rubs-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32514315255870,rampagecoffee.com,4744239218750,Face Mask | Rampage Coffee Co.,1 Mask,,coffee,https://rampagecoffee.com/products/face-mask-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32514315288638,rampagecoffee.com,4744239218750,Face Mask | Rampage Coffee Co.,4 Pack (save 15%),,coffee,https://rampagecoffee.com/products/face-mask-rampage-coffee-co,2023-11-28
 rampagecoffee.com:32514315321406,rampagecoffee.com,4744239218750,Face Mask | Rampage Coffee Co.,10 Pack (save 30%),,coffee,https://rampagecoffee.com/products/face-mask-rampage-coffee-co,2023-11-28
@@ -50674,10 +50685,10 @@ rampagecoffee.com:39561601613886,rampagecoffee.com,6648210227262,C - 4 | Smooth 
 rampagecoffee.com:39561706602558,rampagecoffee.com,6648384553022,Sticker Fanatic 30 Pack | Rampage Coffee Co.,,,merch,https://rampagecoffee.com/products/sticker-fanatic-30-pack-rampage-coffee-co,2023-11-28
 rampagecoffee.com:39561724231742,rampagecoffee.com,6648421089342,"Large 4"" Holographic Logo Sticker | Rampage Coffee Co.",,,merch,https://rampagecoffee.com/products/large-4-holographic-logo-sticker-rampage-coffee-co,2023-11-28
 rampagecoffee.com:39561725345854,rampagecoffee.com,6648423579710,"Large 4"" Logo Sticker | Rampage Coffee Co.",,,merch,https://rampagecoffee.com/products/large-4-logo-sticker-rampage-coffee-co,2023-11-28
-rampagecoffee.com:39561738125374,rampagecoffee.com,6648463261758,Coffee Rub Shakers (138g) | Rampage Coffee Co.,Mix Up Bundle - All Three Flavours,138,coffee,https://rampagecoffee.com/products/coffee-rub-shakers-rampage-coffee-co,2023-11-28
-rampagecoffee.com:39561738158142,rampagecoffee.com,6648463261758,Coffee Rub Shakers (138g) | Rampage Coffee Co.,The Original Blend - 3 Shakers,138,coffee,https://rampagecoffee.com/products/coffee-rub-shakers-rampage-coffee-co,2023-11-28
-rampagecoffee.com:39561738190910,rampagecoffee.com,6648463261758,Coffee Rub Shakers (138g) | Rampage Coffee Co.,The World's Hottest - 3 Shakers,138,coffee,https://rampagecoffee.com/products/coffee-rub-shakers-rampage-coffee-co,2023-11-28
-rampagecoffee.com:39561738223678,rampagecoffee.com,6648463261758,Coffee Rub Shakers (138g) | Rampage Coffee Co.,Sweet Canadian Maple- 3 Shakers,138,coffee,https://rampagecoffee.com/products/coffee-rub-shakers-rampage-coffee-co,2023-11-28
+rampagecoffee.com:39561738125374,rampagecoffee.com,6648463261758,Coffee Rub Shakers (138g) | Rampage Coffee Co.,Mix Up Bundle - All Three Flavours,138,syrup_food,https://rampagecoffee.com/products/coffee-rub-shakers-rampage-coffee-co,2023-11-28
+rampagecoffee.com:39561738158142,rampagecoffee.com,6648463261758,Coffee Rub Shakers (138g) | Rampage Coffee Co.,The Original Blend - 3 Shakers,138,syrup_food,https://rampagecoffee.com/products/coffee-rub-shakers-rampage-coffee-co,2023-11-28
+rampagecoffee.com:39561738190910,rampagecoffee.com,6648463261758,Coffee Rub Shakers (138g) | Rampage Coffee Co.,The World's Hottest - 3 Shakers,138,syrup_food,https://rampagecoffee.com/products/coffee-rub-shakers-rampage-coffee-co,2023-11-28
+rampagecoffee.com:39561738223678,rampagecoffee.com,6648463261758,Coffee Rub Shakers (138g) | Rampage Coffee Co.,Sweet Canadian Maple- 3 Shakers,138,syrup_food,https://rampagecoffee.com/products/coffee-rub-shakers-rampage-coffee-co,2023-11-28
 rampagecoffee.com:39562665721918,rampagecoffee.com,6649730957374,Vixen V-Neck Tee | Rampage Coffee Co.,Small,340,merch,https://rampagecoffee.com/products/vixen-v-neck-tee-rampage-coffee-co,2023-11-28
 rampagecoffee.com:39562665754686,rampagecoffee.com,6649730957374,Vixen V-Neck Tee | Rampage Coffee Co.,Medium,340,merch,https://rampagecoffee.com/products/vixen-v-neck-tee-rampage-coffee-co,2023-11-28
 rampagecoffee.com:39562665787454,rampagecoffee.com,6649730957374,Vixen V-Neck Tee | Rampage Coffee Co.,Large,340,merch,https://rampagecoffee.com/products/vixen-v-neck-tee-rampage-coffee-co,2023-11-28
@@ -51010,9 +51021,9 @@ rampagecoffee.com:40077375701054,rampagecoffee.com,7164981477438,Rustic GOAT  | 
 rampagecoffee.com:40085626585150,rampagecoffee.com,7167739068478,Insulated To-Go Tumbler (16oz) | Rampage Coffee Co,,453.6,equipment,https://rampagecoffee.com/products/insulated-to-go-tumbler-rampage-coffee-co,2023-11-28
 rampagecoffee.com:40085629173822,rampagecoffee.com,7167740674110,Cold Brew Glass (16oz) | Rampage Coffee Co,,453.6,equipment,https://rampagecoffee.com/products/cold-brew-glass-16oz-rampage-coffee-co,2023-11-28
 rampagecoffee.com:40090221707326,rampagecoffee.com,7170797568062,Cold Brew Coffee Maker Kit | Rampage Coffee Co.,,1000,equipment,https://rampagecoffee.com/products/cold-brew-coffee-maker-kit-rampage-coffee-co,2023-11-28
-rampagecoffee.com:40090227769406,rampagecoffee.com,7170805399614,Cold Brew Coffee Packs | Rampage Coffee Co.,6 packs,680,coffee,https://rampagecoffee.com/products/cold-brew-coffee-packs-rampage-coffee-co,2023-11-28
-rampagecoffee.com:40090227802174,rampagecoffee.com,7170805399614,Cold Brew Coffee Packs | Rampage Coffee Co.,12 packs,680,coffee,https://rampagecoffee.com/products/cold-brew-coffee-packs-rampage-coffee-co,2023-11-28
-rampagecoffee.com:40098999435326,rampagecoffee.com,7170805399614,Cold Brew Coffee Packs | Rampage Coffee Co.,4 packs,680,coffee,https://rampagecoffee.com/products/cold-brew-coffee-packs-rampage-coffee-co,2023-11-28
+rampagecoffee.com:40090227769406,rampagecoffee.com,7170805399614,Cold Brew Coffee Packs | Rampage Coffee Co.,6 packs,680,ready_to_drink,https://rampagecoffee.com/products/cold-brew-coffee-packs-rampage-coffee-co,2023-11-28
+rampagecoffee.com:40090227802174,rampagecoffee.com,7170805399614,Cold Brew Coffee Packs | Rampage Coffee Co.,12 packs,680,ready_to_drink,https://rampagecoffee.com/products/cold-brew-coffee-packs-rampage-coffee-co,2023-11-28
+rampagecoffee.com:40098999435326,rampagecoffee.com,7170805399614,Cold Brew Coffee Packs | Rampage Coffee Co.,4 packs,680,ready_to_drink,https://rampagecoffee.com/products/cold-brew-coffee-packs-rampage-coffee-co,2023-11-28
 rampagecoffee.com:40099013754942,rampagecoffee.com,7174330875966,Cold Brew Filter Bags | Rampage Coffee Co.,4 Filters,150,equipment,https://rampagecoffee.com/products/cold-brew-filter-bags-rampage-coffee-co,2023-11-28
 rampagecoffee.com:40099013787710,rampagecoffee.com,7174330875966,Cold Brew Filter Bags | Rampage Coffee Co.,6 Filters,150,equipment,https://rampagecoffee.com/products/cold-brew-filter-bags-rampage-coffee-co,2023-11-28
 rampagecoffee.com:40099013820478,rampagecoffee.com,7174330875966,Cold Brew Filter Bags | Rampage Coffee Co.,12 Filters,150,equipment,https://rampagecoffee.com/products/cold-brew-filter-bags-rampage-coffee-co,2023-11-28
@@ -51024,7 +51035,7 @@ rampagecoffee.com:40282023428158,rampagecoffee.com,7281215176766,Rave BBQ | King
 rampagecoffee.com:40282025787454,rampagecoffee.com,7281216553022,Rave BBQ | Shrimp on the Barbie Coffee Mug,,750,drinkware,https://rampagecoffee.com/products/another-shrimp-on-the-barbie-coffee-mug,2024-02-08
 rampagecoffee.com:40282025820222,rampagecoffee.com,7281216585790,Rave BBQ | We Wish You a Merry Brisket Coffee Mug,,750,drinkware,https://rampagecoffee.com/products/we-wish-you-a-merry-brisket-11oz-coffee-mug,2024-02-08
 rampagecoffee.com:40282028048446,rampagecoffee.com,7281217667134,Rave BBQ| Sweet & Smokey Maple 4oz Scented Candle,,113.4,unknown,https://rampagecoffee.com/products/sweet-smokey-maple-4oz-scented-candle,2024-02-08
-rampagecoffee.com:40282028933182,rampagecoffee.com,7281218289726,Rave BBQ | Da Burger Bomb Rub/Seasoning - 75g bag,,75,unknown,https://rampagecoffee.com/products/burger-bomb-burger-blend-75g-bag,2024-06-20
+rampagecoffee.com:40282028933182,rampagecoffee.com,7281218289726,Rave BBQ | Da Burger Bomb Rub/Seasoning - 75g bag,,75,seasoning,https://rampagecoffee.com/products/burger-bomb-burger-blend-75g-bag,2024-06-20
 rampagecoffee.com:40282029424702,rampagecoffee.com,7281218748478,Rave BBQ | Chickity Chicken Rub/Seasoning,75g Bag,75,unknown,https://rampagecoffee.com/products/chickity-chicken-rub-seasoning-160g-shaker,2024-02-08
 rampagecoffee.com:40282029457470,rampagecoffee.com,7281218748478,Rave BBQ | Chickity Chicken Rub/Seasoning,165g Shaker,165,unknown,https://rampagecoffee.com/products/chickity-chicken-rub-seasoning-160g-shaker,2024-02-08
 rampagecoffee.com:40282029490238,rampagecoffee.com,7281218748478,Rave BBQ | Chickity Chicken Rub/Seasoning,1 LB Bag,453.6,unknown,https://rampagecoffee.com/products/chickity-chicken-rub-seasoning-160g-shaker,2024-02-08
@@ -54512,7 +54523,7 @@ roguewavecoffee.ca:44782119944486,roguewavecoffee.ca,8227386032422,MHW-3BOMBER -
 roguewavecoffee.ca:44782119977254,roguewavecoffee.ca,8227386032422,MHW-3BOMBER - 5.0 Milk Pitcher | 600 mL / 20 oz,600 mL / Off-White,567,syrup_food,https://www.roguewavecoffee.ca/products/mhw-3bomber-5-0-milk-pitcher-600-ml-20-oz,2023-11-23
 roguewavecoffee.ca:44782120010022,roguewavecoffee.ca,8227386032422,MHW-3BOMBER - 5.0 Milk Pitcher | 600 mL / 20 oz,600 mL / Multicolour,567,syrup_food,https://www.roguewavecoffee.ca/products/mhw-3bomber-5-0-milk-pitcher-600-ml-20-oz,2023-11-23
 roguewavecoffee.ca:44782790607142,roguewavecoffee.ca,8227792060710,MHW-3BOMBER - Ultra Thin Distributor | 58.35 mm,,200,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-ultra-thin-distributor-58-35-mm,2023-11-23
-roguewavecoffee.ca:44782847066406,roguewavecoffee.ca,8227833315622,MHW-3BOMBER - Lightning Needle Distribution Tool V2 | Black,,200,coffee,https://www.roguewavecoffee.ca/products/mhw-3bomber-lightning-needle-distribution-tool-black,2023-11-23
+roguewavecoffee.ca:44782847066406,roguewavecoffee.ca,8227833315622,MHW-3BOMBER - Lightning Needle Distribution Tool V2 | Black,,200,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-lightning-needle-distribution-tool-black,2023-11-23
 roguewavecoffee.ca:44783329181990,roguewavecoffee.ca,8228011704614,MHW-3BOMBER - Formula Smart Coffee Scale,Black,600,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-formula-smart-coffee-scale,2023-11-23
 roguewavecoffee.ca:44783329214758,roguewavecoffee.ca,8228011704614,MHW-3BOMBER - Formula Smart Coffee Scale,White,600,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-formula-smart-coffee-scale,2023-11-23
 roguewavecoffee.ca:44788957839654,roguewavecoffee.ca,8230195036454,MHW-3BOMBER - Walnut Tamper Holder | 58mm,,200,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-walnut-tamper-holder-58mm,2023-11-23
@@ -55152,7 +55163,7 @@ roguewavecoffee.ca:51630525448563,roguewavecoffee.ca,8227226845478,MHW-3BOMBER -
 roguewavecoffee.ca:51630525579635,roguewavecoffee.ca,9232854384934,MHW-3BOMBER - Planet Hand Brewing Kettle - 600 mL,Silver Spot,200,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-planet-hand-brewing-kettle-600-ml,2024-10-07
 roguewavecoffee.ca:51630525645171,roguewavecoffee.ca,14616414323059,MHW-3BOMBER - Knife Brush | Walnut,,300,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-knife-brush-walnut,2024-10-07
 roguewavecoffee.ca:51630525907315,roguewavecoffee.ca,14616414585203,MHW-3Bomber - Flash Constant pressure tamper Keychain,,,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-flash-constant-pressure-tamper-keychain,2024-10-07
-roguewavecoffee.ca:51630526267763,roguewavecoffee.ca,14616414945651,MHW-3BOMBER - Yu Series Cyclone Needle Distribution WDT Tool,,500,coffee,https://www.roguewavecoffee.ca/products/mhw-3bomber-yu-series-cyclone-needle-distribution-wdt-tool,2024-10-07
+roguewavecoffee.ca:51630526267763,roguewavecoffee.ca,14616414945651,MHW-3BOMBER - Yu Series Cyclone Needle Distribution WDT Tool,,500,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-yu-series-cyclone-needle-distribution-wdt-tool,2024-10-07
 roguewavecoffee.ca:51630527086963,roguewavecoffee.ca,14616415764851,MHW-3BOMBER - CD-Texture Distributor | 58.35 mm,,600,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-cd-texture-distributor-58-35-mm,2024-10-07
 roguewavecoffee.ca:51630527906163,roguewavecoffee.ca,9268195918118,MHW-3BOMBER - FLASH Constant Pressure Tamper 58.35mm | V2.0,Thread,500,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-flash-constant-pressure-tamper-58-35mm,2024-10-07
 roguewavecoffee.ca:51630527938931,roguewavecoffee.ca,9268195918118,MHW-3BOMBER - FLASH Constant Pressure Tamper 58.35mm | V2.0,Flat,500,equipment,https://www.roguewavecoffee.ca/products/mhw-3bomber-flash-constant-pressure-tamper-58-35mm,2024-10-07
@@ -58929,7 +58940,7 @@ rossocoffeeroasters.com:45142201598134,rossocoffeeroasters.com,8803872014518,Ful
 rossocoffeeroasters.com:45142201630902,rossocoffeeroasters.com,8803872014518,Full Bloom / Colombia,"5lb / Medium Coarse - Chemex, Aeropress",2268,coffee,https://www.rossocoffeeroasters.com/products/full-bloom-colombia,2026-06-01
 rossocoffeeroasters.com:45142201663670,rossocoffeeroasters.com,8803872014518,Full Bloom / Colombia,5lb / Whole Bean,2268,coffee,https://www.rossocoffeeroasters.com/products/full-bloom-colombia,2026-06-01
 rossocoffeeroasters.com:45234877071542,rossocoffeeroasters.com,8824498913462,Daye Bensa Anaerobic Natural 74158 100g,,100,coffee,https://www.rossocoffeeroasters.com/products/ethiopia-gatta-anaerobic-natural,2026-07-04
-rossocoffeeroasters.com:45243968094390,rossocoffeeroasters.com,8826121781430,Grinder Seasoning / Burr Prep Beans,,2268,equipment,https://www.rossocoffeeroasters.com/products/grinder-seasoning-burr-prep-beans,2026-07-07
+rossocoffeeroasters.com:45243968094390,rossocoffeeroasters.com,8826121781430,Grinder Seasoning / Burr Prep Beans,,2268,seasoning,https://www.rossocoffeeroasters.com/products/grinder-seasoning-burr-prep-beans,2026-07-07
 rossocoffeeroasters.com:45244252586166,rossocoffeeroasters.com,8826212843702,Two Wheel 5lb Whole Bean,,2268,coffee,https://www.rossocoffeeroasters.com/products/two-wheel-5lb-whole-bean,2026-07-07
 rossocoffeeroasters.com:45244253044918,rossocoffeeroasters.com,8826213204150,Two Wheel 5lb Coarse,,2268,unknown,https://www.rossocoffeeroasters.com/products/two-wheel-5lb-coarse,2026-07-07
 rossocoffeeroasters.com:45244253634742,rossocoffeeroasters.com,8826213662902,Two Wheel 5lb Medium Coarse,,2268,unknown,https://www.rossocoffeeroasters.com/products/two-wheel-5lb-medium-coarse,2026-07-07
@@ -60058,7 +60069,7 @@ september.coffee:40282199130210,september.coffee,6851817242722,September Tee,XL 
 september.coffee:40282199162978,september.coffee,6851817242722,September Tee,XXL / Sand,100,merch,https://september.coffee/products/september-tee,2023-11-23
 september.coffee:40282199195746,september.coffee,6851817242722,September Tee,XXXL / Sand,100,merch,https://september.coffee/products/september-tee,2023-11-23
 september.coffee:40282246479970,september.coffee,6851823861858,Irineo Ramirez - Guatemala,,250,coffee,https://september.coffee/products/irineo-ramirez-guatemala,2023-12-11
-september.coffee:40282882211938,september.coffee,6851952803938,Seasoning Coffee,,1000,coffee,https://september.coffee/products/test-batch,2023-11-23
+september.coffee:40282882211938,september.coffee,6851952803938,Seasoning Coffee,,1000,seasoning,https://september.coffee/products/test-batch,2023-11-23
 september.coffee:40339686752354,september.coffee,6868475773026,Diego Bermudez - Colombia,,250,coffee,https://september.coffee/products/diago-bermudez-colombia,2023-11-23
 september.coffee:40363993006178,september.coffee,6874504003682,Yukro Lot 1 - Ethiopia,,250,coffee,https://september.coffee/products/yukro-lot-1-ethiopia,2023-11-23
 september.coffee:40374929555554,september.coffee,6877025501282,Red Plum - Colombia Diego Bermudez,,250,coffee,https://september.coffee/products/red-plum-colombia,2023-11-23
@@ -60661,7 +60672,7 @@ september.coffee:42829762330722,september.coffee,7613724950626,Luna Bermudez - T
 september.coffee:42829764460642,september.coffee,7613725180002,Wilder Lasso - Washed Geisha (Extra-Light),,200,coffee,https://september.coffee/products/wilder-lasso-washed-geisha-extra-light,2026-04-25
 september.coffee:42851876470882,september.coffee,7625268232290,El Rubí Sidamo,,200,coffee,https://september.coffee/products/el-rubi-sidamo-2026,2026-05-05
 september.coffee:42851892887650,september.coffee,7625281405026,Blue Blossom,,200,coffee,https://september.coffee/products/blueberry-blossom,2026-05-05
-september.coffee:42851903766626,september.coffee,7625291530338,Midnight Jam,,250,coffee,https://september.coffee/products/midnight-jam,2026-05-05
+september.coffee:42851903766626,september.coffee,7625291530338,Midnight Jam - Espresso,,250,coffee,https://september.coffee/products/midnight-jam,2026-05-05
 september.coffee:42851930996834,september.coffee,7625304965218,El Rubí Sidamo (Extra-light. May 6th),,200,coffee,https://september.coffee/products/el-rubi-sidamo-extra-light-1,2026-05-05
 september.coffee:42866727059554,september.coffee,7630238154850,Jose Jijon - Washed Mejorado (Extra-Light) [Garage Sale - April 2],,200,coffee,https://september.coffee/products/jose-jijon-washed-mejorado-extra-light-garage-sale-april-2,2026-05-10
 september.coffee:42866730532962,september.coffee,7630238744674,Letty Bermudez - Colombia Geisha (Garage Sale),200g - 02.17.26,200,coffee,https://september.coffee/products/letty-bermudez-colombia-geisha-garage-sale,2026-05-10
@@ -60796,6 +60807,12 @@ september.coffee:50815187058786,september.coffee,10360455692386,Getachew Zekele,
 september.coffee:50815217401954,september.coffee,10360459395170,El Burro Lot 17 - Panama,,100,coffee,https://september.coffee/products/el-burro-lot-17-panama-1,2026-11-02
 september.coffee:50815237324898,september.coffee,10360462639202,El Burro Lot 16 - Panama,,100,coffee,https://september.coffee/products/el-burro-lot-16-panama-1,2026-11-02
 september.coffee:50815642632290,september.coffee,10360525783138,Linacro Rodriguez - Geisha,,113,coffee,https://september.coffee/products/linacro-rodriguez-geisha,2026-11-02
+september.coffee:51017483190370,september.coffee,10388089569378,Raro Boda,,250,coffee,https://september.coffee/products/raro-boda,2026-11-16
+september.coffee:51017554690146,september.coffee,10388128596066,Yohanis Dogoma,,250,coffee,https://september.coffee/products/yohanis-dogoma,2026-11-16
+september.coffee:51019403329634,september.coffee,10388719763554,Jesús Antonio Chala,,250,coffee,https://september.coffee/products/jesus-antonio-chala,2026-11-16
+september.coffee:51030065610850,september.coffee,10391854481506,Reshad Ababulgu - Red Honey JARC 74110,,250,coffee,https://september.coffee/products/reshad-ababulgu-red-honey-jarc-74110,2026-11-16
+september.coffee:51030790537314,september.coffee,10392018190434,Yohanis Dogoma (Extra-light),,250,coffee,https://september.coffee/products/yohanis-dogoma-extra-light,2026-11-16
+september.coffee:51030790897762,september.coffee,10392018255970,Raro Boda (Extra-light),,250,coffee,https://september.coffee/products/raro-boda-extra-light,2026-11-16
 sethtaylor.ca:12408259182673,sethtaylor.ca,1354139500625,Clever Dripper,,454,equipment,https://sethtaylor.ca/products/clever-dripper,2023-11-28
 sethtaylor.ca:31338320363601,sethtaylor.ca,4386180464721,Hario Switch Immersion Dripper Kit,,300,equipment,https://sethtaylor.ca/products/hario-switch-immersion-brewer-kit,2023-11-28
 sethtaylor.ca:32262430031953,sethtaylor.ca,4603508490321,Kalita #4 White Filter Papers - 100 pack,,225,equipment,https://sethtaylor.ca/products/kalita-2-filters-100-pack,2023-11-28
@@ -61831,7 +61848,7 @@ sorellina.ca:47494527320263,sorellina.ca,8912455499975,Ndiani Nyeri - Kenya - Na
 sorellina.ca:47494943965383,sorellina.ca,8912471130311,Dark Queen Lot#6 -  Costa Rica - Natural Geisha,100g,100,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
 sorellina.ca:47494943998151,sorellina.ca,8912471130311,Dark Queen Lot#6 -  Costa Rica - Natural Geisha,227g,227,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
 sorellina.ca:47494944030919,sorellina.ca,8912471130311,Dark Queen Lot#6 -  Costa Rica - Natural Geisha,1lb,453.6,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
-sorellina.ca:67819515510983,sorellina.ca,15387453882567,Seasoning Beans,1lb,453.6,coffee,https://sorellina.ca/products/seasoning-beans,2026-11-13
+sorellina.ca:67819515510983,sorellina.ca,15387453882567,Seasoning Beans,1lb,453.6,seasoning,https://sorellina.ca/products/seasoning-beans,2026-11-13
 sorellina.ca:67819655364807,sorellina.ca,15387511324871,Roasters Choice,Single Origin 227g,227,coffee,https://sorellina.ca/products/roasters-choice,2026-11-13
 sorellina.ca:67819655397575,sorellina.ca,15387511324871,Roasters Choice,Brewer's Series 100g,100,coffee,https://sorellina.ca/products/roasters-choice,2026-11-13
 sorellina.ca:68198766903495,sorellina.ca,15464071626951,"Cafe Don Benjie ""Mandarino 01"" -  Panama - Pink Bourbon Washed",100g,100,service,https://sorellina.ca/products/baru-black-mountain-panama-washed-mossto,2026-11-13
@@ -62744,10 +62761,10 @@ structurecoffeeroasters.com:33242519568447,structurecoffeeroasters.com,486248094
 structurecoffeeroasters.com:33242519601215,structurecoffeeroasters.com,4862480941119,The Classic - Espresso,4 x  300g bags per shipment / Espresso grind / Brunch Blend,1200,subscription,https://structurecoffeeroasters.com/products/classic-espresso,2023-11-23
 structurecoffeeroasters.com:33242519633983,structurecoffeeroasters.com,4862480941119,The Classic - Espresso,1.8kg / 4lb per shipment / Whole Bean / Brunch Blend,1800,subscription,https://structurecoffeeroasters.com/products/classic-espresso,2023-11-23
 structurecoffeeroasters.com:33242519666751,structurecoffeeroasters.com,4862480941119,The Classic - Espresso,1.8kg / 4lb per shipment / Espresso grind / Brunch Blend,1800,subscription,https://structurecoffeeroasters.com/products/classic-espresso,2023-11-23
-structurecoffeeroasters.com:33246123491391,structurecoffeeroasters.com,4871846920255,A Gift of Coffee,$25.00,,coffee,https://structurecoffeeroasters.com/products/a-gift-of-coffee,2023-11-23
-structurecoffeeroasters.com:33246123524159,structurecoffeeroasters.com,4871846920255,A Gift of Coffee,$50.00,,coffee,https://structurecoffeeroasters.com/products/a-gift-of-coffee,2023-11-23
-structurecoffeeroasters.com:33246123556927,structurecoffeeroasters.com,4871846920255,A Gift of Coffee,$100.00,,coffee,https://structurecoffeeroasters.com/products/a-gift-of-coffee,2023-11-23
-structurecoffeeroasters.com:33246123589695,structurecoffeeroasters.com,4871846920255,A Gift of Coffee,$200.00,,coffee,https://structurecoffeeroasters.com/products/a-gift-of-coffee,2023-11-23
+structurecoffeeroasters.com:33246123491391,structurecoffeeroasters.com,4871846920255,A Gift of Coffee,$25.00,,gift_card,https://structurecoffeeroasters.com/products/a-gift-of-coffee,2023-11-23
+structurecoffeeroasters.com:33246123524159,structurecoffeeroasters.com,4871846920255,A Gift of Coffee,$50.00,,gift_card,https://structurecoffeeroasters.com/products/a-gift-of-coffee,2023-11-23
+structurecoffeeroasters.com:33246123556927,structurecoffeeroasters.com,4871846920255,A Gift of Coffee,$100.00,,gift_card,https://structurecoffeeroasters.com/products/a-gift-of-coffee,2023-11-23
+structurecoffeeroasters.com:33246123589695,structurecoffeeroasters.com,4871846920255,A Gift of Coffee,$200.00,,gift_card,https://structurecoffeeroasters.com/products/a-gift-of-coffee,2023-11-23
 structurecoffeeroasters.com:33294679113791,structurecoffeeroasters.com,4862463508543,Roaster's choice - Espresso,2 x 300g bags per shipment / Whole Bean / 1852 espresso,600,subscription,https://structurecoffeeroasters.com/products/roasters-choice-espresso,2023-11-23
 structurecoffeeroasters.com:33337716080703,structurecoffeeroasters.com,1990866534463,WALTER FERNANDEZ,2.27kg - 5lb,2270,coffee,https://structurecoffeeroasters.com/products/walter-fernandez,2023-11-23
 structurecoffeeroasters.com:33337716113471,structurecoffeeroasters.com,1990866534463,WALTER FERNANDEZ,300g,300,coffee,https://structurecoffeeroasters.com/products/walter-fernandez,2023-11-23
@@ -66042,8 +66059,8 @@ transcendcoffee.ca:46205043703877,transcendcoffee.ca,4177380638768,Sample Bag of
 transcendcoffee.ca:46205043736645,transcendcoffee.ca,4177380638768,Sample Bag of Transcend Coffee,Transcend Espresso San Sebastián - Mexico,60,coffee,https://transcendcoffee.ca/products/sample-bag-transcend-coffee,2026-10-31
 virginhillcoffee.com:48238142587153,virginhillcoffee.com,9225739141393,Do it yourself Latte Kit,,2000,unknown,https://virginhillcoffee.com/products/do-it-yourself-latte-kit,2026-11-13
 virginhillcoffee.com:48238144422161,virginhillcoffee.com,9225739731217,Jura Milk System Cleaner 180g,,180,syrup_food,https://virginhillcoffee.com/products/jura-milk-system-cleaner-180g,2026-11-13
-virginhillcoffee.com:48238144520465,virginhillcoffee.com,9225739829521,Bougie Candle - 9oz,Coffee,255.1,coffee,https://virginhillcoffee.com/products/bougie-candle-9oz,2026-11-13
-virginhillcoffee.com:48238144553233,virginhillcoffee.com,9225739829521,Bougie Candle - 9oz,Vanilla Latte,255.1,coffee,https://virginhillcoffee.com/products/bougie-candle-9oz,2026-11-13
+virginhillcoffee.com:48238144520465,virginhillcoffee.com,9225739829521,Bougie Candle - 9oz,Coffee,255.1,merch,https://virginhillcoffee.com/products/bougie-candle-9oz,2026-11-13
+virginhillcoffee.com:48238144553233,virginhillcoffee.com,9225739829521,Bougie Candle - 9oz,Vanilla Latte,255.1,merch,https://virginhillcoffee.com/products/bougie-candle-9oz,2026-11-13
 virginhillcoffee.com:48238148911377,virginhillcoffee.com,9225740386577,Jamaica Blue Mountain Peaberry,Beans / 400g,400,coffee,https://virginhillcoffee.com/products/jamaica-blue-mountain,2026-11-13
 virginhillcoffee.com:48238148944145,virginhillcoffee.com,9225740386577,Jamaica Blue Mountain Peaberry,Beans / 600g,600,coffee,https://virginhillcoffee.com/products/jamaica-blue-mountain,2026-11-13
 virginhillcoffee.com:48238149009681,virginhillcoffee.com,9225740386577,Jamaica Blue Mountain Peaberry,Filter grind (regular) / 400g,400,coffee,https://virginhillcoffee.com/products/jamaica-blue-mountain,2026-11-13
@@ -66092,7 +66109,7 @@ virginhillcoffee.com:48238495826193,virginhillcoffee.com,9225965109521,Smooth Ta
 virginhillcoffee.com:48238495891729,virginhillcoffee.com,9225965109521,Smooth Tasting Kit,Filter grind (regular) / No thank you,1000,bundle,https://virginhillcoffee.com/products/smooth-tasting-kit,2026-11-13
 virginhillcoffee.com:48238497104145,virginhillcoffee.com,9225966092561,Bold Tasting Kit,Beans / No thank you,1000,bundle,https://virginhillcoffee.com/products/bold-tasting-kit,2026-11-13
 virginhillcoffee.com:48238497169681,virginhillcoffee.com,9225966092561,Bold Tasting Kit,Filter grind (regular) / No thank you,1000,bundle,https://virginhillcoffee.com/products/bold-tasting-kit,2026-11-13
-virginhillcoffee.com:48238498840849,virginhillcoffee.com,9225967239441,Airscape 500g Brushed Steel Coffee Canister,,500,coffee,https://virginhillcoffee.com/products/airscape-500g-brushed-steel-coffee-canister,2026-11-13
+virginhillcoffee.com:48238498840849,virginhillcoffee.com,9225967239441,Airscape 500g Brushed Steel Coffee Canister,,500,equipment,https://virginhillcoffee.com/products/airscape-500g-brushed-steel-coffee-canister,2026-11-13
 virginhillcoffee.com:48238505623825,virginhillcoffee.com,9225972220177,Filter Cartridge Claris Smart + Jura 3 pack,,2000,coffee,https://virginhillcoffee.com/products/filter-cartridge-claris-smart-jura-3-pack,2026-11-13
 virginhillcoffee.com:48238506541329,virginhillcoffee.com,9225972875537,Mélange Fondation Christian Vachon (1KG),Beans,1000,coffee,https://virginhillcoffee.com/products/melange-fondation-christian-vachon-1kg,2026-11-13
 virginhillcoffee.com:48238506574097,virginhillcoffee.com,9225972875537,Mélange Fondation Christian Vachon (1KG),Espresso Grind,1000,coffee,https://virginhillcoffee.com/products/melange-fondation-christian-vachon-1kg,2026-11-13
@@ -66102,20 +66119,20 @@ virginhillcoffee.com:48238506672401,virginhillcoffee.com,9225972875537,Mélange 
 virginhillcoffee.com:48238506705169,virginhillcoffee.com,9225972875537,Mélange Fondation Christian Vachon (1KG),Stovetop Espresso,1000,coffee,https://virginhillcoffee.com/products/melange-fondation-christian-vachon-1kg,2026-11-13
 virginhillcoffee.com:48238507393297,virginhillcoffee.com,9225973498129,Brazil 3 cup French Press from Bodum,,250,equipment,https://virginhillcoffee.com/products/brazil-3-cup-french-press-from-bodum,2026-11-13
 virginhillcoffee.com:48238507852049,virginhillcoffee.com,9225973825809,Brazil 12 cup French Press from Bodum,,250,equipment,https://virginhillcoffee.com/products/brazil-12-cup-french-press-from-bodum,2026-11-13
-virginhillcoffee.com:48238511259921,virginhillcoffee.com,9225976578321,Cafecito - 3oz reusable candle - Mimi & August,,85,coffee,https://virginhillcoffee.com/products/cafecito-3oz-reusable-candle-mimi-august,2026-11-13
+virginhillcoffee.com:48238511259921,virginhillcoffee.com,9225976578321,Cafecito - 3oz reusable candle - Mimi & August,,85,merch,https://virginhillcoffee.com/products/cafecito-3oz-reusable-candle-mimi-august,2026-11-13
 virginhillcoffee.com:48238511620369,virginhillcoffee.com,9225976938769,Turquoise T-shirt with Pink Logo,Small,1000,merch,https://virginhillcoffee.com/products/turquoise-t-shirt-with-pink-logo,2026-11-13
 virginhillcoffee.com:48238511653137,virginhillcoffee.com,9225976938769,Turquoise T-shirt with Pink Logo,Medium,1000,merch,https://virginhillcoffee.com/products/turquoise-t-shirt-with-pink-logo,2026-11-13
 virginhillcoffee.com:48238511685905,virginhillcoffee.com,9225976938769,Turquoise T-shirt with Pink Logo,Large,1000,merch,https://virginhillcoffee.com/products/turquoise-t-shirt-with-pink-logo,2026-11-13
 virginhillcoffee.com:48238513946897,virginhillcoffee.com,9225978806545,Brazil 8 Cup French Press from Bodum,,250,equipment,https://virginhillcoffee.com/products/brazil-french-press-8-cup-by-bodum,2026-11-13
-virginhillcoffee.com:48238518141201,virginhillcoffee.com,9225982607633,Mimi & August Reusable Candle 3oz - Artea,,85,unknown,https://virginhillcoffee.com/products/mimi-august-reusable-candle-3oz-artea,2026-11-13
+virginhillcoffee.com:48238518141201,virginhillcoffee.com,9225982607633,Mimi & August Reusable Candle 3oz - Artea,,85,merch,https://virginhillcoffee.com/products/mimi-august-reusable-candle-3oz-artea,2026-11-13
 virginhillcoffee.com:48238520664337,virginhillcoffee.com,9225984311569,Jura Water Filter Cartridge Claris Smart+,,250,equipment,https://virginhillcoffee.com/products/jura-water-filter-cartridge-claris-smart,2026-11-13
 virginhillcoffee.com:48238523351313,virginhillcoffee.com,9225986212113,Honey WB 250g,,250,unknown,https://virginhillcoffee.com/products/honey-wb-250g,2026-11-13
 virginhillcoffee.com:48238527938833,virginhillcoffee.com,9225989161233,Hot Chocolate 1lb,,453.6,syrup_food,https://virginhillcoffee.com/products/hot-chocolate,2026-11-13
 virginhillcoffee.com:48238528528657,virginhillcoffee.com,9225989685521,Bialetti Venus Induction 10 cup,,1134,drinkware,https://virginhillcoffee.com/products/bialetti-venus-induction-10-cup,2026-11-13
 virginhillcoffee.com:48238530527505,virginhillcoffee.com,9225991029009,Bellucci Latte Pro – Induction Milk Frother,,250,syrup_food,https://virginhillcoffee.com/products/bellucci-latte-ppro-induction-milk-frother,2026-11-13
 virginhillcoffee.com:48238532854033,virginhillcoffee.com,9225992962321,Robin Badger Espresso Cup,,250,drinkware,https://virginhillcoffee.com/products/robin-badger-espresso-cup,2026-11-13
-virginhillcoffee.com:48238533247249,virginhillcoffee.com,9225993257233,Airscape 500g Matte Black Coffee Canister,,500,coffee,https://virginhillcoffee.com/products/airscape-500g-matte-black-coffee-canister,2026-11-13
-virginhillcoffee.com:48238533738769,virginhillcoffee.com,9225993715985,Airscape 500g Matte White Coffee Canister,,500,coffee,https://virginhillcoffee.com/products/airscape-500g-matte-white-coffee-canister,2026-11-13
+virginhillcoffee.com:48238533247249,virginhillcoffee.com,9225993257233,Airscape 500g Matte Black Coffee Canister,,500,equipment,https://virginhillcoffee.com/products/airscape-500g-matte-black-coffee-canister,2026-11-13
+virginhillcoffee.com:48238533738769,virginhillcoffee.com,9225993715985,Airscape 500g Matte White Coffee Canister,,500,equipment,https://virginhillcoffee.com/products/airscape-500g-matte-white-coffee-canister,2026-11-13
 virginhillcoffee.com:48238534394129,virginhillcoffee.com,9225994141969,Airscape Kilo Coffee Canister Matte Black,,250,equipment,https://virginhillcoffee.com/products/airscape-kilo-coffee-canister-matte-black,2026-11-13
 virginhillcoffee.com:48238535147793,virginhillcoffee.com,9225994633489,Airscape Kilo Matte Gray Coffee Canister,,250,equipment,https://virginhillcoffee.com/products/airscape-kilo-matte-gray-coffee-canister,2026-11-13
 virginhillcoffee.com:48238536687889,virginhillcoffee.com,9225995976977,JURA 2 phase Cleaning Tablets x25,,250,cleaning,https://virginhillcoffee.com/products/jura-2-phase-cleaning-tablets-x25,2026-11-13
@@ -66132,9 +66149,10 @@ virginhillcoffee.com:48238549598481,virginhillcoffee.com,9226005512465,Jura Care
 virginhillcoffee.com:48238549664017,virginhillcoffee.com,9226005578001,Jura Descaling Tablets 2 Phases,,1000,cleaning,https://virginhillcoffee.com/products/jura-descaling-tablets-2-phases,2026-11-13
 virginhillcoffee.com:48238549795089,virginhillcoffee.com,9226005709073,Jura Milk System Cleaner 90g,,90,syrup_food,https://virginhillcoffee.com/products/jura-milk-system-cleaner-90g,2026-11-13
 virginhillcoffee.com:48238550188305,virginhillcoffee.com,9226005971217,Bialetti Moka Express 3 cup,,1000,drinkware,https://virginhillcoffee.com/products/bialetti-moka-express-3-cup,2026-11-13
+virginhillcoffee.com:48238550450449,virginhillcoffee.com,9226006167825,Bialetti Moka Express 6 cup,,1000,drinkware,https://virginhillcoffee.com/products/bialetti-moka-express-6-cup,2026-11-16
 virginhillcoffee.com:48238550778129,virginhillcoffee.com,9226006495505,Caramel Coffee Toffee - Fleur de Sel,,,coffee,https://virginhillcoffee.com/products/caramel-coffee-toffee-fleur-de-sel,2026-11-13
 virginhillcoffee.com:48238551925009,virginhillcoffee.com,9226006855953,Virgin Mady Coffee-Infused Maple Syrup 200ml,,,syrup_food,https://virginhillcoffee.com/products/virgin-mady-coffee-infused-maple-syrup,2026-11-13
-virginhillcoffee.com:48238553465105,virginhillcoffee.com,9226007019793,Maple Coffee Popcorn from Francois Lambert,,,coffee,https://virginhillcoffee.com/products/maple-coffee-popcorn-from-francois-lambert,2026-11-13
+virginhillcoffee.com:48238553465105,virginhillcoffee.com,9226007019793,Maple Coffee Popcorn from Francois Lambert,,,syrup_food,https://virginhillcoffee.com/products/maple-coffee-popcorn-from-francois-lambert,2026-11-13
 virginhillcoffee.com:48238555431185,virginhillcoffee.com,9226007871761,Bialetti Moka Express 12 Cup,,1000,drinkware,https://virginhillcoffee.com/products/moka-express-12-cup-bialetti,2026-11-13
 virginhillcoffee.com:48238556807441,virginhillcoffee.com,9226008723729,Microlot Tasting Kit,1 lot x 3 roasted brown / Beans / Yes,2500,bundle,https://virginhillcoffee.com/products/microlot-tasting-kit,2026-11-13
 virginhillcoffee.com:48238556872977,virginhillcoffee.com,9226008723729,Microlot Tasting Kit,1 lot x 3 roasted mi-noir / Beans / Yes,2500,bundle,https://virginhillcoffee.com/products/microlot-tasting-kit,2026-11-13
@@ -66624,16 +66642,16 @@ virginhillcoffee.com:49357915554065,virginhillcoffee.com,9715525550353,Bodum Pav
 virginhillcoffee.com:49357915652369,virginhillcoffee.com,9715525583121,Bodum Pavina 8oz Double Parois,,226.8,coffee,https://virginhillcoffee.com/products/bo-pavina-8oz-double-parois-regular,2026-11-13
 virginhillcoffee.com:49357916340497,virginhillcoffee.com,9715525648657,Bodum Pavina Cup + Pour Over Set,,250,equipment,https://virginhillcoffee.com/products/bo-pavina-tasse-pour-over-set-regular,2026-11-13
 virginhillcoffee.com:49357916373265,virginhillcoffee.com,9715525714193,Bodum Pavina TO GO 10 oz With Lid Double Parois,,283.5,unknown,https://virginhillcoffee.com/products/bo-pavina-to-go-10-oz-with-lid-double-parois-regular,2026-11-13
-virginhillcoffee.com:49357929808145,virginhillcoffee.com,9715527287057,Cielo - Reusable Candle 3oz - Mimi and August,,85,unknown,https://virginhillcoffee.com/products/cielo-reusable-candle-3oz-mimi-and-august,2026-11-13
-virginhillcoffee.com:49357929906449,virginhillcoffee.com,9715527352593,Cielo - Reusable Candle 5.5oz - Mimi & August,,155.9,unknown,https://virginhillcoffee.com/products/cielo-la-bougie-r-utilisable-5-5oz-mimi-august-regular,2026-11-13
+virginhillcoffee.com:49357929808145,virginhillcoffee.com,9715527287057,Cielo - Reusable Candle 3oz - Mimi and August,,85,merch,https://virginhillcoffee.com/products/cielo-reusable-candle-3oz-mimi-and-august,2026-11-13
+virginhillcoffee.com:49357929906449,virginhillcoffee.com,9715527352593,Cielo - Reusable Candle 5.5oz - Mimi & August,,155.9,merch,https://virginhillcoffee.com/products/cielo-la-bougie-r-utilisable-5-5oz-mimi-august-regular,2026-11-13
 virginhillcoffee.com:49357956874513,virginhillcoffee.com,9715533086993,AeroPress Stainless Steel Filter - Standard,,250,equipment,https://virginhillcoffee.com/products/aeropress-stainless-steel-filter-standard,2026-11-13
-virginhillcoffee.com:49357957726481,virginhillcoffee.com,9715533283601,Foresta - 5.5 oz Reusable Candle - Mimi & August,,155.9,unknown,https://virginhillcoffee.com/products/foresta-la-bougie-r-utilisable-5-5oz-mimi-august-regular,2026-11-13
-virginhillcoffee.com:49357959495953,virginhillcoffee.com,9715533447441,Black Coffee Soap from François Lambert,,250,coffee,https://virginhillcoffee.com/products/fran-ois-lambert-savon-regular,2026-11-13
+virginhillcoffee.com:49357957726481,virginhillcoffee.com,9715533283601,Foresta - 5.5 oz Reusable Candle - Mimi & August,,155.9,merch,https://virginhillcoffee.com/products/foresta-la-bougie-r-utilisable-5-5oz-mimi-august-regular,2026-11-13
+virginhillcoffee.com:49357959495953,virginhillcoffee.com,9715533447441,Black Coffee Soap from François Lambert,,250,merch,https://virginhillcoffee.com/products/fran-ois-lambert-savon-regular,2026-11-13
 virginhillcoffee.com:49357966541073,virginhillcoffee.com,9715534364945,Hario Ceramic Coffee Grinder Skerton,,250,equipment,https://virginhillcoffee.com/products/hario-ceramic-coffee-mill-skerton-regular,2026-11-13
 virginhillcoffee.com:49357967261969,virginhillcoffee.com,9715534430481,Hario V60-02 Ceramic Dripper White,,250,equipment,https://virginhillcoffee.com/products/hario-v60-02-coffee-dripper-ceramic-white-vdc-02w-for-1-regular,2026-11-13
 virginhillcoffee.com:49357968277777,virginhillcoffee.com,9715534659857,Hario V60-02 Plastic Dripper,,250,equipment,https://virginhillcoffee.com/products/hario-v60-02-plastic-dripper,2026-11-13
 virginhillcoffee.com:49357978796305,virginhillcoffee.com,9715536363793,Dragon's Tears - Maple & Coffee,,250,coffee,https://virginhillcoffee.com/products/larmes-de-caf-fran-ois-lambert-1-regular,2026-11-13
-virginhillcoffee.com:49357979091217,virginhillcoffee.com,9715536429329,Lilas - Reusuable Candle  5.5 oz - Mimi & August,,155.9,unknown,https://virginhillcoffee.com/products/lilas-la-bougie-r-utilisable-5-5-oz-mimi-august-regular,2026-11-13
+virginhillcoffee.com:49357979091217,virginhillcoffee.com,9715536429329,Lilas - Reusuable Candle  5.5 oz - Mimi & August,,155.9,merch,https://virginhillcoffee.com/products/lilas-la-bougie-r-utilisable-5-5-oz-mimi-august-regular,2026-11-13
 virginhillcoffee.com:49357996097809,virginhillcoffee.com,9715539607825,Aeropress Microfilters - Pack Of 350,,250,equipment,https://virginhillcoffee.com/products/r-aeropress-microfilters-pack-of-350-regular,2026-11-13
 virginhillcoffee.com:49358005207313,virginhillcoffee.com,9715541278993,Kalita 103 #4 filters,,250,equipment,https://virginhillcoffee.com/products/r-kalita-103-4-filters-regular,2026-11-13
 virginhillcoffee.com:49358248640785,virginhillcoffee.com,9718411100433,Bodum Barista Milk Frother Black,Black,250,syrup_food,https://virginhillcoffee.com/products/bo-barista-milk-frother-black,2026-11-13
@@ -66651,8 +66669,8 @@ virginhillcoffee.com:50424762138897,virginhillcoffee.com,10102174646545,Espresso
 virginhillcoffee.com:50424995447057,virginhillcoffee.com,10102228549905,Espresso Machine - Bellucci Slim Latte,,10000,equipment,https://virginhillcoffee.com/products/bellucci-slim-latte-1,2026-11-13
 virginhillcoffee.com:50425774276881,virginhillcoffee.com,10102390849809,Espresso Machine - Bellucci Espresso Bar,,10000,equipment,https://virginhillcoffee.com/products/espresso-machine-bellucci-espresso-bar,2026-11-13
 virginhillcoffee.com:50447887859985,virginhillcoffee.com,9226009346321,Organic Tasting Kit,Filter & espresso grind / No,1500,bundle,https://virginhillcoffee.com/products/organic-tasting-kit,2026-11-13
-virginhillcoffee.com:50461951361297,virginhillcoffee.com,10112743276817,Foresta - Reusable Candle 3oz - Mimi & August,,85,unknown,https://virginhillcoffee.com/products/foresta-reusable-candle,2026-11-13
-virginhillcoffee.com:50486353723665,virginhillcoffee.com,10120596816145,Moonday Good Morning Candle 6.7oz,,189.9,unknown,https://virginhillcoffee.com/products/moonday-goodmorning,2026-11-13
+virginhillcoffee.com:50461951361297,virginhillcoffee.com,10112743276817,Foresta - Reusable Candle 3oz - Mimi & August,,85,merch,https://virginhillcoffee.com/products/foresta-reusable-candle,2026-11-13
+virginhillcoffee.com:50486353723665,virginhillcoffee.com,10120596816145,Moonday Good Morning Candle 6.7oz,,189.9,merch,https://virginhillcoffee.com/products/moonday-goodmorning,2026-11-13
 virginhillcoffee.com:50616859427089,virginhillcoffee.com,10149631590673,Espresso Machine - ROCKET Appartamento Copper,,250,equipment,https://virginhillcoffee.com/products/espresso-machine-rocket-appartamento-copper,2026-11-13
 virginhillcoffee.com:50625669890321,virginhillcoffee.com,10151776092433,Espresso Machine Grinder - ROCKET Faustino Chrome,,250,equipment,https://virginhillcoffee.com/products/espresso-machine-grinder-rocket-faustino-chrome,2026-11-13
 virginhillcoffee.com:50794703814929,virginhillcoffee.com,10193871700241,Whence the Fekawi Ecoffee Cup 14oz,,396.9,drinkware,https://virginhillcoffee.com/products/whence-the-fekawi,2026-11-13
@@ -66661,8 +66679,8 @@ virginhillcoffee.com:50838224666897,virginhillcoffee.com,9225966092561,Bold Tast
 virginhillcoffee.com:50838224699665,virginhillcoffee.com,9225966092561,Bold Tasting Kit,Filter grind (regular) / Yes + $8,2500,bundle,https://virginhillcoffee.com/products/bold-tasting-kit,2026-11-13
 virginhillcoffee.com:50838265561361,virginhillcoffee.com,9225965109521,Smooth Tasting Kit,Beans / Yes + $8,2500,bundle,https://virginhillcoffee.com/products/smooth-tasting-kit,2026-11-13
 virginhillcoffee.com:50838265594129,virginhillcoffee.com,9225965109521,Smooth Tasting Kit,Filter grind (regular) / Yes + $8,2500,bundle,https://virginhillcoffee.com/products/smooth-tasting-kit,2026-11-13
-virginhillcoffee.com:50878436147473,virginhillcoffee.com,10212554211601,Mimi & August - Reusable Candle 5.5oz - Eucalipto,,155.9,coffee,https://virginhillcoffee.com/products/mimi-august-reusable-candle-5-5oz-eucalipto,2026-11-13
-virginhillcoffee.com:50896712597777,virginhillcoffee.com,10218553475345,Moonday Lucky Cereal Latte Candle 6.7oz,,189.9,unknown,https://virginhillcoffee.com/products/moonday-lucky-cereal-latte-candle-6-7oz,2026-11-13
+virginhillcoffee.com:50878436147473,virginhillcoffee.com,10212554211601,Mimi & August - Reusable Candle 5.5oz - Eucalipto,,155.9,merch,https://virginhillcoffee.com/products/mimi-august-reusable-candle-5-5oz-eucalipto,2026-11-13
+virginhillcoffee.com:50896712597777,virginhillcoffee.com,10218553475345,Moonday Lucky Cereal Latte Candle 6.7oz,,189.9,merch,https://virginhillcoffee.com/products/moonday-lucky-cereal-latte-candle-6-7oz,2026-11-13
 virginhillcoffee.com:50940973351185,virginhillcoffee.com,9226011738385,Organic Mont Sutton Blend,Filter Grind / 3/4-pound (340g),1814.4,coffee,https://virginhillcoffee.com/products/organic-mont-sutton-blend,2026-11-13
 virginhillcoffee.com:50940973383953,virginhillcoffee.com,9226011738385,Organic Mont Sutton Blend,Filter Grind / 1kg / 2.2 lbs,1000,coffee,https://virginhillcoffee.com/products/organic-mont-sutton-blend,2026-11-13
 virginhillcoffee.com:50940973416721,virginhillcoffee.com,9226011738385,Organic Mont Sutton Blend,Filter Grind / 2kg / 4.4 lbs,2000,coffee,https://virginhillcoffee.com/products/organic-mont-sutton-blend,2026-11-13
@@ -66682,12 +66700,14 @@ virginhillcoffee.com:50977321648401,virginhillcoffee.com,10236080029969,Maple Co
 virginhillcoffee.com:51106047885585,virginhillcoffee.com,10281398731025,Hario v60-01 filters 100 pack,,500,equipment,https://virginhillcoffee.com/products/hario-v60-01-filters-100-pack,2026-11-13
 virginhillcoffee.com:51217741185297,virginhillcoffee.com,10320654827793,Asobu Happy Hats Mug 12oz– Beige,,340.2,drinkware,https://virginhillcoffee.com/products/asobu-happy-hats-8oz-beige,2026-11-13
 virginhillcoffee.com:51217752129809,virginhillcoffee.com,10320659972369,Asobu Happy Hats Mug 12oz– Purple,,340.2,drinkware,https://virginhillcoffee.com/products/asobu-happy-hats-mug-8oz-purple,2026-11-13
+virginhillcoffee.com:51368924479761,virginhillcoffee.com,10367843893521,"Bialetti Moka Exclusive, pastel cream 3 cup",,250,drinkware,https://virginhillcoffee.com/products/bialetti-moka-exclusive-pastel-cream-3-cup,2026-11-16
+virginhillcoffee.com:51368925266193,virginhillcoffee.com,10367844286737,"Bialetti Moka Exclusive, pastel blue 3 cup",,250,drinkware,https://virginhillcoffee.com/products/bialetti-moka-exclusive-pastel-blue-3-cup,2026-11-16
 virginhillcoffee.com:51436870369553,virginhillcoffee.com,10384939286801,"Bialetti Moka Exclusive, pastel pink 3 cup",,250,drinkware,https://virginhillcoffee.com/products/bialetti-moka-exclusive-pastel-pink-3-cup,2026-11-13
 virginhillcoffee.com:51436872499473,virginhillcoffee.com,10384939876625,"Bialetti Moka Exclusive, Cream 6 cup",,250,drinkware,https://virginhillcoffee.com/products/bialetti-moka-exclusive-pastel-cream-6-cup,2026-11-13
 virginhillcoffee.com:51436878496017,virginhillcoffee.com,10384942465297,"Bialetti Moka Exclusive, Blue 6 cup",,250,drinkware,https://virginhillcoffee.com/products/bialetti-moka-exclusive-pastel-blue-6-cup,2026-11-13
-virginhillcoffee.com:51503476211985,virginhillcoffee.com,10403006972177,Lilas - Reusable candle 3 oz - Mimi & August,,85,unknown,https://virginhillcoffee.com/products/lilas-la-bougie-reutilisable-3-oz-mimi-august,2026-11-13
-virginhillcoffee.com:51533871481105,virginhillcoffee.com,10410426007825,Artea - 5.5oz Reusable Candle - Mimi & August,,155.9,unknown,https://virginhillcoffee.com/products/artea-5-5oz-reusable-candle-mimi-august,2026-11-13
-virginhillcoffee.com:51533871513873,virginhillcoffee.com,10410426040593,Amalfi- 3oz Reusable Candle - Mimi & August,,85,unknown,https://virginhillcoffee.com/products/amalfi-3oz-reusable-candle-mimi-august,2026-11-13
+virginhillcoffee.com:51503476211985,virginhillcoffee.com,10403006972177,Lilas - Reusable candle 3 oz - Mimi & August,,85,merch,https://virginhillcoffee.com/products/lilas-la-bougie-reutilisable-3-oz-mimi-august,2026-11-13
+virginhillcoffee.com:51533871481105,virginhillcoffee.com,10410426007825,Artea - 5.5oz Reusable Candle - Mimi & August,,155.9,merch,https://virginhillcoffee.com/products/artea-5-5oz-reusable-candle-mimi-august,2026-11-13
+virginhillcoffee.com:51533871513873,virginhillcoffee.com,10410426040593,Amalfi- 3oz Reusable Candle - Mimi & August,,85,merch,https://virginhillcoffee.com/products/amalfi-3oz-reusable-candle-mimi-august,2026-11-13
 virginhillcoffee.com:51577071239441,virginhillcoffee.com,10425610666257,Microlot: Guatemala Antigua,1 lot - 600g of green beans / Roasted brown / Beans,600,coffee,https://virginhillcoffee.com/products/guatemala,2026-11-13
 virginhillcoffee.com:51577071272209,virginhillcoffee.com,10425610666257,Microlot: Guatemala Antigua,1 lot - 600g of green beans / Roasted mi-noir / Beans,600,coffee,https://virginhillcoffee.com/products/guatemala,2026-11-13
 virginhillcoffee.com:51577071304977,virginhillcoffee.com,10425610666257,Microlot: Guatemala Antigua,1 lot - 600g of green beans / Roasted black / Beans,600,coffee,https://virginhillcoffee.com/products/guatemala,2026-11-13
@@ -66696,7 +66716,7 @@ virginhillcoffee.com:51577071763729,virginhillcoffee.com,10425610666257,Microlot
 virginhillcoffee.com:51577071796497,virginhillcoffee.com,10425610666257,Microlot: Guatemala Antigua,1 lot - 600g of green beans / Roasted black / Filter grind,600,coffee,https://virginhillcoffee.com/products/guatemala,2026-11-13
 virginhillcoffee.com:51624037220625,virginhillcoffee.com,9226008527121,Teacher Gift Idea,Beans,907,bundle,https://virginhillcoffee.com/products/teacher-gift-idea,2026-11-13
 virginhillcoffee.com:51624037253393,virginhillcoffee.com,9226008527121,Teacher Gift Idea,Filter Grind,907,bundle,https://virginhillcoffee.com/products/teacher-gift-idea,2026-11-13
-virginhillcoffee.com:51638616228113,virginhillcoffee.com,10448224059665,Botanica - 3oz Reusable Candle - Mimi & August,,85,unknown,https://virginhillcoffee.com/products/botanica-3oz-reusable-candle-mimi-august,2026-11-13
+virginhillcoffee.com:51638616228113,virginhillcoffee.com,10448224059665,Botanica - 3oz Reusable Candle - Mimi & August,,85,merch,https://virginhillcoffee.com/products/botanica-3oz-reusable-candle-mimi-august,2026-11-13
 virginhillcoffee.com:51664369516817,virginhillcoffee.com,10458624983313,Asobu Happy Trucker Hat 8oz – Blue,,226.8,unknown,https://virginhillcoffee.com/products/asobu-happy-trucker-hat-8oz-blue,2026-11-13
 virginhillcoffee.com:51664369549585,virginhillcoffee.com,10458624950545,Asobu Cup Puramic 12oz - Pink (1 color),,340.2,drinkware,https://virginhillcoffee.com/products/asobu-cup-puramic-12oz-pink-1-color,2026-11-13
 virginhillcoffee.com:51713417117969,virginhillcoffee.com,10475209949457,Microlot: Tanzania Peaberry,1 lot - 600g green beans / Roasted brown / Beans,600,coffee,https://virginhillcoffee.com/products/tanzania-peaberry-microlot,2026-11-13
@@ -66750,8 +66770,8 @@ virginhillcoffee.com:52693756707089,virginhillcoffee.com,9226006364433,Chocolate
 virginhillcoffee.com:52698713260305,virginhillcoffee.com,10684478849297,Fair Isle VH Cup,,,drinkware,https://virginhillcoffee.com/products/fair-isle-vh-cup,2026-11-13
 virginhillcoffee.com:52698828407057,virginhillcoffee.com,10684501426449,Pre-order: VH Advent Calendar - 13 days of Virgin Hill Coffee,Beans,1800,bundle,https://virginhillcoffee.com/products/13-days-of-virgin-hill-coffee,2026-11-13
 virginhillcoffee.com:52698828439825,virginhillcoffee.com,10684501426449,Pre-order: VH Advent Calendar - 13 days of Virgin Hill Coffee,Filter Grind,1800,bundle,https://virginhillcoffee.com/products/13-days-of-virgin-hill-coffee,2026-11-13
-virginhillcoffee.com:52708087333137,virginhillcoffee.com,10686342562065,Airscape Coffee Canister VH Ski,1KG,1000,coffee,https://virginhillcoffee.com/products/airscape-coffee-canister-vh-ski,2026-11-13
-virginhillcoffee.com:52708087365905,virginhillcoffee.com,10686342562065,Airscape Coffee Canister VH Ski,500G,500,coffee,https://virginhillcoffee.com/products/airscape-coffee-canister-vh-ski,2026-11-13
+virginhillcoffee.com:52708087333137,virginhillcoffee.com,10686342562065,Airscape Coffee Canister VH Ski,1KG,1000,equipment,https://virginhillcoffee.com/products/airscape-coffee-canister-vh-ski,2026-11-13
+virginhillcoffee.com:52708087365905,virginhillcoffee.com,10686342562065,Airscape Coffee Canister VH Ski,500G,500,equipment,https://virginhillcoffee.com/products/airscape-coffee-canister-vh-ski,2026-11-13
 virginhillcoffee.com:52719392063761,virginhillcoffee.com,10689277526289,I Wonder VH T-Shirt,Small,500,merch,https://virginhillcoffee.com/products/i-wonder-vh-t-shirt,2026-11-13
 virginhillcoffee.com:52719392096529,virginhillcoffee.com,10689277526289,I Wonder VH T-Shirt,Medium,500,merch,https://virginhillcoffee.com/products/i-wonder-vh-t-shirt,2026-11-13
 virginhillcoffee.com:52719392129297,virginhillcoffee.com,10689277526289,I Wonder VH T-Shirt,Large,500,merch,https://virginhillcoffee.com/products/i-wonder-vh-t-shirt,2026-11-13
@@ -66797,7 +66817,7 @@ virginhillcoffee.com:53116023472401,virginhillcoffee.com,10558337319185,Loverami
 virginhillcoffee.com:53116023505169,virginhillcoffee.com,10558337319185,Loveramics Espresso Egg Cup 80ml,Rose,,drinkware,https://virginhillcoffee.com/products/loveramics-espresso-cup-80ml,2026-11-13
 virginhillcoffee.com:53116041232657,virginhillcoffee.com,10558337253649,Loveramics 250ml Tasting Cup,Purple,,drinkware,https://virginhillcoffee.com/products/loveramics-250ml-tasting-cup,2026-11-13
 virginhillcoffee.com:53117731242257,virginhillcoffee.com,10774866133265,Loveramics Nomad travel Mug 8oz.,mint,226.8,drinkware,https://virginhillcoffee.com/products/loveramics-nomad-travel-mug-8oz,2026-11-13
-virginhillcoffee.com:53121854767377,virginhillcoffee.com,10944605421841,Mimi & August - Reusable Candle 3oz - Eucalipto,,85,coffee,https://virginhillcoffee.com/products/mimi-august-reusable-candle-3oz-eucalipto,2026-11-13
+virginhillcoffee.com:53121854767377,virginhillcoffee.com,10944605421841,Mimi & August - Reusable Candle 3oz - Eucalipto,,85,merch,https://virginhillcoffee.com/products/mimi-august-reusable-candle-3oz-eucalipto,2026-11-13
 virginhillcoffee.com:53139914752273,virginhillcoffee.com,10949021925649,Virgin Hill Beanie,White,,merch,https://virginhillcoffee.com/products/virgin-hill-beanie-1,2026-11-13
 virginhillcoffee.com:53139914785041,virginhillcoffee.com,10949021925649,Virgin Hill Beanie,Beige,,merch,https://virginhillcoffee.com/products/virgin-hill-beanie-1,2026-11-13
 virginhillcoffee.com:53143885840657,virginhillcoffee.com,9715547308305,Wacaco Nanopresso with Protective Case,Red,250,unknown,https://virginhillcoffee.com/products/wacaco-nanopresso,2026-11-13
@@ -66833,12 +66853,12 @@ virginhillcoffee.com:53639373848849,virginhillcoffee.com,11069394059537,VH Class
 virginhillcoffee.com:53682248515857,virginhillcoffee.com,10774866133265,Loveramics Nomad travel Mug 8oz.,Rose,226.8,drinkware,https://virginhillcoffee.com/products/loveramics-nomad-travel-mug-8oz,2026-11-13
 virginhillcoffee.com:53682248548625,virginhillcoffee.com,10774866133265,Loveramics Nomad travel Mug 8oz.,Buttercup,226.8,drinkware,https://virginhillcoffee.com/products/loveramics-nomad-travel-mug-8oz,2026-11-13
 virginhillcoffee.com:53682248581393,virginhillcoffee.com,10774866133265,Loveramics Nomad travel Mug 8oz.,River blue,226.8,drinkware,https://virginhillcoffee.com/products/loveramics-nomad-travel-mug-8oz,2026-11-13
-virginhillcoffee.com:53685746204945,virginhillcoffee.com,10216398586129,Bialetti stainless steel induction cup funnels,6 cup,250,drinkware,https://virginhillcoffee.com/products/bialetti-funnels,2026-11-13
-virginhillcoffee.com:53685746237713,virginhillcoffee.com,10216398586129,Bialetti stainless steel induction cup funnels,10 Cup,250,drinkware,https://virginhillcoffee.com/products/bialetti-funnels,2026-11-13
-virginhillcoffee.com:53685784609041,virginhillcoffee.com,10216408678673,Bialetti Moka Express Funnel Filter Replacements,3 cup,250,coffee,https://virginhillcoffee.com/products/bialetti-funnel-imbuto-6-tasses-copy,2026-11-13
-virginhillcoffee.com:53685784641809,virginhillcoffee.com,10216408678673,Bialetti Moka Express Funnel Filter Replacements,6 cup,250,coffee,https://virginhillcoffee.com/products/bialetti-funnel-imbuto-6-tasses-copy,2026-11-13
-virginhillcoffee.com:53685784674577,virginhillcoffee.com,10216408678673,Bialetti Moka Express Funnel Filter Replacements,9 cup,250,coffee,https://virginhillcoffee.com/products/bialetti-funnel-imbuto-6-tasses-copy,2026-11-13
-virginhillcoffee.com:53685784707345,virginhillcoffee.com,10216408678673,Bialetti Moka Express Funnel Filter Replacements,12 cup,250,coffee,https://virginhillcoffee.com/products/bialetti-funnel-imbuto-6-tasses-copy,2026-11-13
+virginhillcoffee.com:53685746204945,virginhillcoffee.com,10216398586129,Bialetti stainless steel induction cup funnels,6 cup,250,equipment,https://virginhillcoffee.com/products/bialetti-funnels,2026-11-13
+virginhillcoffee.com:53685746237713,virginhillcoffee.com,10216398586129,Bialetti stainless steel induction cup funnels,10 Cup,250,equipment,https://virginhillcoffee.com/products/bialetti-funnels,2026-11-13
+virginhillcoffee.com:53685784609041,virginhillcoffee.com,10216408678673,Bialetti Moka Express Funnel Filter Replacements,3 cup,250,equipment,https://virginhillcoffee.com/products/bialetti-funnel-imbuto-6-tasses-copy,2026-11-13
+virginhillcoffee.com:53685784641809,virginhillcoffee.com,10216408678673,Bialetti Moka Express Funnel Filter Replacements,6 cup,250,equipment,https://virginhillcoffee.com/products/bialetti-funnel-imbuto-6-tasses-copy,2026-11-13
+virginhillcoffee.com:53685784674577,virginhillcoffee.com,10216408678673,Bialetti Moka Express Funnel Filter Replacements,9 cup,250,equipment,https://virginhillcoffee.com/products/bialetti-funnel-imbuto-6-tasses-copy,2026-11-13
+virginhillcoffee.com:53685784707345,virginhillcoffee.com,10216408678673,Bialetti Moka Express Funnel Filter Replacements,12 cup,250,equipment,https://virginhillcoffee.com/products/bialetti-funnel-imbuto-6-tasses-copy,2026-11-13
 virginhillcoffee.com:53687528849681,virginhillcoffee.com,10558337384721,Loveramics Egg Latte Cup 300ml,Teal,250,drinkware,https://virginhillcoffee.com/products/loveramics-latte-300ml-cup,2026-11-13
 virginhillcoffee.com:53718659105041,virginhillcoffee.com,9715539869969,Bialetti Express Replacement Gasket & Filter Set,3-4 cup,250,equipment,https://virginhillcoffee.com/products/r-bialetti-filter-express-filter,2026-11-13
 virginhillcoffee.com:53718659137809,virginhillcoffee.com,9715539869969,Bialetti Express Replacement Gasket & Filter Set,6 cup,250,equipment,https://virginhillcoffee.com/products/r-bialetti-filter-express-filter,2026-11-13
@@ -66948,8 +66968,9 @@ virginhillcoffee.com:54065438851345,virginhillcoffee.com,11157981364497,Microlot
 virginhillcoffee.com:54070017229073,virginhillcoffee.com,11158603628817,Mug in a Box - Strawberries & Stripes,,100,drinkware,https://virginhillcoffee.com/products/mug-in-a-box-strawberries-stripes,2026-11-13
 virginhillcoffee.com:54070030041361,virginhillcoffee.com,11158609985809,Super good Grinder Brush,,,equipment,https://virginhillcoffee.com/products/super-good-grinder-brush,2026-11-13
 virginhillcoffee.com:54104673288465,virginhillcoffee.com,11069394059537,VH Classic Cap,Orange,,merch,https://virginhillcoffee.com/products/vh-classic-cap,2026-11-13
-virginhillcoffee.com:54470883541265,virginhillcoffee.com,11202571141393,Pumpkin Patch 9oz VH Candle,,255.1,coffee,https://virginhillcoffee.com/products/pumpkin-patch-9oz-vh-candle,2026-11-13
-virginhillcoffee.com:54471618167057,virginhillcoffee.com,11202671902993,Autumn Leaves 9oz VH Candle,,255.1,coffee,https://virginhillcoffee.com/products/autumn-leaves-9oz-vh-candle,2026-11-13
+virginhillcoffee.com:54470883541265,virginhillcoffee.com,11202571141393,Pumpkin Patch 9oz VH Candle,,255.1,merch,https://virginhillcoffee.com/products/pumpkin-patch-9oz-vh-candle,2026-11-13
+virginhillcoffee.com:54471618167057,virginhillcoffee.com,11202671902993,Autumn Leaves 9oz VH Candle,,255.1,merch,https://virginhillcoffee.com/products/autumn-leaves-9oz-vh-candle,2026-11-13
+virginhillcoffee.com:54558538793233,virginhillcoffee.com,11208737489169,"Bialetti Moka Exclusive, pastel pink 6 cup",,250,drinkware,https://virginhillcoffee.com/products/bialetti-moka-exclusive-pastel-pink-6-cup,2026-11-16
 virginhillcoffee.com:54674061066513,virginhillcoffee.com,11229999661329,Coffee-infused maple jelly,,250,coffee,https://virginhillcoffee.com/products/maple-jelly-infused-with-coffee,2026-11-13
 virginhillcoffee.com:54721313112337,virginhillcoffee.com,11246142128401,Apple Crumble Organic Fairtrade Black Tea,,100,tea,https://virginhillcoffee.com/products/apple-crumble-organic-fairtrade-black-tea,2026-11-13
 virginhillcoffee.com:54721342636305,virginhillcoffee.com,11246147928337,Pumpkin Spice Organic Fairtrade Rooibos Herbal Tea,,100,tea,https://virginhillcoffee.com/products/pumpkin-spice-organic-fairtrade-rooibos-herbal-tea,2026-11-13
@@ -66957,7 +66978,7 @@ virginhillcoffee.com:54721378681105,virginhillcoffee.com,11246156448017,Maple Bl
 virginhillcoffee.com:54721423999249,virginhillcoffee.com,11246174339345,Golden Turmeric Organic Fairtrade Herbal Tea,,100,tea,https://virginhillcoffee.com/products/golden-turmeric-organic-fairtrade-herbal-tea,2026-11-13
 virginhillcoffee.com:54728751579409,virginhillcoffee.com,11248172695825,Asobu Cup Puramic 12oz - Black,,340.2,drinkware,https://virginhillcoffee.com/products/asobu-cup-puramic-12oz-black,2026-11-13
 virginhillcoffee.com:54728818622737,virginhillcoffee.com,11248201597201,Asobu Cup Puramic 12oz - Blue,,340.2,drinkware,https://virginhillcoffee.com/products/blue-asobu-cup-puramic-12oz,2026-11-13
-virginhillcoffee.com:54728832057617,virginhillcoffee.com,11248207003921,Mini Maple Syrup Candle with Wood Wick (70ml),,,syrup_food,https://virginhillcoffee.com/products/mini-maple-syrup-candle-with-wood-wick-70ml,2026-11-13
+virginhillcoffee.com:54728832057617,virginhillcoffee.com,11248207003921,Mini Maple Syrup Candle with Wood Wick (70ml),,,merch,https://virginhillcoffee.com/products/mini-maple-syrup-candle-with-wood-wick-70ml,2026-11-13
 virginhillcoffee.com:54728856240401,virginhillcoffee.com,11248213623057,Maple Travel Mug  12oz,,340.2,drinkware,https://virginhillcoffee.com/products/maple-travel-mug-12oz,2026-11-13
 virginhillcoffee.com:54728946123025,virginhillcoffee.com,11248239182097,Maple Syrup Can Ceramic Mug - 12 oz,,340.2,syrup_food,https://virginhillcoffee.com/products/maple-syrup-can-ceramic-mug-12-oz,2026-11-13
 virginhillcoffee.com:67588714168593,virginhillcoffee.com,9226015113489,Pumpkin Spice Coffee 227gr,Filter,227,coffee,https://virginhillcoffee.com/products/pumpkin-spice-coffee-227gr,2026-11-13
@@ -66971,6 +66992,7 @@ virginhillcoffee.com:67649763377425,virginhillcoffee.com,15422386176273,Go Away 
 virginhillcoffee.com:67649780908305,virginhillcoffee.com,15422390698257,Shhh... I'm Overthinking Women's Crew Socks,,,merch,https://virginhillcoffee.com/products/shhh-im-overthinking-women-crew,2026-11-13
 virginhillcoffee.com:67649808007441,virginhillcoffee.com,15422400069905,I'm Someone's Work Buddy W-Crew Socks,,,merch,https://virginhillcoffee.com/products/work-buddy-women-crew,2026-11-13
 virginhillcoffee.com:67649816592657,virginhillcoffee.com,15422404100369,"Quiet Time Socks, We Don't Talk Now W-Crew Socks",,,merch,https://virginhillcoffee.com/products/quiet-time-socks-women-crew,2026-11-13
+virginhillcoffee.com:67650169241873,virginhillcoffee.com,15422531371281,Virgin Hill Blue Coffee Mug Candle,,,merch,https://virginhillcoffee.com/products/virgin-hill-blue-coffee-mug-candle,2026-11-16
 virginhillcoffee.com:67728135553297,virginhillcoffee.com,15445842428177,Stoneware Cup,Pink,,drinkware,https://virginhillcoffee.com/products/stoneware-cup,2026-11-13
 virginhillcoffee.com:67728135586065,virginhillcoffee.com,15445842428177,Stoneware Cup,Shoreline,,drinkware,https://virginhillcoffee.com/products/stoneware-cup,2026-11-13
 virginhillcoffee.com:67839282577681,virginhillcoffee.com,10718284087569,Merry Christmas Candle,Joyeux Noel,,merch,https://virginhillcoffee.com/products/merry-christmas-candle,2026-11-13
@@ -66980,7 +67002,7 @@ virginhillcoffee.com:67876734238993,virginhillcoffee.com,15464920940817,Brumate 
 virginhillcoffee.com:67878418252049,virginhillcoffee.com,15465019932945,Brumate Rise 18 oz Leakproof Water Bottle,Lilac Dusk,510.3,drinkware,https://virginhillcoffee.com/products/brumate-rise-18oz-vh,2026-11-13
 virginhillcoffee.com:67878418284817,virginhillcoffee.com,15465019932945,Brumate Rise 18 oz Leakproof Water Bottle,Glacier,510.3,drinkware,https://virginhillcoffee.com/products/brumate-rise-18oz-vh,2026-11-13
 virginhillcoffee.com:67887292842257,virginhillcoffee.com,15467002986769,Matcha Barista - 100g bag,,100,tea,https://virginhillcoffee.com/products/matcha-barista-sac-de-100g,2026-11-13
-virginhillcoffee.com:67920086270225,virginhillcoffee.com,15471971336465,Botanica - Reusable Candle - 5.5 oz - Mimi & August,,155.9,coffee,https://virginhillcoffee.com/products/botanica-reusable-candle-5-5-oz-mimi-august,2026-11-13
+virginhillcoffee.com:67920086270225,virginhillcoffee.com,15471971336465,Botanica - Reusable Candle - 5.5 oz - Mimi & August,,155.9,merch,https://virginhillcoffee.com/products/botanica-reusable-candle-5-5-oz-mimi-august,2026-11-13
 virginhillcoffee.com:67931836743953,virginhillcoffee.com,15473553506577,StickersVirgin Hill Coffee Stickers,Iced Coffee,,merch,https://virginhillcoffee.com/products/stickers-northwest,2026-11-13
 virginhillcoffee.com:67931836776721,virginhillcoffee.com,15473553506577,StickersVirgin Hill Coffee Stickers,To go Cup VH,,merch,https://virginhillcoffee.com/products/stickers-northwest,2026-11-13
 virginhillcoffee.com:67931836809489,virginhillcoffee.com,15473553506577,StickersVirgin Hill Coffee Stickers,Lac Brome,,merch,https://virginhillcoffee.com/products/stickers-northwest,2026-11-13
@@ -66997,15 +67019,16 @@ virginhillcoffee.com:67958563012881,virginhillcoffee.com,15479261757713,Nikolas 
 virginhillcoffee.com:67958581526801,virginhillcoffee.com,15479264542993,Sweater Dogs Gift-Boxed Mug,,,drinkware,https://virginhillcoffee.com/products/mug-dans-unse-boite-sweater-dogs,2026-11-13
 virginhillcoffee.com:67958650110225,virginhillcoffee.com,15479290822929,St. Moritz Gift-Boxed Mug,,,drinkware,https://virginhillcoffee.com/products/mug-dans-une-boite-st-moritz,2026-11-13
 virginhillcoffee.com:67958654238993,virginhillcoffee.com,15479293018385,Sacred Cats Gift-Boxed Mug,,,drinkware,https://virginhillcoffee.com/products/mug-dans-une-boite-sacred-cats,2026-11-13
-virginhillcoffee.com:67964519022865,virginhillcoffee.com,15481048924433,Natural Lip Balm,Chai Latte,,coffee,https://virginhillcoffee.com/products/baume-a-levres-lip-balm,2026-11-13
-virginhillcoffee.com:67964519055633,virginhillcoffee.com,15481048924433,Natural Lip Balm,Green Tea,,coffee,https://virginhillcoffee.com/products/baume-a-levres-lip-balm,2026-11-13
-virginhillcoffee.com:67964519088401,virginhillcoffee.com,15481048924433,Natural Lip Balm,Mochaccino,,coffee,https://virginhillcoffee.com/products/baume-a-levres-lip-balm,2026-11-13
-virginhillcoffee.com:68014154154257,virginhillcoffee.com,15509287108881,Mimi & August - 2oz Soy Candle - Croissant & Café au Lait,Croissant,56.7,syrup_food,https://virginhillcoffee.com/products/mimi-august-2oz-soy-candle,2026-11-13
-virginhillcoffee.com:68014154187025,virginhillcoffee.com,15509287108881,Mimi & August - 2oz Soy Candle - Croissant & Café au Lait,Café au lait,56.7,syrup_food,https://virginhillcoffee.com/products/mimi-august-2oz-soy-candle,2026-11-13
+virginhillcoffee.com:67964519022865,virginhillcoffee.com,15481048924433,Natural Lip Balm,Chai Latte,,merch,https://virginhillcoffee.com/products/baume-a-levres-lip-balm,2026-11-13
+virginhillcoffee.com:67964519055633,virginhillcoffee.com,15481048924433,Natural Lip Balm,Green Tea,,merch,https://virginhillcoffee.com/products/baume-a-levres-lip-balm,2026-11-13
+virginhillcoffee.com:67964519088401,virginhillcoffee.com,15481048924433,Natural Lip Balm,Mochaccino,,merch,https://virginhillcoffee.com/products/baume-a-levres-lip-balm,2026-11-13
+virginhillcoffee.com:68014154154257,virginhillcoffee.com,15509287108881,Mimi & August - 2oz Soy Candle,Croissant,56.7,merch,https://virginhillcoffee.com/products/mimi-august-2oz-soy-candle,2026-11-13
+virginhillcoffee.com:68014154187025,virginhillcoffee.com,15509287108881,Mimi & August - 2oz Soy Candle,Café au lait,56.7,merch,https://virginhillcoffee.com/products/mimi-august-2oz-soy-candle,2026-11-13
 virginhillcoffee.com:68030641897745,virginhillcoffee.com,15516476145937,Tea Hair Claw Clip,Blue,,tea,https://virginhillcoffee.com/products/tea-hair-claw-clip,2026-11-13
 virginhillcoffee.com:68030641930513,virginhillcoffee.com,15516476145937,Tea Hair Claw Clip,White,,tea,https://virginhillcoffee.com/products/tea-hair-claw-clip,2026-11-13
 virginhillcoffee.com:68030641963281,virginhillcoffee.com,15516476145937,Tea Hair Claw Clip,Pink,,tea,https://virginhillcoffee.com/products/tea-hair-claw-clip,2026-11-13
 virginhillcoffee.com:68030641996049,virginhillcoffee.com,15516476145937,Tea Hair Claw Clip,Purple,,tea,https://virginhillcoffee.com/products/tea-hair-claw-clip,2026-11-13
+virginhillcoffee.com:68051177701649,virginhillcoffee.com,15521961574673,Scented Virgin Hill Candle Duo | Pine & Vanilla Latte (2 × 4 oz),,226.8,merch,https://virginhillcoffee.com/products/scented-virgin-hill-candle-duo-pine-vanilla-latte-2-4-oz,2026-11-16
 yourstrulycoffee.myshopify.com:49922320990487,yourstrulycoffee.myshopify.com,9774678442263,The Artist Series: Semilla x SHRINE,El Sapo,250,unknown,https://yourstrulycoffee.myshopify.com/products/semilla-x-shrine-present-el-sapo,2026-11-13
 yourstrulycoffee.myshopify.com:49922321023255,yourstrulycoffee.myshopify.com,9774678442263,The Artist Series: Semilla x SHRINE,Sarai Jimenez,250,unknown,https://yourstrulycoffee.myshopify.com/products/semilla-x-shrine-present-el-sapo,2026-11-13
 yourstrulycoffee.myshopify.com:49943239754007,yourstrulycoffee.myshopify.com,9685579235607,Liquid Love,300g,300,coffee,https://yourstrulycoffee.myshopify.com/products/liquid-love,2026-11-13
