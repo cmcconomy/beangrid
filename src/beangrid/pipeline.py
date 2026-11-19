@@ -319,7 +319,11 @@ def run(settings: Settings, today: date | None = None, results: list[SiteResult]
     wlm_hidden = {(site, h) for site, p in promos.items() for h in p.get("hidden_products", [])}
     for v in all_variants:
         handle = v.url.rsplit("/products/", 1)[-1]
-        v.members_only = bool(locks.get(v.url, {}).get("members_only")) or (v.site, handle) in wlm_hidden
+        lock = locks.get(v.url, {})
+        # A variant whose option isn't in the public menu ("6 x 2 lb case") is wholesale-only.
+        visible = lock.get("visible_options")
+        hidden_variant = bool(visible) and any(opt not in visible for opt in v.variant_title.split(" / ") if opt)
+        v.members_only = bool(lock.get("members_only")) or hidden_variant or (v.site, handle) in wlm_hidden
 
     stale = {o.site for o in outcomes if o.status == "stale"}
     offers = collapse(all_variants, stale)

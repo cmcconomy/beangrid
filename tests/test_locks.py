@@ -6,7 +6,7 @@ from datetime import date
 
 import httpx
 
-from beangrid.locks import check_locks, is_members_only, pick_products
+from beangrid.locks import check_locks, inspect_page, is_members_only, pick_products
 from beangrid.promos import extract_promos
 
 LOCKSMITH = '<script type="application/vnd.locksmith+json" data-locksmith>{json}</script>'
@@ -71,6 +71,47 @@ def test_pipeline_flags_wlm_hidden_products_without_extra_requests(settings, mon
     offers = json.loads((settings.site_out_dir / "data" / "offers.json").read_text())["offers"]
     hidden = {o["url"].rsplit("/", 1)[1] for o in offers if o["members_only"]}
     assert hidden == {"p1", "p2"}
+
+
+# Just Us! (Spark B2B app): the public size menu omits the wholesale sizes that products.json still lists.
+ITALIAN_PAGE = """<html><head>{lock}</head><body><h1>Italian</h1>
+<div data-spark="b2c-only"><product-variants data-main-product-variants data-type="select">
+  <select id="product-weight-main" name="options[Weight]"><option value="12 oz" selected>12 oz</option><option value="2 lb">2 lb</option></select>
+  <select id="product-grind-main" name="options[Grind]"><option value="Whole Bean">Whole Bean</option><option value="Ground">Ground</option></select>
+  <script type="application/json">{{"id": 46344747024546, "title": "12 oz / Whole Bean"}}</script>
+</product-variants></div>
+<product-form><form action="/cart/add"></form></product-form></body></html>""".format(lock=LOCKSMITH.format(json=json.dumps(OPEN)))
+
+
+def test_page_inspection_records_the_publicly_offered_options():
+    page = inspect_page(ITALIAN_PAGE)
+    assert page == {"members_only": False, "visible_options": ["12 oz", "2 lb", "Ground", "Whole Bean"]}
+    assert inspect_page(product_page(LOCKED))["members_only"] is True
+    assert inspect_page(product_page(None)) == {"members_only": None, "visible_options": None}  # no picker: unknown
+
+
+def test_variants_outside_the_public_menu_are_members_only(settings, monkeypatch):
+    import beangrid.pipeline as pipeline
+    from beangrid.pipeline import run
+    from conftest import make_product
+    from test_pipeline import D0, beta
+
+    settings.min_sites_ok_ratio = 0.5
+    italian = make_product(pid=7, title="Italian Guatemala Dark Roast", handle="italian", variants=[
+        {"id": 1, "title": "12 oz / Whole Bean", "price": "18.20", "grams": 0, "available": True},
+        {"id": 2, "title": "2 lb / Whole Bean", "price": "42.86", "grams": 0, "available": True},
+        {"id": 3, "title": "5 lb / Whole Bean", "price": "70.00", "grams": 0, "available": True},
+        {"id": 4, "title": "6 x 2 lb case / Ground", "price": "109.20", "grams": 0, "available": True}])
+    url = "https://alpha.example/products/italian"
+    (settings.data_dir).mkdir(parents=True, exist_ok=True)
+    (settings.data_dir / "locks.json").write_text(json.dumps({url: {"checked": "2026-03-01", "members_only": False,
+                                                                     "visible_options": ["12 oz", "2 lb", "Whole Bean", "Ground"]}}))
+    from beangrid.fetch import SiteResult
+    res = [SiteResult("https://alpha.example", [italian], ok=True), SiteResult("https://www.beta.example", beta(), ok=True)]
+    run(settings, D0, res)
+    offers = json.loads((settings.site_out_dir / "data" / "offers.json").read_text())["offers"]
+    by_size = {o["size"]: o["members_only"] for o in offers if o["url"] == url}
+    assert by_size == {"340 g": False, "907 g": False, "2.27 kg": True, "5.44 kg": True}
 
 
 def test_pick_new_products_first_then_stale_ones_within_the_cap():
@@ -139,14 +180,19 @@ def test_check_locks_updates_state_and_never_fails(tmp_path, settings):
     def handle(request: httpx.Request) -> httpx.Response:
         if request.url.path == "/products/boom":
             return httpx.Response(429)
+        if request.url.path == "/products/gone":  # listed in products.json, but the page is a 404
+            return httpx.Response(404)
         return httpx.Response(200, text=pages[request.url.path])
 
     path = tmp_path / "locks.json"
     path.write_text(json.dumps({"https://j.example/products/old": {"checked": "2026-11-01", "members_only": True}}))
-    urls = ["https://j.example/products/atlantic", "https://j.example/products/silence", "https://j.example/products/boom"]
+    urls = ["https://j.example/products/atlantic", "https://j.example/products/silence", "https://j.example/products/boom",
+            "https://j.example/products/gone"]
     locks = asyncio.run(check_locks(urls, path, settings, date(2026, 11, 18), transport=httpx.MockTransport(handle)))
-    assert locks["https://j.example/products/atlantic"] == {"checked": "2026-11-18", "members_only": True}
+    assert locks["https://j.example/products/atlantic"] == {"checked": "2026-11-18", "members_only": True,
+                                                            "visible_options": None}
     assert locks["https://j.example/products/silence"]["members_only"] is False
     assert "https://j.example/products/boom" not in locks  # rate-limited: retried another day
+    assert locks["https://j.example/products/gone"]["members_only"] is True  # no public page: not buyable
     assert locks["https://j.example/products/old"]["members_only"] is True  # untouched entries kept
     assert json.loads(path.read_text()) == locks

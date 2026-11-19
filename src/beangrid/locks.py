@@ -18,6 +18,7 @@ from pathlib import Path
 from typing import Any
 
 import httpx
+from bs4 import BeautifulSoup
 
 from beangrid.config import Settings
 from beangrid.fetch import FetchError, SiteResult, get_ok, paced_map
@@ -39,6 +40,29 @@ def is_members_only(html: str) -> bool | None:
     if not isinstance(state, dict) or "access_denied" not in state:
         return None
     return bool(state.get("access_denied"))
+
+
+# Variant pickers across common themes; their options are what the public can actually choose.
+PICKER_TAGS = ("product-variants", "variant-selects", "variant-radios", "variant-picker")
+
+
+def visible_options(html: str) -> list[str] | None:
+    """Option values the product page offers to an anonymous visitor, or None if there's no recognisable picker.
+
+    B2B apps (e.g. Spark at Just Us!) render the public menu without wholesale sizes ("6 x 2 lb case") that
+    products.json still lists.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    values: set[str] = set()
+    for picker in soup.find_all(PICKER_TAGS):
+        values |= {o.get_text(strip=True) for o in picker.find_all("option") if o.get_text(strip=True)}
+        values |= {i.get("value", "").strip() for i in picker.find_all("input") if i.get("type") == "radio"}
+    values.discard("")
+    return sorted(values) if values else None
+
+
+def inspect_page(html: str) -> dict[str, Any]:
+    return {"members_only": is_members_only(html), "visible_options": visible_options(html)}
 
 
 def pick_products(urls: list[str], locks: dict[str, Any], today: date, max_checks: int, recheck_days: int) -> list[str]:
@@ -74,12 +98,17 @@ async def check_locks(
                               accept="text/html,application/xhtml+xml")
     checked = locked = 0
     for r in results:
-        if not r.ok:
+        if not r.ok and not r.transient and "HTTP 404" in (r.error or ""):
+            # Listed in products.json but the page is "not found": hidden from the public storefront.
+            page = {"members_only": True, "visible_options": None}
+        elif not r.ok:
             continue  # rate-limited or down: it stays due and is picked again next run
-        verdict = is_members_only(r.products[0]["html"])
+        else:
+            page = inspect_page(r.products[0]["html"])
         checked += 1
-        locked += bool(verdict)
-        locks[r.site_url] = {"checked": today.isoformat(), "members_only": bool(verdict)}
+        locked += bool(page["members_only"])
+        locks[r.site_url] = {"checked": today.isoformat(), "members_only": bool(page["members_only"]),
+                             "visible_options": page["visible_options"]}
     logger.info("locks: checked %d of %d product pages, %d members-only", checked, len(urls), locked)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(dict(sorted(locks.items())), indent=1) + "\n")
