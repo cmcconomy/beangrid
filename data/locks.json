@@ -19,6 +19,21 @@
    "Whole Bean"
   ]
  },
+ "https://agroroasters.com/products/colombia": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "340g",
+   "5lb",
+   "Aeropress (No Refund/Exchange)",
+   "Espresso (No Refund/Exchange)",
+   "Filter (No Refund/Exchange)",
+   "French Press (No Refund/Exchange)",
+   "Pour Over (No Refund/Exchange)",
+   "Wholebean"
+  ]
+ },
  "https://anchoredcoffee.com/products/palmier-x-anchored": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -1321,6 +1336,22 @@
    "5kg"
   ]
  },
+ "https://mikkocoffee.com/products/coffee-love-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "5 lbs",
+   "Aeropress",
+   "Chemex",
+   "Espresso",
+   "Filter",
+   "French Press",
+   "Moka Pot",
+   "Pourover",
+   "Whole Bean"
+  ]
+ },
  "https://rampagecoffee.com/products/bold-battalion-med-dark-premium-blend": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -1624,6 +1655,14 @@
   ]
  },
  "https://structurecoffeeroasters.com/products/punch-des-fetes": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg - 5lb",
+   "300g"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/turihamwe": {
   "checked": "2026-11-19",
   "members_only": false,
   "visible_options": [
@@ -2089,6 +2128,15 @@
    "Whole beans"
   ]
  },
+ "https://www.elevenspeedcoffee.ca/products/ethiopia-yabitu-koba-natural-copy": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.3kg",
+   "340g"
+  ]
+ },
  "https://www.elevenspeedcoffee.ca/products/not-very-good-at-bikes-lto-espresso-roast": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -2099,6 +2147,43 @@
   ]
  },
  "https://www.nemesis.coffee/products/brazil-serra-dos-ciganos": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
+ "https://www.nemesis.coffee/products/culture": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
+ "https://www.nemesis.coffee/products/decaf-burundi-kalico": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
+ "https://www.nemesis.coffee/products/decaf-guatemala-familia-doando": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
+ "https://www.nemesis.coffee/products/india-ashok-patre-ratnagiri-estate-1": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.nemesis.coffee/products/nicaragua-claudia-lovo": {
   "checked": "2026-11-19",
   "members_only": false,
   "visible_options": [
@@ -2808,6 +2893,31 @@
   "visible_options": [
    "100g"
   ]
+ },
+ "https://www.trafficcoffee.com/products/cafe-bravo": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/cafe-tompol": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/canard-chasse": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/canard-morgan": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/canard-vieux": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
  },
  "https://www.trafficcoffee.com/products/dante-street": {
   "checked": "2026-11-19",

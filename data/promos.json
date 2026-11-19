@@ -50,7 +50,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "anchoredcoffee.com": {
   "checked": "2026-11-19",
@@ -88,7 +89,7 @@
   "checked": "2026-11-19",
   "url": "https://beannorth.com",
   "banners": [
-   "Pause slideshow Play slideshow Monthly Subscriptions Save 5% 10% or 20% when you select subscribe! Cafe is OPEN 9am - 5pm Wednesday Novemeber 11, 2026 **Coming November 16** POP up cafe downtown! 205 Main Street North Of Ordinary"
+   "Pause slideshow Play slideshow Monthly Subscriptions Save 5% 10% or 20% when you select subscribe! Cafe is OPEN 9am - 5pm Everyday! Now Open!!! November 16** POP up cafe downtown! 205 Main Street North Of Ordinary"
   ],
   "codes": [],
   "free_shipping": null,
@@ -653,6 +654,7 @@
    "bluenose-blend",
    "bonnie-lea-farm-blend",
    "cali-co-coffee",
+   "co-operators-roast",
    "coady-blend",
    "dalhousie-university-rise-shine-blend",
    "evolution-acadien-blend",
