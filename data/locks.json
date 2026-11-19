@@ -1,4 +1,35 @@
 {
+ "https://anchoredcoffee.com/products/palmier-x-anchored": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Drip",
+   "Medium Grind",
+   "Other - Specify in notes",
+   "Whole Bean"
+  ]
+ },
+ "https://balzacs.com/products/a-dark-affair": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10 oz can",
+   "12 oz",
+   "18-pack box",
+   "2lb",
+   "300 g",
+   "340 g",
+   "907g",
+   "Compostable pods",
+   "Ground coffee",
+   "Whole bean"
+  ]
+ },
+ "https://birdycoffeeco.ca/products/carpet-one-homes-for-heroes": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
  "https://bowscoffee.com/products/gift-size-coffee": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -19,14 +50,468 @@
    "St66-200"
   ]
  },
+ "https://cafepista.com/products/le-melange-saison-epicerie": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "300gr",
+   "908g"
+  ]
+ },
+ "https://ethicalbean.com/products/classic-medium-whole-bean-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "whole bean bag (12oz)"
+  ]
+ },
+ "https://ethicalbean.com/products/decaf-dark-whole-bean-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Whole bean - 340g"
+  ]
+ },
+ "https://farocoffee.com/products/liscio-blend-chefs-discoveries": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 LB",
+   "Bodum",
+   "Breville Espresso",
+   "Compostable Bag",
+   "Default Bag",
+   "Espresso",
+   "Filter",
+   "Whole Beans"
+  ]
+ },
  "https://justuscoffee.com/products/atlantic-blend": {
   "checked": "2026-11-19",
   "members_only": true,
   "visible_options": null
  },
+ "https://justuscoffee.com/products/petes-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://kickinghorsecoffee.ca/products/jolly-ass": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/bold-battalion-med-dark-premium-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "2270g (5lbs)",
+   "340g",
+   "Ground",
+   "Whole bean"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/1852-espresso": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2,27kg - 5lb",
+   "300g",
+   "907g - 2lb"
+  ]
+ },
  "https://virginhillcoffee.com/products/french-vanilla": {
   "checked": "2026-11-19",
   "members_only": false,
   "visible_options": null
+ },
+ "https://virginhillcoffee.com/products/hazelnut-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://virginhillcoffee.com/products/peppermint-bark": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://virginhillcoffee.com/products/santas-snack": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/apero-espresso": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/bad-boy-espresso": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/bad-girl-espresso": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/barbosa-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/bosco": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/bresil-bioma": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/bresil-bioma-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/bresil-dourado": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/bresil-naimeg": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/bresil-naimeg-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/bresil-olhos-dagua": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/bresil-olhos-dagua-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/bresil-santa-clara": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/bresil-sao-paulo": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/burundi-heza-honey-caracoli-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/crema-special": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/decaf-bio": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/decaf-espresso": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/desalegn-88": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/edition-mousson": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/espresso-italiano-bio": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/espresso-milano": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/ethiopie-banko-chelchele-anaerobie-naturel-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/ethiopie-banko-chelchele-co-fermentation-citronnelle-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/ethiopie-banko-chelchele-co-fermentation-rue-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/ethiopie-desalegn-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/eveil-du-boulanger": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/guatemala-legendary-geisha-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/harrar": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/honduras-pino-de-oro-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/inspiri-bio": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/jamaique-blue-mountain": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/jamaique-blue-mountain-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/kenya-ndiaini-nyeri-naturel-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/la-lucuma": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/la-montana": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/legendary-geisha": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/melange-euro": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/melange-maison": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/moka-djimmah": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/ouganda-kigezi-valley-anaerobie-naturel-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/ouganda-kigezi-valley-naturel-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/pino-de-oro": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/reveil-zombie": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/tanzanie-gesha-neel-kavita-vohora-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/viva": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/yemen-nasir-allahaba-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/yemen-sharqi-haraz-anaerobie-naturel-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/yemen-sharqi-haraz-lave-reserve-privee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.brulerieduquai.com/products/yemenia-allahaba": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "200g"
+  ]
+ },
+ "https://www.brulerieduquai.com/products/yirgacheffe": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10kg",
+   "2kg",
+   "340g"
+  ]
+ },
+ "https://www.nemesis.coffee/products/brazil-serra-dos-ciganos": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/beton-arme-100g": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g"
+  ]
  }
 }
