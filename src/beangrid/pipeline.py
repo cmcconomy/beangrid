@@ -263,7 +263,11 @@ def is_hidden(v: Variant, locks: dict[str, Any], promos: dict[str, Any]) -> bool
 
 
 def promoted_urls(
-    variants: list[Variant], per_bucket: int, known: dict[str, Any] | None = None, promos: dict[str, Any] | None = None
+    variants: list[Variant],
+    per_bucket: int,
+    known: dict[str, Any] | None = None,
+    promos: dict[str, Any] | None = None,
+    per_store: int = 2,
 ) -> list[str]:
     """Product pages of the cheapest listings per size bucket: what the site ranks at the top.
 
@@ -282,8 +286,18 @@ def promoted_urls(
             best[v.url] = (v.price_per_kg, bucket)
     out: list[str] = []
     for bucket in ("bag", "large", "bulk"):
-        ranked = sorted((ppk, url) for url, (ppk, b) in best.items() if b == bucket)
-        out += [url for _, url in ranked[:per_bucket] if url not in out]
+        # At most per_store per store: one store's unchecked cheap sizes mustn't take every slot.
+        taken: dict[str, int] = {}
+        picked = 0
+        for _, url in sorted((ppk, url) for url, (ppk, b) in best.items() if b == bucket):
+            if picked >= per_bucket:
+                break
+            store = url.split("/products/", 1)[0]
+            if taken.get(store, 0) >= per_store or url in out:
+                continue
+            taken[store] = taken.get(store, 0) + 1
+            picked += 1
+            out.append(url)
     return out
 
 

@@ -81,3 +81,15 @@ def test_promoted_ranking_skips_listings_already_known_to_be_hidden():
     known = {"https://alpha.example/products/p1": {"checked": "2026-03-01", "members_only": True}}
     assert promoted_urls(vs, 2) == ["https://alpha.example/products/p1", "https://alpha.example/products/p10"]
     assert promoted_urls(vs, 2, known) == ["https://alpha.example/products/p10", "https://alpha.example/products/p2"]
+
+
+def test_promoted_listings_span_stores():
+    """One store's (still unchecked) cheap wholesale sizes mustn't fill every promoted slot (Coffee Wallas' LoLa)."""
+    from beangrid.normalize import normalize_site
+    from beangrid.pipeline import promoted_urls
+    from test_pipeline import alpha, beta
+
+    vs = normalize_site("https://alpha.example", alpha()) + normalize_site("https://www.beta.example", beta())
+    picked = promoted_urls(vs, 3, per_store=2)
+    assert picked[:2] == ["https://alpha.example/products/p1", "https://alpha.example/products/p10"]
+    assert picked[2].startswith("https://www.beta.example/")  # third slot goes to the next store
