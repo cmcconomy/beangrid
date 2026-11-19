@@ -13,6 +13,7 @@ BEANGRID_LOCK_CHECK is "off").
 import json
 import logging
 import re
+from urllib.parse import urlparse
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -110,6 +111,19 @@ async def _fetch_page(url: str, client: httpx.AsyncClient, settings: Settings) -
     return result
 
 
+def interleave_by_host(urls: list[str]) -> list[str]:
+    """Round-robin across stores (keeping each store's own order) so no store gets several pages in a row."""
+    by_host: dict[str, list[str]] = {}
+    for u in urls:
+        by_host.setdefault(urlparse(u).netloc, []).append(u)
+    queues = list(by_host.values())
+    out: list[str] = []
+    while queues:
+        out += [q.pop(0) for q in queues]
+        queues = [q for q in queues if q]
+    return out
+
+
 def load_locks(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text()) if path.exists() else {}
 
@@ -124,8 +138,26 @@ async def check_locks(
 ) -> dict[str, Any]:
     """Fetch these product pages, record their lock state in `path`, and return all known lock states."""
     locks = load_locks(path)
-    results = await paced_map(urls, _fetch_page, settings, transport, settings.lock_budget_s,
+    # Product pages are rate-limited per store, and more strictly than products.json (Just Us! 429'd from the
+    # third page). So: stores interleaved, no long retries, and a store that says 429 is skipped for the rest
+    # of this run without counting toward the run-wide breaker; its pages stay due for the next run.
+    quick = settings.model_copy(update={"max_retries": 0})
+    backing_off: set[str] = set()
+
+    async def job(url: str, client: httpx.AsyncClient, s: Settings) -> SiteResult:
+        host = urlparse(url).netloc
+        if host in backing_off:
+            return SiteResult(site_url=url, error="deferred: store is rate-limiting page checks", transient=True,
+                              deferred=True)
+        result = await _fetch_page(url, client, s)
+        if not result.ok and result.transient and "429" in (result.error or ""):
+            backing_off.add(host)
+        return result
+
+    results = await paced_map(interleave_by_host(urls), job, quick, transport, settings.lock_budget_s,
                               accept="text/html,application/xhtml+xml")
+    if backing_off:
+        logger.info("locks: backed off from %s for this run", ", ".join(sorted(backing_off)))
     checked = locked = 0
     for r in results:
         if not r.ok and not r.transient and "HTTP 404" in (r.error or ""):

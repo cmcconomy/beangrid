@@ -51,6 +51,7 @@ class SiteResult:
     transient: bool = False  # failure looks temporary (rate limit, 5xx, timeout) rather than a dead store
     pages: int = 0
     final_url: str | None = None  # where products.json was actually served from, after redirects
+    deferred: bool = False  # not attempted this run (store or run backing off); doesn't count as a failure
 
 
 class FetchError(Exception):
@@ -110,7 +111,7 @@ async def get_ok(client: httpx.AsyncClient, url: str, params: dict[str, Any], se
                     pause: float | None = min(float(retry_after), settings.backoff_max_s)
                 except ValueError:
                     pause = None
-                if pause is not None:
+                if pause is not None and attempt < settings.max_retries:  # no point waiting before giving up
                     await wait(pause)
                     continue
         if attempt < settings.max_retries:
@@ -174,11 +175,11 @@ async def paced_map(
             async with sem:
                 if streak >= settings.breaker_after:
                     return SiteResult(site_url=site, error=f"deferred: {streak} stores in a row rate-limited",
-                                      transient=True)
+                                      transient=True, deferred=True)
                 result = await job(site, client, settings)
                 if result.ok:
                     streak = 0
-                elif result.transient:
+                elif result.transient and not result.deferred:
                     streak += 1
                 return result
 

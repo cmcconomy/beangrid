@@ -2,6 +2,7 @@
 
 import asyncio
 import json
+import time
 from datetime import date
 
 import httpx
@@ -219,3 +220,32 @@ def test_check_locks_updates_state_and_never_fails(tmp_path, settings):
     assert locks["https://j.example/products/gone"]["members_only"] is True  # no public page: not buyable
     assert locks["https://j.example/products/old"]["members_only"] is True  # untouched entries kept
     assert json.loads(path.read_text()) == locks
+
+
+def test_a_rate_limiting_store_is_skipped_quickly_while_others_are_checked(tmp_path, settings):
+    """Just Us! 429'd product pages from GitHub's runners; each page burned 7 x 60 s of retries."""
+    from beangrid.locks import interleave_by_host
+
+    settings.max_retries = 6  # page checks must not use the scrape's long retry loop
+    settings.backoff_base_s = 5.0
+    settings.breaker_after = 3
+    requested: list[str] = []
+
+    def handle(request: httpx.Request) -> httpx.Response:
+        requested.append(f"{request.url.host}{request.url.path}")
+        if request.url.host == "strict.example":
+            return httpx.Response(429, headers={"retry-after": "60"})
+        return httpx.Response(200, text=product_page(OPEN))
+
+    strict = [f"https://strict.example/products/s{i}" for i in range(6)]
+    calm = [f"https://calm{i % 3}.example/products/c{i}" for i in range(6)]
+    urls = interleave_by_host(strict + calm)
+    assert urls[:4] == ["https://strict.example/products/s0", "https://calm0.example/products/c0",
+                        "https://calm1.example/products/c1", "https://calm2.example/products/c2"]
+    start = time.monotonic()
+    locks = asyncio.run(check_locks(urls, tmp_path / "locks.json", settings, date(2026, 11, 19),
+                                    transport=httpx.MockTransport(handle)))
+    assert time.monotonic() - start < 5  # no 60 s waits
+    assert [r for r in requested if r.startswith("strict")] == ["strict.example/products/s0"]  # one try, then skipped
+    assert all(u in locks for u in calm)  # every other store fully checked: skips don't trip the breaker
+    assert not any(u in locks for u in strict)  # left due for a later run
