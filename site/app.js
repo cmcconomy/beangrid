@@ -194,8 +194,18 @@ function card(o) {
   $(".ppk", node).textContent = o.ppk != null ? `${money(o.ppk)}/kg` : "";
   const sp = sparkline(o.history);
   if (sp) $(".spark", node).append(sp);
+  const fs = state.promos[o.site]?.free_shipping;
+  if (fs?.amount) {
+    const where = REGION_ABBR[fs.region] ?? "";
+    const ship = $(".ship", node);
+    ship.textContent = `Free ship $${fs.amount}+${where ? ` ${where}` : ""}`;
+    ship.title = `${o.roaster}: free shipping on orders over $${fs.amount}${fs.region ? ` (${fs.region})` : ""}`;
+  }
   return node;
 }
+
+// Free-shipping thresholds limited to one province get a short tag; "Canada" needs none.
+const REGION_ABBR = { "Québec": "QC", Ontario: "ON", BC: "BC", Canada: "" };
 
 function renderTabs() {
   const tabs = $("#deal-tabs");

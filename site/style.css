@@ -146,7 +146,10 @@ h2 { font-size: 20px; letter-spacing: -.01em; }
 .more { display: block; margin: 16px auto 0; font: inherit; padding: 8px 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
 
 svg.spark { display: block; overflow: visible; }
-.card .spark { flex: 0 1 96px; min-width: 40px; }
+.card-side { flex: 0 1 96px; min-width: 40px; display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.card .spark { width: 100%; }
+.card .ship { color: var(--ink-3); font-size: 11px; white-space: nowrap; }
+.card .ship:empty { display: none; }
 .card svg.spark { width: 100%; }
 svg.spark path { fill: none; stroke: var(--spark); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
 svg.spark circle { fill: var(--spark); }
