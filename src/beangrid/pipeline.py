@@ -316,8 +316,10 @@ def run(settings: Settings, today: date | None = None, results: list[SiteResult]
 
     promos = refresh_promos(settings, sites, prev_status, today)
     locks = refresh_locks(settings, all_variants, promos, today)
+    wlm_hidden = {(site, h) for site, p in promos.items() for h in p.get("hidden_products", [])}
     for v in all_variants:
-        v.members_only = bool(locks.get(v.url, {}).get("members_only"))
+        handle = v.url.rsplit("/products/", 1)[-1]
+        v.members_only = bool(locks.get(v.url, {}).get("members_only")) or (v.site, handle) in wlm_hidden
 
     stale = {o.site for o in outcomes if o.status == "stale"}
     offers = collapse(all_variants, stale)

@@ -36,6 +36,43 @@ def test_homepage_scan_notes_stores_running_locksmith():
     assert extract_promos(product_page(None)).locksmith is False
 
 
+# Wholesale Lock Manager (Bows, Nov 2026): every page lists the locked products whose links it hides.
+WLM_HOME = """<html><head><script type='text/javascript' src='/apps/wlm/js/wlm-1.1.js?v=2.0'></script>
+<script type='text/javascript'> wlm.arrHideLinks.push('a[href$="/products/bella-aurora-habit"],a[href*="/products/bella-aurora-habit/"],a[href*="/products/bella-aurora-habit?"],a[href*="/products/bella-aurora-habit#"]'); </script>
+<script type='text/javascript'> wlm.arrHideLinks.push('a[href$="/products/fife-blend"],a[href*="/products/fife-blend/"]'); </script>
+</head><body><div class='announcement-bar'>Free shipping within Canada on orders over $60</div></body></html>"""
+
+
+def test_wholesale_lock_manager_hidden_products_come_from_the_homepage():
+    info = extract_promos(WLM_HOME)
+    assert info.hidden_products == ["bella-aurora-habit", "fife-blend"]
+    assert info.free_shipping.amount == 60  # the rest of the scan is unaffected
+    assert extract_promos(product_page(None)).hidden_products == []
+
+
+def test_pipeline_flags_wlm_hidden_products_without_extra_requests(settings, monkeypatch):
+    import beangrid.pipeline as pipeline
+    from beangrid.pipeline import run
+    from test_pipeline import D0, alpha, beta, results
+
+    settings.min_sites_ok_ratio = 0.5
+
+    async def fake_scan(sites, s, transport=None):
+        home = WLM_HOME.replace("bella-aurora-habit", "p1").replace("fife-blend", "p2")
+        return {"alpha.example": extract_promos(home)}
+
+    async def no_checks(*a, **k):
+        raise AssertionError("WLM needs no product-page requests")
+
+    monkeypatch.setattr(pipeline, "scan_homepages", fake_scan)
+    monkeypatch.setattr(pipeline, "check_locks", no_checks)
+    settings.scan_promos = True
+    run(settings, D0, results(alpha(), beta()))
+    offers = json.loads((settings.site_out_dir / "data" / "offers.json").read_text())["offers"]
+    hidden = {o["url"].rsplit("/", 1)[1] for o in offers if o["members_only"]}
+    assert hidden == {"p1", "p2"}
+
+
 def test_pick_new_products_first_then_stale_ones_within_the_cap():
     urls = [f"https://s.example/products/p{i}" for i in range(6)]
     locks = {

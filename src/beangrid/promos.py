@@ -53,6 +53,8 @@ FREE_SHIP_RX = re.compile(r"(free shipping|livraison gratuite)(.{0,90}?)(?:\$\s?
 CART_SHIP_RX = re.compile(r"spend \$\s?(\d{2,3})(?:\.\d\d)? more (?:and|to) (?:get|unlock|receive) free shipping", re.I)
 REGIONS = [("Québec", r"qu[ée]bec"), ("Ontario", r"ontario"), ("BC", r"\bb\.?c\.?\b|british columbia"),
            ("Canada", r"canada")]
+# wlm.arrHideLinks.push('a[href$="/products/fife-blend"],...')  (Wholesale Lock Manager app)
+WLM_HIDDEN_RX = re.compile(r"""wlm\.arrHideLinks\.push\(\s*['"]a\[href\$=\\?"/products/([a-z0-9][a-z0-9-]*)\\?"\]""", re.I)
 SUB_PCT_RX = re.compile(
     r"(?:subscri\w*|abonn\w*)[^%.]{0,40}?(?<!\d)(\d{1,2})\s?%|(?<!\d)(\d{1,2})\s?%[^.%]{0,40}?(?:subscri|abonn)", re.I)
 
@@ -77,6 +79,8 @@ class PromoInfo(BaseModel):
     free_shipping: FreeShipping | None = None
     subscription_pct: int | None = None
     locksmith: bool = False  # the store uses the Locksmith access app: some products may be members-only
+    # Wholesale Lock Manager lists the products it hides on every page: handles of members-only products.
+    hidden_products: list[str] = []
 
 
 def _clean(text: str) -> str:
@@ -112,7 +116,8 @@ def extract_promos(html: str) -> PromoInfo:
     banners = [b for b in bars if PROMO_SIGNAL_RX.search(b)]
     body = _clean(soup.get_text(" "))
 
-    info = PromoInfo(banners=banners[:3], locksmith="data-locksmith" in html)
+    info = PromoInfo(banners=banners[:3], locksmith="data-locksmith" in html,
+                     hidden_products=sorted(set(WLM_HIDDEN_RX.findall(html))))
     seen: set[str] = set()
     for source in [*banners, body]:
         for m in CODE_RX.finditer(source):
