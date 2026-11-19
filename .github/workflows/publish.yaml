@@ -8,6 +8,11 @@ on:
     # Catch-up run: stores already scraped OK today are reused, so it only retries the morning's misses.
     - cron: "23 14 * * *"
   workflow_dispatch:
+    inputs:
+      lock_check_max:
+        description: "Product pages to check this run (members-only / hidden sizes). Default 40; e.g. 300 to catch up."
+        required: false
+        default: ""
   push:
     branches: [main]
     paths: ["site/**", "src/**", "notebooks/**", "pyproject.toml", "uv.lock", ".github/workflows/**"]
@@ -19,7 +24,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 45 # scrape stops retrying after fetch_budget_s (20 min)
+    timeout-minutes: 60 # scrape <= 20 min (fetch_budget_s) + promos <= 10 + page checks <= 15
     permissions:
       contents: write # commit the data/ archive
     steps:
@@ -55,6 +60,9 @@ jobs:
           #   gh variable set BEANGRID_LOCK_CHECK --body off    (members-only product page checks)
           BEANGRID_SCAN_PROMOS: ${{ (github.event.schedule == '23 14 * * *' || github.event_name == 'workflow_dispatch') && vars.BEANGRID_SCAN_PROMOS != 'off' }}
           BEANGRID_LOCK_CHECK: ${{ (github.event.schedule == '23 14 * * *' || github.event_name == 'workflow_dispatch') && vars.BEANGRID_LOCK_CHECK != 'off' }}
+          # One-off catch-up: gh workflow run publish.yaml --ref main -f lock_check_max=300
+          BEANGRID_LOCK_CHECK_MAX: ${{ inputs.lock_check_max || '40' }}
+          BEANGRID_LOCK_BUDGET_S: ${{ inputs.lock_check_max && '900' || '300' }}
 
       - name: Save store cache
         if: always()
