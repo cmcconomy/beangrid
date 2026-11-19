@@ -489,7 +489,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 66,
+  "coffee_variants": 64,
   "last_count": 24,
   "pending_count": null,
   "pending_runs": 0
@@ -511,7 +511,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 60,
+  "coffee_variants": 59,
   "last_count": 69,
   "pending_count": null,
   "pending_runs": 0
