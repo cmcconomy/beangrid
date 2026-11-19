@@ -1,4 +1,24 @@
 {
+ "https://94celcius.com/products/papilles": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 chaudi\u00e8re (10lbs)",
+   "2253g (5 Lbs)",
+   "300g",
+   "907g"
+  ]
+ },
+ "https://acecoffeeroasters.com/products/ace-no-6-wholesale": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "Case of 12 (340G)",
+   "Case of 6 (1KG)",
+   "Whole Bean"
+  ]
+ },
  "https://anchoredcoffee.com/products/palmier-x-anchored": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -22,6 +42,64 @@
    "907g",
    "Compostable pods",
    "Ground coffee",
+   "Whole bean"
+  ]
+ },
+ "https://balzacs.com/products/balzacs-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10 oz can",
+   "12 oz",
+   "18-pack box",
+   "2lb",
+   "300 g",
+   "340 g",
+   "907g",
+   "Compostable pods",
+   "Ground coffee",
+   "Whole bean"
+  ]
+ },
+ "https://balzacs.com/products/cabin-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "340 g",
+   "Whole bean"
+  ]
+ },
+ "https://balzacs.com/products/swiss-water-decaf": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10 oz can",
+   "12 oz",
+   "18-pack box",
+   "2.27kg",
+   "2lb",
+   "300 g",
+   "340 g",
+   "5lbs",
+   "907g",
+   "Compostable pods",
+   "Ground coffee",
+   "Whole bean"
+  ]
+ },
+ "https://beannorth.com/products/5lb-cabin-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "340g",
+   "5lb",
+   "908g",
+   "Auto Filter",
+   "Cone Filter",
+   "Espresso Grind",
+   "French Press",
+   "Percolator",
    "Whole bean"
   ]
  },
@@ -50,6 +128,152 @@
    "St66-200"
   ]
  },
+ "https://cafepista.com/products/abdo-aba-mecha-ethiopie": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3KG",
+   "908g",
+   "En grains"
+  ]
+ },
+ "https://cafepista.com/products/bookkisa-naturel-ethiopie": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/cafe-basta": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3kg",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/cafe-zuzu": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "300g",
+   "3kg"
+  ]
+ },
+ "https://cafepista.com/products/colectivo-luis-marino-ortega-colombie": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908G"
+  ]
+ },
+ "https://cafepista.com/products/copa-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "300g",
+   "3kg",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/copa-coffee-golazo": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "300g",
+   "3kg",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/decaf-colectivo-colombie": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908G",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/dune": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3kg",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/finca-la-hermosa-guatemala": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908G",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/gundikhan-lot-3-inde": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908G"
+  ]
+ },
+ "https://cafepista.com/products/hoogan-et-beaufort": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "300g",
+   "3kg",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/jorge-arturo-serrano-villanueva-honduras": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3KG",
+   "908g",
+   "En grains"
+  ]
+ },
+ "https://cafepista.com/products/la-esperanza-guatemala": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908G"
+  ]
+ },
+ "https://cafepista.com/products/la-linda-ws": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908G",
+   "En grain"
+  ]
+ },
  "https://cafepista.com/products/le-melange-saison-epicerie": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -57,6 +281,491 @@
    "300g",
    "300gr",
    "908g"
+  ]
+ },
+ "https://cafepista.com/products/le-petit-dep": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3kg",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/maison-leaves": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3kg",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/melange-arhoma": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3kg",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/melange-des-fetes-bresil-ethiopie": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908G",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/melange-monopole_ws": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "250g",
+   "3kg",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/saison_ws": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3kg",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/tandem-bresil-burundi": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/terroir": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300g",
+   "3kg",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cafepista.com/products/tima-ethiopie-1": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908G"
+  ]
+ },
+ "https://cafepista.com/products/umami": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300G",
+   "3KG",
+   "908g",
+   "En grain"
+  ]
+ },
+ "https://cantookcafe.com/products/anahi": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/arbegona": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/caramelo": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/chanchamayo-shg": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/ea-decaf-de-cana": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300gr",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/el-llano": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300gr",
+   "908g/2lbs",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/el-paraiso-decaf": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/espresso-1982": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/espresso-550": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g/2lbs",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/finca-patio-bonito": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/gatta": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "300gr",
+   "908gr",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/guara": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/infini": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/la-palestina": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/la-pastora": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/le-choix-du-torrefacteur": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300gr",
+   "3e type (exp\u00e9rimentale et funky)",
+   "908gr/2lbs",
+   "Chemex",
+   "Classique (simple et r\u00e9confortante)",
+   "Contemporaine (moderne et claire)",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/oromia": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/sigri-aa": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5Kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://cantookcafe.com/products/union-ramal": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "300g",
+   "908g",
+   "Chemex",
+   "En grain",
+   "Espresso",
+   "Espresso domestique (Breville & Saeco)",
+   "Filtre",
+   "Italienne sur le feu",
+   "Piston",
+   "V60"
+  ]
+ },
+ "https://coffeewallas.com/products/lola-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://darkcitycoffee.com/products/brazil-cerrado-a-reserva": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "0.5 Lb",
+   "1 Lb",
+   "Cone Drip",
+   "Dark",
+   "Flat Basket Drip",
+   "French Press",
+   "Green Beans",
+   "Light",
+   "Manual Drip",
+   "Medium",
+   "Percolator",
+   "Pump Espresso",
+   "Recommended Roast",
+   "Stovetop Espresso",
+   "Turkish",
+   "Whole Beans"
+  ]
+ },
+ "https://equatorcoffeeroasters.com/products/freakin-good-coffee-organic-fair-trade": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg/5lb",
+   "340g/12oz",
+   "70g Sample Pack",
+   "908g/2lb",
+   "Ground - Medium",
+   "Whole Bean"
+  ]
+ },
+ "https://equatorcoffeeroasters.com/products/north-star-espresso-organic-fair-trade-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg/5lb",
+   "340g/12oz",
+   "70g Sample Pack",
+   "908g/2lb",
+   "Espresso - Fine",
+   "Ground - Medium",
+   "Whole Bean"
+  ]
+ },
+ "https://ethicalbean.com/products/bold-dark-whole-bean-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "whole bean bag (12oz)",
+   "whole bean bag (2lb)"
   ]
  },
  "https://ethicalbean.com/products/classic-medium-whole-bean-coffee": {
@@ -73,6 +782,86 @@
    "Whole bean - 340g"
   ]
  },
+ "https://ethicalbean.com/products/lush-medium-dark-whole-bean-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "whole bean bag (12oz)",
+   "whole bean bag (2lb)"
+  ]
+ },
+ "https://farocoffee.com/products/decafeine-de-cana-1lb": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 LB",
+   "Bodum",
+   "Breville Espresso",
+   "Compostable Bag",
+   "Default Bag",
+   "Espresso",
+   "Filter",
+   "Whole Beans"
+  ]
+ },
+ "https://farocoffee.com/products/espresso-alta-forte-2lb": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 LB",
+   "5 LB",
+   "Bodum",
+   "Breville Espresso",
+   "Compostable Bag",
+   "Default Bag",
+   "Espresso",
+   "Filter",
+   "Whole Beans"
+  ]
+ },
+ "https://farocoffee.com/products/espresso-giorno-dolce-2lb": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 LB",
+   "5 LB",
+   "Bodum",
+   "Breville Espresso",
+   "Compostable Bag",
+   "Default Bag",
+   "Espresso",
+   "Filter",
+   "Whole Beans"
+  ]
+ },
+ "https://farocoffee.com/products/golden-gate-espresso": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 LB",
+   "Bodum",
+   "Breville Espresso",
+   "Compostable Bag",
+   "Default Bag",
+   "Espresso",
+   "Filter",
+   "Whole Beans"
+  ]
+ },
+ "https://farocoffee.com/products/hugos-choice-the-tarrazu-costaud-dark-roast-1lb": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 LB",
+   "Bodum",
+   "Breville Espresso",
+   "Compostable Bag",
+   "Default Bag",
+   "Espresso",
+   "Filter",
+   "Whole Beans"
+  ]
+ },
  "https://farocoffee.com/products/liscio-blend-chefs-discoveries": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -87,7 +876,309 @@
    "Whole Beans"
   ]
  },
+ "https://firebeancoffee.ca/products/1-x-4-pound-pouch": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Blaze",
+   "Coarse",
+   "Ember",
+   "Espresso",
+   "Fireweed",
+   "Ground (Auto Drip)",
+   "Inferno",
+   "Kindling",
+   "Starfire",
+   "Stoke",
+   "Whole Bean"
+  ]
+ },
+ "https://javablendcoffee.com/products/jb-classics": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Aeropress",
+   "Basket Filter",
+   "Cone Filter",
+   "Espresso Machine",
+   "French Press",
+   "Stove Top Espresso",
+   "Whole Bean"
+  ]
+ },
  "https://justuscoffee.com/products/atlantic-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/banko-in-bloom": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/beatons-delight-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/berwick-camp-grounds-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/best-sellers-display-shipper": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/big-wigs-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/blomidon-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/bluenose-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/bonnie-lea-farm-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/breaking-the-silence": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/bulk-green-beans": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/cali-co-coffee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/chasing-tides-dark-roast": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/chasing-tides-display-shipper": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/chasing-tides-light-roast": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/chasing-tides-medium-roast": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/coady-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/colombian": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/dalhousie-university-rise-shine-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/eac-wild-brew": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300 g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/evolution-acadien-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/firehouse-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 lb",
+   "300g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/founders-roast": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "340 g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/french": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/french-decaf": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/gondwana": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/green-beans": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 lb",
+   "Colombian",
+   "Decaf",
+   "Ethiopian",
+   "Sumatran",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/hacha-java": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "300 g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/harmony": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/hennigars-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/holiday": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/holiday-blend-display-shipper": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/italian": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/jaguar": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 lb",
+   "300 g",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/jeinner-of-el-ingenio": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/jungle": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/kindens-bakery-and-cafe-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/le-valency-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/marilyns-morning-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/melange-des-montagnes-noires": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/miners-mud-blend": {
   "checked": "2026-11-19",
   "members_only": true,
   "visible_options": null
@@ -97,12 +1188,137 @@
   "members_only": true,
   "visible_options": null
  },
+ "https://justuscoffee.com/products/portion-pack": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/reads-riverview-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/rebel": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/revitalize": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 lb",
+   "300 g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/rise-again": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/second-son-of-el-cedrillo": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/smu-brew": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/tall-small-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/tartan-coffee": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://justuscoffee.com/products/the-seven-sacred-teachings-orange-shirt-day-edition": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "Ground"
+  ]
+ },
+ "https://justuscoffee.com/products/tiera-madre": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "2 lb",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/vansda": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "12 oz",
+   "AmbitioUS!",
+   "Ground",
+   "IndustrioUS!",
+   "MomentoUS!",
+   "VictoriUS!",
+   "Whole Bean"
+  ]
+ },
+ "https://justuscoffee.com/products/waldorf-special-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://kickinghorsecoffee.ca/products/454-horse-power-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "284g",
+   "454g",
+   "850g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
  "https://kickinghorsecoffee.ca/products/jolly-ass": {
   "checked": "2026-11-19",
   "members_only": false,
   "visible_options": [
    "1kg",
    "Whole Bean"
+  ]
+ },
+ "https://melk.cafe/products/bucket-bon-decaf-2-5kg": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.268kg",
+   "5kg"
+  ]
+ },
+ "https://melk.cafe/products/bucket-spree-espresso": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.268kg",
+   "5kg"
   ]
  },
  "https://rampagecoffee.com/products/bold-battalion-med-dark-premium-blend": {
@@ -116,6 +1332,221 @@
    "Whole bean"
   ]
  },
+ "https://rampagecoffee.com/products/c-4-smooth-extreme-caffeine-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "2270g (5lbs)",
+   "340g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/c-4-smooth-extreme-caffeine-blend-1": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://rampagecoffee.com/products/code-blk-dark-roast-premium-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "2270g (5lbs)",
+   "340g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/diet-code-blk-dark-roast-decaf-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lb)",
+   "340g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/diet-code-blk-dark-roast-decaf-blend-360g": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://rampagecoffee.com/products/diet-riot-medium-roast-decaf-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lb)",
+   "340g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/diet-riot-medium-roast-decaf-blend-360g": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://rampagecoffee.com/products/festive-frenzy-medium-roast-premium-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "2270g (5lbs)",
+   "340g",
+   "Ground",
+   "Whole bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/frontline-fury-medium-roast-premium-blend-1": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "2270g (5lbs)",
+   "340g",
+   "Ground",
+   "Whole bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/full-force-premium-espresso-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "2270g (5lbs)",
+   "340g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/go-big-or-go-home-5-pounds": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "BOLD BATTALION | Med/Dark",
+   "C-4 | High Caffeine",
+   "CODE BLK | Dark Roast",
+   "FRONTLINE FURY | Med Roast",
+   "FULL FORCE | Espresso Blend",
+   "Ground",
+   "RIOT | Med Roast",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/ignition-premium-espresso-blend-360g": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": [
+   "340g",
+   "Ground 340g",
+   "Whole Bean 340g"
+  ]
+ },
+ "https://rampagecoffee.com/products/jamaica-blue-mountain-coffee-rampage-coffee-co-1": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "340g",
+   "Bundle - 340g x 2",
+   "Bundle - 340g x 4 Best Deal!",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/mens-logo-tank-rampage-coffee-co": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Large",
+   "Medium",
+   "Small",
+   "X-Large",
+   "XX-Large"
+  ]
+ },
+ "https://rampagecoffee.com/products/pre-sale-c-4-smooth-extreme-caffeine-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": [
+   "340g",
+   "Ground 340g",
+   "Whole Bean 340g"
+  ]
+ },
+ "https://rampagecoffee.com/products/pre-sale-murdered-out-dark-roast-premium-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://rampagecoffee.com/products/pre-sale-riot-medium-roast-premium-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://rampagecoffee.com/products/riot-medium-roast-premium-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "2270g (5lbs)",
+   "340g",
+   "Ground",
+   "Whole Bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/roasters-reserve-espresso-roast": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "340g (12oz)",
+   "Ground (fine)",
+   "Whole bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/roasters-reserve-light-roast": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "340g (12oz)",
+   "Ground",
+   "Whole bean"
+  ]
+ },
+ "https://rampagecoffee.com/products/roasters-reserve-medium-roast": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1020g (2.25lbs)",
+   "340g (12oz)",
+   "Ground",
+   "Whole bean"
+  ]
+ },
+ "https://reunioncoffeeroasters.com/products/arrow-espresso-medium-roast": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 lbs",
+   "Soft Pods"
+  ]
+ },
+ "https://reunioncoffeeroasters.com/products/authentic-donut-shop-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2 lbs",
+   "42 x 2.5 oz Portion Packs",
+   "Decaf",
+   "Original Dark Roast",
+   "Original Roast",
+   "Soft Pods"
+  ]
+ },
  "https://structurecoffeeroasters.com/products/1852-espresso": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -123,6 +1554,117 @@
    "2,27kg - 5lb",
    "300g",
    "907g - 2lb"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/brunch-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg - 5 lb",
+   "300g",
+   "907g - 2lb"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/decaf": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg - 5lb",
+   "300g",
+   "907g - 2lb"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/fondation": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2,27kg - 5lb",
+   "300g",
+   "907g - 2lb"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/fondation-filtre": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2,27kg - 5lb",
+   "300g"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/jeremias-rodriguez": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg - 5lb",
+   "300g"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/maria-zelaya": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg - 5lb",
+   "300g"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/mariavides": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg - 5lb",
+   "300g"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/merlin-medina": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg - 5lb",
+   "300g"
+  ]
+ },
+ "https://structurecoffeeroasters.com/products/punch-des-fetes": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2.27kg - 5lb",
+   "300g"
+  ]
+ },
+ "https://virginhillcoffee.com/products/colombian-supremo-black": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "0.5lbs",
+   "1kg",
+   "2.2lbs",
+   "227g",
+   "2kg",
+   "4.4lbs",
+   "Beans",
+   "Breville Espresso Grind",
+   "Espresso Grind",
+   "Filter Grind (Regular)",
+   "French Press",
+   "Stovetop Espresso/Aeropress"
+  ]
+ },
+ "https://virginhillcoffee.com/products/colombian-supremo-brown": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "0.5lbs",
+   "1kg",
+   "2.2lbs",
+   "227g",
+   "2kg",
+   "4.4lbs",
+   "Beans",
+   "Breville Espresso Grind",
+   "Espresso Grind",
+   "Filter Grind (Regular)",
+   "French Press",
+   "Stovetop Espresso/Aeropress"
   ]
  },
  "https://virginhillcoffee.com/products/french-vanilla": {
@@ -134,6 +1676,18 @@
   "checked": "2026-11-19",
   "members_only": false,
   "visible_options": null
+ },
+ "https://virginhillcoffee.com/products/melange-fondation-christian-vachon-1kg": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "Beans",
+   "Breville Espresso Grind",
+   "Espresso Grind",
+   "Filter Grind (Regular)",
+   "French Press",
+   "Stovetop Espresso"
+  ]
  },
  "https://virginhillcoffee.com/products/peppermint-bark": {
   "checked": "2026-11-19",
@@ -499,6 +2053,51 @@
    "340g"
   ]
  },
+ "https://www.downeastcoffee.ca/products/caf-du-gaboteur": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 lb",
+   "1/2 lb",
+   "Aeropress",
+   "Cone filter",
+   "Espresso",
+   "Flat filter",
+   "French Press",
+   "K-Cup",
+   "Keurig",
+   "Mocha Pot",
+   "Whole beans"
+  ]
+ },
+ "https://www.downeastcoffee.ca/products/cafe-beausoleil": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 lb",
+   "1/2 lb",
+   "5 lb",
+   "Aeropress",
+   "Cone filter",
+   "Espresso",
+   "Flat filter",
+   "French Press",
+   "K-Cup",
+   "Keurig",
+   "Mocha Pot",
+   "Turkish",
+   "Whole beans"
+  ]
+ },
+ "https://www.elevenspeedcoffee.ca/products/not-very-good-at-bikes-lto-espresso-roast": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "340g",
+   "5lb"
+  ]
+ },
  "https://www.nemesis.coffee/products/brazil-serra-dos-ciganos": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -507,11 +2106,931 @@
    "250g"
   ]
  },
+ "https://www.roguewavecoffee.ca/products/bolivia-finca-rosita-catuai-anaerobic-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/bolivia-finca-rosita-caturra-anaerobic-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/bolivia-taypiplaya-community-lot-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/bolivia-tuki-tuki-edwin-huanca-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/brazil-daterra-full-bloom-natural-1": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "340g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/brazil-daterra-full-bloom-tree-dried-natural-2026": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "340g",
+   "40g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/brazil-rio-brilhante-icatu-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/brazil-rio-brilhante-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/brazil-rio-brilhante-tropicana-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/burundi-kayanza-incuti-group-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-buesaco-regional-lot-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-condor-decaf-1": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-el-vergel-condor-decaf-2025": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-el-vergel-condor-decaf-2026": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "340g",
+   "40g SAMPLE"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-el-vergel-decaf": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-finca-macarena-wilton-benitez-washed-castillo": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-huila-regional-decaf": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-huila-regional-lot-decaf": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-huila-regional-rio-negro-iquira-ea-decaf-2025": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-huila-rio-negro-regional-lot-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-la-esperanza-caturra-syrup-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-la-lomita-eulises-guzman-pink-bourbon-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-la-roma-emmanuel-enciso-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "340g",
+   "40g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-laderas-del-tapias-catiope-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-laderas-del-tapias-catiope-natural-2026": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "340g",
+   "40g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-laderas-del-tapias-estate-lot-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-las-cascadas-regional-lot-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-montebonito-marulanda-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-pompeya-cabildo-inga-regional-lot-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-praderita-pink-bourbon-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/colombia-villa-pastora-pink-bourbon-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/copy-of-ethiopia-teshome-gemechu-lot-2-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/costa-rica-ivan-solis-copey-yellow-honey": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/costa-rica-ivan-solis-cuatro-vientos-black-honey": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/costa-rica-ivan-solis-cuatro-vientos-modulacion-aromatica-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/costa-rica-ivan-solis-vara-blanca-raisin-honey": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/costa-rica-ivan-solis-vara-blanca-yellow-catuai-black-honey": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "340g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/ecuador-azuay-loja-community-lot-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/el-salvador-el-carmen-elite-bourbon-anaerobic-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/el-salvador-el-carmen-elite-bourbon-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/el-salvador-la-esperanza-belismelis-alvarez-family-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/el-salvador-santa-matilde-bourbon-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-agaro-abdulrherman-ababulgu-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-banko-chelchele-anaerobic-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-bekele-yutute-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-bona-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-chelbesa-one-station-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-chelbesa-one-station-washed-1": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-chelbesa-one-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-def-feres-sidama-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-dinkalem-ademe-wush-wush-honey": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-dinkalem-ademe-zema-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-gutiti-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-gutiti-yirgacheffe-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-gutiti-yirgacheffe-natural-2026": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "340g",
+   "40g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-halo-beriti-special-prep-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-kayon-mountain-shakiso-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-layo-teraga-guji-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-mate-matiwos-lot-1-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-mate-matiwos-lot-2-keramo-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-metu-illubabor-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-musa-abalulesa-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "340g",
+   "40g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-nguisse-nare-bombe-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-nguisse-nare-murago-lot-1-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "340g",
+   "40g Sample"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-qabballe-raro-nensebo-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-shantawene-natural-lot-447": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-tagel-alemayehu-hambela-site-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-tagel-alemayehu-hambela-site-washe": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-tariku-kare-bombe-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-tariku-kare-bombe-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-tebe-melge-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/ethiopia-udesa-fora-station-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-ana-nolasco-pascual-washed-copy": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-axola-cooperative-manos-de-mujer-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-ella-todos-santos-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-ella-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "340g",
+   "40g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-farms-of-sierra-de-las-minas-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-huehuetenango-primavera-family-lot-2025-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-huehuetenango-primavera-family-lot-2026-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-huixoc-huehuetenango-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-la-florida-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-la-hermosa-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-la-union-acetenango-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-los-volcanes-antigua-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/honduras-dolmin-moreno-la-orquidea-pacas-honey": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "340g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/honduras-gerardo-moreno-parainema-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/honduras-moreno-family-el-filo-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/honduras-moreno-family-piedras-amarillas-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/kenya-gichuka-factory-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/kenya-maganjo-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/kenya-mukunga-kiambu-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/myanmar-a-lel-chaung-village-natural-2026": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/myanmar-mya-paw-saw-pao-village-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/myanmar-myay-ni-kone-natural-2026": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/myanmar-ta-ngo-village-lot-84-catuai-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/myanmar-ta-ngo-village-lot-dn-52-catuai-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "340g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/myanmay-a-lel-chaung-village-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/nicaragua-el-limoncillo-javanica-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/nicaragua-finca-un-regalo-de-dios-yellow-catuai-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/nicaragua-nueva-segovia-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/panama-boquete-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/panama-carmen-estate-caturra-lot-4-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/panama-carmen-estate-caturra-lot-4-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "340g",
+   "40g"
+  ]
+ },
+ "https://www.roguewavecoffee.ca/products/panama-carmen-estate-caturra-lot-6-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/peru-estrellas-de-cajamarca-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/peru-maria-estela-la-perla-yellow-caturra-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/rwanda-dukorere-duterimbere-lot-33-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/rwanda-dukorere-kawa-bukure-lot-5-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/rwanda-kanzu-lot-4-natural": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/rwanda-kanzu-lot-46-washed": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/bishan-wate-ethiopia": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/businde-brazil": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/finca-el-paraiso-colombia": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/konga-ethiopia": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/las-lajas-costa-rica-2": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/moonlight-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/seasonal-blend-1": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/strawberry-cake-co-fermented-blend": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/zzz-decaf": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
  "https://www.trafficcoffee.com/products/beton-arme-100g": {
   "checked": "2026-11-19",
   "members_only": false,
   "visible_options": [
    "100g"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/dante-street": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/jean-guy": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/marcelo-assis": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/minutepapillon": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/olympus": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/santa-margarita": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://zabcafe.com/products/bon-matin": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/bon-matin-en-gros": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10lbs",
+   "15lbs",
+   "20lbs",
+   "25lbs"
+  ]
+ },
+ "https://zabcafe.com/products/bresil-joyeux-roger-en-gros": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10lbs",
+   "15lbs",
+   "20lbs",
+   "25lbs"
+  ]
+ },
+ "https://zabcafe.com/products/brewmance-1": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/brewmance-en-gros": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "10lbs",
+   "15lbs",
+   "20lbs",
+   "25lbs"
+  ]
+ },
+ "https://zabcafe.com/products/cism-perou-las-tabaconas": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/colombie-huila-decafeine": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/demi-caf-espresso": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/ethiopie-kossa-geshe": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/ethiopie-tero": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/froste-melange-des-fetes": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/guatemala-famille-lemus": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/guatemala-raul-perez": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/honduras-efren-sanchez": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/honduras-jesus-galeas": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/joyeux-roger": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
+  ]
+ },
+ "https://zabcafe.com/products/perou-famille-minga": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "100g",
+   "2268g (5lbs)",
+   "300g",
+   "808g"
   ]
  }
 }

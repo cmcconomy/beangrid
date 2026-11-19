@@ -3,17 +3,18 @@
   "checked": "2026-11-19",
   "url": "https://49thcoffee.com",
   "banners": [
-   "FREE SHIPPING ON ORDERS $60+"
+   "BLACK FRIDAY SALE UP TO 20% OFF! DETAILS."
   ],
   "codes": [],
   "free_shipping": {
    "amount": 60,
    "region": null,
-   "text": "FREE SHIPPING ON ORDERS $60+"
+   "text": "…Free Shipping On orders of $60+ Chevron down icon 49th Rewards Shop &…"
   },
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "94celcius.com": {
   "checked": "2026-11-19",
@@ -23,7 +24,8 @@
   "free_shipping": null,
   "subscription_pct": 5,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "acecoffeeroasters.com": {
   "checked": "2026-11-19",
@@ -33,7 +35,8 @@
   "free_shipping": null,
   "subscription_pct": 30,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "agroroasters.com": {
   "checked": "2026-11-19",
@@ -63,7 +66,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "balzacs.com": {
   "checked": "2026-11-19",
@@ -77,7 +81,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "beannorth.com": {
   "checked": "2026-11-19",
@@ -89,7 +94,8 @@
   "free_shipping": null,
   "subscription_pct": 5,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "birdycoffeeco.ca": {
   "checked": "2026-11-19",
@@ -101,7 +107,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "botany-rd.com": {
   "checked": "2026-11-19",
@@ -128,7 +135,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "bowscoffee.com": {
   "checked": "2026-11-19",
@@ -147,7 +155,8 @@
    "bella-aurora-habit",
    "bunn-fetco-paper-filters-pack-of-500",
    "fife-blend"
-  ]
+  ],
+  "private_collections": []
  },
  "brulerieduquai.com": {
   "checked": "2026-11-19",
@@ -163,7 +172,34 @@
   },
   "subscription_pct": 20,
   "locksmith": true,
-  "hidden_products": []
+  "hidden_products": [
+   "barbosa-reserve-privee",
+   "bresil-bioma-reserve-privee",
+   "bresil-naimeg-reserve-privee",
+   "bresil-olhos-dagua-reserve-privee",
+   "burundi-heza-honey-caracoli-reserve-privee",
+   "coffret-decouverte-reserve-privee",
+   "coffret-grands-crus-reserve-privee",
+   "coffret-origines-reserve-privee",
+   "costa-rica-don-joel-reserve-privee",
+   "ethiopie-banko-chelchele-anaerobie-naturel-reserve-privee",
+   "ethiopie-banko-chelchele-co-fermentation-citronnelle-reserve-privee",
+   "ethiopie-banko-chelchele-co-fermentation-rue-reserve-privee",
+   "ethiopie-desalegn-reserve-privee",
+   "guatemala-legendary-geisha-reserve-privee",
+   "honduras-pino-de-oro-reserve-privee",
+   "jamaique-blue-mountain-reserve-privee",
+   "kenya-ndiaini-nyeri-naturel-reserve-privee",
+   "ouganda-kigezi-valley-anaerobie-naturel-reserve-privee",
+   "ouganda-kigezi-valley-naturel-reserve-privee",
+   "tanzanie-gesha-neel-kavita-vohora-reserve-privee",
+   "yemen-nasir-allahaba-reserve-privee",
+   "yemen-sharqi-haraz-anaerobie-naturel-reserve-privee",
+   "yemen-sharqi-haraz-lave-reserve-privee"
+  ],
+  "private_collections": [
+   "reserve-privee"
+  ]
  },
  "cafepista.com": {
   "checked": "2026-11-19",
@@ -179,7 +215,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "candidcoffeeroasters.ca": {
   "checked": "2026-11-19",
@@ -189,7 +226,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "cantookcafe.com": {
   "checked": "2026-11-19",
@@ -205,7 +243,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "coffeewallas.com": {
   "checked": "2026-11-19",
@@ -222,7 +261,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "continuumcoffee.ca": {
   "checked": "2026-11-19",
@@ -238,7 +278,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "darkcitycoffee.com": {
   "checked": "2026-11-19",
@@ -248,7 +289,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "detourcoffee.com": {
   "checked": "2026-11-19",
@@ -271,7 +313,8 @@
   "free_shipping": null,
   "subscription_pct": 25,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "discoverycoffee.com": {
   "checked": "2026-11-19",
@@ -285,7 +328,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "downeastcoffee.ca": {
   "checked": "2026-11-19",
@@ -301,7 +345,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "drumroaster.com": {
   "checked": "2026-11-19",
@@ -317,7 +362,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "elevenspeedcoffee.ca": {
   "checked": "2026-11-19",
@@ -327,7 +373,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "elysiancoffee.com": {
   "checked": "2026-11-19",
@@ -343,7 +390,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "enjoylunacoffee.com": {
   "checked": "2026-11-19",
@@ -353,7 +401,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "epochchemistry.ca": {
   "checked": "2026-11-19",
@@ -363,7 +412,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "equatorcoffeeroasters.com": {
   "checked": "2026-11-19",
@@ -377,7 +427,8 @@
   },
   "subscription_pct": 15,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "ethicalbean.com": {
   "checked": "2026-11-19",
@@ -403,7 +454,8 @@
   },
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "evencoffee.ca": {
   "checked": "2026-11-19",
@@ -419,7 +471,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "farocoffee.com": {
   "checked": "2026-11-19",
@@ -429,7 +482,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "fernwoodcoffee.com": {
   "checked": "2026-11-19",
@@ -443,7 +497,8 @@
   },
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "firebeancoffee.ca": {
   "checked": "2026-11-19",
@@ -459,7 +514,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "flatlandcoffee.com": {
   "checked": "2026-11-19",
@@ -475,7 +531,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "fratellocoffee.com": {
   "checked": "2026-11-19",
@@ -487,7 +544,8 @@
   "free_shipping": null,
   "subscription_pct": 20,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "halecoffee.com": {
   "checked": "2026-11-19",
@@ -503,7 +561,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "hellodemello.com": {
   "checked": "2026-11-19",
@@ -519,7 +578,13 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [
+   "de-mello-custom-coffee",
+   "de-mello-custom-wedding-coffee"
+  ],
+  "private_collections": [
+   "custom-coffee"
+  ]
  },
  "javablendcoffee.com": {
   "checked": "2026-11-19",
@@ -529,7 +594,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "javaroasters.ca": {
   "checked": "2026-11-19",
@@ -545,7 +611,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "jjbeancoffee.com": {
   "checked": "2026-11-19",
@@ -561,7 +628,8 @@
   },
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "justuscoffee.com": {
   "checked": "2026-11-19",
@@ -577,7 +645,32 @@
   },
   "subscription_pct": null,
   "locksmith": true,
-  "hidden_products": []
+  "hidden_products": [
+   "beatons-delight-blend",
+   "berwick-camp-grounds-blend",
+   "big-wigs-blend",
+   "blomidon-blend",
+   "bluenose-blend",
+   "bonnie-lea-farm-blend",
+   "cali-co-coffee",
+   "coady-blend",
+   "dalhousie-university-rise-shine-blend",
+   "evolution-acadien-blend",
+   "hennigars-blend",
+   "kindens-bakery-and-cafe-blend",
+   "kings-blend",
+   "marilyns-morning-blend",
+   "miners-mud-blend",
+   "petes-blend",
+   "reads-riverview-blend",
+   "smu-brew",
+   "tall-small-blend",
+   "tartan-coffee",
+   "waldorf-special-blend"
+  ],
+  "private_collections": [
+   "custom-coffee-blend"
+  ]
  },
  "kickinghorsecoffee.ca": {
   "checked": "2026-11-19",
@@ -593,7 +686,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "lebruloir.com": {
   "checked": "2026-11-19",
@@ -603,7 +697,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "littlesistercoffeemaker.ca": {
   "checked": "2026-11-19",
@@ -613,7 +708,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "matchstickyvr.com": {
   "checked": "2026-11-19",
@@ -623,7 +719,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "melk.cafe": {
   "checked": "2026-11-19",
@@ -639,7 +736,8 @@
   },
   "subscription_pct": 15,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "mikkocoffee.com": {
   "checked": "2026-11-19",
@@ -665,7 +763,8 @@
   },
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "monogramcoffee.com": {
   "checked": "2026-11-19",
@@ -679,7 +778,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "movingcoffee.com": {
   "checked": "2026-11-19",
@@ -689,7 +789,12 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [
+   "coffee-filter-13-x-5"
+  ],
+  "private_collections": [
+   "wholesale-private"
+  ]
  },
  "nektar.ca": {
   "checked": "2026-11-19",
@@ -705,7 +810,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "nemesis.coffee": {
   "checked": "2026-11-19",
@@ -715,7 +821,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": true,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "noctcoffee.myshopify.com": {
   "checked": "2026-11-19",
@@ -732,7 +839,8 @@
   },
   "subscription_pct": 15,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "originhillcoffee.com": {
   "checked": "2026-11-19",
@@ -742,7 +850,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "paradigmspark.com": {
   "checked": "2026-11-19",
@@ -758,7 +867,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "philsebastian.com": {
   "checked": "2026-11-19",
@@ -768,7 +878,8 @@
   "free_shipping": null,
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "pilotcoffeeroasters.com": {
   "checked": "2026-11-19",
@@ -778,7 +889,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "pivot-coffee-roastery.myshopify.com": {
   "checked": "2026-11-19",
@@ -805,7 +917,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "prairielilycoffee.com": {
   "checked": "2026-11-19",
@@ -815,7 +928,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "propellercoffee.com": {
   "checked": "2026-11-19",
@@ -831,7 +945,8 @@
   },
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "quietlycoffee.com": {
   "checked": "2026-11-19",
@@ -847,7 +962,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "rampagecoffee.com": {
   "checked": "2026-11-19",
@@ -861,7 +977,8 @@
   },
   "subscription_pct": 10,
   "locksmith": true,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "receivercoffee.com": {
   "checked": "2026-11-19",
@@ -877,7 +994,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "regardcoffee.com": {
   "checked": "2026-11-19",
@@ -893,7 +1011,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "reunioncoffeeroasters.com": {
   "checked": "2026-11-19",
@@ -903,7 +1022,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "revolvercoffee.ca": {
   "checked": "2026-11-19",
@@ -913,7 +1033,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "rocanini.com": {
   "checked": "2026-11-19",
@@ -923,7 +1044,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "roguewavecoffee.ca": {
   "checked": "2026-11-19",
@@ -939,7 +1061,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "rohicoffee.ca": {
   "checked": "2026-11-19",
@@ -955,7 +1078,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "rossocoffeeroasters.com": {
   "checked": "2026-11-19",
@@ -969,7 +1093,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "sainthenri.ca": {
   "checked": "2026-11-19",
@@ -985,7 +1110,8 @@
   },
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "samjamescoffeebar.com": {
   "checked": "2026-11-19",
@@ -1001,7 +1127,8 @@
   },
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "september.coffee": {
   "checked": "2026-11-19",
@@ -1028,7 +1155,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "sethtaylor.ca": {
   "checked": "2026-11-19",
@@ -1044,7 +1172,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "shop.ethicaroasters.com": {
   "checked": "2026-11-19",
@@ -1054,7 +1183,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "smiletigercoffee.com": {
   "checked": "2026-11-19",
@@ -1064,7 +1194,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "sorellina.ca": {
   "checked": "2026-11-19",
@@ -1074,7 +1205,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "stereocoffee.com": {
   "checked": "2026-11-19",
@@ -1084,7 +1216,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "structurecoffeeroasters.com": {
   "checked": "2026-11-19",
@@ -1094,7 +1227,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": true,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "subtext.coffee": {
   "checked": "2026-11-19",
@@ -1110,7 +1244,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "theangryroaster.com": {
   "checked": "2026-11-19",
@@ -1124,7 +1259,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "thelibraryspecialtycoffee.com": {
   "checked": "2026-11-19",
@@ -1134,7 +1270,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "thombargen.com": {
   "checked": "2026-11-19",
@@ -1144,7 +1281,8 @@
   "free_shipping": null,
   "subscription_pct": 10,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "trafficcoffee.com": {
   "checked": "2026-11-19",
@@ -1156,7 +1294,36 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": true,
-  "hidden_products": []
+  "hidden_products": [
+   "basta-house-blend",
+   "cafe-bravo",
+   "cafe-tompol",
+   "canard-chasse",
+   "canard-morgan",
+   "canard-vieux",
+   "chez-popo",
+   "crew-collective-imperium",
+   "drip-house-espresso",
+   "drip-house-filter",
+   "ferlucci-decaf",
+   "forin-house-blend",
+   "humble-filter",
+   "humble-resilience",
+   "le-kahera",
+   "le-petit-dep-lpd",
+   "louisa-1",
+   "louisa-dark-decaf",
+   "mano-vince-la-sete",
+   "phin-blend",
+   "savsav-brewster",
+   "sofia-cafe",
+   "umarell-blend-5lb",
+   "veloce-filter",
+   "책가도-luna"
+  ],
+  "private_collections": [
+   "white-label"
+  ]
  },
  "transcendcoffee.ca": {
   "checked": "2026-11-19",
@@ -1170,7 +1337,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "virginhillcoffee.com": {
   "checked": "2026-11-19",
@@ -1186,7 +1354,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "yourstrulycoffee.myshopify.com": {
   "checked": "2026-11-19",
@@ -1200,7 +1369,8 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "za-klo-torrefactrices.myshopify.com": {
   "checked": "2026-11-19",
@@ -1210,7 +1380,8 @@
   "free_shipping": null,
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  },
  "zabcafe.com": {
   "checked": "2026-11-19",
@@ -1224,6 +1395,7 @@
   },
   "subscription_pct": null,
   "locksmith": false,
-  "hidden_products": []
+  "hidden_products": [],
+  "private_collections": []
  }
 }
