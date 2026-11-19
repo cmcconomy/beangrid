@@ -16,7 +16,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 85,
+  "coffee_variants": 84,
   "last_count": 83,
   "pending_count": null,
   "pending_runs": 0
@@ -60,7 +60,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 34,
+  "coffee_variants": 29,
   "last_count": 15,
   "pending_count": null,
   "pending_runs": 0
@@ -214,7 +214,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 704,
+  "coffee_variants": 626,
   "last_count": 73,
   "pending_count": null,
   "pending_runs": 0
@@ -324,7 +324,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 98,
+  "coffee_variants": 92,
   "last_count": 85,
   "pending_count": null,
   "pending_runs": 0
@@ -423,7 +423,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 236,
+  "coffee_variants": 232,
   "last_count": 99,
   "pending_count": null,
   "pending_runs": 0
@@ -676,7 +676,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 61,
+  "coffee_variants": 27,
   "last_count": 26,
   "pending_count": null,
   "pending_runs": 0
@@ -907,7 +907,7 @@
   "status": "ok",
   "error": null,
   "last_ok": "2026-11-19",
-  "coffee_variants": 633,
+  "coffee_variants": 621,
   "last_count": 251,
   "pending_count": null,
   "pending_runs": 0
