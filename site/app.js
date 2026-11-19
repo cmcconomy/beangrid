@@ -59,7 +59,18 @@ const DEAL_TABS = [
   },
 ];
 
-const state = { data: null, offers: [], shown: PAGE, tab: "top", promos: {} };
+// mode: "roasted" (default) or "green" (unroasted beans for home roasters). view = offers in the current mode.
+const state = { data: null, offers: [], view: [], mode: "roasted", shown: PAGE, tab: "top", promos: {} };
+
+function setMode(mode) {
+  state.mode = mode === "green" ? "green" : "roasted";
+  state.view = state.offers.filter((o) => Boolean(o.green) === (state.mode === "green"));
+  document.body.classList.toggle("mode-green", state.mode === "green");
+  for (const b of document.querySelectorAll("#mode button")) b.setAttribute("aria-pressed", String(b.dataset.mode === state.mode));
+  $(".tagline").textContent = state.mode === "green"
+    ? "Green (unroasted) coffee from Canadian roasters, for home roasting: priced and compared daily."
+    : "Whole-bean coffee from Canadian roasters, priced and compared every morning.";
+}
 
 // Codes that need something first (first order, newsletter signup, subscription) are flagged as such.
 const CONDITIONAL = new Set(["first order", "newsletter", "subscription"]);
@@ -188,7 +199,7 @@ function renderTabs() {
   const tabs = $("#deal-tabs");
   tabs.replaceChildren();
   for (const t of DEAL_TABS) {
-    const n = state.offers.filter(t.pick).length;
+    const n = state.view.filter(t.pick).length;
     if (!n && t.id !== "top") continue;
     const btn = el("button", { class: "tab", role: "tab", type: "button", "aria-selected": String(t.id === state.tab) },
       t.label, el("span", { class: "n", text: n }));
@@ -200,7 +211,7 @@ function renderTabs() {
 function renderDeals() {
   const tab = DEAL_TABS.find((t) => t.id === state.tab) || DEAL_TABS[0];
   $("#deal-hint").textContent = tab.hint;
-  const picked = state.offers.filter(tab.pick).sort(tab.sort);
+  const picked = state.view.filter(tab.pick).sort(tab.sort);
   // One card per coffee: the best size of each product.
   const seen = new Set();
   const unique = [];
@@ -225,6 +236,7 @@ function readFilters() {
     decaf: f.get("decaf"), bucket: f.get("bucket"), maxppk: parseFloat(f.get("maxppk")) || null,
     sort: f.get("sort"), instock: f.get("instock") === "on", nosamples: f.get("nosamples") === "on",
     clean: f.get("clean") === "on", nowholesale: f.get("nowholesale") === "on",
+    beans: state.mode,
   };
 }
 
@@ -295,7 +307,7 @@ function row(o) {
 function renderTable(resetPaging = false) {
   const f = readFilters();
   if (resetPaging) state.shown = PAGE;
-  const list = state.offers.filter((o) => matches(o, f)).sort(SORTS[f.sort] || SORTS.deal);
+  const list = state.view.filter((o) => matches(o, f)).sort(SORTS[f.sort] || SORTS.deal);
   $("#count").textContent = `${list.length.toLocaleString()} matching`;
   $("#results tbody").replaceChildren(...list.slice(0, state.shown).map(row));
   const more = $("#more");
@@ -308,7 +320,7 @@ function renderTable(resetPaging = false) {
 
 // ---- URL state so filtered views can be shared ------------------------------------------
 
-const DEFAULTS = { sort: "deal", instock: true, nosamples: true, clean: true, nowholesale: true };
+const DEFAULTS = { sort: "deal", instock: true, nosamples: true, clean: true, nowholesale: true, beans: "roasted" };
 
 function writeHash(f) {
   const p = new URLSearchParams();
@@ -323,6 +335,7 @@ function writeHash(f) {
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   const form = $("#filters");
+  setMode(p.get("beans"));
   for (const [k, v] of p) {
     const input = form.elements[k];
     if (!input) continue;
@@ -396,7 +409,7 @@ async function main() {
       .filter(Boolean).join(" ").toLowerCase(),
   }));
 
-  const inStock = state.offers.filter((o) => o.available && !o.sample);
+  const inStock = state.offers.filter((o) => o.available && !o.sample && !o.green);
   const roasters = new Set(inStock.map((o) => o.roaster));
   const updated = new Date(data.generated_at);
   $("#meta").textContent = `${inStock.length.toLocaleString()} coffees in stock from ${roasters.size} roasters · updated ${updated.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}`;
@@ -414,9 +427,21 @@ async function main() {
     i ? ", " : "", el("a", { href: `data/history/${y}.csv`, text: String(y) }),
   ]));
 
+  const nGreen = state.offers.filter((o) => o.green && o.available).length;
+  if (nGreen) {
+    $("#mode").hidden = false;
+    $("#mode [data-mode=green] .n").textContent = nGreen.toLocaleString();
+    for (const b of document.querySelectorAll("#mode button")) {
+      b.addEventListener("click", () => {
+        setMode(b.dataset.mode);
+        state.tab = "top";
+        renderTabs(); renderDeals(); renderTable(true);
+      });
+    }
+  }
+  readHash();
   renderTabs();
   renderDeals();
-  readHash();
   renderTable(true);
   renderCoverage(data.sites || {});
   renderPromos(state.promos, data.sites || {});

@@ -21,7 +21,9 @@ uv run beangrid canvass [--write]   # prune dead stores from sites.txt, propose 
 - `src/beangrid/weights.py`: bag size from labels; Shopify `grams` is shipping weight and only a fallback
 - `src/beangrid/normalize.py`: Shopify JSON -> `Variant` records, quality flags
 - `src/beangrid/history.py`: append-only change log (`data/history/<year>.csv`) + `data/catalog.csv`
-- `src/beangrid/deals.py`: collapse grind variants into offers; sale / drop / value / new scoring
+- `src/beangrid/deals.py`: collapse grind variants into offers; sale / drop / value / new scoring.
+  Green beans (`green_coffee`, incl. "Green Beans" variant options) are offers with `green=True`, valued
+  among themselves; the site's Roasted / Green beans switch (`#beans=green`) shows one or the other
 - `src/beangrid/pipeline.py`: daily run, per-site validation + carry-forward, quality gate, site build.
   Shopify rate-limits per IP, so: stalest stores first (`last_ok` in `data/sites.json`, ties rotate daily),
   paced requests + circuit breaker in `fetch.py`, stores already scraped today reused (02:23 + 14:23 UTC runs),

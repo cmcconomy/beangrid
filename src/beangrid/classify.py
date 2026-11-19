@@ -218,6 +218,7 @@ def classify(
     # Exclusion categories win when they appear in the title or product type. The coffee words in
     # a title like "Coffee Mug" or "Café Subscription" don't rescue it.
     type_is_coffee = bool(COFFEE_TYPE_RX.search(t_type)) and not NON_COFFEE_TYPE_RX.search(t_type)
+    green_hit: str | None = None  # green beans are coffee for home roasters: keep looking, then extract attributes
     for category, rx in HARD_RULES:
         if hit := _first_match(rx, t_title, t_type):
             return Classification(category=category, reason=f"'{hit}' in title/type")
@@ -250,6 +251,9 @@ def classify(
             continue
         if category == "wholesale" and has_weight:
             break  # Bulk beans are still beans.
+        if category == "green_coffee":
+            green_hit = hit
+            continue  # "Green Coffee Sampler Bundle" is still a bundle
         return Classification(category=category, reason=f"'{hit}' in title/type")
 
     evidence = []
@@ -262,6 +266,8 @@ def classify(
     if _ORIGIN_RX.search(t_title) or COFFEE_TYPE_RX.search(t_title) or COFFEE_NAME_RX.search(t_title):
         evidence.append("title")
 
+    if green_hit and not evidence:
+        return Classification(category="green_coffee", reason=f"'{green_hit}' in title/type")
     # Weight alone isn't enough (a bag of chocolate has a weight), but weight + any coffee signal is.
     if not evidence:
         return Classification(category="unknown", reason="no coffee signals")
@@ -284,8 +290,8 @@ def classify(
     style = "omni" if (is_esp and is_fil) or "omni" in t_title + t_tags else "espresso" if is_esp else "filter" if is_fil else None
 
     return Classification(
-        category="coffee",
-        reason="+".join(evidence),
+        category="green_coffee" if green_hit else "coffee",
+        reason=f"'{green_hit}' in title/type" if green_hit else "+".join(evidence),
         origins=origins,
         process=process,
         roast=detect_roast(t_tags_spaced, t_title, t_type),

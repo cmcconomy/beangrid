@@ -110,3 +110,28 @@ def test_wholesale_listings_are_flagged_and_left_out_of_value_ranking():
         assert by_id[wid].wholesale and by_id[wid].value_pct is None and by_id[wid].deal_score is None
     # The cheap wholesale 340g doesn't push retail bags up the value scale: Kenya is cheapest retail.
     assert by_id["shop.example:11"].value_pct == 0.0 and by_id["shop.example:41"].value_pct == 1.0
+
+
+def test_green_beans_are_offers_of_their_own_ranked_among_green():
+    products = [
+        # Dark City style: green beans as a "roast" option, priced like one of the roasted combinations.
+        make_product(pid=1, title="Sulawesi Rantekarua", variants=[
+            {"id": 11, "title": "Whole Beans / Light / 1 Lb", "price": "29.00", "grams": 0, "available": True},
+            {"id": 12, "title": "Percolator / Light / 1 Lb", "price": "16.00", "grams": 0, "available": True},
+            {"id": 13, "title": "Whole Beans / Green Beans / 1 Lb", "price": "16.00", "grams": 0, "available": True}]),
+        make_product(pid=2, title="Copan - Raw Green Coffee - Honduras", product_type="Green Coffee", variants=[
+            {"id": 21, "title": "1 lb", "price": "12.00", "grams": 0, "available": True}]),
+        make_product(pid=3, title="Kenya AA", variants=[
+            {"id": 31, "title": "1 lb", "price": "35.00", "grams": 0, "available": True}]),
+    ]
+    offers = collapse(normalize_site("https://shop.example", products))
+    score_offers(offers, History(), TODAY)
+    by_id = {o.id: o for o in offers}
+    green = {i for i, o in by_id.items() if o.green}
+    assert green == {"shop.example:13", "shop.example:21"}
+    assert by_id["shop.example:12"].options == ["Percolator / Light / 1 Lb"]  # not merged with the green $16 bag
+    assert by_id["shop.example:21"].origins == ["Honduras"]  # green products keep their attributes
+    # Separate value scales: the $12 green lb is cheapest green, and doesn't make Kenya look expensive.
+    assert by_id["shop.example:21"].value_pct == 0.0 and by_id["shop.example:13"].value_pct == 1.0
+    assert by_id["shop.example:12"].value_pct == 0.0 and by_id["shop.example:31"].value_pct == 1.0
+    assert by_id["shop.example:21"].deal_score is not None

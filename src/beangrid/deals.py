@@ -45,6 +45,7 @@ class Offer(BaseModel):
     bucket: str | None
     desc: str
     stale: bool = False
+    green: bool = False  # unroasted beans (home roasters): ranked among themselves, hidden from the roasted view
 
     sale_pct: float | None = None
     sale_days: int | None = None
@@ -90,9 +91,10 @@ def collapse(variants: list[Variant], stale_sites: set[str] | None = None) -> li
     stale_sites = stale_sites or set()
     groups: dict[tuple[str, int, float | None, float], list[Variant]] = defaultdict(list)
     for v in variants:
-        if v.category != "coffee":
+        if v.category not in ("coffee", "green_coffee"):
             continue
-        groups[(v.site, v.product_id, round(v.grams) if v.grams else None, v.price)].append(v)
+        # Category is part of the key: a green 1 lb and a roasted 1 lb can share a price.
+        groups[(v.site, v.product_id, v.category, round(v.grams) if v.grams else None, v.price)].append(v)
 
     offers = []
     for members in groups.values():
@@ -130,6 +132,7 @@ def collapse(variants: list[Variant], stale_sites: set[str] | None = None) -> li
                 bucket=size_bucket(rep.grams),
                 desc=rep.description[:300],
                 stale=rep.site in stale_sites,
+                green=rep.category == "green_coffee",
             )
         )
     return offers
@@ -193,10 +196,10 @@ def score_offers(offers: list[Offer], history: History, today: date) -> None:
                 and (first - site_first).days > 3  # a newly added roaster isn't "new coffee"
             )
 
-    by_bucket: dict[str, list[Offer]] = defaultdict(list)
+    by_bucket: dict[tuple[bool, str], list[Offer]] = defaultdict(list)
     for o in offers:
         if _eligible(o) and o.bucket:
-            by_bucket[o.bucket].append(o)
+            by_bucket[(o.green, o.bucket)].append(o)  # green and roasted are separate value scales
     for group in by_bucket.values():
         for o, pct in zip(group, _percentile_ranks([o.ppk for o in group])):
             o.value_pct = round(pct, 3)

@@ -65,6 +65,13 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 .top h1::before { content: "☕ "; }
 .tagline { margin: 4px 0 0; color: var(--ink-2); }
 .meta { margin: 0; color: var(--ink-3); font-size: 13px; }
+.top-side { display: flex; flex-direction: column; align-items: end; gap: 8px; }
+.mode { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; background: var(--surface-2); }
+.mode button { border: 0; background: none; color: var(--ink-2); font: inherit; font-size: 13px; padding: 4px 12px; border-radius: 999px; cursor: pointer; }
+.mode button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); font-weight: 600; }
+.mode .n { opacity: .6; font-weight: 400; }
+body.mode-green .top h1::before { content: "🌱 "; }
+@media (max-width: 720px) { .top-side { align-items: start; } }
 
 section { margin-top: 32px; }
 .section-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; justify-content: space-between; margin-bottom: 12px; }

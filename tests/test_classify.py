@@ -124,6 +124,13 @@ def test_unknown_when_no_signals():
     assert classify("Rye Bread", "").category == "unknown"
 
 
+def test_green_coffee_keeps_attributes_but_other_categories_still_win():
+    c = classify("Copan - Raw Green Coffee - Honduras Washed", "Green Coffee", has_weight=True)
+    assert c.category == "green_coffee" and c.origins == ["Honduras"] and c.process == ["Washed"]
+    assert classify("Green Coffee Sampler Bundle", "", has_weight=False).category == "bundle"
+    assert classify("Unroasted", "", has_weight=False).category == "green_coffee"  # no other coffee evidence
+
+
 def test_attributes():
     c = classify(
         "Colombia El Paraiso - Washed Pink Bourbon",
