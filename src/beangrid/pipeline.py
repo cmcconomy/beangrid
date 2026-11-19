@@ -265,7 +265,18 @@ def refresh_locks(
         batch = pick_products(urls, known, today, settings.lock_check_max, settings.lock_recheck_days)
         if not batch:
             return known
-        return asyncio.run(check_locks(batch, path, settings, today))
+        # Each product's option values by position ("5kg Moree Reusable Bag" / "Whole Bean"), to see which
+        # of them the public page actually offers.
+        groups: dict[str, list[set[str]]] = {}
+        for v in variants:
+            if v.url in batch:
+                for i, opt in enumerate(v.variant_title.split(" / ")):
+                    slots = groups.setdefault(v.url, [])
+                    while len(slots) <= i:
+                        slots.append(set())
+                    slots[i].add(opt)
+        option_groups = {u: [sorted(s) for s in g] for u, g in groups.items()}
+        return asyncio.run(check_locks(batch, path, settings, today, option_groups=option_groups))
     except Exception:
         logger.exception("Lock check failed; keeping the last known verdicts")
         return load_locks(path)

@@ -27,6 +27,9 @@ _FRACTION = re.compile(rf"(?<![\d.])(?:(\d)\s*/\s*(\d)|(½|¼|¾))\s*-?\s*{_UNIT
 # Not right after "/": the "4-pound" in "3/4-pound" is a fraction's denominator, not a size.
 _SIMPLE = re.compile(rf"(?<![\d.,])(?<!\d/){_NUM}\s*-?\s*{_UNIT}\b", re.I)
 _UNICODE_FRACTIONS = {"½": 0.5, "¼": 0.25, "¾": 0.75}
+# Next to a millilitre/litre volume, ounces are fluid ounces ("Coffee Server (700ml - 24oz)"), not a weight.
+_VOLUME = re.compile(r"\d\s*(?:ml|cl|l)(?![a-z])|fl\.?\s*oz", re.I)
+_OUNCES = re.compile(r"\d+(?:[.,]\d+)?\s*-?\s*(?:fl\.?\s*)?(?:oz|ounces?)\b", re.I)
 
 # Bag sizes roasters actually sell. Used to strip packaging weight from shipping weights.
 COMMON_SIZES_G = [
@@ -46,6 +49,8 @@ def parse_weight(text: str | None) -> float | None:
     """Return grams for the first size mentioned in ``text``, or None."""
     if not text:
         return None
+    if _VOLUME.search(text):
+        text = _OUNCES.sub(" ", text)
     if m := _MULTI_PREFIX.search(text):
         grams = int(m.group(1)) * _num(m.group(2)) * UNIT_GRAMS[m.group(3).lower()]
     elif m := _MULTI_SUFFIX.search(text):

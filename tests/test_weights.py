@@ -26,13 +26,16 @@ from beangrid.weights import parse_weight, resolve_weight, snap_shipping_weight
         ("3/4 lb", 340.2),
         ("¾-pound", 340.2),
         ("Whole Bean/12oz", 340.2),  # a slash after a word is just a separator
+        ("HARIO V60-02 Coffee Server (700ml - 24oz) / 250g", 250),  # fluid oz skipped, real weight kept
     ],
 )
 def test_parse_weight(text, grams):
     assert parse_weight(text) == pytest.approx(grams, abs=0.2)
 
 
-@pytest.mark.parametrize("text", ["Default Title", "Whole Bean", "4 x 250ml", "Lot #10", "", None, "V60 02", "3g"])
+@pytest.mark.parametrize("text", ["Default Title", "Whole Bean", "4 x 250ml", "Lot #10", "", None, "V60 02", "3g",
+                                  "HARIO V60-02 Coffee Server (700ml - 24oz)",  # Mikko: fluid ounces, not a bag
+                                  "FELLOW Carter Move Mug (355ml/12oz)"])
 def test_parse_weight_none(text):
     assert parse_weight(text) is None
 

@@ -83,6 +83,28 @@ ITALIAN_PAGE = """<html><head>{lock}</head><body><h1>Italian</h1>
 <product-form><form action="/cart/add"></form></product-form></body></html>""".format(lock=LOCKSMITH.format(json=json.dumps(OPEN)))
 
 
+# Traffic (custom div dropdown, Nov 2026): the 5 kg Moree bag is in products.json but not in the public menu.
+TRAFFIC_PAGE = """<html><body><h1>Minute Papillon DECAF</h1><p>Regular price $22.00</p>
+<div class="dropdown">Size: 300g <div data-value="1175288610882">300g</div><div data-value="1175288643650">2lb</div>
+<div data-value="2750971805762">5lb</div></div><button>Add to Cart</button>
+<script>var meta = {"variants":[{"title":"5kg Moree Reusable Bag"}]};</script></body></html>"""
+TRAFFIC_OPTIONS = [["300g", "2lb", "5lb", "5kg Moree Reusable Bag"]]
+
+
+def test_any_theme_options_missing_from_the_visible_page_are_not_offered():
+    page = inspect_page(TRAFFIC_PAGE, TRAFFIC_OPTIONS)
+    assert page["visible_options"] == ["2lb", "300g", "5lb"]  # the script's copy of "5kg Moree" doesn't count
+
+
+def test_options_rendered_only_by_javascript_restrict_nothing():
+    js_only = "<html><body><h1>Coffee</h1><div id='picker'></div><script>render(['250g','1kg'])</script></body></html>"
+    assert inspect_page(js_only, [["250g", "1kg"], ["Whole Bean", "Ground"]])["visible_options"] is None
+    # One option group visible, the other not rendered: only the visible group can restrict.
+    partial = "<html><body><select><option>250g</option></select><script>x=['Whole Bean','Ground','1kg']</script></body></html>"
+    assert inspect_page(partial, [["250g", "1kg"], ["Whole Bean", "Ground"]])["visible_options"] == [
+        "250g", "Ground", "Whole Bean"]
+
+
 def test_page_inspection_records_the_publicly_offered_options():
     page = inspect_page(ITALIAN_PAGE)
     assert page == {"members_only": False, "visible_options": ["12 oz", "2 lb", "Ground", "Whole Bean"]}
@@ -138,7 +160,7 @@ def test_pipeline_flags_members_only_offers_and_the_switch_stops_requests(settin
         info.url = "https://alpha.example"
         return {"alpha.example": info, "beta.example": extract_promos(product_page(None))}
 
-    async def fake_check(urls, path, s, today, transport=None):
+    async def fake_check(urls, path, s, today, transport=None, **kw):
         requested.append(urls)
         locks = {u: {"checked": today.isoformat(), "members_only": u.endswith("/p1")} for u in urls}
         path.write_text(json.dumps(locks))
@@ -164,7 +186,7 @@ def test_pipeline_flags_members_only_offers_and_the_switch_stops_requests(settin
     assert all(o["members_only"] for o in offers if o["url"].endswith("/p1"))
 
     # A crashing check never fails the run.
-    async def broken(urls, path, s, today, transport=None):
+    async def broken(urls, path, s, today, transport=None, **kw):
         raise RuntimeError("boom")
 
     monkeypatch.setattr(pipeline, "check_locks", broken)

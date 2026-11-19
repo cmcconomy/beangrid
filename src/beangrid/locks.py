@@ -61,8 +61,33 @@ def visible_options(html: str) -> list[str] | None:
     return sorted(values) if values else None
 
 
-def inspect_page(html: str) -> dict[str, Any]:
-    return {"members_only": is_members_only(html), "visible_options": visible_options(html)}
+def visible_from_text(html: str, option_groups: list[list[str]]) -> list[str] | None:
+    """Theme-independent: which of the product's option values (from products.json) the page shows as text.
+
+    Per option, values that appear while siblings don't are the public ones ("300g 2lb 5lb" but no "5kg
+    Moree Reusable Bag"). An option none of whose values appear (a picker built by JavaScript) restricts
+    nothing; if no option is visible at all, the answer is None (unknown).
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    for t in soup(["script", "style", "noscript", "template"]):
+        t.decompose()
+    text = " ".join(soup.get_text(" ").split()).casefold()
+    visible: set[str] = set()
+    restricted = False
+    for group in option_groups:
+        found = [v for v in group if v.strip() and re.search(
+            rf"(?<![\w.]){re.escape(' '.join(v.split()).casefold())}(?!\w)", text)]
+        if found:
+            restricted = True
+            visible |= set(found)
+        else:
+            visible |= set(group)
+    return sorted(visible) if restricted else None
+
+
+def inspect_page(html: str, option_groups: list[list[str]] | None = None) -> dict[str, Any]:
+    options = visible_from_text(html, option_groups) if option_groups else visible_options(html)
+    return {"members_only": is_members_only(html), "visible_options": options}
 
 
 def pick_products(urls: list[str], locks: dict[str, Any], today: date, max_checks: int, recheck_days: int) -> list[str]:
@@ -90,7 +115,12 @@ def load_locks(path: Path) -> dict[str, Any]:
 
 
 async def check_locks(
-    urls: list[str], path: Path, settings: Settings, today: date, transport: httpx.AsyncBaseTransport | None = None
+    urls: list[str],
+    path: Path,
+    settings: Settings,
+    today: date,
+    transport: httpx.AsyncBaseTransport | None = None,
+    option_groups: dict[str, list[list[str]]] | None = None,
 ) -> dict[str, Any]:
     """Fetch these product pages, record their lock state in `path`, and return all known lock states."""
     locks = load_locks(path)
@@ -104,7 +134,7 @@ async def check_locks(
         elif not r.ok:
             continue  # rate-limited or down: it stays due and is picked again next run
         else:
-            page = inspect_page(r.products[0]["html"])
+            page = inspect_page(r.products[0]["html"], (option_groups or {}).get(r.site_url))
         checked += 1
         locked += bool(page["members_only"])
         locks[r.site_url] = {"checked": today.isoformat(), "members_only": bool(page["members_only"]),
