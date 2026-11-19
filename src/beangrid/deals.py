@@ -45,7 +45,8 @@ class Offer(BaseModel):
     bucket: str | None
     desc: str
     stale: bool = False
-    green: bool = False  # unroasted beans (home roasters): ranked among themselves, hidden from the roasted view
+    green: bool = False
+    members_only: bool = False  # locked to logged-in (wholesale/member) accounts: not buyable by the public  # unroasted beans (home roasters): ranked among themselves, hidden from the roasted view
 
     sale_pct: float | None = None
     sale_days: int | None = None
@@ -133,6 +134,7 @@ def collapse(variants: list[Variant], stale_sites: set[str] | None = None) -> li
                 desc=rep.description[:300],
                 stale=rep.site in stale_sites,
                 green=rep.category == "green_coffee",
+                members_only=any(m.members_only for m in members),
             )
         )
     return offers
@@ -140,7 +142,8 @@ def collapse(variants: list[Variant], stale_sites: set[str] | None = None) -> li
 
 def _eligible(o: Offer) -> bool:
     """Retail offers that get ranked and scored; wholesale prices would skew the retail value scale."""
-    return o.available and not o.suspect and not o.sample and not o.wholesale and o.ppk is not None
+    return (o.available and not o.suspect and not o.sample and not o.wholesale and not o.members_only
+            and o.ppk is not None)
 
 
 def _percentile_ranks(values: list[float]) -> list[float]:

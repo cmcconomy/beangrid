@@ -33,6 +33,10 @@ uv run beangrid canvass [--write]   # prune dead stores from sites.txt, propose 
 - `src/beangrid/promos.py`: homepage promo scan (codes, free-shipping thresholds, subscriber %), only in the
   14:23 run (`BEANGRID_SCAN_PROMOS`); `data/promos.json` keeps last known per store, `data/promo_log.csv`
   logs codes appearing/disappearing. Add a real banner to `tests/test_promos.py` before changing the regexes
+- `src/beangrid/locks.py`: members-only products (Locksmith app; only visible on the product page). Capped batch
+  (`lock_check_max`) of product pages per 14:23 run for stores whose homepage loads Locksmith; verdicts in
+  `data/locks.json` keep applying when off. Kill switches: `gh variable set BEANGRID_LOCK_CHECK --body off`
+  (same for `BEANGRID_SCAN_PROMOS`)
 - `src/beangrid/canvass.py`: weekly store-list upkeep. Prunes only failures that look permanent (404, non-JSON,
   DNS) *and* that `data/sites.json` shows failing for `prune_after_days`; discovers via `candidates.txt` and
   `aggregator_sites` vendors, validated with Shopify `/meta.json` (country) + coffee classification

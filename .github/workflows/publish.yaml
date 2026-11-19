@@ -49,8 +49,12 @@ jobs:
         # Exits non-zero (and so skips commit + deploy) if too many stores fail.
         run: uv run beangrid run
         env:
-          # Homepage promo scan: only in the 14:23 catch-up run (spare rate-limit budget) or by hand.
-          BEANGRID_SCAN_PROMOS: ${{ github.event.schedule == '23 14 * * *' || github.event_name == 'workflow_dispatch' }}
+          # Extra page requests ride on the 14:23 catch-up run (spare rate-limit budget) or a manual run.
+          # Kill switches, no code change needed:
+          #   gh variable set BEANGRID_SCAN_PROMOS --body off   (homepage promo scan)
+          #   gh variable set BEANGRID_LOCK_CHECK --body off    (members-only product page checks)
+          BEANGRID_SCAN_PROMOS: ${{ (github.event.schedule == '23 14 * * *' || github.event_name == 'workflow_dispatch') && vars.BEANGRID_SCAN_PROMOS != 'off' }}
+          BEANGRID_LOCK_CHECK: ${{ (github.event.schedule == '23 14 * * *' || github.event_name == 'workflow_dispatch') && vars.BEANGRID_LOCK_CHECK != 'off' }}
 
       - name: Save store cache
         if: always()

@@ -76,6 +76,7 @@ class PromoInfo(BaseModel):
     codes: list[PromoCode] = []
     free_shipping: FreeShipping | None = None
     subscription_pct: int | None = None
+    locksmith: bool = False  # the store uses the Locksmith access app: some products may be members-only
 
 
 def _clean(text: str) -> str:
@@ -101,7 +102,7 @@ def _context(text: str, start: int, end: int, before: int = 120, after: int = 80
 
 def extract_promos(html: str) -> PromoInfo:
     soup = BeautifulSoup(html, "html.parser")
-    for t in soup(["script", "style", "noscript", "template"]):
+    for t in soup(["script", "style", "noscript", "template"]):  # (html itself is kept for the locksmith check)
         t.decompose()
     bars: list[str] = []
     for el in soup.select(BAR_SELECTOR):
@@ -111,7 +112,7 @@ def extract_promos(html: str) -> PromoInfo:
     banners = [b for b in bars if PROMO_SIGNAL_RX.search(b)]
     body = _clean(soup.get_text(" "))
 
-    info = PromoInfo(banners=banners[:3])
+    info = PromoInfo(banners=banners[:3], locksmith="data-locksmith" in html)
     seen: set[str] = set()
     for source in [*banners, body]:
         for m in CODE_RX.finditer(source):

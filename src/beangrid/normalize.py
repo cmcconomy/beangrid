@@ -52,6 +52,7 @@ class Variant(BaseModel):
     style: str | None = None
     sample: bool = False
     wholesale: bool = False  # cafe/restaurant/B2B listing (see classify.is_wholesale)
+    members_only: bool = False  # locked to logged-in accounts on the store (see locks.py)
     flags: list[str] = []
 
 

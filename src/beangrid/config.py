@@ -43,6 +43,12 @@ class Settings(BaseSettings):
     # Read store homepages for promo codes / free-shipping thresholds this run (the 14:23 catch-up run).
     scan_promos: bool = False
     promo_budget_s: float = 600.0
+    # Members-only check (Locksmith) on product pages of stores that use it. Off unless the workflow
+    # enables it; capped per run so it can't eat the rate limit. Verdicts persist in data/locks.json.
+    lock_check: bool = False
+    lock_check_max: int = 40
+    lock_recheck_days: int = 7
+    lock_budget_s: float = 300.0
 
     # A site whose product count drops below this fraction of its last good count is
     # treated as a failed scrape (truncated pagination, maintenance page, ...).

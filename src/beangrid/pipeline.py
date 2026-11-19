@@ -17,6 +17,7 @@ from beangrid.export import write_parquet
 from beangrid.fetch import SiteResult, fetch_all
 from beangrid.history import History, Observation, update_catalog
 from beangrid.normalize import Variant, normalize_site, site_id
+from beangrid.locks import check_locks, load_locks, pick_products
 from beangrid.promos import load_promos, scan_homepages, update_promos
 
 logger = logging.getLogger(__name__)
@@ -249,6 +250,27 @@ def refresh_promos(
         return load_promos(path)
 
 
+def refresh_locks(
+    settings: Settings, variants: list[Variant], promos: dict[str, Any], today: date
+) -> dict[str, Any]:
+    """Members-only verdicts: a capped batch re-checked when enabled, otherwise the last known. Never fails the run."""
+    path = settings.data_dir / "locks.json"
+    if not settings.lock_check:
+        return load_locks(path)
+    try:
+        locksmith_sites = {site for site, p in promos.items() if p.get("locksmith")}
+        urls = sorted({v.url for v in variants
+                       if v.site in locksmith_sites and v.category in ("coffee", "green_coffee")})
+        known = load_locks(path)
+        batch = pick_products(urls, known, today, settings.lock_check_max, settings.lock_recheck_days)
+        if not batch:
+            return known
+        return asyncio.run(check_locks(batch, path, settings, today))
+    except Exception:
+        logger.exception("Lock check failed; keeping the last known verdicts")
+        return load_locks(path)
+
+
 def run(settings: Settings, today: date | None = None, results: list[SiteResult] | None = None) -> dict[str, Any]:
     today = today or datetime.now(UTC).date()
     sites = load_sites(settings.sites_file)
@@ -292,10 +314,15 @@ def run(settings: Settings, today: date | None = None, results: list[SiteResult]
     status_path.parent.mkdir(parents=True, exist_ok=True)
     status_path.write_text(json.dumps(dict(sorted(new_status.items())), indent=1) + "\n")
 
+    promos = refresh_promos(settings, sites, prev_status, today)
+    locks = refresh_locks(settings, all_variants, promos, today)
+    for v in all_variants:
+        v.members_only = bool(locks.get(v.url, {}).get("members_only"))
+
     stale = {o.site for o in outcomes if o.status == "stale"}
     offers = collapse(all_variants, stale)
     score_offers(offers, history, today)
-    build_site(settings, offers, all_variants, new_status, today, refresh_promos(settings, sites, prev_status, today))
+    build_site(settings, offers, all_variants, new_status, today, promos)
 
     summary = {
         "sites_ok": len(ok),

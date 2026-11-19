@@ -48,13 +48,13 @@ const DEAL_TABS = [
   {
     id: "new", label: "New arrivals",
     hint: "First seen in the last 7 days.",
-    pick: (o) => o.available && o.is_new && !o.sample && !o.wholesale,
+    pick: (o) => o.available && o.is_new && !o.sample && !o.wholesale && !o.members_only,
     sort: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""),
   },
   {
     id: "back", label: "Back in stock",
     hint: "Restocked this week after being sold out for 3+ days.",
-    pick: (o) => o.available && o.back_in_stock && !o.sample && !o.wholesale,
+    pick: (o) => o.available && o.back_in_stock && !o.sample && !o.wholesale && !o.members_only,
     sort: (a, b) => (b.deal_score ?? 0) - (a.deal_score ?? 0),
   },
 ];
@@ -80,7 +80,7 @@ function codeLabel(c) {
 }
 
 function eligible(o) {
-  return o.available && !o.suspect && !o.sample && !o.wholesale && o.ppk != null;
+  return o.available && !o.suspect && !o.sample && !o.wholesale && !o.members_only && o.ppk != null;
 }
 
 function el(tag, attrs = {}, ...children) {
@@ -159,6 +159,7 @@ function badges(o, { compact = false } = {}) {
   if (o.value_pct != null && o.value_pct <= 0.1 && !compact) {
     out.push(el("span", { class: "badge b-value", title: "Price per kg in the cheapest 10% for this bag size", text: "Top 10% value" }));
   }
+  if (o.members_only) out.push(el("span", { class: "badge b-warn", title: "Locked on the store to logged-in accounts (wholesale or members): the public can't buy it", text: "Members only" }));
   if (o.wholesale) out.push(el("span", { class: "badge b-warn", title: "Listed for cafes, restaurants or wholesale accounts; may not be sold to the public", text: "Café / wholesale" }));
   for (const c of (state.promos[o.site]?.codes || []).slice(0, compact ? 1 : 2)) {
     const cond = (c.conditions || []).filter((x) => CONDITIONAL.has(x));
@@ -244,7 +245,7 @@ function matches(o, f) {
   if (f.instock && !o.available) return false;
   if (f.nosamples && o.sample) return false;
   if (f.clean && o.suspect) return false;
-  if (f.nowholesale && o.wholesale) return false;
+  if (f.nowholesale && (o.wholesale || o.members_only)) return false;
   if (f.roaster && o.roaster !== f.roaster) return false;
   if (f.origin && !(o.origins || []).includes(f.origin)) return false;
   if (f.process && !(o.process || []).includes(f.process)) return false;
