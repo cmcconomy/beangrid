@@ -21,6 +21,11 @@ from beangrid.weights import parse_weight, resolve_weight, snap_shipping_weight
         ("2,5 kg", 2500),
         ("1 livre", 453.6),
         ("40g SAMPLE", 40),
+        ("Beans / 3/4-pound (340g)", 340.2),  # Virgin Hill: was read as "4-pound" (1814 g)
+        ("1/2-lb bag", 226.8),
+        ("3/4 lb", 340.2),
+        ("¾-pound", 340.2),
+        ("Whole Bean/12oz", 340.2),  # a slash after a word is just a separator
     ],
 )
 def test_parse_weight(text, grams):

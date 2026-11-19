@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
 
-from beangrid.classify import classify, is_sample, is_wholesale
+from beangrid.classify import classify, is_green_variant, is_sample, is_wholesale
 from beangrid.weights import parse_weight, resolve_weight
 
 logger = logging.getLogger(__name__)
@@ -123,6 +123,9 @@ def normalize_product(site_url: str, product: dict[str, Any]) -> list[Variant]:
         price = _float(v.get("price"))
         if price is None or price <= 0:
             continue
+        category, reason = cls.category, cls.reason
+        if category == "coffee" and is_green_variant(label):
+            category, reason = "green_coffee", "green beans option"  # e.g. "Whole Beans / Green Beans / 1 Lb"
         shipping = _float(v.get("grams"))
         weight = resolve_weight(label, title, shipping, has_size_variants)
         flags = list(weight.flags)
@@ -132,7 +135,7 @@ def normalize_product(site_url: str, product: dict[str, Any]) -> list[Variant]:
             compare_at = None  # unset, equal, or nonsense compare-at prices
 
         ppk = round(price / weight.grams * 1000, 2) if weight.grams else None
-        if ppk is not None and cls.category == "coffee" and not (
+        if ppk is not None and category == "coffee" and not (
             PLAUSIBLE_PRICE_PER_KG[0] <= ppk <= PLAUSIBLE_PRICE_PER_KG[1]
         ):
             flags.append("implausible_price_per_kg")
@@ -161,8 +164,8 @@ def normalize_product(site_url: str, product: dict[str, Any]) -> list[Variant]:
                 weight_source=weight.source,
                 shipping_grams=shipping,
                 price_per_kg=ppk,
-                category=cls.category,
-                category_reason=cls.reason,
+                category=category,
+                category_reason=reason,
                 origins=cls.origins,
                 process=cls.process,
                 roast=cls.roast,

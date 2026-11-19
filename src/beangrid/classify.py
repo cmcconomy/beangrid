@@ -329,5 +329,16 @@ def is_wholesale(title: str, product_type: str = "", tags: list[str] | None = No
     return None
 
 
+# A variant option selling the beans unroasted ("Whole Beans / Green Beans / 1 Lb"), unless the option says
+# it gets roasted ("600g green beans / Roasted black": sold by green weight, then roasted for you).
+GREEN_VARIANT_RX = _rx("green beans?", "green coffee", "unroasted", "cafe vert", "grains? verts?", "non torrefies?")
+ROASTED_RX = _rx("roasted", "torrefies?")
+
+
+def is_green_variant(variant_title: str) -> bool:
+    t = fold(variant_title or "")
+    return bool(GREEN_VARIANT_RX.search(t)) and not ROASTED_RX.search(t)
+
+
 def is_sample(variant_title: str, grams: float | None) -> bool:
     return bool(SAMPLE_RX.search(fold(variant_title or ""))) or (grams is not None and grams < 150)

@@ -22,9 +22,10 @@ _NUM = r"(\d+(?:[.,]\d+)?)"
 _MULTI_PREFIX = re.compile(rf"(?<![\d.])(\d{{1,2}})\s*[x×]\s*{_NUM}\s*{_UNIT}\b", re.I)
 # "250g x 4"
 _MULTI_SUFFIX = re.compile(rf"{_NUM}\s*{_UNIT}\s*[x×]\s*(\d{{1,2}})(?![\d.])", re.I)
-# "1/2 lb", "½ lb"
-_FRACTION = re.compile(rf"(?<![\d.])(?:(\d)\s*/\s*(\d)|(½|¼|¾))\s*{_UNIT}\b", re.I)
-_SIMPLE = re.compile(rf"(?<![\d.,]){_NUM}\s*-?\s*{_UNIT}\b", re.I)
+# "1/2 lb", "½ lb", "3/4-pound"
+_FRACTION = re.compile(rf"(?<![\d.])(?:(\d)\s*/\s*(\d)|(½|¼|¾))\s*-?\s*{_UNIT}\b", re.I)
+# Not right after "/": the "4-pound" in "3/4-pound" is a fraction's denominator, not a size.
+_SIMPLE = re.compile(rf"(?<![\d.,])(?<!\d/){_NUM}\s*-?\s*{_UNIT}\b", re.I)
 _UNICODE_FRACTIONS = {"½": 0.5, "¼": 0.25, "¾": 0.75}
 
 # Bag sizes roasters actually sell. Used to strip packaging weight from shipping weights.

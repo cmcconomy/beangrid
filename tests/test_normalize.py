@@ -24,6 +24,27 @@ def test_normalize_coffee_product():
     assert not v2.available
 
 
+def test_green_bean_options_are_not_roasted_coffee():
+    # Dark City sells "Green Beans" as a Roast option: $13.60/lb unroasted showed up as the cheapest roasted bag.
+    p = make_product(title="Brazil Fazenda Cachoeira Peaberry", variants=[
+        {"id": 1, "title": "Whole Beans / Light / 0.5 Lb", "price": "13.50", "grams": 0, "available": True},
+        {"id": 2, "title": "Whole Beans / Light / 1 Lb", "price": "24.00", "grams": 0, "available": True},
+        {"id": 3, "title": "Whole Beans / Green Beans / 1 Lb", "price": "13.60", "grams": 0, "available": True},
+        {"id": 4, "title": "Café vert / 1 kg", "price": "20.00", "grams": 0, "available": True},
+        {"id": 5, "title": "Unroasted / 5 lb", "price": "50.00", "grams": 0, "available": True},
+    ])
+    cats = {v.variant_id: v.category for v in normalize_product("https://darkcitycoffee.com", p)}
+    assert cats == {1: "coffee", 2: "coffee", 3: "green_coffee", 4: "green_coffee", 5: "green_coffee"}
+
+
+def test_roasted_lots_sold_by_green_weight_stay_coffee():
+    # Virgin Hill: you buy a 600 g lot of green beans and they roast it for you.
+    p = make_product(title="Ethiopia Sidamo", variants=[
+        {"id": 1, "title": "1 lot - 600g green beans / Roasted black / Beans", "price": "30", "grams": 0,
+         "available": True}])
+    assert normalize_product("https://virginhillcoffee.com", p)[0].category == "coffee"
+
+
 def test_nonsense_compare_at_dropped():
     p = make_product(variants=[{"id": 1, "title": "250g", "price": "20", "grams": 250, "available": True,
                                 "compare_at_price": "999"}])
