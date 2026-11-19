@@ -77,7 +77,7 @@ PACK_COUNT_RX = re.compile(r"(?<![a-z0-9])\d+\s*[- x]?\s*packs?(?![a-z])")
 HARD_RULES: list[tuple[str, re.Pattern[str]]] = [
     ("seasoning", _rx("seasoning(?: coffee| beans?)?", "grinder seasoning")),  # beans for breaking in grinders
     ("syrup_food", _rx("hot chocolate", "chocolat chaud", "tablettes? de chocolat", "chocolate bars?", "pop ?corn",
-                       "(?:coffee|bbq|steak|spice) rubs?")),
+                       "(?:coffee|bbq|steak|spice) rubs?", "barbecue", "bbq")),
     ("merch", _rx("candles?", "bougies?", "soaps?", "savons?", "lip balms?", "baumes? a levres")),
     ("equipment", _rx("airscape", "canisters?", "knock (?:box|drawer)s?", "funnels?", "replacements?", "wdt",
                       "tools?", "outils?")),
@@ -90,6 +90,8 @@ NON_COFFEE_TYPE_RX = _rx("supplies", "fournitures", "tools?", "outils?", "marcha
 TEA_TYPE_RX = _rx("thes?")
 # Only as a product type: titles name blends after bakeries ("Kinden's Bakery and Café Blend").
 BAKERY_TYPE_RX = _rx("bakehouse", "bakery", "boulangerie", "patisserie")
+# Virgin Hill files its shop goods (glasses, toffee, meringues, candles) under "Boutique"; coffee is "Coffee".
+SHOP_TYPE_RX = _rx("boutique")
 # Options like "$25.00 / $50.00": a gift card dressed up as a product ("A Gift of Coffee").
 MONEY_OPTION_RX = re.compile(r"\$\s*\d+(?:[.,]\d{2})?|\d+(?:[.,]\d{2})?\s*\$")
 
@@ -226,6 +228,8 @@ def classify(
         return Classification(category="tea", reason=f"tea product type '{t_type}'")
     if BAKERY_TYPE_RX.search(t_type):
         return Classification(category="syrup_food", reason=f"bakery product type '{t_type}'")
+    if SHOP_TYPE_RX.search(t_type):
+        return Classification(category="merch", reason=f"shop product type '{t_type}'")
     values = [fold(v).strip() for v in option_values or [] if v.strip()]
     if values and all(MONEY_OPTION_RX.fullmatch(v) for v in values):
         return Classification(category="gift_card", reason="options are dollar amounts")
@@ -344,6 +348,25 @@ ROASTED_RX = _rx("roasted", "torrefies?")
 def is_green_variant(variant_title: str) -> bool:
     t = fold(variant_title or "")
     return bool(GREEN_VARIANT_RX.search(t)) and not ROASTED_RX.search(t)
+
+
+# Formats offered as options of an otherwise whole-bean product ("Original / Soft Pods", "1 lb / Keurig / K-Cup",
+# "42 x 2.5 oz Portion Packs"). "Espresso Pod Grind" is a grind setting, not pods.
+POD_VARIANT_RX = re.compile(r"(?<![a-z])(?:soft )?pods?(?![a-z])(?! grind)|(?<![a-z])(?:k-?cups?|keurig|capsules?|"
+                            r"nespresso|dosettes?)(?![a-z])")
+PORTION_VARIANT_RX = _rx("portion packs?", "fraction packs?", "frac packs?")
+
+
+def variant_category(variant_title: str) -> str | None:
+    """The category a single variant falls into when its option says it isn't whole roasted beans, else None."""
+    t = fold(variant_title or "")
+    if is_green_variant(variant_title):
+        return "green_coffee"
+    if PORTION_VARIANT_RX.search(t):
+        return "portion_packs"
+    if POD_VARIANT_RX.search(t):
+        return "pods"
+    return None
 
 
 def is_sample(variant_title: str, grams: float | None) -> bool:

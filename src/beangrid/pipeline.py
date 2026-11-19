@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from beangrid.config import Settings, load_sites
-from beangrid.deals import Offer, collapse, score_offers
+from beangrid.deals import Offer, collapse, score_offers, size_bucket
 from beangrid.export import write_parquet
 from beangrid.fetch import SiteResult, fetch_all
 from beangrid.history import History, Observation, update_catalog
@@ -250,6 +250,43 @@ def refresh_promos(
         return load_promos(path)
 
 
+def is_hidden(v: Variant, locks: dict[str, Any], promos: dict[str, Any]) -> bool:
+    """Not buyable by the public: locked product, a size missing from the public menu, or WLM-hidden."""
+    lock = locks.get(v.url, {})
+    if lock.get("members_only"):
+        return True
+    # A variant whose option isn't in the public menu ("6 x 2 lb case") is wholesale-only.
+    visible = lock.get("visible_options")
+    if visible and any(opt not in visible for opt in v.variant_title.split(" / ") if opt):
+        return True
+    return v.url.rsplit("/products/", 1)[-1] in promos.get(v.site, {}).get("hidden_products", [])
+
+
+def promoted_urls(
+    variants: list[Variant], per_bucket: int, known: dict[str, Any] | None = None, promos: dict[str, Any] | None = None
+) -> list[str]:
+    """Product pages of the cheapest listings per size bucket: what the site ranks at the top.
+
+    Listings already known to be hidden are skipped: the site doesn't show them, so they'd only crowd out
+    the ones it does.
+    """
+    known, promos = known or {}, promos or {}
+    best: dict[str, tuple[float, str]] = {}
+    for v in variants:
+        if v.category != "coffee" or not v.available or v.sample or v.wholesale or not v.price_per_kg:
+            continue
+        if is_hidden(v, known, promos):
+            continue
+        bucket = size_bucket(v.grams)
+        if bucket and bucket != "sample" and (v.url not in best or v.price_per_kg < best[v.url][0]):
+            best[v.url] = (v.price_per_kg, bucket)
+    out: list[str] = []
+    for bucket in ("bag", "large", "bulk"):
+        ranked = sorted((ppk, url) for url, (ppk, b) in best.items() if b == bucket)
+        out += [url for _, url in ranked[:per_bucket] if url not in out]
+    return out
+
+
 def refresh_locks(
     settings: Settings, variants: list[Variant], promos: dict[str, Any], today: date
 ) -> dict[str, Any]:
@@ -259,9 +296,11 @@ def refresh_locks(
         return load_locks(path)
     try:
         locksmith_sites = {site for site, p in promos.items() if p.get("locksmith")}
-        urls = sorted({v.url for v in variants
-                       if v.site in locksmith_sites and v.category in ("coffee", "green_coffee")})
+        lock_store_urls = {v.url for v in variants
+                           if v.site in locksmith_sites and v.category in ("coffee", "green_coffee")}
         known = load_locks(path)
+        promoted = promoted_urls(variants, settings.lock_promoted_per_bucket, known, promos)
+        urls = promoted + sorted(lock_store_urls - set(promoted))  # promoted listings are checked first
         batch = pick_products(urls, known, today, settings.lock_check_max, settings.lock_recheck_days)
         if not batch:
             return known
@@ -327,14 +366,8 @@ def run(settings: Settings, today: date | None = None, results: list[SiteResult]
 
     promos = refresh_promos(settings, sites, prev_status, today)
     locks = refresh_locks(settings, all_variants, promos, today)
-    wlm_hidden = {(site, h) for site, p in promos.items() for h in p.get("hidden_products", [])}
     for v in all_variants:
-        handle = v.url.rsplit("/products/", 1)[-1]
-        lock = locks.get(v.url, {})
-        # A variant whose option isn't in the public menu ("6 x 2 lb case") is wholesale-only.
-        visible = lock.get("visible_options")
-        hidden_variant = bool(visible) and any(opt not in visible for opt in v.variant_title.split(" / ") if opt)
-        v.members_only = bool(lock.get("members_only")) or hidden_variant or (v.site, handle) in wlm_hidden
+        v.members_only = is_hidden(v, locks, promos)
 
     stale = {o.site for o in outcomes if o.status == "stale"}
     offers = collapse(all_variants, stale)

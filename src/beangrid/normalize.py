@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
 
-from beangrid.classify import classify, is_green_variant, is_sample, is_wholesale
+from beangrid.classify import classify, is_sample, is_wholesale, variant_category
 from beangrid.weights import parse_weight, resolve_weight
 
 logger = logging.getLogger(__name__)
@@ -125,8 +125,9 @@ def normalize_product(site_url: str, product: dict[str, Any]) -> list[Variant]:
         if price is None or price <= 0:
             continue
         category, reason = cls.category, cls.reason
-        if category == "coffee" and is_green_variant(label):
-            category, reason = "green_coffee", "green beans option"  # e.g. "Whole Beans / Green Beans / 1 Lb"
+        if category == "coffee" and (vc := variant_category(label)):
+            # e.g. "Whole Beans / Green Beans / 1 Lb", "Original / Soft Pods", "42 x 2.5 oz Portion Packs"
+            category, reason = vc, f"{vc} option"
         shipping = _float(v.get("grams"))
         weight = resolve_weight(label, title, shipping, has_size_variants)
         flags = list(weight.flags)

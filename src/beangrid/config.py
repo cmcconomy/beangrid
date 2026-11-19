@@ -49,6 +49,9 @@ class Settings(BaseSettings):
     lock_check_max: int = 40
     lock_recheck_days: int = 7
     lock_budget_s: float = 300.0
+    # Also check the pages of the cheapest listings per size bucket on any store (what the site promotes),
+    # e.g. a product that 404s for the public while products.json still lists it.
+    lock_promoted_per_bucket: int = 15
 
     # A site whose product count drops below this fraction of its last good count is
     # treated as a failed scrape (truncated pagination, maintenance page, ...).

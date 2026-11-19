@@ -170,6 +170,7 @@ def test_pipeline_flags_members_only_offers_and_the_switch_stops_requests(settin
     monkeypatch.setattr(pipeline, "check_locks", fake_check)
     settings.scan_promos = settings.lock_check = True
     settings.lock_check_max = 50
+    settings.lock_promoted_per_bucket = 0  # this test is about lock-app stores only
     run(settings, D0, results(alpha(), beta()))
     assert requested and all(u.startswith("https://alpha.example/products/") for u in requested[0])
     offers = json.loads((settings.site_out_dir / "data" / "offers.json").read_text())["offers"]
