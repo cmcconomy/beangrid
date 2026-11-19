@@ -1,6 +1,6 @@
 {
  "49thcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://49thcoffee.com",
   "banners": [
    "FREE SHIPPING ON ORDERS $60+"
@@ -11,26 +11,32 @@
    "region": null,
    "text": "FREE SHIPPING ON ORDERS $60+"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "94celcius.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://94celcius.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": 5
+  "subscription_pct": 5,
+  "locksmith": false,
+  "hidden_products": []
  },
  "acecoffeeroasters.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://acecoffeeroasters.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": 30
+  "subscription_pct": 30,
+  "locksmith": false,
+  "hidden_products": []
  },
  "agroroasters.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://agroroasters.com",
   "banners": [],
   "codes": [],
@@ -39,10 +45,12 @@
    "region": "Canada",
    "text": "…FREE SHIPPING ACROSS CANADA ON ORDERS $45+ || U.S. ORDERS $80+ USD FREE SHIPPING…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "anchoredcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://anchoredcoffee.com",
   "banners": [
    "Free shipping over $75 CAD Left Right Currency CAD $ Down Canada (CAD $) United States (USD $)"
@@ -53,10 +61,12 @@
    "region": null,
    "text": "Free shipping over $75 CAD Left Right Currency CAD $ Down…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "balzacs.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://balzacs.com",
   "banners": [],
   "codes": [],
@@ -65,30 +75,36 @@
    "region": null,
    "text": "…Free Shipping! On purchases of $50 or more *Canada only Shop Now"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "beannorth.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://beannorth.com",
   "banners": [
    "Pause slideshow Play slideshow Monthly Subscriptions Save 5% 10% or 20% when you select subscribe! Cafe is OPEN 9am - 5pm Wednesday Novemeber 11, 2026 **Coming November 16** POP up cafe downtown! 205 Main Street North Of Ordinary"
   ],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": 5
+  "subscription_pct": 5,
+  "locksmith": false,
+  "hidden_products": []
  },
  "birdycoffeeco.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://birdycoffeeco.ca",
   "banners": [
    "12 DAYS OF CHRISTMAS COFFEE ADVENT CALENDAR PRE-SALE NOW AVAILABLE!"
   ],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "botany-rd.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://botany-rd.com",
   "banners": [
    "10% OFF FIRST ORDER USING CODE 'COFFEE10' FREE SHIPPING ON ORDERS OVER $70"
@@ -110,10 +126,12 @@
    "region": null,
    "text": "…FREE SHIPPING ON ORDERS OVER $70"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "bowscoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://bowscoffee.com",
   "banners": [],
   "codes": [],
@@ -122,10 +140,17 @@
    "region": "Canada",
    "text": "…Free shipping within Canada on orders over $60 Menu 0 Home Shop Coffees Chocolate…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": [
+   "bella-aurora-espresso-habit",
+   "bella-aurora-habit",
+   "bunn-fetco-paper-filters-pack-of-500",
+   "fife-blend"
+  ]
  },
  "brulerieduquai.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.brulerieduquai.com",
   "banners": [
    "Email Facebook Instagram livraison gratuite dès 65$ (100$ zone Atlantique) économisez 20% en vous abonnant à votre café préféré Langue français français english Pays/région Canada (CAD $)"
@@ -136,10 +161,12 @@
    "region": null,
    "text": "…livraison gratuite dès 65$ (100$ zone Atlantique) économisez 20%…"
   },
-  "subscription_pct": 20
+  "subscription_pct": 20,
+  "locksmith": true,
+  "hidden_products": []
  },
  "cafepista.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://cafepista.com",
   "banners": [
    "Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada) Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada) 🎄 Le calendrier de l’avent Pista x Found est arrivé. Commander le vôtre 🎄 🎄 Le calendrier de l’avent Pista x Found est arrivé. Commander le vôtre 🎄"
@@ -150,18 +177,22 @@
    "region": "Québec",
    "text": "Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada)…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "candidcoffeeroasters.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://candidcoffeeroasters.ca",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "cantookcafe.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://cantookcafe.com",
   "banners": [
    "LIVRAISON GRATUITE AVEC TOUT ACHAT DE 49$ ET PLUS."
@@ -172,10 +203,12 @@
    "region": null,
    "text": "LIVRAISON GRATUITE AVEC TOUT ACHAT DE 49$ ET PLUS."
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "coffeewallas.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://coffeewallas.com",
   "banners": [
    "FREE SHIPPING on all orders over $45 CAD in Canada & $85 USD in the USA ✈️",
@@ -187,10 +220,12 @@
    "region": "Canada",
    "text": "FREE SHIPPING on all orders over $45 CAD in Canada & $85 USD in the USA ✈️"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "continuumcoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://continuumcoffee.ca",
   "banners": [
    "Enjoy Free Shipping on Coffee Orders Over $50 (Canada Only)"
@@ -201,32 +236,45 @@
    "region": "Canada",
    "text": "…Free Shipping on Coffee Orders Over $50 (Canada Only)"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "darkcitycoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://darkcitycoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "detourcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://detourcoffee.com",
   "banners": [
-   "Merry Coffee'mas!! 🎄 Tis' the season for Limited Seasonal Blends! 🎁 Holiday Blend & Holiday Espresso 🎄 NOW Roasting!🔥 🚨 FREE SHIPPING on all ☕️ orders over $60 nationwide! 📦 🇨🇦 Subscribe & SAVE 15% 📥"
+   "👉 IT'S THE BEST COFFEE DEAL YOU'LL FIND 👀 25% OFF ALL COFFEES ☕️ & SUBSCRIPTIONS 📦 + FREE SHIPPING NATIONWIDE! 🚚 🇨🇦 USE CODE: OFFTHELOT at CHECKOUT! 🛒"
   ],
-  "codes": [],
-  "free_shipping": {
-   "amount": 60,
-   "region": null,
-   "text": "…FREE SHIPPING on all ☕️ orders over $60 nationwide! 📦 🇨🇦 Subscribe & SAVE 15% 📥"
-  },
-  "subscription_pct": 15
+  "codes": [
+   {
+    "code": "OFFTHELOT",
+    "pct": 25,
+    "conditions": [
+     "subscription",
+     "free shipping"
+    ],
+    "text": "👉 IT'S THE BEST COFFEE DEAL YOU'LL FIND 👀 25% OFF ALL COFFEES ☕️ & SUBSCRIPTIONS 📦 + FREE SHIPPING NATIONWIDE! 🚚 🇨🇦 USE CODE: OFFTHELOT at CHECKOUT! 🛒",
+    "first_seen": "2026-11-19"
+   }
+  ],
+  "free_shipping": null,
+  "subscription_pct": 25,
+  "locksmith": false,
+  "hidden_products": []
  },
  "discoverycoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://discoverycoffee.com",
   "banners": [],
   "codes": [],
@@ -235,10 +283,12 @@
    "region": null,
    "text": "Spend $60.00 more and get free shipping"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "downeastcoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.downeastcoffee.ca",
   "banners": [
    "FREE SHIPPING on all orders over $90 FREE SHIPPING - orders $90+"
@@ -249,10 +299,12 @@
    "region": null,
    "text": "FREE SHIPPING on all orders over $90 FREE SHIPPING - orders $90+"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "drumroaster.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.drumroaster.com",
   "banners": [
    "Free Shipping on coffee orders over $60!"
@@ -263,18 +315,22 @@
    "region": null,
    "text": "Free Shipping on coffee orders over $60!"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "elevenspeedcoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.elevenspeedcoffee.ca",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "elysiancoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://elysiancoffee.com",
   "banners": [
    "Free shipping on orders of $60 or more in Canada, $50 for subscriptions Our Cafes About Wholesale Contact"
@@ -285,26 +341,32 @@
    "region": null,
    "text": "Free shipping on orders of $60 or more in Canada, $50 for…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "enjoylunacoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://enjoylunacoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "epochchemistry.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://epochchemistry.ca",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "equatorcoffeeroasters.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://equatorcoffeeroasters.com",
   "banners": [],
   "codes": [],
@@ -313,10 +375,12 @@
    "region": null,
    "text": "…Free shipping orders $60+ in QC/ON, $79+ for rest of Canada…"
   },
-  "subscription_pct": 15
+  "subscription_pct": 15,
+  "locksmith": false,
+  "hidden_products": []
  },
  "ethicalbean.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://ethicalbean.com",
   "banners": [
    "free shipping for all orders over $99 Contact ca ca us"
@@ -337,10 +401,12 @@
    "region": null,
    "text": "free shipping for all orders over $99 Contact ca ca us"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "evencoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://evencoffee.ca",
   "banners": [
    "FREE SHIPPING ON ORDERS OVER $70 WITHIN CANADA"
@@ -351,18 +417,22 @@
    "region": "Canada",
    "text": "FREE SHIPPING ON ORDERS OVER $70 WITHIN CANADA"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "farocoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://farocoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "fernwoodcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://fernwoodcoffee.com",
   "banners": [],
   "codes": [],
@@ -371,10 +441,12 @@
    "region": null,
    "text": "…Free shipping on orders over $50 Free shipping on orders over $50 Shop…"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "firebeancoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://firebeancoffee.ca",
   "banners": [
    "Free Shipping on orders over $80 CAD"
@@ -385,10 +457,12 @@
    "region": null,
    "text": "Free Shipping on orders over $80 CAD"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "flatlandcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://flatlandcoffee.com",
   "banners": [
    "BLACK FRIDAY: 15% OFF EVERY BAG OF COFFEE · NOV 23–30 Shop the sale FREE SHIPPING ON ALL NEW 2.5LB BAG SUBSCRIPTIONS FREE SHIPPING on orders over $100 · $9 flat shipping over $60 (Canada)"
@@ -399,20 +473,24 @@
    "region": null,
    "text": "…FREE SHIPPING ON ALL NEW 2.5LB BAG SUBSCRIPTIONS FREE SHIPPING on orders over $100 · $9 flat shipping over $60 (Canada)"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "fratellocoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.fratellocoffee.com",
   "banners": [
    "Subscribers save 20% on every order · Roasted in Calgary"
   ],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": 20
+  "subscription_pct": 20,
+  "locksmith": false,
+  "hidden_products": []
  },
  "halecoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.halecoffee.com",
   "banners": [
    "Free shipping Canada wide for all orders over $75!"
@@ -423,10 +501,12 @@
    "region": "Canada",
    "text": "Free shipping Canada wide for all orders over $75!"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "hellodemello.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://hellodemello.com",
   "banners": [
    "FREE SHIPPING ON ORDERS OVER $45"
@@ -437,18 +517,22 @@
    "region": null,
    "text": "FREE SHIPPING ON ORDERS OVER $45"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "javablendcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://javablendcoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "javaroasters.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://javaroasters.ca",
   "banners": [
    "FREE SHIPPING ON $67+ ORDERS"
@@ -459,10 +543,12 @@
    "region": null,
    "text": "FREE SHIPPING ON $67+ ORDERS"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "jjbeancoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://jjbeancoffee.com",
   "banners": [
    "Save 10% With Coffee Subscriptions Free Shipping On Orders Over $55 Within Canada"
@@ -473,10 +559,12 @@
    "region": "Canada",
    "text": "…Free Shipping On Orders Over $55 Within Canada"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "justuscoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://justuscoffee.com",
   "banners": [
    "Facebook Instagram YouTube Free Shipping on orders over $59"
@@ -487,10 +575,12 @@
    "region": null,
    "text": "…Free Shipping on orders over $59"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": true,
+  "hidden_products": []
  },
  "kickinghorsecoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://kickinghorsecoffee.ca",
   "banners": [
    "WAKE UP. KICK ASS. FREE SHIPPING IN CANADA* ON ORDERS $75+ ROASTED IN CANADA"
@@ -501,34 +591,42 @@
    "region": "Canada",
    "text": "…FREE SHIPPING IN CANADA* ON ORDERS $75+ ROASTED IN CANADA"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "lebruloir.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.lebruloir.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "littlesistercoffeemaker.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.littlesistercoffeemaker.ca",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "matchstickyvr.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://matchstickyvr.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "melk.cafe": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://melk.cafe",
   "banners": [
    "Diaporama Pause Lire le diaporama Livraison gratuite à l’achat de 35 $ au QC / 45 $ au Canada et aux É.-U. Nous torréfions tous les lundis et mercredis!"
@@ -539,10 +637,12 @@
    "region": null,
    "text": "…Livraison gratuite à l’achat de 35 $ au QC / 45 $ au Canada et aux É.-U.…"
   },
-  "subscription_pct": 15
+  "subscription_pct": 15,
+  "locksmith": false,
+  "hidden_products": []
  },
  "mikkocoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://mikkocoffee.com",
   "banners": [
    "Free Shipping on Orders Over $65"
@@ -563,10 +663,12 @@
    "region": null,
    "text": "Free Shipping on Orders Over $65"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "monogramcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://monogramcoffee.com",
   "banners": [],
   "codes": [],
@@ -575,18 +677,22 @@
    "region": "Canada",
    "text": "…Free Shipping Free shipping across Canada and the US for orders over $60 WORLD BARISTA CHAMPIONSHIP 2026 🏆 Jill…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "movingcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.movingcoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "nektar.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://nektar.ca",
   "banners": [
    "LIVRAISON GRATUITE au Canada sur les achats de 45$ et +"
@@ -597,18 +703,22 @@
    "region": "Canada",
    "text": "LIVRAISON GRATUITE au Canada sur les achats de 45$ et +"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "nemesis.coffee": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.nemesis.coffee",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": true,
+  "hidden_products": []
  },
  "noctcoffee.myshopify.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://noctcoffee.myshopify.com",
   "banners": [
    "Free shipping in Canada on orders over $80",
@@ -620,18 +730,22 @@
    "region": "Canada",
    "text": "Free shipping in Canada on orders over $80"
   },
-  "subscription_pct": 15
+  "subscription_pct": 15,
+  "locksmith": false,
+  "hidden_products": []
  },
  "originhillcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://originhillcoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "paradigmspark.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://paradigmspark.com",
   "banners": [
    "Instagram Email Free shipping on orders over $50 in Canada Country/region Canada (CAD $)"
@@ -642,26 +756,32 @@
    "region": "Canada",
    "text": "…Free shipping on orders over $50 in Canada Country/region Canada (CAD $)"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "philsebastian.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://philsebastian.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "pilotcoffeeroasters.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.pilotcoffeeroasters.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "pivot-coffee-roastery.myshopify.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://pivot-coffee-roastery.myshopify.com",
   "banners": [
    "FREE SHIPPING! ANYWHERE IN ONTARIO WITH A MINIMUM PURCHASE OF $125 OR MORE, USE PROMO CODE PCR125. (SUBSCRIPTIONS EXCLUDED)"
@@ -683,18 +803,22 @@
    "region": "Ontario",
    "text": "FREE SHIPPING! ANYWHERE IN ONTARIO WITH A MINIMUM PURCHASE OF $125 OR MORE, USE PROMO CODE PCR125.…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "prairielilycoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://prairielilycoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "propellercoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.propellercoffee.com",
   "banners": [
    "🎉 Free Shipping on Coffee Orders Over $50 🎉"
@@ -705,10 +829,12 @@
    "region": null,
    "text": "…Free Shipping on Coffee Orders Over $50 🎉"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "quietlycoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.quietlycoffee.com",
   "banners": [
    "QUIETLY MERCH ON SALE! ○ FREE SHIPPING OVER $75"
@@ -719,10 +845,12 @@
    "region": null,
    "text": "…FREE SHIPPING OVER $75"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "rampagecoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://rampagecoffee.com",
   "banners": [],
   "codes": [],
@@ -731,10 +859,12 @@
    "region": null,
    "text": "…FREE SHIPPING OVER $100CAD Call: (555) 555-5555 Login Rampage…"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": true,
+  "hidden_products": []
  },
  "receivercoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://receivercoffee.com",
   "banners": [
    "FREE SHIPPING ON ORDERS OVER $95"
@@ -745,10 +875,12 @@
    "region": null,
    "text": "FREE SHIPPING ON ORDERS OVER $95"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "regardcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.regardcoffee.com",
   "banners": [
    "Free shipping over $100. Orders will be shipped on Thursdays."
@@ -759,34 +891,42 @@
    "region": null,
    "text": "Free shipping over $100. Orders will be shipped on Thursdays."
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "reunioncoffeeroasters.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://reunioncoffeeroasters.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "revolvercoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://revolvercoffee.ca",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "rocanini.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.rocanini.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "roguewavecoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.roguewavecoffee.ca",
   "banners": [
    "Pre-order your Coffee Gift Box here! Starts shipping Dec 4. Free Shipping in Canada on Orders Over $45 We are currently accepting US orders with extra processing time. Click here to learn more."
@@ -797,10 +937,12 @@
    "region": "Canada",
    "text": "…Free Shipping in Canada on Orders Over $45 We are currently accepting US orders…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "rohicoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://rohicoffee.ca",
   "banners": [
    "Whatsapp 647-230-3300 Ships from Markham, ON Free shipping on most orders over $75"
@@ -811,10 +953,12 @@
    "region": null,
    "text": "…Free shipping on most orders over $75"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "rossocoffeeroasters.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.rossocoffeeroasters.com",
   "banners": [],
   "codes": [],
@@ -823,10 +967,12 @@
    "region": null,
    "text": "…free shipping Spend $75.00 to get free shipping Menu Coffee…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "sainthenri.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://sainthenri.ca",
   "banners": [
    "Livraison gratuite au Québec pour les commandes de 65 $ et + (avant taxes et après rabais) hors produits Breville. États-Unis : livraisons suspendues jusqu'à nouvel ordre."
@@ -837,10 +983,12 @@
    "region": "Québec",
    "text": "Livraison gratuite au Québec pour les commandes de 65 $ et + (avant taxes et après rabais)…"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "samjamescoffeebar.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://samjamescoffeebar.com",
   "banners": [
    "FREE SHIPPING CANADA WIDE WITH A $75 SUBSCRIPTION click here FREE SHIPPING ONTARIO OVER $75 learn more"
@@ -851,10 +999,12 @@
    "region": "Canada",
    "text": "FREE SHIPPING CANADA WIDE WITH A $75 SUBSCRIPTION click here FREE SHIPPING…"
   },
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "september.coffee": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://september.coffee",
   "banners": [
    "Previous Free Shipping on Orders Over $70 CAD & USA $80 USD USA - We are now shipping with UPS and FedEx - Please allow extra time for package processing, clearance and shipping (4-10 days) Subscribers gain access to free shipping without order minimums. Learn more... Next"
@@ -876,10 +1026,12 @@
    "region": null,
    "text": "…Free Shipping on Orders Over $70 CAD & USA $80 USD USA - We are now…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "sethtaylor.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://sethtaylor.ca",
   "banners": [
    "SHIPPING VIA UPS, PUROLATOR & CANADA POST. FREE SHIPPING IN CANADA AT $65"
@@ -890,50 +1042,62 @@
    "region": "Canada",
    "text": "…FREE SHIPPING IN CANADA AT $65"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "shop.ethicaroasters.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://shop.ethicaroasters.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "smiletigercoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://smiletigercoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "sorellina.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://sorellina.ca",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "stereocoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://stereocoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "structurecoffeeroasters.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://structurecoffeeroasters.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": true,
+  "hidden_products": []
  },
  "subtext.coffee": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.subtext.coffee",
   "banners": [
    "Free shipping in Canada on coffee orders over $60 CAD. Free shipping to the continental US on coffee orders over $75 USD. New flat rate shipping : To the UK on orders over £60. To most of Europe on orders over €65."
@@ -944,10 +1108,12 @@
    "region": "Canada",
    "text": "Free shipping in Canada on coffee orders over $60 CAD. Free shipping to the continental…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "theangryroaster.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://theangryroaster.com",
   "banners": [],
   "codes": [],
@@ -956,36 +1122,44 @@
    "region": null,
    "text": "…Free shipping on Canadian orders over $65 Shipped worldwide ★★★★★ 4.90 from 83…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "thelibraryspecialtycoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.thelibraryspecialtycoffee.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "thombargen.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.thombargen.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": 10
+  "subscription_pct": 10,
+  "locksmith": false,
+  "hidden_products": []
  },
  "trafficcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://www.trafficcoffee.com",
   "banners": [
    "On Sale"
   ],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": true,
+  "hidden_products": []
  },
  "transcendcoffee.ca": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://transcendcoffee.ca",
   "banners": [],
   "codes": [],
@@ -994,10 +1168,12 @@
    "region": "Canada",
    "text": "…free shipping Free shipping: AB over $65.00 • Canada over $75.00 Top up for…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "virginhillcoffee.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://virginhillcoffee.com",
   "banners": [
    "Canadian owned 🍁 Roasted in Québec ⚜️ FREE SHIPPING accross Canada on orders over $59! English English Français"
@@ -1008,10 +1184,12 @@
    "region": "Canada",
    "text": "…FREE SHIPPING accross Canada on orders over $59! English English Français"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "yourstrulycoffee.myshopify.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://yourstrulycoffee.myshopify.com",
   "banners": [],
   "codes": [],
@@ -1020,18 +1198,22 @@
    "region": "Canada",
    "text": "…Free shipping on orders over $45 in Canada Shop Wholesale Co-roasting…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "za-klo-torrefactrices.myshopify.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://za-klo-torrefactrices.myshopify.com",
   "banners": [],
   "codes": [],
   "free_shipping": null,
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  },
  "zabcafe.com": {
-  "checked": "2026-11-18",
+  "checked": "2026-11-19",
   "url": "https://zabcafe.com",
   "banners": [],
   "codes": [],
@@ -1040,6 +1222,8 @@
    "region": "Canada",
    "text": "…Livraison gratuite partout au Canada pour toutes commandes de 40$ et plus. Autres liens Inscription…"
   },
-  "subscription_pct": null
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": []
  }
 }

@@ -1,0 +1,32 @@
+{
+ "https://bowscoffee.com/products/gift-size-coffee": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "170g",
+   "200g",
+   "Decaf 170",
+   "Decaf 200",
+   "Espresso 170",
+   "Espresso 200",
+   "Filter 170",
+   "Filter 200",
+   "Funcrusher-170",
+   "Funcrusher-200",
+   "Hathaway-170",
+   "Hathaway-200",
+   "St66-170",
+   "St66-200"
+  ]
+ },
+ "https://justuscoffee.com/products/atlantic-blend": {
+  "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://virginhillcoffee.com/products/french-vanilla": {
+  "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": null
+ }
+}
