@@ -12,6 +12,7 @@ const FLAG_TEXT = {
   price_per_kg_outlier: "Far cheaper per kg than this roaster's other coffees: probably a listing error",
   weight_conflict: "Size on the label disagrees with Shopify's shipping weight (label used)",
   weight_from_shipping: "Size guessed from shipping weight; no size on the label",
+  unconfirmed_bulk_size: "Over 5 lb and not yet confirmed on the store's public page (often wholesale-only)",
 };
 
 const DEAL_TABS = [

@@ -52,6 +52,9 @@ class Settings(BaseSettings):
     # Also check the pages of the cheapest listings per size bucket on any store (what the site promotes),
     # e.g. a product that 404s for the public while products.json still lists it.
     lock_promoted_per_bucket: int = 15
+    # Sizes above this (5 lb = 2268 g) are often wholesale-only (cases, 5 kg bags, display shippers): they're
+    # flagged as questionable until a page check sees the size in the store's public menu.
+    bulk_confirm_g: float = 2300.0
 
     # A site whose product count drops below this fraction of its last good count is
     # treated as a failed scrape (truncated pagination, maintenance page, ...).

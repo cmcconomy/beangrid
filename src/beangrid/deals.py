@@ -9,7 +9,7 @@ from pydantic import BaseModel
 from beangrid.history import History
 from beangrid.normalize import Variant
 
-SUSPECT_FLAGS = {"implausible_price_per_kg", "price_per_kg_outlier", "no_weight"}
+SUSPECT_FLAGS = {"implausible_price_per_kg", "price_per_kg_outlier", "no_weight", "unconfirmed_bulk_size"}
 GRIND_PREFERENCE = ("whole bean", "en grain", "grains", "beans")
 SPARKLINE_DAYS = 120
 # A "sale" running longer than this is the real price: shown, but not scored as a deal.

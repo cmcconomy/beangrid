@@ -262,6 +262,15 @@ def is_hidden(v: Variant, locks: dict[str, Any], promos: dict[str, Any]) -> bool
     return v.url.rsplit("/products/", 1)[-1] in promos.get(v.site, {}).get("hidden_products", [])
 
 
+def bulk_confirmed(v: Variant, locks: dict[str, Any]) -> bool:
+    """A page check saw this variant's options in the store's public menu."""
+    lock = locks.get(v.url, {})
+    visible = lock.get("visible_options")
+    if lock.get("members_only") or not visible:
+        return False
+    return all(opt in visible for opt in v.variant_title.split(" / ") if opt)
+
+
 def promoted_urls(
     variants: list[Variant],
     per_bucket: int,
@@ -314,7 +323,10 @@ def refresh_locks(
                            if v.site in locksmith_sites and v.category in ("coffee", "green_coffee")}
         known = load_locks(path)
         promoted = promoted_urls(variants, settings.lock_promoted_per_bucket, known, promos)
-        urls = promoted + sorted(lock_store_urls - set(promoted))  # promoted listings are checked first
+        # Unconfirmed big sizes next: they stay "questionable" until their page is seen.
+        bulk = sorted({v.url for v in variants if v.category == "coffee" and v.grams
+                       and v.grams > settings.bulk_confirm_g and not bulk_confirmed(v, known)} - set(promoted))
+        urls = promoted + bulk + sorted(lock_store_urls - set(promoted) - set(bulk))
         batch = pick_products(urls, known, today, settings.lock_check_max, settings.lock_recheck_days)
         if not batch:
             return known
@@ -382,6 +394,9 @@ def run(settings: Settings, today: date | None = None, results: list[SiteResult]
     locks = refresh_locks(settings, all_variants, promos, today)
     for v in all_variants:
         v.members_only = is_hidden(v, locks, promos)
+        if (v.category == "coffee" and v.grams and v.grams > settings.bulk_confirm_g and not v.members_only
+                and not bulk_confirmed(v, locks)):
+            v.flags.append("unconfirmed_bulk_size")
 
     stale = {o.site for o in outcomes if o.status == "stale"}
     offers = collapse(all_variants, stale)

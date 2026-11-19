@@ -17,6 +17,7 @@ import httpx
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
 
+from beangrid.classify import fold
 from beangrid.config import Settings
 from beangrid.fetch import FetchError, SiteResult, get_ok, paced_map
 from beangrid.normalize import site_id
@@ -81,6 +82,8 @@ class PromoInfo(BaseModel):
     locksmith: bool = False  # the store uses the Locksmith access app: some products may be members-only
     # Wholesale Lock Manager lists the products it hides on every page: handles of members-only products.
     hidden_products: list[str] = []
+    # Store collections that hold private/customer products (e.g. Just Us! "custom-coffee-blend").
+    private_collections: list[str] = []
 
 
 def _clean(text: str) -> str:
@@ -162,12 +165,42 @@ def extract_promos(html: str) -> PromoInfo:
     return info
 
 
+# Collections that hold products made for particular customers: a cafe's house blend (Just Us!
+# "custom-coffee-blend": "Blomidon Blend", "Waldorf Special Blend"...), a private reserve, white label.
+# Matched on the collection *handle* only: titles are marketing ("Custom Coffee" = Virgin Hill's public
+# microlots). Plain "wholesale" collections are left out: they are often the whole catalogue as offered to
+# wholesale accounts (Cafe Pista's has every public coffee), not products the public can't buy.
+PRIVATE_COLLECTION_RX = re.compile(r"(?<![a-z])(?:custom|private|privees?|white ?label)(?![a-z])")
+
+
+def is_private_collection(handle: str, title: str = "") -> bool:
+    h = fold(handle.replace("-", " "))
+    return bool(PRIVATE_COLLECTION_RX.search(h)) and not re.search(r"(?<![a-z])non(?![a-z])", h)
+
+
+async def _private_products(site: str, client: httpx.AsyncClient, settings: Settings) -> dict[str, list[str]]:
+    """Handles of products in the store's private-looking collections ({collection: [handles]}). Best effort."""
+    out: dict[str, list[str]] = {}
+    try:
+        cols = (await get_ok(client, f"{site}/collections.json", {"limit": 250}, settings)).json().get("collections", [])
+        for col in cols:
+            handle = col.get("handle") or ""
+            if not handle or not is_private_collection(handle, col.get("title") or ""):
+                continue
+            resp = await get_ok(client, f"{site}/collections/{handle}/products.json", {"limit": 250}, settings)
+            out[handle] = sorted({p["handle"] for p in resp.json().get("products", []) if p.get("handle")})
+    except Exception as e:  # noqa: BLE001 - optional extra; the homepage result stands on its own
+        logger.info("promos: %s collections skipped (%s)", site, e)
+    return out
+
+
 async def _fetch_homepage(site: str, client: httpx.AsyncClient, settings: Settings) -> SiteResult:
     result = SiteResult(site_url=site)
     try:
         resp = await get_ok(client, site + "/", {}, settings)
         result.products = [{"html": resp.text}]  # SiteResult is the paced_map currency; one "product": the page
         result.ok = True
+        result.products[0]["private"] = await _private_products(site, client, settings)
     except FetchError as e:
         result.error, result.transient = str(e), e.transient
     except Exception as e:  # one broken page must never sink the scan
@@ -188,6 +221,9 @@ async def scan_homepages(
             continue
         info = extract_promos(r.products[0]["html"])
         info.url = r.site_url
+        private = r.products[0].get("private") or {}
+        info.private_collections = sorted(private)
+        info.hidden_products = sorted(set(info.hidden_products) | {h for hs in private.values() for h in hs})
         out[site_id(r.site_url)] = info
     logger.info("promos: read %d of %d homepages, %d with codes", len(out), len(sites),
                 sum(1 for i in out.values() if i.codes))
