@@ -177,6 +177,8 @@ def test_roast_requires_context():
     ("Office Coffee - Medium", "Coffee", []),
     ("Bistro Blend", "Foodservice", []),
     ("Private Label Espresso", "Coffee", []),
+    ("Chasing Tides - Display Shipper", "Coffee", ["Chasing Tides", "display shipper"]),  # Just Us!: 48 bags for shops
+    ("Holiday Blend - Display Shipper", "Coffee", ["SPP"]),
 ])
 def test_wholesale_listings(title, ptype, tags):
     assert is_wholesale(title, ptype, tags)

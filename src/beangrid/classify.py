@@ -309,7 +309,8 @@ def classify(
 # Beans meant for cafes, restaurants and offices: often listed publicly (and cheap per kg) but not
 # really a retail offer. They stay "coffee"; this only flags them.
 WHOLESALE_RX = _rx("wholesale", "b2b", "grossistes?", "white ?label", "whitelabel", "private label",
-                   "food ?service", "horeca", "office coffee", "cafe ?service")
+                   "food ?service", "horeca", "office coffee", "cafe ?service",
+                   "display shippers?")  # retail shelf stock (e.g. 48 bags) sold to shops
 # Too generic for titles ("Restaurant Blend" is a retail name too), fine as a product type.
 WHOLESALE_TYPE_RX = _rx("restaurants?")
 # Title suffix conventions: "Polaris Espresso - W" (Equator), "Dark Roast Blend (WS 5lb)" (Birdy).
