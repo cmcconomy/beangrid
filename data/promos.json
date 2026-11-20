@@ -1,6 +1,6 @@
 {
  "49thcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://49thcoffee.com",
   "banners": [
    "BLACK FRIDAY SALE UP TO 20% OFF! DETAILS."
@@ -17,7 +17,7 @@
   "private_collections": []
  },
  "94celcius.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://94celcius.com",
   "banners": [],
   "codes": [],
@@ -28,7 +28,7 @@
   "private_collections": []
  },
  "acecoffeeroasters.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://acecoffeeroasters.com",
   "banners": [],
   "codes": [],
@@ -39,7 +39,7 @@
   "private_collections": []
  },
  "agroroasters.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://agroroasters.com",
   "banners": [],
   "codes": [],
@@ -54,7 +54,7 @@
   "private_collections": []
  },
  "anchoredcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://anchoredcoffee.com",
   "banners": [
    "Free shipping over $75 CAD Left Right Currency CAD $ Down Canada (CAD $) United States (USD $)"
@@ -71,7 +71,7 @@
   "private_collections": []
  },
  "balzacs.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://balzacs.com",
   "banners": [],
   "codes": [],
@@ -86,7 +86,7 @@
   "private_collections": []
  },
  "beannorth.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://beannorth.com",
   "banners": [
    "Pause slideshow Play slideshow Monthly Subscriptions Save 5% 10% or 20% when you select subscribe! Cafe is OPEN 9am - 5pm Everyday! Now Open!!! November 16** POP up cafe downtown! 205 Main Street North Of Ordinary"
@@ -99,7 +99,7 @@
   "private_collections": []
  },
  "birdycoffeeco.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://birdycoffeeco.ca",
   "banners": [
    "12 DAYS OF CHRISTMAS COFFEE ADVENT CALENDAR PRE-SALE NOW AVAILABLE!"
@@ -112,7 +112,7 @@
   "private_collections": []
  },
  "botany-rd.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://botany-rd.com",
   "banners": [
    "10% OFF FIRST ORDER USING CODE 'COFFEE10' FREE SHIPPING ON ORDERS OVER $70"
@@ -140,7 +140,7 @@
   "private_collections": []
  },
  "bowscoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://bowscoffee.com",
   "banners": [],
   "codes": [],
@@ -160,7 +160,7 @@
   "private_collections": []
  },
  "brulerieduquai.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.brulerieduquai.com",
   "banners": [
    "Email Facebook Instagram livraison gratuite dès 65$ (100$ zone Atlantique) économisez 20% en vous abonnant à votre café préféré Langue français français english Pays/région Canada (CAD $)"
@@ -202,11 +202,24 @@
    "reserve-privee"
   ]
  },
+ "cafebarista.ca": {
+  "checked": "2026-11-20",
+  "url": "https://cafebarista.ca",
+  "banners": [
+   "Barista Fou : Soyez des nôtres de 28 novembre prochain pour nos plus gros rabais de l'année! ✨🎊"
+  ],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": 15,
+  "locksmith": false,
+  "hidden_products": [],
+  "private_collections": []
+ },
  "cafepista.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://cafepista.com",
   "banners": [
-   "Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada) Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada) 🎄 Le calendrier de l’avent Pista x Found est arrivé. Commander le vôtre 🎄 🎄 Le calendrier de l’avent Pista x Found est arrivé. Commander le vôtre 🎄"
+   "Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada) Livraison gratuite dès 49 $ au Québec (60 $ ailleurs au Canada) 🎄 Le calendrier de l’avent Pista x Found est arrivé. Commander le vôtre 🎄 🎄 Le calendrier de l’avent Pista x Found est arrivé. Commander le vôtre 🎄 Vendredi Fou du 23 au 30 novembre : 15% sur le café, le matcha, l'équipement et la merch"
   ],
   "codes": [],
   "free_shipping": {
@@ -219,8 +232,23 @@
   "hidden_products": [],
   "private_collections": []
  },
+ "cafetouche.ca": {
+  "checked": "2026-11-20",
+  "url": "https://cafetouche.ca",
+  "banners": [],
+  "codes": [],
+  "free_shipping": {
+   "amount": 59,
+   "region": "Québec",
+   "text": "…Livraison gratuite sur les commandes de plus de 59$ au Québec. Livraison gratuite sur les…"
+  },
+  "subscription_pct": 20,
+  "locksmith": false,
+  "hidden_products": [],
+  "private_collections": []
+ },
  "candidcoffeeroasters.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://candidcoffeeroasters.ca",
   "banners": [],
   "codes": [],
@@ -231,7 +259,7 @@
   "private_collections": []
  },
  "cantookcafe.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://cantookcafe.com",
   "banners": [
    "LIVRAISON GRATUITE AVEC TOUT ACHAT DE 49$ ET PLUS."
@@ -248,7 +276,7 @@
   "private_collections": []
  },
  "coffeewallas.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://coffeewallas.com",
   "banners": [
    "FREE SHIPPING on all orders over $45 CAD in Canada & $85 USD in the USA ✈️",
@@ -266,7 +294,7 @@
   "private_collections": []
  },
  "continuumcoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://continuumcoffee.ca",
   "banners": [
    "Enjoy Free Shipping on Coffee Orders Over $50 (Canada Only)"
@@ -283,7 +311,7 @@
   "private_collections": []
  },
  "darkcitycoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://darkcitycoffee.com",
   "banners": [],
   "codes": [],
@@ -294,7 +322,7 @@
   "private_collections": []
  },
  "detourcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://detourcoffee.com",
   "banners": [
    "👉 IT'S THE BEST COFFEE DEAL YOU'LL FIND 👀 25% OFF ALL COFFEES ☕️ & SUBSCRIPTIONS 📦 + FREE SHIPPING NATIONWIDE! 🚚 🇨🇦 USE CODE: OFFTHELOT at CHECKOUT! 🛒"
@@ -318,7 +346,7 @@
   "private_collections": []
  },
  "discoverycoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://discoverycoffee.com",
   "banners": [],
   "codes": [],
@@ -333,7 +361,7 @@
   "private_collections": []
  },
  "downeastcoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.downeastcoffee.ca",
   "banners": [
    "FREE SHIPPING on all orders over $90 FREE SHIPPING - orders $90+"
@@ -350,7 +378,7 @@
   "private_collections": []
  },
  "drumroaster.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.drumroaster.com",
   "banners": [
    "Free Shipping on coffee orders over $60!"
@@ -367,7 +395,7 @@
   "private_collections": []
  },
  "elevenspeedcoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.elevenspeedcoffee.ca",
   "banners": [],
   "codes": [],
@@ -378,7 +406,7 @@
   "private_collections": []
  },
  "elysiancoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://elysiancoffee.com",
   "banners": [
    "Free shipping on orders of $60 or more in Canada, $50 for subscriptions Our Cafes About Wholesale Contact"
@@ -395,7 +423,7 @@
   "private_collections": []
  },
  "enjoylunacoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://enjoylunacoffee.com",
   "banners": [],
   "codes": [],
@@ -406,7 +434,7 @@
   "private_collections": []
  },
  "epochchemistry.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://epochchemistry.ca",
   "banners": [],
   "codes": [],
@@ -417,7 +445,7 @@
   "private_collections": []
  },
  "equatorcoffeeroasters.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://equatorcoffeeroasters.com",
   "banners": [],
   "codes": [],
@@ -432,7 +460,7 @@
   "private_collections": []
  },
  "ethicalbean.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://ethicalbean.com",
   "banners": [
    "free shipping for all orders over $99 Contact ca ca us"
@@ -459,7 +487,7 @@
   "private_collections": []
  },
  "evencoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://evencoffee.ca",
   "banners": [
    "FREE SHIPPING ON ORDERS OVER $70 WITHIN CANADA"
@@ -476,18 +504,28 @@
   "private_collections": []
  },
  "farocoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://farocoffee.com",
   "banners": [],
-  "codes": [],
+  "codes": [
+   {
+    "code": "BF2026-",
+    "pct": 25,
+    "conditions": [
+     "subscription"
+    ],
+    "text": "…20 if you had an active subscription before that date New subscribers 25% off your very first subscription order with code BF2026-n.members-25 , November 20 to 30 Certain conditions apply. See full terms and…",
+    "first_seen": "2026-11-20"
+   }
+  ],
   "free_shipping": null,
-  "subscription_pct": null,
+  "subscription_pct": 25,
   "locksmith": false,
   "hidden_products": [],
   "private_collections": []
  },
  "fernwoodcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://fernwoodcoffee.com",
   "banners": [],
   "codes": [],
@@ -502,7 +540,7 @@
   "private_collections": []
  },
  "firebeancoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://firebeancoffee.ca",
   "banners": [
    "Free Shipping on orders over $80 CAD"
@@ -519,7 +557,7 @@
   "private_collections": []
  },
  "flatlandcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://flatlandcoffee.com",
   "banners": [
    "BLACK FRIDAY: 15% OFF EVERY BAG OF COFFEE · NOV 23–30 Shop the sale FREE SHIPPING ON ALL NEW 2.5LB BAG SUBSCRIPTIONS FREE SHIPPING on orders over $100 · $9 flat shipping over $60 (Canada)"
@@ -536,7 +574,7 @@
   "private_collections": []
  },
  "fratellocoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.fratellocoffee.com",
   "banners": [
    "Subscribers save 20% on every order · Roasted in Calgary"
@@ -549,7 +587,7 @@
   "private_collections": []
  },
  "halecoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.halecoffee.com",
   "banners": [
    "Free shipping Canada wide for all orders over $75!"
@@ -566,7 +604,7 @@
   "private_collections": []
  },
  "hellodemello.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://hellodemello.com",
   "banners": [
    "FREE SHIPPING ON ORDERS OVER $45"
@@ -588,7 +626,7 @@
   ]
  },
  "javablendcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://javablendcoffee.com",
   "banners": [],
   "codes": [],
@@ -599,7 +637,7 @@
   "private_collections": []
  },
  "javaroasters.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://javaroasters.ca",
   "banners": [
    "FREE SHIPPING ON $67+ ORDERS"
@@ -616,7 +654,7 @@
   "private_collections": []
  },
  "jjbeancoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://jjbeancoffee.com",
   "banners": [
    "Save 10% With Coffee Subscriptions Free Shipping On Orders Over $55 Within Canada"
@@ -633,7 +671,7 @@
   "private_collections": []
  },
  "justuscoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://justuscoffee.com",
   "banners": [
    "Facebook Instagram YouTube Free Shipping on orders over $59"
@@ -675,7 +713,7 @@
   ]
  },
  "kickinghorsecoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://kickinghorsecoffee.ca",
   "banners": [
    "WAKE UP. KICK ASS. FREE SHIPPING IN CANADA* ON ORDERS $75+ ROASTED IN CANADA"
@@ -692,7 +730,7 @@
   "private_collections": []
  },
  "lebruloir.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.lebruloir.com",
   "banners": [],
   "codes": [],
@@ -702,8 +740,33 @@
   "hidden_products": [],
   "private_collections": []
  },
+ "lheureuxinc.com": {
+  "checked": "2026-11-20",
+  "url": "https://lheureuxinc.com",
+  "banners": [
+   "Livraison gratuite partout au Canada à partir de 100$ Nous contacter B2B Langue Français Français English"
+  ],
+  "codes": [
+   {
+    "code": "4POUR3",
+    "pct": null,
+    "conditions": [],
+    "text": "…coups de coeur Retour en stock Afficher plus Café 4 pour 3 Achetez 3 sacs de café en grains, le 4e est offert avec le code 4POUR3. Magasiner le café Vendredi fou Breville Machines à espresso, moulins et…",
+    "first_seen": "2026-11-20"
+   }
+  ],
+  "free_shipping": {
+   "amount": 100,
+   "region": "Canada",
+   "text": "Livraison gratuite partout au Canada à partir de 100$ Nous contacter B2B Langue Français…"
+  },
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": [],
+  "private_collections": []
+ },
  "littlesistercoffeemaker.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.littlesistercoffeemaker.ca",
   "banners": [],
   "codes": [],
@@ -714,7 +777,7 @@
   "private_collections": []
  },
  "matchstickyvr.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://matchstickyvr.com",
   "banners": [],
   "codes": [],
@@ -725,7 +788,7 @@
   "private_collections": []
  },
  "melk.cafe": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://melk.cafe",
   "banners": [
    "Diaporama Pause Lire le diaporama Livraison gratuite à l’achat de 35 $ au QC / 45 $ au Canada et aux É.-U. Nous torréfions tous les lundis et mercredis!"
@@ -742,7 +805,7 @@
   "private_collections": []
  },
  "mikkocoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://mikkocoffee.com",
   "banners": [
    "Free Shipping on Orders Over $65"
@@ -769,7 +832,7 @@
   "private_collections": []
  },
  "monogramcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://monogramcoffee.com",
   "banners": [],
   "codes": [],
@@ -784,7 +847,7 @@
   "private_collections": []
  },
  "movingcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.movingcoffee.com",
   "banners": [],
   "codes": [],
@@ -799,7 +862,7 @@
   ]
  },
  "nektar.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://nektar.ca",
   "banners": [
    "LIVRAISON GRATUITE au Canada sur les achats de 45$ et +"
@@ -816,7 +879,7 @@
   "private_collections": []
  },
  "nemesis.coffee": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.nemesis.coffee",
   "banners": [],
   "codes": [],
@@ -827,7 +890,7 @@
   "private_collections": []
  },
  "noctcoffee.myshopify.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://noctcoffee.myshopify.com",
   "banners": [
    "Free shipping in Canada on orders over $80",
@@ -845,7 +908,7 @@
   "private_collections": []
  },
  "originhillcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://originhillcoffee.com",
   "banners": [],
   "codes": [],
@@ -856,7 +919,7 @@
   "private_collections": []
  },
  "paradigmspark.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://paradigmspark.com",
   "banners": [
    "Instagram Email Free shipping on orders over $50 in Canada Country/region Canada (CAD $)"
@@ -873,7 +936,7 @@
   "private_collections": []
  },
  "philsebastian.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://philsebastian.com",
   "banners": [],
   "codes": [],
@@ -884,7 +947,7 @@
   "private_collections": []
  },
  "pilotcoffeeroasters.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.pilotcoffeeroasters.com",
   "banners": [],
   "codes": [],
@@ -895,7 +958,7 @@
   "private_collections": []
  },
  "pivot-coffee-roastery.myshopify.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://pivot-coffee-roastery.myshopify.com",
   "banners": [
    "FREE SHIPPING! ANYWHERE IN ONTARIO WITH A MINIMUM PURCHASE OF $125 OR MORE, USE PROMO CODE PCR125. (SUBSCRIPTIONS EXCLUDED)"
@@ -923,7 +986,7 @@
   "private_collections": []
  },
  "prairielilycoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://prairielilycoffee.com",
   "banners": [],
   "codes": [],
@@ -934,7 +997,7 @@
   "private_collections": []
  },
  "propellercoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.propellercoffee.com",
   "banners": [
    "🎉 Free Shipping on Coffee Orders Over $50 🎉"
@@ -951,7 +1014,7 @@
   "private_collections": []
  },
  "quietlycoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.quietlycoffee.com",
   "banners": [
    "QUIETLY MERCH ON SALE! ○ FREE SHIPPING OVER $75"
@@ -968,7 +1031,7 @@
   "private_collections": []
  },
  "rampagecoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://rampagecoffee.com",
   "banners": [],
   "codes": [],
@@ -983,7 +1046,7 @@
   "private_collections": []
  },
  "receivercoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://receivercoffee.com",
   "banners": [
    "FREE SHIPPING ON ORDERS OVER $95"
@@ -1000,16 +1063,16 @@
   "private_collections": []
  },
  "regardcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.regardcoffee.com",
   "banners": [
-   "Free shipping over $100. Orders will be shipped on Thursdays."
+   "Free shipping over $100. Orders will be shipped on Thursdays. No shipping will happen for the week of Nov 23 - Dec 2. Shipping will resume Dec 3."
   ],
   "codes": [],
   "free_shipping": {
    "amount": 100,
    "region": null,
-   "text": "Free shipping over $100. Orders will be shipped on Thursdays."
+   "text": "Free shipping over $100. Orders will be shipped on Thursdays.…"
   },
   "subscription_pct": null,
   "locksmith": false,
@@ -1017,7 +1080,7 @@
   "private_collections": []
  },
  "reunioncoffeeroasters.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://reunioncoffeeroasters.com",
   "banners": [],
   "codes": [],
@@ -1028,7 +1091,7 @@
   "private_collections": []
  },
  "revolvercoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://revolvercoffee.ca",
   "banners": [],
   "codes": [],
@@ -1039,7 +1102,7 @@
   "private_collections": []
  },
  "rocanini.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.rocanini.com",
   "banners": [],
   "codes": [],
@@ -1050,7 +1113,7 @@
   "private_collections": []
  },
  "roguewavecoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.roguewavecoffee.ca",
   "banners": [
    "Pre-order your Coffee Gift Box here! Starts shipping Dec 4. Free Shipping in Canada on Orders Over $45 We are currently accepting US orders with extra processing time. Click here to learn more."
@@ -1067,7 +1130,7 @@
   "private_collections": []
  },
  "rohicoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://rohicoffee.ca",
   "banners": [
    "Whatsapp 647-230-3300 Ships from Markham, ON Free shipping on most orders over $75"
@@ -1084,7 +1147,7 @@
   "private_collections": []
  },
  "rossocoffeeroasters.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.rossocoffeeroasters.com",
   "banners": [],
   "codes": [],
@@ -1099,7 +1162,7 @@
   "private_collections": []
  },
  "sainthenri.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://sainthenri.ca",
   "banners": [
    "Livraison gratuite au Québec pour les commandes de 65 $ et + (avant taxes et après rabais) hors produits Breville. États-Unis : livraisons suspendues jusqu'à nouvel ordre."
@@ -1116,7 +1179,7 @@
   "private_collections": []
  },
  "samjamescoffeebar.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://samjamescoffeebar.com",
   "banners": [
    "FREE SHIPPING CANADA WIDE WITH A $75 SUBSCRIPTION click here FREE SHIPPING ONTARIO OVER $75 learn more"
@@ -1133,7 +1196,7 @@
   "private_collections": []
  },
  "september.coffee": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://september.coffee",
   "banners": [
    "Previous Free Shipping on Orders Over $70 CAD & USA $80 USD USA - We are now shipping with UPS and FedEx - Please allow extra time for package processing, clearance and shipping (4-10 days) Subscribers gain access to free shipping without order minimums. Learn more... Next"
@@ -1161,7 +1224,7 @@
   "private_collections": []
  },
  "sethtaylor.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://sethtaylor.ca",
   "banners": [
    "SHIPPING VIA UPS, PUROLATOR & CANADA POST. FREE SHIPPING IN CANADA AT $65"
@@ -1178,7 +1241,7 @@
   "private_collections": []
  },
  "shop.ethicaroasters.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://shop.ethicaroasters.com",
   "banners": [],
   "codes": [],
@@ -1189,7 +1252,7 @@
   "private_collections": []
  },
  "smiletigercoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://smiletigercoffee.com",
   "banners": [],
   "codes": [],
@@ -1200,7 +1263,7 @@
   "private_collections": []
  },
  "sorellina.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://sorellina.ca",
   "banners": [],
   "codes": [],
@@ -1211,7 +1274,7 @@
   "private_collections": []
  },
  "stereocoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://stereocoffee.com",
   "banners": [],
   "codes": [],
@@ -1222,7 +1285,7 @@
   "private_collections": []
  },
  "structurecoffeeroasters.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://structurecoffeeroasters.com",
   "banners": [],
   "codes": [],
@@ -1233,7 +1296,7 @@
   "private_collections": []
  },
  "subtext.coffee": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.subtext.coffee",
   "banners": [
    "Free shipping in Canada on coffee orders over $60 CAD. Free shipping to the continental US on coffee orders over $75 USD. New flat rate shipping : To the UK on orders over £60. To most of Europe on orders over €65."
@@ -1250,7 +1313,7 @@
   "private_collections": []
  },
  "theangryroaster.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://theangryroaster.com",
   "banners": [],
   "codes": [],
@@ -1265,7 +1328,7 @@
   "private_collections": []
  },
  "thelibraryspecialtycoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.thelibraryspecialtycoffee.com",
   "banners": [],
   "codes": [],
@@ -1276,7 +1339,7 @@
   "private_collections": []
  },
  "thombargen.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.thombargen.com",
   "banners": [],
   "codes": [],
@@ -1287,7 +1350,7 @@
   "private_collections": []
  },
  "trafficcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://www.trafficcoffee.com",
   "banners": [
    "On Sale"
@@ -1328,7 +1391,7 @@
   ]
  },
  "transcendcoffee.ca": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://transcendcoffee.ca",
   "banners": [],
   "codes": [],
@@ -1342,8 +1405,19 @@
   "hidden_products": [],
   "private_collections": []
  },
+ "ursaecafe.com": {
+  "checked": "2026-11-20",
+  "url": "https://ursaecafe.com",
+  "banners": [],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null,
+  "locksmith": false,
+  "hidden_products": [],
+  "private_collections": []
+ },
  "virginhillcoffee.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://virginhillcoffee.com",
   "banners": [
    "Canadian owned 🍁 Roasted in Québec ⚜️ FREE SHIPPING accross Canada on orders over $59! English English Français"
@@ -1360,7 +1434,7 @@
   "private_collections": []
  },
  "yourstrulycoffee.myshopify.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://yourstrulycoffee.myshopify.com",
   "banners": [],
   "codes": [],
@@ -1375,7 +1449,7 @@
   "private_collections": []
  },
  "za-klo-torrefactrices.myshopify.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://za-klo-torrefactrices.myshopify.com",
   "banners": [],
   "codes": [],
@@ -1386,7 +1460,7 @@
   "private_collections": []
  },
  "zabcafe.com": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-20",
   "url": "https://zabcafe.com",
   "banners": [],
   "codes": [],

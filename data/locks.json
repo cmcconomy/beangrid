@@ -143,6 +143,26 @@
    "St66-200"
   ]
  },
+ "https://cafebarista.ca/products/anne-marie-withenshaw-melange-confetti": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "500g",
+   "Espresso",
+   "Filtre",
+   "Grains"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-espresso-mezzo-decaf": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "500g",
+   "Espresso",
+   "Grains",
+   "Moka"
+  ]
+ },
  "https://cafepista.com/products/abdo-aba-mecha-ethiopie": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -395,6 +415,69 @@
    "3KG",
    "908g",
    "En grain"
+  ]
+ },
+ "https://cafetouche.ca/products/candeur-nature": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "300 G"
+  ]
+ },
+ "https://cafetouche.ca/products/copain-depices": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "300 G"
+  ]
+ },
+ "https://cafetouche.ca/products/feu-de-foyer": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "300 G"
+  ]
+ },
+ "https://cafetouche.ca/products/gout-de-foudre": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "300 G"
+  ]
+ },
+ "https://cafetouche.ca/products/mere-melade": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "300 G"
+  ]
+ },
+ "https://cafetouche.ca/products/petit-velours": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "300 G"
+  ]
+ },
+ "https://cafetouche.ca/products/tricote-serre": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1 KG",
+   "2.5 KG",
+   "300 G"
   ]
  },
  "https://cantookcafe.com/products/anahi": {
@@ -1008,6 +1091,11 @@
   "members_only": true,
   "visible_options": null
  },
+ "https://justuscoffee.com/products/co-operators-roast": {
+  "checked": "2026-11-20",
+  "members_only": true,
+  "visible_options": null
+ },
  "https://justuscoffee.com/products/coady-blend": {
   "checked": "2026-11-19",
   "members_only": true,
@@ -1318,6 +1406,18 @@
   "visible_options": [
    "1kg",
    "Whole Bean"
+  ]
+ },
+ "https://lheureuxinc.com/products/cafe-arabica-bresil-java-moka-noir-1-lb": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://lheureuxinc.com/products/cafe-cubain-noir-grain-1-lb": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1 lb"
   ]
  },
  "https://melk.cafe/products/bucket-bon-decaf-2-5kg": {
@@ -2191,6 +2291,22 @@
    "250g"
   ]
  },
+ "https://www.nemesis.coffee/products/the-juice": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
+ "https://www.nemesis.coffee/products/the-o-g": {
+  "checked": "2026-11-20",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
  "https://www.roguewavecoffee.ca/products/bolivia-finca-rosita-catuai-anaerobic-natural": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -2916,6 +3032,16 @@
  },
  "https://www.trafficcoffee.com/products/canard-vieux": {
   "checked": "2026-11-19",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/chez-popo": {
+  "checked": "2026-11-20",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/crew-collective-imperium": {
+  "checked": "2026-11-20",
   "members_only": true,
   "visible_options": null
  },
