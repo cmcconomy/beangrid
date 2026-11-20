@@ -802,8 +802,8 @@ key,site,product_id,title,variant_title,grams,category,url,first_seen
 94celcius.com:39682851930191,94celcius.com,6641888624719,Orbitales 2.0 - Mélange Espresso,2253g (5 Lbs),2253,coffee,https://94celcius.com/products/melange-espresso-orbitales,2026-11-13
 94celcius.com:39851123114063,94celcius.com,6691306537039,Les Freshs — Café instantané | 94 Celcius × Hasty Coffee,,75,coffee,https://94celcius.com/products/freshs-cafe-instantane,2026-11-13
 94celcius.com:40646654459983,94celcius.com,7017077080143,Le Club Expé,,600,subscription,https://94celcius.com/products/le-club-expe,2026-11-13
-94celcius.com:40804003184719,94celcius.com,7114390896719,Bonbons Maudits - Café d’Halloween,300g,300,coffee,https://94celcius.com/products/peche-mortel,2026-11-13
-94celcius.com:40804003250255,94celcius.com,7114390896719,Bonbons Maudits - Café d’Halloween,907g,907,coffee,https://94celcius.com/products/peche-mortel,2026-11-13
+94celcius.com:40804003184719,94celcius.com,7114390896719,Bonbons Maudits - Édition limitée,300g,300,coffee,https://94celcius.com/products/peche-mortel,2026-11-13
+94celcius.com:40804003250255,94celcius.com,7114390896719,Bonbons Maudits - Édition limitée,907g,907,coffee,https://94celcius.com/products/peche-mortel,2026-11-13
 94celcius.com:40936433254479,94celcius.com,7174419447887,Trio surprise - filtre ou espresso ou premium,Espresso,900,bundle,https://94celcius.com/products/trio-surprise-filtre-ou-espresso,2026-11-13
 94celcius.com:40936433287247,94celcius.com,7174419447887,Trio surprise - filtre ou espresso ou premium,Filtre,900,bundle,https://94celcius.com/products/trio-surprise-filtre-ou-espresso,2026-11-13
 94celcius.com:40942328676431,94celcius.com,7175779123279,Carte-cadeau virtuelle,"10,00 $",,gift_card,https://94celcius.com/products/carte-cadeaux-94-celcius,2026-11-13
@@ -833,7 +833,7 @@ key,site,product_id,title,variant_title,grams,category,url,first_seen
 94celcius.com:42068201275471,94celcius.com,7558393561167,Prunelino - Bolivie,300g,300,coffee,https://94celcius.com/products/prunelino-bolivie,2026-11-13
 94celcius.com:42068201308239,94celcius.com,7558393561167,Prunelino - Bolivie,907g,907,coffee,https://94celcius.com/products/prunelino-bolivie,2026-11-13
 94celcius.com:42068201341007,94celcius.com,7558393561167,Prunelino - Bolivie,2253g,2253,coffee,https://94celcius.com/products/prunelino-bolivie,2026-11-13
-94celcius.com:42152116191311,94celcius.com,7114390896719,Bonbons Maudits - Café d’Halloween,2253g,2253,coffee,https://94celcius.com/products/peche-mortel,2026-11-13
+94celcius.com:42152116191311,94celcius.com,7114390896719,Bonbons Maudits - Édition limitée,2253g,2253,coffee,https://94celcius.com/products/peche-mortel,2026-11-13
 94celcius.com:42268094627919,94celcius.com,7627714887759,Sirop d’Érable Vieilli en Fût de Chêne (Bourbon),,,syrup_food,https://94celcius.com/products/sirop-d-erable-vieilli-en-fut-de-chene,2026-11-13
 94celcius.com:42295120527439,94celcius.com,6580941848655,Trio espresso classique,300g,300,bundle,https://94celcius.com/products/trio-espresso-classique,2026-11-13
 94celcius.com:42295120560207,94celcius.com,6580941848655,Trio espresso classique,907g,907,bundle,https://94celcius.com/products/trio-espresso-classique,2026-11-13
@@ -19776,6 +19776,9 @@ birdycoffeeco.ca:45599462096953,birdycoffeeco.ca,6802557960249,EARLY BIRD | Medi
 birdycoffeeco.ca:45599462129721,birdycoffeeco.ca,6802557960249,EARLY BIRD | Medium Roast Blend,5Ibs / Filter Ground,300,coffee,https://birdycoffeeco.ca/products/early-bird-medium-roast-blend,2026-11-13
 birdycoffeeco.ca:45599464390713,birdycoffeeco.ca,6802576048185,WILD GOOSE CHASE| Medium Roast Blend,300 g / Filter Ground,300,coffee,https://birdycoffeeco.ca/products/wild-goose-chase-medium-roast-birdy-coffee,2026-11-13
 birdycoffeeco.ca:45599464423481,birdycoffeeco.ca,6802576048185,WILD GOOSE CHASE| Medium Roast Blend,5Ibs / Filter Ground,300,coffee,https://birdycoffeeco.ca/products/wild-goose-chase-medium-roast-birdy-coffee,2026-11-13
+birdycoffeeco.ca:45883096006713,birdycoffeeco.ca,8279207673913,COLOMBIA | Flying Peach (WS),200g / Whole Bean,200,coffee,https://birdycoffeeco.ca/products/colomb-a-flying-peach-finca-el-paraiso,2026-11-20
+birdycoffeeco.ca:45883096039481,birdycoffeeco.ca,8279207673913,COLOMBIA | Flying Peach (WS),200g / Filter Ground,200,coffee,https://birdycoffeeco.ca/products/colomb-a-flying-peach-finca-el-paraiso,2026-11-20
+birdycoffeeco.ca:45883096072249,birdycoffeeco.ca,8279207673913,COLOMBIA | Flying Peach (WS),200g / French Press Ground,200,coffee,https://birdycoffeeco.ca/products/colomb-a-flying-peach-finca-el-paraiso,2026-11-20
 birdycoffeeco.ca:45883101020217,birdycoffeeco.ca,8279208591417,COLOMBIA | Peñas Blancas,300g / Whole Bean,300,coffee,https://birdycoffeeco.ca/products/colombia-penas-blancas,2026-11-13
 birdycoffeeco.ca:45883101052985,birdycoffeeco.ca,8279208591417,COLOMBIA | Peñas Blancas,300g / Filter Ground,300,coffee,https://birdycoffeeco.ca/products/colombia-penas-blancas,2026-11-13
 birdycoffeeco.ca:45883101085753,birdycoffeeco.ca,8279208591417,COLOMBIA | Peñas Blancas,300g / French Press Ground,300,coffee,https://birdycoffeeco.ca/products/colombia-penas-blancas,2026-11-13
@@ -19983,6 +19986,9 @@ birdycoffeeco.ca:50952397750329,birdycoffeeco.ca,10398822105145,NICARAGUA | El A
 birdycoffeeco.ca:50952397783097,birdycoffeeco.ca,10398822105145,NICARAGUA | El Arbol Parainema (WS),200g / Filter Ground,200,coffee,https://birdycoffeeco.ca/products/nicaragua-el-arbol-parainema-ws,2026-11-13
 birdycoffeeco.ca:50952397815865,birdycoffeeco.ca,10398822105145,NICARAGUA | El Arbol Parainema (WS),200g / French Press,200,coffee,https://birdycoffeeco.ca/products/nicaragua-el-arbol-parainema-ws,2026-11-13
 birdycoffeeco.ca:51016198717497,birdycoffeeco.ca,8279321313337,Technivorm Moccamaster KBGV Select,Eucalyptus,,equipment,https://birdycoffeeco.ca/products/technivorm-moccamaster-kbgv-select,2026-11-13
+birdycoffeeco.ca:51243886280761,birdycoffeeco.ca,10461838671929,COLOMBIA | Flying Peach,200g / Whole Bean,200,coffee,https://birdycoffeeco.ca/products/colombia-flying-peach,2026-11-20
+birdycoffeeco.ca:51243886313529,birdycoffeeco.ca,10461838671929,COLOMBIA | Flying Peach,200g / Filter Ground,200,coffee,https://birdycoffeeco.ca/products/colombia-flying-peach,2026-11-20
+birdycoffeeco.ca:51243886346297,birdycoffeeco.ca,10461838671929,COLOMBIA | Flying Peach,200g / French Press Ground,200,coffee,https://birdycoffeeco.ca/products/colombia-flying-peach,2026-11-20
 botany-rd.com:44861703291198,botany-rd.com,8062643241278,OVERSIZED TOTE BAG,"8"" STRAP",400,merch,https://botany-rd.com/products/botany-rd-tote-bag-os,2026-11-13
 botany-rd.com:44861703618878,botany-rd.com,8062643241278,OVERSIZED TOTE BAG,"10"" STRAP",,merch,https://botany-rd.com/products/botany-rd-tote-bag-os,2026-11-13
 botany-rd.com:47648357613886,botany-rd.com,10442228334910,EL PARAISO DECAF | COLOMBIA,,250,coffee,https://botany-rd.com/products/wilton-benitez-decaf,2026-11-13
@@ -20054,6 +20060,7 @@ botany-rd.com:54594606629182,botany-rd.com,12650030006590,LAYO TERAGA NATURAL | 
 botany-rd.com:54594609414462,botany-rd.com,12650030137662,LAYO TERAGA WASHED | ETHIOPIA,,250,coffee,https://botany-rd.com/products/layo-teraga-washed-ethiopia-26,2026-11-13
 botany-rd.com:54595058336062,botany-rd.com,12650210230590,KIWI BLOSSOM | COLOMBIA,100g,100,coffee,https://botany-rd.com/products/kiwi-blossom-colombia,2026-11-15
 botany-rd.com:54595058368830,botany-rd.com,12650210230590,KIWI BLOSSOM | COLOMBIA,200g,200,coffee,https://botany-rd.com/products/kiwi-blossom-colombia,2026-11-15
+botany-rd.com:54969100796222,botany-rd.com,12742481936702,WHITE HONEY GESHA | COLOMBIA,125g,125,coffee,https://botany-rd.com/products/white-honey-gesha-colombia,2026-11-20
 bowscoffee.com:12317500473421,bowscoffee.com,366825019,St. 66 Espresso,2lb,907.2,coffee,https://bowscoffee.com/products/st-66-espresso,2023-11-23
 bowscoffee.com:12317500506189,bowscoffee.com,366825019,St. 66 Espresso,5lb,2268,coffee,https://bowscoffee.com/products/st-66-espresso,2023-11-23
 bowscoffee.com:12317500538957,bowscoffee.com,366826439,The Hathaway Espresso,2lb,907.2,coffee,https://bowscoffee.com/products/hathaway,2023-11-23
@@ -30879,6 +30886,14 @@ detourcoffee.com:62856997929330,detourcoffee.com,15316206223730,Ethiopia Sedka,2
 detourcoffee.com:62857066545522,detourcoffee.com,15316214186354,India Narmada Espresso,300g / Whole Bean,300,coffee,https://detourcoffee.com/products/india-narmada-espresso,2026-11-13
 detourcoffee.com:62857066611058,detourcoffee.com,15316214186354,India Narmada Espresso,1Kg / Whole Bean,1000,coffee,https://detourcoffee.com/products/india-narmada-espresso,2026-11-13
 detourcoffee.com:62857066643826,detourcoffee.com,15316214186354,India Narmada Espresso,2.27Kg / Whole Bean,2270,coffee,https://detourcoffee.com/products/india-narmada-espresso,2026-11-13
+detourcoffee.com:62995147030898,detourcoffee.com,15344577053042,Guatemala A'xola,300g / Whole Bean,300,coffee,https://detourcoffee.com/products/guatemala-axola-2026,2026-11-20
+detourcoffee.com:62995147063666,detourcoffee.com,15344577053042,Guatemala A'xola,300g / Medium Filter Grind,300,coffee,https://detourcoffee.com/products/guatemala-axola-2026,2026-11-20
+detourcoffee.com:62995147096434,detourcoffee.com,15344577053042,Guatemala A'xola,1Kg / Whole Bean,1000,coffee,https://detourcoffee.com/products/guatemala-axola-2026,2026-11-20
+detourcoffee.com:62995147129202,detourcoffee.com,15344577053042,Guatemala A'xola,2.27Kg / Whole Bean,2270,coffee,https://detourcoffee.com/products/guatemala-axola-2026,2026-11-20
+detourcoffee.com:62995812188530,detourcoffee.com,15344655073650,India Karadykan Natural,300g / Whole Bean,300,coffee,https://detourcoffee.com/products/india-karadykan-natural,2026-11-20
+detourcoffee.com:62995812221298,detourcoffee.com,15344655073650,India Karadykan Natural,300g / Medium Filter Grind,300,coffee,https://detourcoffee.com/products/india-karadykan-natural,2026-11-20
+detourcoffee.com:62995812254066,detourcoffee.com,15344655073650,India Karadykan Natural,1Kg / Whole Bean,1000,coffee,https://detourcoffee.com/products/india-karadykan-natural,2026-11-20
+detourcoffee.com:62995812286834,detourcoffee.com,15344655073650,India Karadykan Natural,2.27Kg / Whole Bean,2270,coffee,https://detourcoffee.com/products/india-karadykan-natural,2026-11-20
 detourcoffee.com:7076889460780,detourcoffee.com,5457250245,Cascara - Coffee Cherry Tea,300g,300,tea,https://detourcoffee.com/products/cascara-cherry-tea,2023-11-23
 detourcoffee.com:8818496471084,detourcoffee.com,818966134828,Third Wave Water 1 Gallon Classic Profile (Pack of 12),,,equipment,https://detourcoffee.com/products/third-wave-water-1-gallon-classic-profile,2023-11-23
 discoverycoffee.com:12203960516,discoverycoffee.com,3921952708,AeroPress,,400,equipment,https://discoverycoffee.com/products/aeropress,2023-11-23
@@ -32633,7 +32648,7 @@ downeastcoffee.ca:44186772242716,downeastcoffee.ca,2349834141774,Santa's World T
 downeastcoffee.ca:44186772275484,downeastcoffee.ca,2349834141774,Santa's World Tour - Holiday Coffee Collection,3 x 227 g gold bags FILTER GRIND,681,bundle,https://www.downeastcoffee.ca/products/holiday-coffee-gift-boxes,2023-12-06
 downeastcoffee.ca:44186772308252,downeastcoffee.ca,2349834141774,Santa's World Tour - Holiday Coffee Collection,3 x 454 g brown kraft bags FILTER GRIND,1362,bundle,https://www.downeastcoffee.ca/products/holiday-coffee-gift-boxes,2023-12-06
 downeastcoffee.ca:44265344827676,downeastcoffee.ca,6713622921294,Down East Travel Tumbler,Dark Blue,300,drinkware,https://www.downeastcoffee.ca/products/travel-tumbler-by-lamose,2023-11-28
-downeastcoffee.ca:45097523282204,downeastcoffee.ca,8261703500060,Monin Floral Collection,,680,syrup_food,https://www.downeastcoffee.ca/products/monin-floral-collection,2023-11-28
+downeastcoffee.ca:45097523282204,downeastcoffee.ca,8261703500060,Monin Sugar-Free Collection,,680,syrup_food,https://www.downeastcoffee.ca/products/monin-sugar-free-collection,2023-11-28
 downeastcoffee.ca:47103616221468,downeastcoffee.ca,8016283861276,Café Codiac Moncton Gift Card,$50,,gift_card,https://www.downeastcoffee.ca/products/cafe-codiac-gift-card,2023-11-28
 downeastcoffee.ca:47597808812316,downeastcoffee.ca,6713622921294,Down East Travel Tumbler,White,300,drinkware,https://www.downeastcoffee.ca/products/travel-tumbler-by-lamose,2024-01-16
 downeastcoffee.ca:47597811269916,downeastcoffee.ca,6713622921294,Down East Travel Tumbler,Raspberry,300,drinkware,https://www.downeastcoffee.ca/products/travel-tumbler-by-lamose,2024-01-16
@@ -33825,6 +33840,36 @@ drumroaster.com:50949442240598,drumroaster.com,10382520746070,Julekaffe,500g / F
 drumroaster.com:50949442273366,drumroaster.com,10382520746070,Julekaffe,500g / French Press,500,coffee,https://www.drumroaster.com/products/julekaffe,2026-11-13
 drumroaster.com:51198575247446,drumroaster.com,7843202105430,Hasty x Drumroaster Instant Coffee Pouches,Regular,91,instant,https://www.drumroaster.com/products/steeped-coffee-pouch-padilla-family-peru-rsncf,2026-11-17
 drumroaster.com:51198575280214,drumroaster.com,7843202105430,Hasty x Drumroaster Instant Coffee Pouches,Decaf,91,instant,https://www.drumroaster.com/products/steeped-coffee-pouch-padilla-family-peru-rsncf,2026-11-17
+drumroaster.com:51219426639958,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,300g / Whole Bean,300,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426672726,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,300g / Espresso,300,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426705494,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,300g / Aeropress,300,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426738262,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,300g / Filter,300,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426771030,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,300g / French Press,300,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426803798,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,802g / Whole Bean,802,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426836566,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,802g / Espresso,802,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426869334,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,802g / Aeropress,802,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426902102,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,802g / Filter,802,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426934870,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,802g / French Press,802,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219426967638,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,2.1kg / Whole Bean,2100,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219427000406,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,2.1kg / Espresso,2100,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219427033174,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,2.1kg / Aeropress,2100,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219427065942,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,2.1kg / Filter,2100,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219427098710,drumroaster.com,10440975810646,Felipe Estela Yellow Caturra,2.1kg / French Press,2100,coffee,https://www.drumroaster.com/products/felipe-estela-peru,2026-11-20
+drumroaster.com:51219429720150,drumroaster.com,10440977055830,Martin Ramos,300g / Whole Bean,300,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219429752918,drumroaster.com,10440977055830,Martin Ramos,300g / Espresso,300,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219429785686,drumroaster.com,10440977055830,Martin Ramos,300g / Aeropress,300,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219429818454,drumroaster.com,10440977055830,Martin Ramos,300g / Filter,300,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219429851222,drumroaster.com,10440977055830,Martin Ramos,300g / French Press,300,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219429883990,drumroaster.com,10440977055830,Martin Ramos,802g / Whole Bean,802,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219429916758,drumroaster.com,10440977055830,Martin Ramos,802g / Espresso,802,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219429949526,drumroaster.com,10440977055830,Martin Ramos,802g / Aeropress,802,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219429982294,drumroaster.com,10440977055830,Martin Ramos,802g / Filter,802,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219430015062,drumroaster.com,10440977055830,Martin Ramos,802g / French Press,802,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219430047830,drumroaster.com,10440977055830,Martin Ramos,2.1kg / Whole Bean,2100,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219430080598,drumroaster.com,10440977055830,Martin Ramos,2.1kg / Espresso,2100,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219430113366,drumroaster.com,10440977055830,Martin Ramos,2.1kg / Aeropress,2100,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219430146134,drumroaster.com,10440977055830,Martin Ramos,2.1kg / Filter,2100,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
+drumroaster.com:51219430178902,drumroaster.com,10440977055830,Martin Ramos,2.1kg / French Press,2100,coffee,https://www.drumroaster.com/products/martin-ramos-colombia,2026-11-20
 elevenspeedcoffee.ca:32278908076084,elevenspeedcoffee.ca,4657262166068,PODIUM ESPRESSO ROAST,340g,340,coffee,https://www.elevenspeedcoffee.ca/products/podium-espresss-roast,2023-11-23
 elevenspeedcoffee.ca:32278908108852,elevenspeedcoffee.ca,4657262166068,PODIUM ESPRESSO ROAST,1kg,1000,coffee,https://www.elevenspeedcoffee.ca/products/podium-espresss-roast,2023-11-23
 elevenspeedcoffee.ca:32278908141620,elevenspeedcoffee.ca,4657262166068,PODIUM ESPRESSO ROAST,2.27kg,2270,coffee,https://www.elevenspeedcoffee.ca/products/podium-espresss-roast,2023-11-23
@@ -34527,8 +34572,8 @@ enjoylunacoffee.com:48938866212921,enjoylunacoffee.com,9590637264953,"Marlon Bol
 enjoylunacoffee.com:48938866245689,enjoylunacoffee.com,9590637264953,"Marlon Bolaños (Ají Washed) | Huila, Colombia",1 kilogram / Oct 14th,1000,coffee,https://enjoylunacoffee.com/products/marlon-bolanos-aji-washed-huila-colombia,2026-11-13
 enjoylunacoffee.com:50733180485689,enjoylunacoffee.com,10364479733817,"Duromina (JARC landraces) | Agaro, Ethiopia",250 grams / Oct 19th,250,coffee,https://enjoylunacoffee.com/products/habtamu-fikadu-danche-site-kurume-dega-gedeb-ethiopia-copy-1,2026-11-13
 enjoylunacoffee.com:50733180518457,enjoylunacoffee.com,10364479733817,"Duromina (JARC landraces) | Agaro, Ethiopia",1 kilogram / Oct 19th,1000,coffee,https://enjoylunacoffee.com/products/habtamu-fikadu-danche-site-kurume-dega-gedeb-ethiopia-copy-1,2026-11-13
-enjoylunacoffee.com:50932856750137,enjoylunacoffee.com,10395947434041,"Basha Bekele Natural (minis) | Sidama, Ethiopia",250 grams,250,coffee,https://enjoylunacoffee.com/products/basha-bekele-natural-minis-sidama-ethiopia,2026-11-13
-enjoylunacoffee.com:50932856782905,enjoylunacoffee.com,10395947434041,"Basha Bekele Natural (minis) | Sidama, Ethiopia",1 kilogram,1000,coffee,https://enjoylunacoffee.com/products/basha-bekele-natural-minis-sidama-ethiopia,2026-11-13
+enjoylunacoffee.com:50932856750137,enjoylunacoffee.com,10395947434041,"Basha Bekele Natural (minis) | Sidama, Ethiopia",250 grams / Nov 17th,250,coffee,https://enjoylunacoffee.com/products/basha-bekele-natural-minis-sidama-ethiopia,2026-11-13
+enjoylunacoffee.com:50932856782905,enjoylunacoffee.com,10395947434041,"Basha Bekele Natural (minis) | Sidama, Ethiopia",1 kilogram / Nov 17th,1000,coffee,https://enjoylunacoffee.com/products/basha-bekele-natural-minis-sidama-ethiopia,2026-11-13
 enjoylunacoffee.com:50933903228985,enjoylunacoffee.com,10395983577145,"Hanan Million Natural | Guji, Ethiopia",250 grams,250,coffee,https://enjoylunacoffee.com/products/basha-bekele-natural-minis-sidama-ethiopia-copy,2026-11-13
 enjoylunacoffee.com:50933903261753,enjoylunacoffee.com,10395983577145,"Hanan Million Natural | Guji, Ethiopia",1 kilogram,1000,coffee,https://enjoylunacoffee.com/products/basha-bekele-natural-minis-sidama-ethiopia-copy,2026-11-13
 enjoylunacoffee.com:50934086402105,enjoylunacoffee.com,10395987345465,"Moata Raya Lunar Honey | Agaro, Ethiopia",250 grams,250,coffee,https://enjoylunacoffee.com/products/hanan-million-natural-guji-ethiopia-copy,2026-11-13
@@ -34669,6 +34714,7 @@ epochchemistry.ca:48263925924063,epochchemistry.ca,8057215549663,Hario V-60 02 P
 epochchemistry.ca:48263934673119,epochchemistry.ca,9238594650335,HARIO V60 Drip Scale,,,equipment,https://epochchemistry.ca/products/hario-v60-drip-scale,2026-11-13
 epochchemistry.ca:48263951581407,epochchemistry.ca,9238597992671,UMESHISO The Big Dipper,Gold,,equipment,https://epochchemistry.ca/products/umeshiso-the-big-dipper,2026-11-13
 epochchemistry.ca:48263954399455,epochchemistry.ca,9238597992671,UMESHISO The Big Dipper,Rose gold,,equipment,https://epochchemistry.ca/products/umeshiso-the-big-dipper,2026-11-13
+epochchemistry.ca:48366864793823,epochchemistry.ca,9253269569759,Epoch X - Soul Honey,,200,unknown,https://epochchemistry.ca/products/epoch-x-tr-anaerobic-red-honey,2026-11-20
 epochchemistry.ca:48380323168479,epochchemistry.ca,9256720498911,Epoch 9 - Paola's Pink Bourbon Filter,250g,250,coffee,https://epochchemistry.ca/products/epoch-9-paolas-pink-bourbon-copy,2026-11-13
 epochchemistry.ca:48380323201247,epochchemistry.ca,9256720498911,Epoch 9 - Paola's Pink Bourbon Filter,2lb,907.2,coffee,https://epochchemistry.ca/products/epoch-9-paolas-pink-bourbon-copy,2026-11-13
 epochchemistry.ca:48380323234015,epochchemistry.ca,9256720498911,Epoch 9 - Paola's Pink Bourbon Filter,5lb,2268,coffee,https://epochchemistry.ca/products/epoch-9-paolas-pink-bourbon-copy,2026-11-13
@@ -34823,6 +34869,7 @@ epochchemistry.ca:68461978288351,epochchemistry.ca,15508444053727,Epoch Chemsitr
 epochchemistry.ca:68461978321119,epochchemistry.ca,15508444053727,Epoch Chemsitry Coffee Crewneck,XL,,equipment,https://epochchemistry.ca/products/epoch-chemsitry-coffee-crewneck,2026-11-15
 epochchemistry.ca:68461978353887,epochchemistry.ca,15508444053727,Epoch Chemsitry Coffee Crewneck,XXL,,equipment,https://epochchemistry.ca/products/epoch-chemsitry-coffee-crewneck,2026-11-15
 epochchemistry.ca:68466746196191,epochchemistry.ca,15508737491167,12 Days of Winter,,,coffee,https://epochchemistry.ca/products/12-days-of-winter,2026-11-15
+epochchemistry.ca:68533278245087,epochchemistry.ca,15519463145695,Holiday Gift Box,,,bundle,https://epochchemistry.ca/products/gift-box,2026-11-20
 equatorcoffeeroasters.com:33306805895213,equatorcoffeeroasters.com,4789110341677,Freakin' Good Coffee,340g/12oz / Whole Bean,340,coffee,https://equatorcoffeeroasters.com/products/freakin-good-coffee-organic-fair-trade,2026-11-15
 equatorcoffeeroasters.com:33306805927981,equatorcoffeeroasters.com,4789110341677,Freakin' Good Coffee,340g/12oz / Ground - Medium,340,coffee,https://equatorcoffeeroasters.com/products/freakin-good-coffee-organic-fair-trade,2026-11-15
 equatorcoffeeroasters.com:33306805993517,equatorcoffeeroasters.com,4789110341677,Freakin' Good Coffee,2.27kg/5lb / Whole Bean,2270,coffee,https://equatorcoffeeroasters.com/products/freakin-good-coffee-organic-fair-trade,2026-11-15
@@ -35920,6 +35967,8 @@ equatorcoffeeroasters.com:49985664909562,equatorcoffeeroasters.com,9351390658810
 equatorcoffeeroasters.com:50084709728506,equatorcoffeeroasters.com,8626573050106,Coffee Keychain,Tamper,,merch,https://equatorcoffeeroasters.com/products/coffee-keychain,2026-11-15
 equatorcoffeeroasters.com:50177383792890,equatorcoffeeroasters.com,9388277170426,Caramel Latte Candle,,500,merch,https://equatorcoffeeroasters.com/products/caramel-latte-candle,2026-11-15
 equatorcoffeeroasters.com:50177396244730,equatorcoffeeroasters.com,9388279726330,Maple Latte Candle,,500,merch,https://equatorcoffeeroasters.com/products/maple-latte-candle,2026-11-15
+equatorcoffeeroasters.com:68106744692986,equatorcoffeeroasters.com,15486267228410,Honduras Honey Microlot,175g / Whole Bean,175,coffee,https://equatorcoffeeroasters.com/products/honduras-honey-microlot,2026-11-20
+equatorcoffeeroasters.com:68106759176442,equatorcoffeeroasters.com,15486272962810,Honduras Honey Microlot - W,175g-WG_Cafe-Restaurant / Whole Bean,175,coffee,https://equatorcoffeeroasters.com/products/honduras-honey-microlot-w,2026-11-20
 equatorcoffeeroasters.com:68153406619898,equatorcoffeeroasters.com,8872906162426,TIMEMORE BASIC 2 Scale,White,500,equipment,https://equatorcoffeeroasters.com/products/timemore-basic-2-scale,2026-11-15
 equatorcoffeeroasters.com:68153406652666,equatorcoffeeroasters.com,8872906162426,TIMEMORE BASIC 2 Scale,Black,500,equipment,https://equatorcoffeeroasters.com/products/timemore-basic-2-scale,2026-11-15
 equatorcoffeeroasters.com:68153617842426,equatorcoffeeroasters.com,15500779258106,Hario V60-02 Coffee Server,,355,equipment,https://equatorcoffeeroasters.com/products/hario-v60-02-coffee-server,2026-11-15
@@ -38484,6 +38533,12 @@ flatlandcoffee.com:44500255703103,flatlandcoffee.com,8535062413375,Holiday Blend
 flatlandcoffee.com:44500255735871,flatlandcoffee.com,8535062413375,Holiday Blend,5lb,2268,coffee,https://flatlandcoffee.com/products/holiday-blend,2026-11-18
 flatlandcoffee.com:44500527841343,flatlandcoffee.com,8535206035519,Pour-Over Brew Kit,,,unknown,https://flatlandcoffee.com/products/pour-over-brew-kit,2026-11-18
 flatlandcoffee.com:44500527874111,flatlandcoffee.com,8535206068287,Aeropress Brew Kit,,,equipment,https://flatlandcoffee.com/products/aeropress-brew-kit,2026-11-18
+flatlandcoffee.com:44519354400831,flatlandcoffee.com,8541055909951,Flatland E-Gift Card,$25,,gift_card,https://flatlandcoffee.com/products/flatland-e-gift-card,2026-11-20
+flatlandcoffee.com:44519354499135,flatlandcoffee.com,8541055909951,Flatland E-Gift Card,$40,,gift_card,https://flatlandcoffee.com/products/flatland-e-gift-card,2026-11-20
+flatlandcoffee.com:44519354531903,flatlandcoffee.com,8541055909951,Flatland E-Gift Card,$50,,gift_card,https://flatlandcoffee.com/products/flatland-e-gift-card,2026-11-20
+flatlandcoffee.com:44519354564671,flatlandcoffee.com,8541055909951,Flatland E-Gift Card,$75,,gift_card,https://flatlandcoffee.com/products/flatland-e-gift-card,2026-11-20
+flatlandcoffee.com:44519354597439,flatlandcoffee.com,8541055909951,Flatland E-Gift Card,$100,,gift_card,https://flatlandcoffee.com/products/flatland-e-gift-card,2026-11-20
+flatlandcoffee.com:44519354630207,flatlandcoffee.com,8541055909951,Flatland E-Gift Card,$150,,gift_card,https://flatlandcoffee.com/products/flatland-e-gift-card,2026-11-20
 flatlandcoffee.com:887620435981,flatlandcoffee.com,100002365453,Rogue Espresso,300g,300,coffee,https://flatlandcoffee.com/products/rogue-espresso,2026-11-13
 flatlandcoffee.com:887620468749,flatlandcoffee.com,100002365453,Rogue Espresso,5lb,2268,coffee,https://flatlandcoffee.com/products/rogue-espresso,2026-11-13
 flatlandcoffee.com:888332386317,flatlandcoffee.com,100020977677,North Forty,300g,300,coffee,https://flatlandcoffee.com/products/north-40,2026-11-13
@@ -41612,14 +41667,20 @@ javaroasters.ca:67683241296063,javaroasters.ca,15403034509503,Manuel Rosales | N
 javaroasters.ca:67683241328831,javaroasters.ca,15403034509503,Manuel Rosales | NICARAGUA (NEW),1kg (online only) / GROUND (medium grind),1000,coffee,https://javaroasters.ca/products/nicaragua-manuelrosales,2026-10-26
 javaroasters.ca:67683241361599,javaroasters.ca,15403034509503,Manuel Rosales | NICARAGUA (NEW),5lbs (online only) / COFFEE BEANS,2268,coffee,https://javaroasters.ca/products/nicaragua-manuelrosales,2026-10-26
 javaroasters.ca:67683241394367,javaroasters.ca,15403034509503,Manuel Rosales | NICARAGUA (NEW),5lbs (online only) / GROUND (medium grind),2268,coffee,https://javaroasters.ca/products/nicaragua-manuelrosales,2026-10-26
-javaroasters.ca:67715005251775,javaroasters.ca,15423386615999,COSTA RICA  | Jhon Alvorado Abarca (NEW),250g / COFFEE BEANS,250,coffee,https://javaroasters.ca/products/costarica-jhonalvorado-natural,2026-10-24
-javaroasters.ca:67715005284543,javaroasters.ca,15423386615999,COSTA RICA  | Jhon Alvorado Abarca (NEW),250g / GROUND (medium grind),250,coffee,https://javaroasters.ca/products/costarica-jhonalvorado-natural,2026-10-24
-javaroasters.ca:67715005317311,javaroasters.ca,15423386615999,COSTA RICA  | Jhon Alvorado Abarca (NEW),1kg (online only) / COFFEE BEANS,1000,coffee,https://javaroasters.ca/products/costarica-jhonalvorado-natural,2026-10-24
-javaroasters.ca:67715005350079,javaroasters.ca,15423386615999,COSTA RICA  | Jhon Alvorado Abarca (NEW),1kg (online only) / GROUND (medium grind),1000,coffee,https://javaroasters.ca/products/costarica-jhonalvorado-natural,2026-10-24
+javaroasters.ca:67715005251775,javaroasters.ca,15423386615999,COSTA RICA  | Jhon Alvorado Abarca,250g / COFFEE BEANS,250,coffee,https://javaroasters.ca/products/costarica-jhonalvorado-natural,2026-10-24
+javaroasters.ca:67715005284543,javaroasters.ca,15423386615999,COSTA RICA  | Jhon Alvorado Abarca,250g / GROUND (medium grind),250,coffee,https://javaroasters.ca/products/costarica-jhonalvorado-natural,2026-10-24
+javaroasters.ca:67715005317311,javaroasters.ca,15423386615999,COSTA RICA  | Jhon Alvorado Abarca,1kg (online only) / COFFEE BEANS,1000,coffee,https://javaroasters.ca/products/costarica-jhonalvorado-natural,2026-10-24
+javaroasters.ca:67715005350079,javaroasters.ca,15423386615999,COSTA RICA  | Jhon Alvorado Abarca,1kg (online only) / GROUND (medium grind),1000,coffee,https://javaroasters.ca/products/costarica-jhonalvorado-natural,2026-10-24
 javaroasters.ca:67854519173311,javaroasters.ca,15448958140607,"COFFEE (SOUR vs BITTER) TALK | NOVEMBER 26 , 2026",,,service,https://javaroasters.ca/products/coffee-sour-vs-bitter-talk-november-26,2026-11-04
 javaroasters.ca:67854737080511,javaroasters.ca,15449015222463,"COFFEE (SWEET) TALK | JANUARY 30 , 2027",,,service,https://javaroasters.ca/products/coffee-sour-vs-bitter-talk-november-26-2026-copy,2026-11-04
 javaroasters.ca:67854914781375,javaroasters.ca,15449056772287,"COFFEE (TEXTURE) TALK | FEBRUARY 13 , 2027",,,service,https://javaroasters.ca/products/coffee-sweet-talk-january-30-2027-copy,2026-11-04
 javaroasters.ca:67854925758655,javaroasters.ca,15449060245695,"COFFEE (TEXTURE) TALK | FEBRUARY 25 , 2027",,,service,https://javaroasters.ca/products/coffee-texture-talk-february-13-2027-copy,2026-11-04
+javaroasters.ca:68057747390655,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),250g / COFFEE BEANS,250,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
+javaroasters.ca:68057747423423,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),250g / GROUND (medium grind),250,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
+javaroasters.ca:68057747456191,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),1kg (online only) / COFFEE BEANS,1000,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
+javaroasters.ca:68057747488959,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),1kg (online only) / GROUND (medium grind),1000,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
+javaroasters.ca:68057747521727,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),5lbs (online only) / COFFEE BEANS,2268,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
+javaroasters.ca:68057747554495,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),5lbs (online only) / GROUND (medium grind),2268,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
 jjbeancoffee.com:31538010980465,jjbeancoffee.com,4438192685169,Eastside,340g (12oz) / Whole Bean,340,coffee,https://jjbeancoffee.com/products/eastside,2023-11-28
 jjbeancoffee.com:31538011013233,jjbeancoffee.com,4438192685169,Eastside,340g (12oz) / French Press,340,coffee,https://jjbeancoffee.com/products/eastside,2023-11-28
 jjbeancoffee.com:31538011046001,jjbeancoffee.com,4438192685169,Eastside,340g (12oz) / Cold Brew,340,coffee,https://jjbeancoffee.com/products/eastside,2023-11-28
@@ -42712,6 +42773,8 @@ justuscoffee.com:50767544221858,justuscoffee.com,10371675553954,Medium Roast Dis
 justuscoffee.com:50767544254626,justuscoffee.com,10371675553954,Medium Roast Discovery Pack,Ground,1000,bundle,https://justuscoffee.com/products/medium-roast-discovery-pack,2026-11-15
 justuscoffee.com:50821943132322,justuscoffee.com,8518835667106,Hollander Café Sauces,Classic Caramel / 64oz Bottle,1814.4,syrup_food,https://justuscoffee.com/products/hollander-cafe-sauces,2026-11-15
 justuscoffee.com:50843408990370,justuscoffee.com,10386532925602,Banko In Bloom Reserve Single Origin,Whole Bean,300,coffee,https://justuscoffee.com/products/banko-in-bloom,2026-11-15
+justuscoffee.com:50911586713762,justuscoffee.com,10404818944162,Co-operators Roast,340 g / Whole Bean,340,coffee,https://justuscoffee.com/products/co-operators-roast,2026-11-20
+justuscoffee.com:50911586746530,justuscoffee.com,10404818944162,Co-operators Roast,340 g / Ground,340,coffee,https://justuscoffee.com/products/co-operators-roast,2026-11-20
 justuscoffee.com:50911943065762,justuscoffee.com,10404855677090,Upcycled Burlap Coffee Sacks,1 sack,750,merch,https://justuscoffee.com/products/upcycled-burlap-coffee-sacks,2026-11-19
 justuscoffee.com:50911943098530,justuscoffee.com,10404855677090,Upcycled Burlap Coffee Sacks,5 sacks,3750,merch,https://justuscoffee.com/products/upcycled-burlap-coffee-sacks,2026-11-19
 justuscoffee.com:50911943131298,justuscoffee.com,10404855677090,Upcycled Burlap Coffee Sacks,10 sacks,7500,merch,https://justuscoffee.com/products/upcycled-burlap-coffee-sacks,2026-11-19
@@ -42721,6 +42784,8 @@ justuscoffee.com:50912035438754,justuscoffee.com,8851457147042,Rise Again,6 x 2 
 justuscoffee.com:50912042352802,justuscoffee.com,5611747082402,Colombian,6 x 2 lb case / Ground,5443.1,coffee,https://justuscoffee.com/products/colombian,2026-11-19
 justuscoffee.com:50912042877090,justuscoffee.com,8851457212578,Tierra Madre,6 x 2 lb case / Whole Bean,5443.1,coffee,https://justuscoffee.com/products/tiera-madre,2026-11-19
 justuscoffee.com:50912042909858,justuscoffee.com,8851457212578,Tierra Madre,6 x 2 lb case / Ground,5443.1,coffee,https://justuscoffee.com/products/tiera-madre,2026-11-19
+justuscoffee.com:50923212832930,justuscoffee.com,9304147132578,Bulk Green Beans,Ethiopian Yirgacheffee - 60kg,400,green_coffee,https://justuscoffee.com/products/bulk-green-beans,2026-11-20
+justuscoffee.com:50923212865698,justuscoffee.com,9304147132578,Bulk Green Beans,Rawandan - 60kg,400,green_coffee,https://justuscoffee.com/products/bulk-green-beans,2026-11-20
 kickinghorsecoffee.ca:37665114947740,kickinghorsecoffee.ca,6171762098332,THE BEHOLDER MUG,12oz (354ml),375,drinkware,https://kickinghorsecoffee.ca/products/ceramic-mug-the-beholder,2026-11-15
 kickinghorsecoffee.ca:37771150196892,kickinghorsecoffee.ca,6200765710492,TRUCKER JIM HAT,One size fits most / Black,91,merch,https://kickinghorsecoffee.ca/products/trucker-hat-trucker-jim,2026-11-15
 kickinghorsecoffee.ca:41287019397276,kickinghorsecoffee.ca,7173933498524,KICK ASS,Whole Bean / 454g,454,coffee,https://kickinghorsecoffee.ca/products/kick-ass-coffee,2026-11-15
@@ -50335,7 +50400,7 @@ quietlycoffee.com:40214587867303,quietlycoffee.com,6803526090919,LOSE WELL • C
 quietlycoffee.com:40815618130087,quietlycoffee.com,6939778089127,COLOMBIA • DANIEL MUÑOZ,340 Grams,340,coffee,https://www.quietlycoffee.com/products/colombia-jose-daniel-munoz,2024-01-27
 quietlycoffee.com:40815618195623,quietlycoffee.com,6939778089127,COLOMBIA • DANIEL MUÑOZ,5 Pounds,2268,coffee,https://www.quietlycoffee.com/products/colombia-jose-daniel-munoz,2024-01-27
 quietlycoffee.com:41729108869287,quietlycoffee.com,7152523804839,A QUIET HOLIDAY,5 Pounds,2268,coffee,https://www.quietlycoffee.com/products/a-quiet-holiday,2026-11-17
-quietlycoffee.com:41729108902055,quietlycoffee.com,7152523804839,A QUIET HOLIDAY,340 Grams,340,coffee,https://www.quietlycoffee.com/products/a-quiet-holiday,2026-11-17
+quietlycoffee.com:41729108902055,quietlycoffee.com,7152523804839,A QUIET HOLIDAY,300 Grams,300,coffee,https://www.quietlycoffee.com/products/a-quiet-holiday,2026-11-17
 quietlycoffee.com:42435239444647,quietlycoffee.com,3571343261767,LOGO TEE,Small / Navy,300,merch,https://www.quietlycoffee.com/products/quietly-logo,2023-11-28
 quietlycoffee.com:42435239477415,quietlycoffee.com,3571343261767,LOGO TEE,Small / Grey,300,merch,https://www.quietlycoffee.com/products/quietly-logo,2023-11-28
 quietlycoffee.com:42435239510183,quietlycoffee.com,3571343261767,LOGO TEE,Medium / Navy,300,merch,https://www.quietlycoffee.com/products/quietly-logo,2023-11-28
@@ -52226,6 +52291,14 @@ regardcoffee.com:47417509937340,regardcoffee.com,9555725844668,Ethiopia - Kokose
 regardcoffee.com:47417509970108,regardcoffee.com,9555725844668,Ethiopia - Kokose,Medium (V60),200,coffee,https://www.regardcoffee.com/products/ethiopia-kokose,2026-09-07
 regardcoffee.com:47417510002876,regardcoffee.com,9555725844668,Ethiopia - Kokose,Coarse (French Press or Chemex),200,coffee,https://www.regardcoffee.com/products/ethiopia-kokose,2026-09-07
 regardcoffee.com:47417510035644,regardcoffee.com,9555725844668,Ethiopia - Kokose,Fine (Moka Pot or Aeropress),200,coffee,https://www.regardcoffee.com/products/ethiopia-kokose,2026-09-07
+regardcoffee.com:71183554871484,regardcoffee.com,15227150532796,Brazil - Paulo Nelci (Replacing Bairro),300g / Whole Bean,300,coffee,https://www.regardcoffee.com/products/brazil-paulo-nelci,2026-11-20
+regardcoffee.com:71183554904252,regardcoffee.com,15227150532796,Brazil - Paulo Nelci (Replacing Bairro),300g / Medium (V60),300,coffee,https://www.regardcoffee.com/products/brazil-paulo-nelci,2026-11-20
+regardcoffee.com:71183554937020,regardcoffee.com,15227150532796,Brazil - Paulo Nelci (Replacing Bairro),300g / Coarse (French Press or Chemex),300,coffee,https://www.regardcoffee.com/products/brazil-paulo-nelci,2026-11-20
+regardcoffee.com:71183554969788,regardcoffee.com,15227150532796,Brazil - Paulo Nelci (Replacing Bairro),300g / Fine (Moka Pot or Aeropress),300,coffee,https://www.regardcoffee.com/products/brazil-paulo-nelci,2026-11-20
+regardcoffee.com:71183555002556,regardcoffee.com,15227150532796,Brazil - Paulo Nelci (Replacing Bairro),5lb / Whole Bean,2268,coffee,https://www.regardcoffee.com/products/brazil-paulo-nelci,2026-11-20
+regardcoffee.com:71183555035324,regardcoffee.com,15227150532796,Brazil - Paulo Nelci (Replacing Bairro),5lb / Medium (V60),2268,coffee,https://www.regardcoffee.com/products/brazil-paulo-nelci,2026-11-20
+regardcoffee.com:71183555068092,regardcoffee.com,15227150532796,Brazil - Paulo Nelci (Replacing Bairro),5lb / Coarse (French Press or Chemex),2268,coffee,https://www.regardcoffee.com/products/brazil-paulo-nelci,2026-11-20
+regardcoffee.com:71183555100860,regardcoffee.com,15227150532796,Brazil - Paulo Nelci (Replacing Bairro),5lb / Fine (Moka Pot or Aeropress),2268,coffee,https://www.regardcoffee.com/products/brazil-paulo-nelci,2026-11-20
 reunioncoffeeroasters.com:11368867142,reunioncoffeeroasters.com,299039911,Flavoured Coffee,French Caramel / Soft Pods,500,pods,https://reunioncoffeeroasters.com/products/medium-roast-flavored-coffee,2026-11-13
 reunioncoffeeroasters.com:26538490502,reunioncoffeeroasters.com,8079403526,Flagship,12 oz,340.2,coffee,https://reunioncoffeeroasters.com/products/flagship,2026-11-13
 reunioncoffeeroasters.com:26538490566,reunioncoffeeroasters.com,8079403526,Flagship,2 lbs,907.2,coffee,https://reunioncoffeeroasters.com/products/flagship,2026-11-13
@@ -53032,7 +53105,7 @@ revolvercoffee.ca:51054346633535,revolvercoffee.ca,10013985014079,Kurasu Fairfie
 revolvercoffee.ca:51054358692159,revolvercoffee.ca,10013988749631,Ex Animo Colombia La Macarena *Double Anaerobic Filter*,,340,coffee,https://revolvercoffee.ca/products/ex-animo-colombia-la-macarena-double-anaerobic-filter,2025-06-27
 revolvercoffee.ca:51054360985919,revolvercoffee.ca,10013989503295,Ex Animo Colombia Granja Paraiso 92 *Double Anaerobic Washed Filter*,,340,coffee,https://revolvercoffee.ca/products/ex-animo-nicaragua-el-limocillo-cold-natural-anaerobic-filter,2025-06-27
 revolvercoffee.ca:51057988567359,revolvercoffee.ca,10015278858559,Barn Kenya Gachenge AA *Filter*,,250,coffee,https://revolvercoffee.ca/products/barn-kenya-gachenge-aa-filter,2025-06-28
-revolvercoffee.ca:51057989517631,revolvercoffee.ca,10015279513919,Barn Ethiopia Kayon Mountain *Natural Espresso*,,250,coffee,https://revolvercoffee.ca/products/barn-ethiopia-kayon-mountain-natural-espresso,2025-06-28
+revolvercoffee.ca:51057989517631,revolvercoffee.ca,10015279513919,Barn Ethiopia Kayon Mountain *Natural Filter + Espresso*,,250,coffee,https://revolvercoffee.ca/products/barn-ethiopia-kayon-mountain-natural-espresso,2025-06-28
 revolvercoffee.ca:51063581147455,revolvercoffee.ca,10016769900863,DAK Saint-Tropez Ethiopia Danche *Washed Filter*,,250,coffee,https://revolvercoffee.ca/products/dak-saint-tropez-washed-filter,2025-07-01
 revolvercoffee.ca:51063583408447,revolvercoffee.ca,10016771539263,DAK Casa Tropical *Advanced Ferment Experimental Espresso*,,250,coffee,https://revolvercoffee.ca/products/dak-casa-tropical-advanced-ferment-experimental-espresso,2025-07-01
 revolvercoffee.ca:51063587143999,revolvercoffee.ca,10016772227391,DAK Raspberry Pop Kenya Mugaga *Filter*,,250,coffee,https://revolvercoffee.ca/products/dak-raspberry-pop-kenya-mugaga-filter,2025-07-01
@@ -53573,6 +53646,8 @@ revolvercoffee.ca:68086898262335,revolvercoffee.ca,15524487299391,Morgon Brazil 
 revolvercoffee.ca:68147078562111,revolvercoffee.ca,15544542593343,Hey Happy Colombia Las Manos Juntas *Natural Filter*,,340,coffee,https://revolvercoffee.ca/products/hey-happy-colombia-las-manos-juntas-natural-filter,2026-11-17
 revolvercoffee.ca:68147086786879,revolvercoffee.ca,15544549278015,Hey Happy Ethiopia Halo Beriti *Natural Filter*,,340,coffee,https://revolvercoffee.ca/products/hey-happy-ethiopia-halo-beriti-natural-filter,2026-11-17
 revolvercoffee.ca:68147089015103,revolvercoffee.ca,15544551407935,Hey Happy Guatemala Los Volcanes *Washed Filter*,,340,coffee,https://revolvercoffee.ca/products/hey-happy-guatemala-los-volcanes-washed-filter,2026-11-17
+revolvercoffee.ca:68170397483327,revolvercoffee.ca,15552673644863,Barn Ethiopia Kayon Mountain BULK 1KG *Natural Filter + Espresso*,,1000,coffee,https://revolvercoffee.ca/products/barn-ethiopia-kayon-mountain-bulk-1kg-natural-filter-espresso-copy,2026-11-20
+revolvercoffee.ca:68174936441151,revolvercoffee.ca,15554407661887,Barn Christmas Coffee *Washed Filter + Espresso*,,340,coffee,https://revolvercoffee.ca/products/barn-christmas-coffee-washed-filter-espresso,2026-11-20
 rocanini.com:10300282629,rocanini.com,3524755653,THE TWIST Blend Organic,8oz/225g,226.8,coffee,https://www.rocanini.com/products/the-twist-blend,2023-11-28
 rocanini.com:10302152005,rocanini.com,90736701,Gift Card - physical card for Cafe,$50,,gift_card,https://www.rocanini.com/products/giftcard,2023-11-28
 rocanini.com:10302159813,rocanini.com,90736701,Gift Card - physical card for Cafe,$100,,gift_card,https://www.rocanini.com/products/giftcard,2023-11-28
@@ -57465,6 +57540,11 @@ roguewavecoffee.ca:67387323744627,roguewavecoffee.ca,6757751423027,Third Wave Wa
 roguewavecoffee.ca:67387323777395,roguewavecoffee.ca,6757751423027,Third Wave Water - Espresso Profile,2 Liter,150,equipment,https://www.roguewavecoffee.ca/products/third-wave-water-espresso-profile,2026-11-13
 roguewavecoffee.ca:67398682182003,roguewavecoffee.ca,15663527231859,[PRE-ORDER] Coffee Gift Box | 6x Coffees (440g) & Gift Box,,440,bundle,https://www.roguewavecoffee.ca/products/pre-order-coffee-gift-box-6x-coffees-440g-gift-box,2026-11-15
 roguewavecoffee.ca:67440928620915,roguewavecoffee.ca,15674128105843,Colombia - Las Margaritas Geisha | Honey -  100g (2026),100 g,100,coffee,https://www.roguewavecoffee.ca/products/colombia-las-margaritas-geisha-honey-100g-2026,2026-11-18
+roguewavecoffee.ca:67461351801203,roguewavecoffee.ca,15679312429427,Ethiopia - Hanan Million Getachew | Natural,250 g,250,coffee,https://www.roguewavecoffee.ca/products/ethiopia-hanan-million-getachew-natural,2026-11-20
+roguewavecoffee.ca:67461351833971,roguewavecoffee.ca,15679312429427,Ethiopia - Hanan Million Getachew | Natural,40 g,40,coffee,https://www.roguewavecoffee.ca/products/ethiopia-hanan-million-getachew-natural,2026-11-20
+roguewavecoffee.ca:67461351866739,roguewavecoffee.ca,15679312429427,Ethiopia - Hanan Million Getachew | Natural,1 kg,1000,coffee,https://www.roguewavecoffee.ca/products/ethiopia-hanan-million-getachew-natural,2026-11-20
+roguewavecoffee.ca:67461371232627,roguewavecoffee.ca,15679314788723,Guatemala - La Serrania Kimono | Natural (2026),200 g,200,coffee,https://www.roguewavecoffee.ca/products/guatemala-la-serrania-kimono-natural-2026,2026-11-20
+roguewavecoffee.ca:67461371265395,roguewavecoffee.ca,15679314788723,Guatemala - La Serrania Kimono | Natural (2026),40 g,40,coffee,https://www.roguewavecoffee.ca/products/guatemala-la-serrania-kimono-natural-2026,2026-11-20
 roguewavecoffee.ca:67461451972979,roguewavecoffee.ca,15679329075571,Secret Drop | Panama - Mount Totumas Geisha Pre-Dried Bosque | Forest Ferment Natural - 50g,50 g,50,coffee,https://www.roguewavecoffee.ca/products/secret-drop-panama-mount-totumas-geisha-pre-dried-bosque-forest-ferment-natural-50-g,2026-11-19
 roguewavecoffee.ca:67461501682035,roguewavecoffee.ca,4474445496371,Gift Card - ONLINE & IN-STORE,$250.00 CAD,,gift_card,https://www.roguewavecoffee.ca/products/gift-card,2026-11-19
 rohicoffee.ca:35407925477535,rohicoffee.ca,5463389536415,Cold Brew,12 oz / Whole Bean,340.2,coffee,https://rohicoffee.ca/products/cold-brew,2023-11-28
@@ -60966,6 +61046,8 @@ september.coffee:51041785479266,september.coffee,10395100446818,September Oversi
 september.coffee:51041785512034,september.coffee,10395100446818,September Oversized Long Sleeve,L / White,100,unknown,https://september.coffee/products/oversized-long-sleeve-shirt-embroidered,2026-11-18
 september.coffee:51041785577570,september.coffee,10395100446818,September Oversized Long Sleeve,XL / Black,100,unknown,https://september.coffee/products/oversized-long-sleeve-shirt-embroidered,2026-11-18
 september.coffee:51041785610338,september.coffee,10395100446818,September Oversized Long Sleeve,XL / White,100,unknown,https://september.coffee/products/oversized-long-sleeve-shirt-embroidered,2026-11-18
+september.coffee:51056910368866,september.coffee,10399497453666,September Snapback,White,100,merch,https://september.coffee/products/september-snapback,2026-11-20
+september.coffee:51056910401634,september.coffee,10399497453666,September Snapback,Black,100,merch,https://september.coffee/products/september-snapback,2026-11-20
 sethtaylor.ca:12408259182673,sethtaylor.ca,1354139500625,Clever Dripper,,454,equipment,https://sethtaylor.ca/products/clever-dripper,2023-11-28
 sethtaylor.ca:31338320363601,sethtaylor.ca,4386180464721,Hario Switch Immersion Dripper Kit,,300,equipment,https://sethtaylor.ca/products/hario-switch-immersion-brewer-kit,2023-11-28
 sethtaylor.ca:32262430031953,sethtaylor.ca,4603508490321,Kalita #4 White Filter Papers - 100 pack,,225,equipment,https://sethtaylor.ca/products/kalita-2-filters-100-pack,2023-11-28
@@ -63957,9 +64039,9 @@ subtext.coffee:53395625246933,subtext.coffee,9302382608597,"Menu Cupping at Boxc
 subtext.coffee:53399018340565,subtext.coffee,9303498916053,"Colombia Jheison Lopez, Semi-washed Caturra",250g,250,coffee,https://www.subtext.coffee/products/colombia-jheison-lopez-semi-washed-caturra,2026-03-18
 subtext.coffee:53399018373333,subtext.coffee,9303498916053,"Colombia Jheison Lopez, Semi-washed Caturra",1kg,1000,coffee,https://www.subtext.coffee/products/colombia-jheison-lopez-semi-washed-caturra,2026-03-18
 subtext.coffee:53399018406101,subtext.coffee,9303498916053,"Colombia Jheison Lopez, Semi-washed Caturra",500g,500,coffee,https://www.subtext.coffee/products/colombia-jheison-lopez-semi-washed-caturra,2026-03-18
-subtext.coffee:53459828834517,subtext.coffee,9305425739989,"Colombia Cortijo Espresso, Washed Field Blend (April 28th, 2026)",250g,250,coffee,https://www.subtext.coffee/products/colombia-cortijo-espresso-washed-field-blend,2026-03-21
-subtext.coffee:53459828867285,subtext.coffee,9305425739989,"Colombia Cortijo Espresso, Washed Field Blend (April 28th, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/colombia-cortijo-espresso-washed-field-blend,2026-03-21
-subtext.coffee:53459828900053,subtext.coffee,9305425739989,"Colombia Cortijo Espresso, Washed Field Blend (April 28th, 2026)",500g,500,coffee,https://www.subtext.coffee/products/colombia-cortijo-espresso-washed-field-blend,2026-03-21
+subtext.coffee:53459828834517,subtext.coffee,9305425739989,"San Antonio Ozolotepec Espresso,  Mexico Washed Field Blend (Nov. 5th, 2026)",250g,250,coffee,https://www.subtext.coffee/products/mexico-san-antonio-ozolotepec-espresso-washed-field-blend-nov-05-2026,2026-03-21
+subtext.coffee:53459828867285,subtext.coffee,9305425739989,"San Antonio Ozolotepec Espresso,  Mexico Washed Field Blend (Nov. 5th, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/mexico-san-antonio-ozolotepec-espresso-washed-field-blend-nov-05-2026,2026-03-21
+subtext.coffee:53459828900053,subtext.coffee,9305425739989,"San Antonio Ozolotepec Espresso,  Mexico Washed Field Blend (Nov. 5th, 2026)",500g,500,coffee,https://www.subtext.coffee/products/mexico-san-antonio-ozolotepec-espresso-washed-field-blend-nov-05-2026,2026-03-21
 subtext.coffee:53459842826453,subtext.coffee,9305437208789,"Colombia Cortijo, Washed Field Blend",250g,250,coffee,https://www.subtext.coffee/products/colombia-cortijo-washed-field-blend,2026-03-20
 subtext.coffee:53459842859221,subtext.coffee,9305437208789,"Colombia Cortijo, Washed Field Blend",1kg,1000,coffee,https://www.subtext.coffee/products/colombia-cortijo-washed-field-blend,2026-03-20
 subtext.coffee:53459842891989,subtext.coffee,9305437208789,"Colombia Cortijo, Washed Field Blend",500g,500,coffee,https://www.subtext.coffee/products/colombia-cortijo-washed-field-blend,2026-03-20
@@ -64048,7 +64130,7 @@ subtext.coffee:53844489699541,subtext.coffee,9376869548245,"Colombia Alirio Orte
 subtext.coffee:53844494778581,subtext.coffee,9376870891733,"Mexico Edilizar Ordoñez, Washed Field Blend",250g,250,coffee,https://www.subtext.coffee/products/mexico-edilizar-ordonez-washed-field-blend,2026-05-28
 subtext.coffee:53844494811349,subtext.coffee,9376870891733,"Mexico Edilizar Ordoñez, Washed Field Blend",1kg,1000,coffee,https://www.subtext.coffee/products/mexico-edilizar-ordonez-washed-field-blend,2026-05-28
 subtext.coffee:53844494844117,subtext.coffee,9376870891733,"Mexico Edilizar Ordoñez, Washed Field Blend",500g,500,coffee,https://www.subtext.coffee/products/mexico-edilizar-ordonez-washed-field-blend,2026-05-28
-subtext.coffee:53844703019221,subtext.coffee,9376911655125,"Castro-Kahle Family, Costa Rica Anaerobic Honey Villa Sarchi (October 13th, 2026)",250g,250,coffee,https://www.subtext.coffee/products/colombia-amigos-del-huila-espresso-washed-field-blend,2026-05-23
+subtext.coffee:53844703019221,subtext.coffee,9376911655125,"Karimikui AA, Kenya Washed Field Blend (Nov. 3rd, 2026)",250g,250,coffee,https://www.subtext.coffee/products/karimikui-aa-kenya-washed-field-blend-nov-03-2026,2026-05-23
 subtext.coffee:53844703051989,subtext.coffee,9376911655125,"Colombia Amigos del Huila Espresso, Washed Field Blend (June 23rd, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/colombia-amigos-del-huila-espresso-washed-field-blend,2026-05-23
 subtext.coffee:53844703084757,subtext.coffee,9376911655125,"Colombia Amigos del Huila Espresso, Washed Field Blend (June 23rd, 2026)",500g,500,coffee,https://www.subtext.coffee/products/colombia-amigos-del-huila-espresso-washed-field-blend,2026-05-23
 subtext.coffee:53950992318677,subtext.coffee,9390039826645,"Copa de Oro | Colombia Jose Bolaños, Washed Gesha, Sidra & Pink Bourbon",150g,150,coffee,https://www.subtext.coffee/products/copa-de-oro-colombia-jose-bolanos-washed-gesha-sidra-pink-bourbon-copy,2026-05-31
@@ -64231,9 +64313,9 @@ subtext.coffee:54905667616981,subtext.coffee,9595469529301,"Alirio Ortega, Colom
 subtext.coffee:54965474558165,subtext.coffee,9611630313685,"Ethiopia Karamo Adara Espresso, Washed Walega (August 28,2026)",250g,250,coffee,https://www.subtext.coffee/products/ethiopia-karamo-adara-espresso-washed-walega-august-28-2026,2026-09-18
 subtext.coffee:54965474590933,subtext.coffee,9611630313685,"Ethiopia Karamo Adara Espresso, Washed Walega (August 28,2026)",1kg,1000,coffee,https://www.subtext.coffee/products/ethiopia-karamo-adara-espresso-washed-walega-august-28-2026,2026-09-18
 subtext.coffee:54965474623701,subtext.coffee,9611630313685,"Ethiopia Karamo Adara Espresso, Washed Walega (August 28,2026)",500g,500,coffee,https://www.subtext.coffee/products/ethiopia-karamo-adara-espresso-washed-walega-august-28-2026,2026-09-18
-subtext.coffee:54973682811093,subtext.coffee,9613176668373,"Honduras Heber Ávila, Washed Sidra (August 25, 2026)",250g,250,coffee,https://www.subtext.coffee/products/honduras-heber-avila-washed-sidra-august-25-2026,2026-09-21
-subtext.coffee:54973682843861,subtext.coffee,9613176668373,"Honduras Heber Ávila, Washed Sidra (August 25, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/honduras-heber-avila-washed-sidra-august-25-2026,2026-09-21
-subtext.coffee:54973682876629,subtext.coffee,9613176668373,"Honduras Heber Ávila, Washed Sidra (August 25, 2026)",500g,500,coffee,https://www.subtext.coffee/products/honduras-heber-avila-washed-sidra-august-25-2026,2026-09-21
+subtext.coffee:54973682811093,subtext.coffee,9613176668373,"Alirio Ortega, Colombia Washed Sidra (Oct. 21st, 2026)",250g,250,coffee,https://www.subtext.coffee/products/colombia-alirio-ortega-washed-sidra-oct-21-2026,2026-09-21
+subtext.coffee:54973682843861,subtext.coffee,9613176668373,"Alirio Ortega, Colombia Washed Sidra (Oct. 21st, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/colombia-alirio-ortega-washed-sidra-oct-21-2026,2026-09-21
+subtext.coffee:54973682876629,subtext.coffee,9613176668373,"Alirio Ortega, Colombia Washed Sidra (Oct. 21st, 2026)",500g,500,coffee,https://www.subtext.coffee/products/colombia-alirio-ortega-washed-sidra-oct-21-2026,2026-09-21
 subtext.coffee:67591479099605,subtext.coffee,15397642698965,"Mavila Peralta, Peru Washed Catuai",250g,250,coffee,https://www.subtext.coffee/products/mavila-peralta-peru-washed-catuai,2026-10-20
 subtext.coffee:67591479132373,subtext.coffee,15397642698965,"Mavila Peralta, Peru Washed Catuai",1kg,1000,coffee,https://www.subtext.coffee/products/mavila-peralta-peru-washed-catuai,2026-10-20
 subtext.coffee:67591479165141,subtext.coffee,15397642698965,"Mavila Peralta, Peru Washed Catuai",500g,500,coffee,https://www.subtext.coffee/products/mavila-peralta-peru-washed-catuai,2026-10-20
@@ -64248,21 +64330,21 @@ subtext.coffee:67782686834901,subtext.coffee,15436938838229,"Heber Ávila, Hondu
 subtext.coffee:67784083570901,subtext.coffee,15437159071957,"Colombia Guido Eraso Estrella, Washed Caturra",250g,250,coffee,https://www.subtext.coffee/products/colombia-guido-eraso-estrella-washed-caturra,2026-10-25
 subtext.coffee:67784083603669,subtext.coffee,15437159071957,"Colombia Guido Eraso Estrella, Washed Caturra",500g,500,coffee,https://www.subtext.coffee/products/colombia-guido-eraso-estrella-washed-caturra,2026-10-25
 subtext.coffee:67784083636437,subtext.coffee,15437159071957,"Colombia Guido Eraso Estrella, Washed Caturra",1kg,1000,coffee,https://www.subtext.coffee/products/colombia-guido-eraso-estrella-washed-caturra,2026-10-25
-subtext.coffee:67784445362389,subtext.coffee,15437224018133,"Alirio Ortega, Colombia Washed Aji (October 1st, 2026)",250g,250,coffee,https://www.subtext.coffee/products/alirio-ortega-colombia-washed-aji-copy,2026-10-20
-subtext.coffee:67784445395157,subtext.coffee,15437224018133,"Alirio Ortega, Colombia Washed Aji (October 1st, 2026)",500g,500,coffee,https://www.subtext.coffee/products/alirio-ortega-colombia-washed-aji-copy,2026-10-20
-subtext.coffee:67784445427925,subtext.coffee,15437224018133,"Alirio Ortega, Colombia Washed Aji (October 1st, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/alirio-ortega-colombia-washed-aji-copy,2026-10-20
+subtext.coffee:67784445362389,subtext.coffee,15437224018133,"Mavila Peralta, Peru Washed Catuai (Nov. 3rd, 2026)",250g,250,coffee,https://www.subtext.coffee/products/mavila-peralta-peru-washed-catuai-nov-3-2026,2026-10-20
+subtext.coffee:67784445395157,subtext.coffee,15437224018133,"Mavila Peralta, Peru Washed Catuai (Nov. 3rd, 2026)",500g,500,coffee,https://www.subtext.coffee/products/mavila-peralta-peru-washed-catuai-nov-3-2026,2026-10-20
+subtext.coffee:67784445427925,subtext.coffee,15437224018133,"Mavila Peralta, Peru Washed Catuai (Nov. 3rd, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/mavila-peralta-peru-washed-catuai-nov-3-2026,2026-10-20
 subtext.coffee:67784489894101,subtext.coffee,15437234602197,"Rogelio Santiz, Mexico Washed Pink Bourbon (September 29, 2026)",250g,250,coffee,https://www.subtext.coffee/products/rogelio-santiz-mexico-washed-pink-bourbon-september-29-2026,2026-10-20
 subtext.coffee:67784489926869,subtext.coffee,15437234602197,"Rogelio Santiz, Mexico Washed Pink Bourbon (September 29, 2026)",500g,500,coffee,https://www.subtext.coffee/products/rogelio-santiz-mexico-washed-pink-bourbon-september-29-2026,2026-10-20
 subtext.coffee:67784489959637,subtext.coffee,15437234602197,"Rogelio Santiz, Mexico Washed Pink Bourbon (September 29, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/rogelio-santiz-mexico-washed-pink-bourbon-september-29-2026,2026-10-20
-subtext.coffee:67784498938069,subtext.coffee,15437239058645,"San Antonio Ozolotepec, Mexico Washed Field Blend (October 5th, 2026)",250g,250,coffee,https://www.subtext.coffee/products/san-antonio-ozolotepec-mexico-washed-field-blend-october-5th-2026,2026-10-20
-subtext.coffee:67784498970837,subtext.coffee,15437239058645,"San Antonio Ozolotepec, Mexico Washed Field Blend (October 5th, 2026)",500g,500,coffee,https://www.subtext.coffee/products/san-antonio-ozolotepec-mexico-washed-field-blend-october-5th-2026,2026-10-20
-subtext.coffee:67784499003605,subtext.coffee,15437239058645,"San Antonio Ozolotepec, Mexico Washed Field Blend (October 5th, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/san-antonio-ozolotepec-mexico-washed-field-blend-october-5th-2026,2026-10-20
+subtext.coffee:67784498938069,subtext.coffee,15437239058645,"San Antonio Ozolotepec, Mexico Washed Field Blend (October 15th, 2026)",250g,250,coffee,https://www.subtext.coffee/products/san-antonio-ozolotepec-mexico-washed-field-blend-october-15th-2026,2026-10-20
+subtext.coffee:67784498970837,subtext.coffee,15437239058645,"San Antonio Ozolotepec, Mexico Washed Field Blend (October 15th, 2026)",500g,500,coffee,https://www.subtext.coffee/products/san-antonio-ozolotepec-mexico-washed-field-blend-october-15th-2026,2026-10-20
+subtext.coffee:67784499003605,subtext.coffee,15437239058645,"San Antonio Ozolotepec, Mexico Washed Field Blend (October 15th, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/san-antonio-ozolotepec-mexico-washed-field-blend-october-15th-2026,2026-10-20
 subtext.coffee:67785141223637,subtext.coffee,15434559193301,OREA - Filter Paper - WAVE (100pc),185,,equipment,https://www.subtext.coffee/products/untitled-oct14_15-42-34,2026-10-20
 subtext.coffee:67785141256405,subtext.coffee,15434559193301,OREA - Filter Paper - WAVE (100pc),155,,equipment,https://www.subtext.coffee/products/untitled-oct14_15-42-34,2026-10-20
 subtext.coffee:67794696700117,subtext.coffee,15439433105621,NextLevel — Pulsar Brewer,,,equipment,https://www.subtext.coffee/products/untitled-oct16_11-43-09,2026-10-20
 subtext.coffee:67796201963733,subtext.coffee,9259671683285,Pulsar Filters,80mm (Pulsar Original),,equipment,https://www.subtext.coffee/products/pulsar-mini-filters,2026-10-26
 subtext.coffee:67796201996501,subtext.coffee,9259671683285,Pulsar Filters,58mm (Pulsar Mini),,equipment,https://www.subtext.coffee/products/pulsar-mini-filters,2026-10-26
-subtext.coffee:67796483014869,subtext.coffee,15439783887061,"Didier Pajoy, Colombia Washed Pink Bourbon (October 13th, 2026)",200g,200,coffee,https://www.subtext.coffee/products/alex-aguilar-honduras-washed-field-blend-september-0th-2026,2026-10-20
+subtext.coffee:67796483014869,subtext.coffee,15439783887061,"Didier Pajoy, Colombia Washed Pink Bourbon (October 13th, 2026)",200g,200,coffee,https://www.subtext.coffee/products/didier-pajoy-colombia-washed-pink-bourbon-oct-13th-2026,2026-10-20
 subtext.coffee:67796483047637,subtext.coffee,15439783887061,"Alex Aguilar, Honduras Washed Field Blend (September 10th, 2026)",1kg,1000,coffee,https://www.subtext.coffee/products/alex-aguilar-honduras-washed-field-blend-september-0th-2026,2026-10-20
 subtext.coffee:67796483080405,subtext.coffee,15439783887061,"Alex Aguilar, Honduras Washed Field Blend (September 10th, 2026)",500g,500,coffee,https://www.subtext.coffee/products/alex-aguilar-honduras-washed-field-blend-september-0th-2026,2026-10-20
 subtext.coffee:67992913477845,subtext.coffee,15472208347349,"Karimikui AA, Kenya Washed Field Blend",250g,250,coffee,https://www.subtext.coffee/products/karimikui-aa-kenya-washed-field-blend,2026-10-27
@@ -64285,6 +64367,7 @@ subtext.coffee:68148327317717,subtext.coffee,15510678864085,1ZPRESSO - K-ULTRA (
 subtext.coffee:68160550076629,subtext.coffee,15513917849813,"Menu Cupping — November 28th, ‘26",,,unknown,https://www.subtext.coffee/products/menu-cupping-november-28th-26,2026-11-11
 subtext.coffee:68185106907349,subtext.coffee,15517674340565,Timemore Chestnut C5 PRO Hand Grinder,,750,equipment,https://www.subtext.coffee/products/timemore-chestnut-c5-pro-hand-grinder,2026-11-18
 subtext.coffee:68318762467541,subtext.coffee,15547540373717,Chemex — Six Cup Classic,,680,equipment,https://www.subtext.coffee/products/chemex-six-cup-classic,2026-11-18
+subtext.coffee:68425657188565,subtext.coffee,15566215381205,Apax Lab (Standard Set / 100ml),,750,unknown,https://www.subtext.coffee/products/apax-lab-standard-set-100ml,2026-11-20
 theangryroaster.com:39568145088671,theangryroaster.com,5763667394719,Brazil - Alta Mogiana,300g,300,coffee,https://theangryroaster.com/products/brazil-coffee,2023-11-23
 theangryroaster.com:39568145121439,theangryroaster.com,5763667394719,Brazil - Alta Mogiana,2kg,2000,coffee,https://theangryroaster.com/products/brazil-coffee,2023-11-23
 theangryroaster.com:39598909030559,theangryroaster.com,6642481103007,Specialty Coffee World Map,,,merch,https://theangryroaster.com/products/specialty-coffee-world-map-poster,2023-11-23
@@ -64402,6 +64485,9 @@ theangryroaster.com:62851398533279,theangryroaster.com,10930156798111,Kenya AA -
 theangryroaster.com:62878426398879,theangryroaster.com,10938538066079,Sudan Rume - Colombia | Whole Bean Coffee,,200,coffee,https://theangryroaster.com/products/sudan-rume-colombia,2026-10-02
 theangryroaster.com:62898143723679,theangryroaster.com,10941688905887,Ethiopia Kokose Natural | Whole Bean Coffee,250g,250,coffee,https://theangryroaster.com/products/ethiopia-kokose-natural,2026-10-29
 theangryroaster.com:62898143756447,theangryroaster.com,10941688905887,Ethiopia Kokose Natural | Whole Bean Coffee,2kg,2000,coffee,https://theangryroaster.com/products/ethiopia-kokose-natural,2026-10-29
+theangryroaster.com:62902933291167,theangryroaster.com,10942729912479,Coffee Subscription,Calm,1000,subscription,https://theangryroaster.com/products/coffee-subscription,2026-11-20
+theangryroaster.com:62902933422239,theangryroaster.com,10942729912479,Coffee Subscription,Mood Swing,1000,subscription,https://theangryroaster.com/products/coffee-subscription,2026-11-20
+theangryroaster.com:62902933553311,theangryroaster.com,10942729912479,Coffee Subscription,Angry,1000,subscription,https://theangryroaster.com/products/coffee-subscription,2026-11-20
 thelibraryspecialtycoffee.com:15772876800064,thelibraryspecialtycoffee.com,1593828376640,Barista Gear latte art pitcher,20oz stainless,567,unknown,https://www.thelibraryspecialtycoffee.com/products/barista-gear-latte-art-pitcher,2023-11-23
 thelibraryspecialtycoffee.com:15772876865600,thelibraryspecialtycoffee.com,1593828376640,Barista Gear latte art pitcher,20oz electroplated black,567,unknown,https://www.thelibraryspecialtycoffee.com/products/barista-gear-latte-art-pitcher,2023-11-23
 thelibraryspecialtycoffee.com:16560524853312,thelibraryspecialtycoffee.com,1581221904448,TORCH Mountain Coffee Dripper,WHITE,400,equipment,https://www.thelibraryspecialtycoffee.com/products/torch-mountain-dripper,2023-11-23
@@ -66936,8 +67022,8 @@ virginhillcoffee.com:52608230228241,virginhillcoffee.com,10656955040017,Virgin H
 virginhillcoffee.com:52693756674321,virginhillcoffee.com,9226006364433,Chocolate & Marshmallow Spoon,Milk,,merch,https://virginhillcoffee.com/products/chocolate-marshmallow-spoon,2026-11-13
 virginhillcoffee.com:52693756707089,virginhillcoffee.com,9226006364433,Chocolate & Marshmallow Spoon,Dark,,merch,https://virginhillcoffee.com/products/chocolate-marshmallow-spoon,2026-11-13
 virginhillcoffee.com:52698713260305,virginhillcoffee.com,10684478849297,Fair Isle VH Cup,,,drinkware,https://virginhillcoffee.com/products/fair-isle-vh-cup,2026-11-13
-virginhillcoffee.com:52698828407057,virginhillcoffee.com,10684501426449,Pre-order: VH Advent Calendar - 13 days of Virgin Hill Coffee,Beans,1800,bundle,https://virginhillcoffee.com/products/13-days-of-virgin-hill-coffee,2026-11-13
-virginhillcoffee.com:52698828439825,virginhillcoffee.com,10684501426449,Pre-order: VH Advent Calendar - 13 days of Virgin Hill Coffee,Filter Grind,1800,bundle,https://virginhillcoffee.com/products/13-days-of-virgin-hill-coffee,2026-11-13
+virginhillcoffee.com:52698828407057,virginhillcoffee.com,10684501426449,VH Advent Calendar - 13 days of Virgin Hill Coffee,Beans,1800,bundle,https://virginhillcoffee.com/products/13-days-of-virgin-hill-coffee,2026-11-13
+virginhillcoffee.com:52698828439825,virginhillcoffee.com,10684501426449,VH Advent Calendar - 13 days of Virgin Hill Coffee,Filter Grind,1800,bundle,https://virginhillcoffee.com/products/13-days-of-virgin-hill-coffee,2026-11-13
 virginhillcoffee.com:52708087333137,virginhillcoffee.com,10686342562065,Airscape Coffee Canister VH Ski,1KG,1000,equipment,https://virginhillcoffee.com/products/airscape-coffee-canister-vh-ski,2026-11-13
 virginhillcoffee.com:52708087365905,virginhillcoffee.com,10686342562065,Airscape Coffee Canister VH Ski,500G,500,equipment,https://virginhillcoffee.com/products/airscape-coffee-canister-vh-ski,2026-11-13
 virginhillcoffee.com:52719392063761,virginhillcoffee.com,10689277526289,I Wonder VH T-Shirt,Small,500,merch,https://virginhillcoffee.com/products/i-wonder-vh-t-shirt,2026-11-13
