@@ -120,6 +120,17 @@
   "pending_count": null,
   "pending_runs": 0
  },
+ "cafebarista.ca": {
+  "url": "https://cafebarista.ca",
+  "roaster": "Cafe Barista",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-20",
+  "coffee_variants": 138,
+  "last_count": 287,
+  "pending_count": null,
+  "pending_runs": 0
+ },
  "cafepista.com": {
   "url": "https://cafepista.com",
   "roaster": "cafe-pista",
@@ -128,6 +139,17 @@
   "last_ok": "2026-11-20",
   "coffee_variants": 414,
   "last_count": 186,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "cafetouche.ca": {
+  "url": "https://cafetouche.ca",
+  "roaster": "Caf\u00e9 Touch\u00e9",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-20",
+  "coffee_variants": 31,
+  "last_count": 387,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -447,6 +469,17 @@
   "last_ok": "2026-11-20",
   "coffee_variants": 39,
   "last_count": 6,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "lheureuxinc.com": {
+  "url": "https://lheureuxinc.com",
+  "roaster": "Brossard",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-20",
+  "coffee_variants": 108,
+  "last_count": 2249,
   "pending_count": null,
   "pending_runs": 0
  },
@@ -898,6 +931,17 @@
   "last_ok": "2026-11-20",
   "coffee_variants": 58,
   "last_count": 95,
+  "pending_count": null,
+  "pending_runs": 0
+ },
+ "ursaecafe.com": {
+  "url": "https://ursaecafe.com",
+  "roaster": "Ursae Cafe",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-20",
+  "coffee_variants": 24,
+  "last_count": 56,
   "pending_count": null,
   "pending_runs": 0
  },
