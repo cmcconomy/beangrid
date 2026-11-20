@@ -78,6 +78,15 @@ def test_not_coffee(title, ptype, category):
         ("Rhino Coffee Knock Drawer", "Tools", ["Coffee Addicts"], ["Black"], False, "equipment"),
         ("Subminimal Flick WDT Tool | Outil de Distribution", "Marchandise", [], ["Noir"], False, "equipment"),
         ("Coffee Tool", "", ["bf-exclude"], [], False, "equipment"),
+        # L'Heureux (Québec espresso-equipment retailer), French labels:
+        ("Padolli : égalisateur de café 58 mm, base à trois pointes", "Égalisateurs", [], ["Argent"], False, "equipment"),
+        ("Lelit égalisateur de café 57 mm", "Égalisateurs", [], [], False, "equipment"),
+        ("LX - Knockcube - Cube de cognage pour espresso avec barre", "Bacs à marc", [], ["Noir"], False, "equipment"),
+        ("LX Knockbox Commercial - Boite de cognage pour espresso", "Bacs à marc", [], [], False, "equipment"),
+        ("DeLonghi - Réservoir à grains interchangeable pour Rivelia", "Récipients pour café", [], [], False, "equipment"),
+        ("KitchenAid - Réservoir à grains amovible pour KF6, KF7, KF8", "Récipients pour café", [], [], True, "equipment"),
+        ("ECM - Station de pressage anthracite", "Stations de pressage", [], [], False, "equipment"),
+        ("LX - Tapis pour café absorbant en PVC (30x45cm)", "Tapis", [], ["45x30cm"], False, "equipment"),
         ("HuskeeCup", "Retail Coffee", [], ["Huskee Cup Natural 6oz"], False, "drinkware"),
         ("Cafetto Brew Clean Powder (500G)", "Retail", ["Accessories", "Cleaners"], [], True, "cleaning"),
         ("Espresso Masterclass", "", ["class"], [], False, "service"),
@@ -106,6 +115,8 @@ def test_non_bean_listings(title, ptype, tags, opts, has_weight, category):
         ("Kirinyaga Kiamugumo PB", "Coffee", ["250 g"], True),
         ("Melon Syrup - Caturra by Maria Guetio", "Archive", ["250 grams"], True),
         ("Gift Size Coffee", "Special Blend", ["170g"], True),
+        ("ApoG L'Adrénaline : espresso italien artisanal, grains entiers", "Café en grains", ["1 kg"], True),
+        ("Réserve du Torréfacteur - Éthiopie", "Café en grains", ["340g"], True),  # réserve, not réservoir
         ("Mt. Water (Dancing Goats Decaf)", "Roasted Coffee Beans", ["227g"], True),
         ("Kinden's Bakery and Café Blend", "Coffee", ["Whole Bean / 340 g"], True),  # named for a customer
         ("Terroir Artisan Bakery", "Sac de café", ["300g / En grain"], True),

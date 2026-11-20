@@ -71,8 +71,8 @@ class Settings(BaseSettings):
     # Roaster names or storefront URLs to try, one per line; reviewed additions get moved to sites_file.
     candidates_file: Path = PACKAGE_DIR / "candidates.txt"
     # Multi-roaster Canadian Shopify retailers; the vendors of their coffee products are candidate roasters.
-    aggregator_sites: list[str] = ["https://theroasterspack.com", "https://www.idrinkcoffee.com"]
-    aggregator_pages: int = 5
+    aggregator_sites: list[str] = ["https://theroasterspack.com", "https://www.idrinkcoffee.com", "https://lheureuxinc.com"]
+    aggregator_pages: int = 10  # L'Heureux has ~9 pages
     # Only comment a store out if the daily run has also not scraped it for this long.
     prune_after_days: int = 7
     # A discovered store needs at least this many products classified as coffee.

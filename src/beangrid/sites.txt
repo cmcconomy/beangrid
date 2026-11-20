@@ -86,3 +86,7 @@ https://za-klo-torrefactrices.myshopify.com  # Za & Klo Torréfactrices, LaSalle
 https://agroroasters.com  # Agro Coffee, Vancouver, British Columbia, CA (canvass 2026-11-13)
 https://94celcius.com  # 94Celcius, Sainte-Julie, Quebec, CA (canvass 2026-11-13)
 https://originhillcoffee.com  # Origin Hill Coffee Roasters, Whitchurch-Stouffville, Ontario, CA (canvass 2026-11-13)
+https://lheureuxinc.com  # L'Heureux, Québec: espresso-equipment retailer reselling Québec roasters (manual find 2026-11-20)
+https://ursaecafe.com  # Ursae Cafe, Québec, Quebec, CA (canvass 2026-11-20)
+https://cafetouche.ca  # Édika, Montréal, Quebec, CA (canvass 2026-11-20)
+https://cafebarista.ca  # Café Barista, Montreal, Quebec, CA (canvass 2026-11-20)

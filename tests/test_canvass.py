@@ -225,7 +225,14 @@ def test_guess_urls_covers_common_domain_shapes():
     for u in ("https://pilotcoffeeroasters.com", "https://pilot.ca", "https://pilotcoffee.com",
               "https://pilotcoffeeroasters.myshopify.com", "https://pilot.coffee"):
         assert u in urls
-    assert len(urls) == len(set(urls)) <= 13
+    assert len(urls) == len(set(urls)) <= 15
+
+
+def test_guess_urls_tries_the_quebec_cafe_prefix():
+    # Québec roasters often use "cafe<name>": Café Barista -> cafebarista.ca, Touché -> cafetouche.ca
+    assert "https://cafebarista.ca" in guess_urls("Barista Inc.")
+    assert "https://cafetouche.ca" in guess_urls("Touché")
+    assert "https://cafegilles.com" in guess_urls("Café Gilles")
 
 
 def test_parse_and_render_preserve_unchanged_file():

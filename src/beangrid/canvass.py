@@ -240,6 +240,8 @@ def guess_urls(name: str) -> list[str]:
         urls += [f"https://{s}.ca", f"https://{s}.com", f"https://{s}.myshopify.com"]
     if core and len(core) > 2:
         urls.append(f"https://{core}.coffee")
+        # Québec roasters often go by "Café <name>": cafebarista.ca, cafetouche.ca.
+        urls += [f"https://cafe{core}.ca", f"https://cafe{core}.com"]
     return list(dict.fromkeys(urls))
 
 
