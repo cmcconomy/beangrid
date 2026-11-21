@@ -153,6 +153,88 @@
    "Grains"
   ]
  },
+ "https://cafebarista.ca/products/cafe-espresso-autentico": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "250g",
+   "500g",
+   "Espresso",
+   "Grains",
+   "Moka"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-espresso-bio-due": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "250g",
+   "500g",
+   "Espresso",
+   "Grains",
+   "Moka"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-espresso-bio-uno": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "250g",
+   "500g",
+   "Espresso",
+   "Grains",
+   "Moka"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-espresso-cremone": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "250g",
+   "500g",
+   "Espresso",
+   "Grains",
+   "Moka"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-espresso-decafeine": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "250g",
+   "500g",
+   "Chemex",
+   "Dripper",
+   "Espresso",
+   "Filtre",
+   "Grains",
+   "Moka",
+   "Percolateur",
+   "Piston"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-espresso-gran-barista": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "250g",
+   "500g",
+   "Espresso",
+   "Grains",
+   "Moka"
+  ]
+ },
  "https://cafebarista.ca/products/cafe-espresso-mezzo-decaf": {
   "checked": "2026-11-20",
   "members_only": false,
@@ -161,6 +243,113 @@
    "Espresso",
    "Grains",
    "Moka"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-espresso-venezia": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "250g",
+   "500g",
+   "Espresso",
+   "Grains",
+   "Moka"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-filtre-africano": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2.5kg",
+   "500g",
+   "Chemex",
+   "Dripper",
+   "Filtre",
+   "Grains",
+   "Percolateur",
+   "Piston"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-filtre-bio-due": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "500g",
+   "Chemex",
+   "Dripper",
+   "Filtre",
+   "Grains",
+   "Percolateur",
+   "Piston"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-filtre-bio-uno": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "500g",
+   "Chemex",
+   "Dripper",
+   "Filtre",
+   "Grains",
+   "Percolateur",
+   "Piston"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-filtre-dolce": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "500g",
+   "Chemex",
+   "Dripper",
+   "Filtre",
+   "Grains",
+   "Percolateur",
+   "Piston"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-filtre-marrone": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "500g",
+   "Chemex",
+   "Dripper",
+   "Filtre",
+   "Grains",
+   "Percolateur",
+   "Piston"
+  ]
+ },
+ "https://cafebarista.ca/products/cafe-filtre-nero": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2.5kg",
+   "500g",
+   "Chemex",
+   "Dripper",
+   "Filtre",
+   "Grains",
+   "Percolateur",
+   "Piston"
+  ]
+ },
+ "https://cafebarista.ca/products/maboite-degustation-espresso": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "Grain",
+   "Moulu-Cafeti\u00e8re Moka",
+   "Moulu-Machine espresso"
   ]
  },
  "https://cafepista.com/products/abdo-aba-mecha-ethiopie": {
@@ -1419,6 +1608,89 @@
   "visible_options": [
    "1 lb"
   ]
+ },
+ "https://lheureuxinc.com/products/cafe-gilles-classico-en-grains": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1 lbs",
+   "5 lbs"
+  ]
+ },
+ "https://lheureuxinc.com/products/cafe-gilles-forza-en-grains": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1 lbs",
+   "5 lbs"
+  ]
+ },
+ "https://lheureuxinc.com/products/cafe-touche-candeur-nature-1-kg-1967-classique": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2,5kg",
+   "300g"
+  ]
+ },
+ "https://lheureuxinc.com/products/cafe-touche-feu-de-foyer-2006-bio": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2,5kg",
+   "300g"
+  ]
+ },
+ "https://lheureuxinc.com/products/cafe-touche-gout-de-foudre-1969-bio": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2,5kg",
+   "300g"
+  ]
+ },
+ "https://lheureuxinc.com/products/cafe-touche-mere-melade-1976-bio": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2,5kg",
+   "300g"
+  ]
+ },
+ "https://lheureuxinc.com/products/cafe-touche-petit-velours-1980-bio": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2,5kg",
+   "300g"
+  ]
+ },
+ "https://lheureuxinc.com/products/cafe-touche-tricote-serre-1967-bio": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "2,5kg",
+   "300g"
+  ]
+ },
+ "https://lheureuxinc.com/products/espresso-cremone-de-barista-microtorefacteur": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "1 kg",
+   "2.5 kg"
+  ]
+ },
+ "https://lheureuxinc.com/products/faro-espresso-forte": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": null
  },
  "https://melk.cafe/products/bucket-bon-decaf-2-5kg": {
   "checked": "2026-11-19",
@@ -3003,6 +3275,15 @@
    "250G"
   ]
  },
+ "https://www.trafficcoffee.com/products/assemblage-sangria": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
  "https://www.trafficcoffee.com/products/beton-arme-100g": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -3040,6 +3321,15 @@
   "members_only": true,
   "visible_options": null
  },
+ "https://www.trafficcoffee.com/products/coffee-of-brayan-le-cafe-de-brayan-alvear": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
  "https://www.trafficcoffee.com/products/crew-collective-imperium": {
   "checked": "2026-11-20",
   "members_only": true,
@@ -3053,6 +3343,67 @@
    "300g",
    "5lb"
   ]
+ },
+ "https://www.trafficcoffee.com/products/drip-house-espresso": {
+  "checked": "2026-11-21",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/drip-house-filter": {
+  "checked": "2026-11-21",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/duromina": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/ferlucci-decaf": {
+  "checked": "2026-11-21",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/fikadu": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/forin-house-blend": {
+  "checked": "2026-11-21",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/good-vibes": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/half-caf-pbj": {
+  "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/humble-filter": {
+  "checked": "2026-11-21",
+  "members_only": true,
+  "visible_options": null
  },
  "https://www.trafficcoffee.com/products/jean-guy": {
   "checked": "2026-11-19",
