@@ -3405,6 +3405,20 @@
   "members_only": true,
   "visible_options": null
  },
+ "https://www.trafficcoffee.com/products/humble-resilience": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/jb9": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
  "https://www.trafficcoffee.com/products/jean-guy": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -3414,8 +3428,69 @@
    "5lb"
   ]
  },
+ "https://www.trafficcoffee.com/products/juice-bomb-9-pb": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "200g",
+   "2lb",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/le-kahera": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/le-petit-dep-lpd": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/loc-rung-lychee": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/louisa-1": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/louisa-dark-decaf": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/lovebuzzz": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/mano-vince-la-sete": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
  "https://www.trafficcoffee.com/products/marcelo-assis": {
   "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/milkshakeespresso": {
+  "checked": "2026-11-22",
   "members_only": false,
   "visible_options": [
    "2lb",
@@ -3432,8 +3507,84 @@
    "5lb"
   ]
  },
+ "https://www.trafficcoffee.com/products/mustefa-abakeno": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/mystery-bag": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/nguisse-keyamo": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/nguisse-nare": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/odd-coffee-collaboration-avec-messorem": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": null
+ },
  "https://www.trafficcoffee.com/products/olympus": {
   "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/oma-fontule": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/phin-blend": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/pie-face": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "300g"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/reshad": {
+  "checked": "2026-11-22",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/roberta-eduardo-pereira": {
+  "checked": "2026-11-22",
   "members_only": false,
   "visible_options": [
    "2lb",
@@ -3449,6 +3600,11 @@
    "300g",
    "5lb"
   ]
+ },
+ "https://www.trafficcoffee.com/products/savsav-brewster": {
+  "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
  },
  "https://zabcafe.com/products/bon-matin": {
   "checked": "2026-11-19",
