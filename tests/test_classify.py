@@ -93,6 +93,7 @@ def test_not_coffee(title, ptype, category):
         ("Nitro Cold Brew Coffee", "Cold Brew Coffee", [], ["12 Pack"], False, "ready_to_drink"),
         ("Cold Brew Multi-Packs", "Retail Coffee", ["coldbrew", "pickuponly"], ["4-Pack"], False, "ready_to_drink"),
         ("Seasoning Coffee", "", [], ["1 kg"], True, "seasoning"),
+        ("Drip Coffee Box - Decaf", "", [], ["25.00"], False, "drip_bags"),  # Gravity: single-serve drip bags
         ("Seasoning Beans", "Beans", [], ["1lb"], True, "seasoning"),
         ("Thé - Décaf Pêche Abricot", "Thés", ["Thé"], [], False, "tea"),
         ("A Gift of Coffee", "Espresso, Filter", [], ["$25.00", "$50.00", "$100.00"], False, "gift_card"),

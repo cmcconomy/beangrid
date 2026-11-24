@@ -90,3 +90,4 @@ https://lheureuxinc.com  # L'Heureux, Québec: espresso-equipment retailer resel
 https://ursaecafe.com  # Ursae Cafe, Québec, Quebec, CA (canvass 2026-11-20)
 https://cafetouche.ca  # Édika, Montréal, Quebec, CA (canvass 2026-11-20)
 https://cafebarista.ca  # Café Barista, Montreal, Quebec, CA (canvass 2026-11-20)
+https://www.gravitycoffeeroasters.com  # Gravity Coffee Roasters, Calgary, Alberta, CA (manual add 2026-11-23)
