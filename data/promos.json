@@ -19,7 +19,9 @@
  "94celcius.com": {
   "checked": "2026-11-24",
   "url": "https://94celcius.com",
-  "banners": [],
+  "banners": [
+   "Facebook Instagram Twitter Black Friday — 20 % de rabais sur tout le site, 25 % sur les sacs de 5 lb et les trios surprise. Magasine les offres → 0 Jour 0 0 Heure 0 0 Min 0 0 Sec Se termine le 30 novembre 2026 à 00:00 Pays Canada (CAD $) Canada (CAD $) Langue Français Français English"
+  ],
   "codes": [],
   "free_shipping": null,
   "subscription_pct": 5,
@@ -578,6 +580,19 @@
   "codes": [],
   "free_shipping": null,
   "subscription_pct": 20,
+  "locksmith": false,
+  "hidden_products": [],
+  "private_collections": []
+ },
+ "gravitycoffeeroasters.com": {
+  "checked": "2026-11-24",
+  "url": "https://www.gravitycoffeeroasters.com",
+  "banners": [
+   "BLACK FRIDAY SALE: 25% OFF SITEWIDE · NO CODE NEEDED · EXCLUDES GIFT CARDS & BUNDLES"
+  ],
+  "codes": [],
+  "free_shipping": null,
+  "subscription_pct": null,
   "locksmith": false,
   "hidden_products": [],
   "private_collections": []

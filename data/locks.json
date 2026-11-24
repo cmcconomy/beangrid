@@ -3655,6 +3655,25 @@
   "members_only": true,
   "visible_options": null
  },
+ "https://www.trafficcoffee.com/products/veloce-filter": {
+  "checked": "2026-11-24",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/vive-le-vent-2k26": {
+  "checked": "2026-11-24",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/\ucc45\uac00\ub3c4-luna": {
+  "checked": "2026-11-24",
+  "members_only": true,
+  "visible_options": null
+ },
  "https://zabcafe.com/products/bon-matin": {
   "checked": "2026-11-19",
   "members_only": false,
