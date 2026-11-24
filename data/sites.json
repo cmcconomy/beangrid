@@ -384,6 +384,17 @@
   "pending_count": null,
   "pending_runs": 0
  },
+ "gravitycoffeeroasters.com": {
+  "url": "https://www.gravitycoffeeroasters.com",
+  "roaster": "Gravity",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-24",
+  "coffee_variants": 246,
+  "last_count": 26,
+  "pending_count": null,
+  "pending_runs": 0
+ },
  "halecoffee.com": {
   "url": "https://www.halecoffee.com",
   "roaster": "Hale Coffee Co.",
@@ -475,11 +486,11 @@
  "lheureuxinc.com": {
   "url": "https://lheureuxinc.com",
   "roaster": "Brossard",
-  "status": "stale",
-  "error": "gave up after 7 attempts: HTTP 429",
-  "last_ok": "2026-11-20",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-24",
   "coffee_variants": 108,
-  "last_count": 2249,
+  "last_count": 2251,
   "pending_count": null,
   "pending_runs": 0
  },
