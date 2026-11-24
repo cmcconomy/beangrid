@@ -747,6 +747,7 @@ key,site,product_id,title,variant_title,grams,category,url,first_seen
 49thcoffee.com:44010763223103,49thcoffee.com,8408757927999,Sumatra Bener Meriah Lychee Co-Ferment Filter Roast,6oz,170.1,coffee,https://49thcoffee.com/products/sumatra-bener-meriah-lychee-co-ferment-filter-roast-coffee,2026-11-01
 49thcoffee.com:44010889936959,49thcoffee.com,8408796528703,Sumatra Bener Meriah Jasmine Co-Ferment Filter Roast,6oz,170.1,coffee,https://49thcoffee.com/products/sumatra-bener-meriah-jasmine-co-ferment-filter-roast,2026-11-01
 49thcoffee.com:44062812143679,49thcoffee.com,8421429280831,Hawaii Kona Filter Roast,6oz,170.1,coffee,https://49thcoffee.com/products/hawaii-kona-coffee,2026-10-21
+49thcoffee.com:44119353622591,49thcoffee.com,8431594602559,49th Parallel Hardcover Notebook,,300,merch,https://49thcoffee.com/products/49th-parallel-hardcover-notebook,2026-11-24
 49thcoffee.com:44133455331391,49thcoffee.com,8433241096255,24 Days Of Coffee Advent Calendar,,1361,bundle,https://49thcoffee.com/products/24-days-of-coffee-advent-calendar-2026,2026-11-01
 49thcoffee.com:44133461000255,49thcoffee.com,8433242603583,12 Days Of Coffee Advent Calendar,,680,bundle,https://49thcoffee.com/products/12-days-of-coffee-advent-calendar-2026,2026-11-01
 49thcoffee.com:44133471322175,49thcoffee.com,8433244897343,7 Days Of Coffee - Fruity & Floral Edition,,680,bundle,https://49thcoffee.com/products/7-days-of-coffee-fruity-floral,2026-11-01
@@ -25229,6 +25230,7 @@ cafepista.com:68452622270709,cafepista.com,15906277392629,Moulin électrique Fel
 cafepista.com:68455128203509,cafepista.com,4430872674374,Filtres Chemex,Carré,500,equipment,https://cafepista.com/products/filtre-a-chemex,2026-11-19
 cafepista.com:68455128236277,cafepista.com,4430872674374,Filtres Chemex,Rond,500,equipment,https://cafepista.com/products/filtre-a-chemex,2026-11-19
 cafepista.com:68456069660917,cafepista.com,15908514267381,"Hokusan - Niju Uji, matcha torréfié de Kyoto",,,tea,https://cafepista.com/products/hokusan-niju-uji-matcha-torrefie-de-kyoto,2026-11-21
+cafepista.com:68538336477429,cafepista.com,15942642991349,OSMO - Filtres en papier Wave,Wave 02 (185),,equipment,https://cafepista.com/products/osmo-filtres-en-papier-wave,2026-11-24
 cafetouche.ca:19476765704278,cafetouche.ca,1943900717142,Café Ricardo Espresso,1kg,1000,coffee,https://cafetouche.ca/products/espresso,2026-11-20
 cafetouche.ca:29432970674262,cafetouche.ca,3936494026838,Tasseur en acier inox et manche en bois rouge LELIT,57.35 mm,,equipment,https://cafetouche.ca/products/pressoir-en-acier-inox-manche-en-bois-avec-petit-rebord,2026-11-20
 cafetouche.ca:29432970707030,cafetouche.ca,3936494026838,Tasseur en acier inox et manche en bois rouge LELIT,58.55 mm,,equipment,https://cafetouche.ca/products/pressoir-en-acier-inox-manche-en-bois-avec-petit-rebord,2026-11-20
@@ -42089,6 +42091,14 @@ javablendcoffee.com:67809466384478,javablendcoffee.com,15468670681182,El Salvado
 javablendcoffee.com:67809466417246,javablendcoffee.com,15468670681182,El Salvador: Santa Rosa Pacas Natural,227g / Electric Espresso,227,coffee,https://javablendcoffee.com/products/el-salvador-santa-rosa-pacas-natural,2026-10-23
 javablendcoffee.com:67809466450014,javablendcoffee.com,15468670681182,El Salvador: Santa Rosa Pacas Natural,227g / Stovetop Espresso,227,coffee,https://javablendcoffee.com/products/el-salvador-santa-rosa-pacas-natural,2026-10-23
 javablendcoffee.com:67809466482782,javablendcoffee.com,15468670681182,El Salvador: Santa Rosa Pacas Natural,227g / Turkish,227,coffee,https://javablendcoffee.com/products/el-salvador-santa-rosa-pacas-natural,2026-10-23
+javablendcoffee.com:67809887846494,javablendcoffee.com,15468908970078,Lots of Micro-lots!,Wholebean,,coffee,https://javablendcoffee.com/products/lots-of-micro-lots,2026-11-24
+javablendcoffee.com:67809887879262,javablendcoffee.com,15468908970078,Lots of Micro-lots!,Basket,,coffee,https://javablendcoffee.com/products/lots-of-micro-lots,2026-11-24
+javablendcoffee.com:67809887912030,javablendcoffee.com,15468908970078,Lots of Micro-lots!,Cone Filter,,coffee,https://javablendcoffee.com/products/lots-of-micro-lots,2026-11-24
+javablendcoffee.com:67809887944798,javablendcoffee.com,15468908970078,Lots of Micro-lots!,Aeropress,,coffee,https://javablendcoffee.com/products/lots-of-micro-lots,2026-11-24
+javablendcoffee.com:67809887977566,javablendcoffee.com,15468908970078,Lots of Micro-lots!,French Press,,coffee,https://javablendcoffee.com/products/lots-of-micro-lots,2026-11-24
+javablendcoffee.com:67809888010334,javablendcoffee.com,15468908970078,Lots of Micro-lots!,Electric Espresso,,coffee,https://javablendcoffee.com/products/lots-of-micro-lots,2026-11-24
+javablendcoffee.com:67809888043102,javablendcoffee.com,15468908970078,Lots of Micro-lots!,Stovetop Espresso,,coffee,https://javablendcoffee.com/products/lots-of-micro-lots,2026-11-24
+javablendcoffee.com:67809888075870,javablendcoffee.com,15468908970078,Lots of Micro-lots!,Turkish,,coffee,https://javablendcoffee.com/products/lots-of-micro-lots,2026-11-24
 javablendcoffee.com:67822390902878,javablendcoffee.com,15472902275166,Colombia: Catiope Honey,Wholebean / 227g,227,coffee,https://javablendcoffee.com/products/colombia-catiope-honey,2026-10-27
 javablendcoffee.com:67822390935646,javablendcoffee.com,15472902275166,Colombia: Catiope Honey,Basket / 227g,227,coffee,https://javablendcoffee.com/products/colombia-catiope-honey,2026-10-27
 javablendcoffee.com:67822390968414,javablendcoffee.com,15472902275166,Colombia: Catiope Honey,Cone / 227g,227,coffee,https://javablendcoffee.com/products/colombia-catiope-honey,2026-10-27
@@ -44287,6 +44297,12 @@ lebruloir.com:67939507699870,lebruloir.com,15444875444382,Rodrigo Pelaez,250 gr 
 lebruloir.com:67939507732638,lebruloir.com,15444875444382,Rodrigo Pelaez,250 gr / Filtre,250,coffee,https://www.lebruloir.com/products/rodrigo-pelaez,2026-11-06
 lebruloir.com:67939507765406,lebruloir.com,15444875444382,Rodrigo Pelaez,250 gr / Presse-française,250,coffee,https://www.lebruloir.com/products/rodrigo-pelaez,2026-11-06
 lebruloir.com:67939507798174,lebruloir.com,15444875444382,Rodrigo Pelaez,250 gr / Bodum,250,coffee,https://www.lebruloir.com/products/rodrigo-pelaez,2026-11-06
+lebruloir.com:68134845415582,lebruloir.com,15501221331102,Mélange Hivernal,500gr / Grain,500,coffee,https://www.lebruloir.com/products/melange-hivernal,2026-11-24
+lebruloir.com:68134845448350,lebruloir.com,15501221331102,Mélange Hivernal,"500gr / Machine Espresso Porte-Filtre Non-Pressurisé (Rancilio, Gaggia, Mokita, Rocket)",500,coffee,https://www.lebruloir.com/products/melange-hivernal,2026-11-24
+lebruloir.com:68134845481118,lebruloir.com,15501221331102,Mélange Hivernal,"500gr / Machine Espresso Porte-Filtre Pressurisé (Breville, Saeco, DeLonghi)",500,coffee,https://www.lebruloir.com/products/melange-hivernal,2026-11-24
+lebruloir.com:68134845513886,lebruloir.com,15501221331102,Mélange Hivernal,500gr / MokaPot(Espresso Sur le Rond),500,coffee,https://www.lebruloir.com/products/melange-hivernal,2026-11-24
+lebruloir.com:68134845546654,lebruloir.com,15501221331102,Mélange Hivernal,500gr / Filtre,500,coffee,https://www.lebruloir.com/products/melange-hivernal,2026-11-24
+lebruloir.com:68134845579422,lebruloir.com,15501221331102,Mélange Hivernal,"500gr / Presse-française, Bodum",500,coffee,https://www.lebruloir.com/products/melange-hivernal,2026-11-24
 lheureuxinc.com:41330602606748,lheureuxinc.com,7191949050012,Oasis - Kit de refroidisseur à pression,,,equipment,https://lheureuxinc.com/products/oasis-water-filtration-system-kit,2026-11-20
 lheureuxinc.com:41330602639516,lheureuxinc.com,7191949082780,Oasis - Kit universelle Versafilter,,,equipment,https://lheureuxinc.com/products/0asis-versafilter-universal-kit,2026-11-20
 lheureuxinc.com:41330603131036,lheureuxinc.com,7191949508764,"Bunn CWTF-DV-TC — Cafetière automatique compacte double tension, carafe thermique",Stainless,17240,equipment,https://lheureuxinc.com/products/bunn-cwtf-dv-tc-st-pf,2026-11-20
@@ -55584,6 +55600,7 @@ receivercoffee.com:1921245249549,receivercoffee.com,184632901645,Operator Blend,
 receivercoffee.com:31276230115393,receivercoffee.com,4358189318209,Receiver Coffee Black Toque,,63,merch,https://receivercoffee.com/products/embroidered-toque,2026-11-15
 receivercoffee.com:32341364310081,receivercoffee.com,4644310876225,Chemex Filters,,600,equipment,https://receivercoffee.com/products/chemex-filters,2026-11-15
 receivercoffee.com:39261129375809,receivercoffee.com,6539843928129,Hario V60-02 White 100pk,,680,equipment,https://receivercoffee.com/products/hario-v60-02-white,2026-11-15
+receivercoffee.com:39320880545857,receivercoffee.com,6558572380225,Chemex Classic 6 Cup,,600,equipment,https://receivercoffee.com/products/chemex-classic-6-cup,2026-11-24
 receivercoffee.com:39534350041153,receivercoffee.com,6668268404801,Operator Blend Subscription,340g / Whole Bean,340,subscription,https://receivercoffee.com/products/operator-blend-subscription,2026-11-15
 receivercoffee.com:39534350073921,receivercoffee.com,6668268404801,Operator Blend Subscription,5lbs / Whole Bean,2268,subscription,https://receivercoffee.com/products/operator-blend-subscription,2026-11-15
 receivercoffee.com:39534444806209,receivercoffee.com,6668262309953,Roasters Choice Subscription,340g / Whole Bean,340,subscription,https://receivercoffee.com/products/roasters-choice-subscription,2026-11-15
@@ -55783,6 +55800,11 @@ receivercoffee.com:51107153772609,receivercoffee.com,10447338668097,Forest Green
 receivercoffee.com:51107153805377,receivercoffee.com,10447338668097,Forest Green Groovy Hoodie,L,200,merch,https://receivercoffee.com/products/forest-groovy-groovy-hoodie,2026-11-19
 receivercoffee.com:51107153838145,receivercoffee.com,10447338668097,Forest Green Groovy Hoodie,XL,200,merch,https://receivercoffee.com/products/forest-groovy-groovy-hoodie,2026-11-19
 receivercoffee.com:51107153870913,receivercoffee.com,10447338668097,Forest Green Groovy Hoodie,2XL,200,merch,https://receivercoffee.com/products/forest-groovy-groovy-hoodie,2026-11-19
+receivercoffee.com:51156988788801,receivercoffee.com,10447322939457,Classic Receiver Crew Neck Athletic Grey,S,,merch,https://receivercoffee.com/products/classic-receiver-crew-neck-heather-gray,2026-11-24
+receivercoffee.com:51156988821569,receivercoffee.com,10447322939457,Classic Receiver Crew Neck Athletic Grey,M,,merch,https://receivercoffee.com/products/classic-receiver-crew-neck-heather-gray,2026-11-24
+receivercoffee.com:51156988854337,receivercoffee.com,10447322939457,Classic Receiver Crew Neck Athletic Grey,L,,merch,https://receivercoffee.com/products/classic-receiver-crew-neck-heather-gray,2026-11-24
+receivercoffee.com:51156988887105,receivercoffee.com,10447322939457,Classic Receiver Crew Neck Athletic Grey,XL,,merch,https://receivercoffee.com/products/classic-receiver-crew-neck-heather-gray,2026-11-24
+receivercoffee.com:51156988919873,receivercoffee.com,10447322939457,Classic Receiver Crew Neck Athletic Grey,2XL,,merch,https://receivercoffee.com/products/classic-receiver-crew-neck-heather-gray,2026-11-24
 regardcoffee.com:23657029468260,regardcoffee.com,2654520311908,Colombia El Encinal,300g / Whole Bean,300,coffee,https://www.regardcoffee.com/products/colombia-el-encinal,2024-04-18
 regardcoffee.com:24533272723556,regardcoffee.com,2879703515236,Hario V60-02 Filters,,150,equipment,https://www.regardcoffee.com/products/hario-v60-02-filters,2023-11-23
 regardcoffee.com:24533779382372,regardcoffee.com,2879788580964,Aeropress,,454,equipment,https://www.regardcoffee.com/products/aeropress,2023-11-23
@@ -61538,10 +61560,14 @@ roguewavecoffee.ca:67117042631027,roguewavecoffee.ca,15282655396211,Hario - V60 
 roguewavecoffee.ca:67117042663795,roguewavecoffee.ca,15282655396211,Hario - V60 NEO Dripper (Tritan),V60-01 NEO / Amber,150,equipment,https://www.roguewavecoffee.ca/products/hario-v60-neo-dripper-tritan,2026-10-26
 roguewavecoffee.ca:67117042696563,roguewavecoffee.ca,15282655396211,Hario - V60 NEO Dripper (Tritan),V60-02 NEO / Clear,150,equipment,https://www.roguewavecoffee.ca/products/hario-v60-neo-dripper-tritan,2026-10-26
 roguewavecoffee.ca:67117042729331,roguewavecoffee.ca,15282655396211,Hario - V60 NEO Dripper (Tritan),V60-02 NEO / Amber,150,equipment,https://www.roguewavecoffee.ca/products/hario-v60-neo-dripper-tritan,2026-10-26
-roguewavecoffee.ca:67124046004595,roguewavecoffee.ca,15600389554547,Ethiopia - Mustefa Abakeno Gera | Washed,340g,340,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed,2026-10-23
-roguewavecoffee.ca:67124046037363,roguewavecoffee.ca,15600389554547,Ethiopia - Mustefa Abakeno Gera | Washed,1kg,1000,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed,2026-10-23
-roguewavecoffee.ca:67124046070131,roguewavecoffee.ca,15600389554547,Ethiopia - Mustefa Abakeno Gera | Washed,2.5kg,2500,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed,2026-10-23
-roguewavecoffee.ca:67124046102899,roguewavecoffee.ca,15600389554547,Ethiopia - Mustefa Abakeno Gera | Washed,40g,40,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed,2026-10-23
+roguewavecoffee.ca:67124046004595,roguewavecoffee.ca,15600389554547,Ethiopia - Mustefa Abakeno Gera | Washed,340 g,340,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed,2026-10-23
+roguewavecoffee.ca:67124046037363,roguewavecoffee.ca,15600389554547,Ethiopia - Mustefa Abakeno Gera | Washed,1 kg,1000,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed,2026-10-23
+roguewavecoffee.ca:67124046070131,roguewavecoffee.ca,15600389554547,Ethiopia - Mustefa Abakeno Gera | Washed,2.5 kg,2500,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed,2026-10-23
+roguewavecoffee.ca:67124046102899,roguewavecoffee.ca,15600389554547,Ethiopia - Mustefa Abakeno Gera | Washed,40 g,40,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mustefa-abakeno-gera-washed,2026-10-23
+roguewavecoffee.ca:67124109050227,roguewavecoffee.ca,15600420585843,Ethiopia - Mullugeta Muntasha Arbegona | Natural,340 g,340,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mullugeta-muntasha-arbegona-natural,2026-11-24
+roguewavecoffee.ca:67124109082995,roguewavecoffee.ca,15600420585843,Ethiopia - Mullugeta Muntasha Arbegona | Natural,1 kg,1000,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mullugeta-muntasha-arbegona-natural,2026-11-24
+roguewavecoffee.ca:67124109115763,roguewavecoffee.ca,15600420585843,Ethiopia - Mullugeta Muntasha Arbegona | Natural,2.5 kg,2500,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mullugeta-muntasha-arbegona-natural,2026-11-24
+roguewavecoffee.ca:67124109148531,roguewavecoffee.ca,15600420585843,Ethiopia - Mullugeta Muntasha Arbegona | Natural,40 g,40,coffee,https://www.roguewavecoffee.ca/products/ethiopia-mullugeta-muntasha-arbegona-natural,2026-11-24
 roguewavecoffee.ca:67158487499123,roguewavecoffee.ca,15606308077939,OREA - Service Pitcher Carafe (2026),300ml (2026 version),340,equipment,https://www.roguewavecoffee.ca/products/orea-service-pitcher-carafe-2026,2026-10-23
 roguewavecoffee.ca:67159720722803,roguewavecoffee.ca,15606546006387,OREA - STAC Cup 2-Pack (150ml),Pack of 2,200,tea,https://www.roguewavecoffee.ca/products/orea-stac-cups-2-pack,2026-10-23
 roguewavecoffee.ca:67166456873331,roguewavecoffee.ca,15608057364851,Panama - Carmen Palomar Estate Lot 3 Geisha | Washed - 100g,100g,100,coffee,https://www.roguewavecoffee.ca/products/panama-finca-carmen-palomar-estate-lot-3-geisha-washed-100g,2026-10-23
@@ -61578,6 +61604,10 @@ roguewavecoffee.ca:67354280821107,roguewavecoffee.ca,15649812250995,Secret Drop 
 roguewavecoffee.ca:67355193934195,roguewavecoffee.ca,15650053914995,Colombia - Granja Paraiso 92 Pink Bourbon | Sugarcane EA Decaf,250 g,250,coffee,https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-pink-bourbon-sugarcane-ea-decaf,2026-11-12
 roguewavecoffee.ca:67355193966963,roguewavecoffee.ca,15650053914995,Colombia - Granja Paraiso 92 Pink Bourbon | Sugarcane EA Decaf,1 kg,1000,coffee,https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-pink-bourbon-sugarcane-ea-decaf,2026-11-12
 roguewavecoffee.ca:67355193999731,roguewavecoffee.ca,15650053914995,Colombia - Granja Paraiso 92 Pink Bourbon | Sugarcane EA Decaf,40 g,40,coffee,https://www.roguewavecoffee.ca/products/colombia-granja-paraiso-92-pink-bourbon-sugarcane-ea-decaf,2026-11-12
+roguewavecoffee.ca:67355202617715,roguewavecoffee.ca,15650057453939,Guatemala - La Union Acatenango | Washed (2026),340 g,340,coffee,https://www.roguewavecoffee.ca/products/guatemala-la-union-acatenango-washed-2026,2026-11-24
+roguewavecoffee.ca:67355202650483,roguewavecoffee.ca,15650057453939,Guatemala - La Union Acatenango | Washed (2026),1 kg,1000,coffee,https://www.roguewavecoffee.ca/products/guatemala-la-union-acatenango-washed-2026,2026-11-24
+roguewavecoffee.ca:67355202683251,roguewavecoffee.ca,15650057453939,Guatemala - La Union Acatenango | Washed (2026),2.5 kg,2500,coffee,https://www.roguewavecoffee.ca/products/guatemala-la-union-acatenango-washed-2026,2026-11-24
+roguewavecoffee.ca:67355202716019,roguewavecoffee.ca,15650057453939,Guatemala - La Union Acatenango | Washed (2026),40 g,40,coffee,https://www.roguewavecoffee.ca/products/guatemala-la-union-acatenango-washed-2026,2026-11-24
 roguewavecoffee.ca:67355224867187,roguewavecoffee.ca,15650060992883,Panama - Carmen Palomar Estate Lot 6 Geisha | Natural - 100g,100 g,100,coffee,https://www.roguewavecoffee.ca/products/panama-carmen-palomar-estate-lot-6-geisha-natural-100g,2026-11-12
 roguewavecoffee.ca:67387323744627,roguewavecoffee.ca,6757751423027,Third Wave Water - Espresso Profile,1 Gallon,150,equipment,https://www.roguewavecoffee.ca/products/third-wave-water-espresso-profile,2026-11-13
 roguewavecoffee.ca:67387323777395,roguewavecoffee.ca,6757751423027,Third Wave Water - Espresso Profile,2 Liter,150,equipment,https://www.roguewavecoffee.ca/products/third-wave-water-espresso-profile,2026-11-13
@@ -68434,6 +68464,12 @@ subtext.coffee:68486668878037,subtext.coffee,15575471882453,"Mi'essa Robe, Ethio
 subtext.coffee:68488453062869,subtext.coffee,15575756832981,"Tima, Ethiopia Washed Gibirinna & Serto",250g,250,coffee,https://www.subtext.coffee/products/tima-ethiopia-washed-gibirinna-serto,2026-11-21
 subtext.coffee:68488453095637,subtext.coffee,15575756832981,"Tima, Ethiopia Washed Gibirinna & Serto",1kg,1000,coffee,https://www.subtext.coffee/products/tima-ethiopia-washed-gibirinna-serto,2026-11-21
 subtext.coffee:68488453128405,subtext.coffee,15575756832981,"Tima, Ethiopia Washed Gibirinna & Serto",500g,500,coffee,https://www.subtext.coffee/products/tima-ethiopia-washed-gibirinna-serto,2026-11-21
+subtext.coffee:68604933210325,subtext.coffee,15596534759637,"Luis Alberto Balladarez Holiday Coffee, Nicaragua Honey Pacamara ""Small Beans""",250g,250,coffee,https://www.subtext.coffee/products/luis-alberto-balladarez-holiday-coffee-nicaragua-honey-pacamara-small-beans,2026-11-24
+subtext.coffee:68604933243093,subtext.coffee,15596534759637,"Luis Alberto Balladarez Holiday Coffee, Nicaragua Honey Pacamara ""Small Beans""",500g,500,coffee,https://www.subtext.coffee/products/luis-alberto-balladarez-holiday-coffee-nicaragua-honey-pacamara-small-beans,2026-11-24
+subtext.coffee:68604933275861,subtext.coffee,15596534759637,"Luis Alberto Balladarez Holiday Coffee, Nicaragua Honey Pacamara ""Small Beans""",1kg,1000,coffee,https://www.subtext.coffee/products/luis-alberto-balladarez-holiday-coffee-nicaragua-honey-pacamara-small-beans,2026-11-24
+subtext.coffee:68606107648213,subtext.coffee,15596749422805,"Faver Ninco, Colombia Washed Pink Bourbon",250g,250,coffee,https://www.subtext.coffee/products/faver-ninco-colombia-washed-pink-bourbon,2026-11-24
+subtext.coffee:68606107680981,subtext.coffee,15596749422805,"Faver Ninco, Colombia Washed Pink Bourbon",500g,500,coffee,https://www.subtext.coffee/products/faver-ninco-colombia-washed-pink-bourbon,2026-11-24
+subtext.coffee:68606107713749,subtext.coffee,15596749422805,"Faver Ninco, Colombia Washed Pink Bourbon",1kg,1000,coffee,https://www.subtext.coffee/products/faver-ninco-colombia-washed-pink-bourbon,2026-11-24
 theangryroaster.com:39568145088671,theangryroaster.com,5763667394719,Brazil - Alta Mogiana,300g,300,coffee,https://theangryroaster.com/products/brazil-coffee,2023-11-23
 theangryroaster.com:39568145121439,theangryroaster.com,5763667394719,Brazil - Alta Mogiana,2kg,2000,coffee,https://theangryroaster.com/products/brazil-coffee,2023-11-23
 theangryroaster.com:39598909030559,theangryroaster.com,6642481103007,Specialty Coffee World Map,,,merch,https://theangryroaster.com/products/specialty-coffee-world-map-poster,2023-11-23

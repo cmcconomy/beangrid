@@ -2916,6 +2916,16 @@
   "members_only": false,
   "visible_options": null
  },
+ "https://www.roguewavecoffee.ca/products/ethiopia-mullugeta-muntasha-arbegona-natural": {
+  "checked": "2026-11-24",
+  "members_only": false,
+  "visible_options": [
+   "1 kg",
+   "2.5 kg",
+   "340 g",
+   "40 g"
+  ]
+ },
  "https://www.roguewavecoffee.ca/products/ethiopia-musa-abalulesa-washed": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -3040,6 +3050,16 @@
   "checked": "2026-11-19",
   "members_only": false,
   "visible_options": null
+ },
+ "https://www.roguewavecoffee.ca/products/guatemala-la-union-acatenango-washed-2026": {
+  "checked": "2026-11-24",
+  "members_only": false,
+  "visible_options": [
+   "1 kg",
+   "2.5 kg",
+   "340 g",
+   "40 g"
+  ]
  },
  "https://www.roguewavecoffee.ca/products/guatemala-la-union-acetenango-washed": {
   "checked": "2026-11-19",
@@ -3335,6 +3355,16 @@
   "members_only": true,
   "visible_options": null
  },
+ "https://www.trafficcoffee.com/products/crew-collective-renaissance": {
+  "checked": "2026-11-24",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/crew-filter": {
+  "checked": "2026-11-24",
+  "members_only": true,
+  "visible_options": null
+ },
  "https://www.trafficcoffee.com/products/dante-street": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -3603,6 +3633,25 @@
  },
  "https://www.trafficcoffee.com/products/savsav-brewster": {
   "checked": "2026-11-22",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/sofia-cafe": {
+  "checked": "2026-11-24",
+  "members_only": true,
+  "visible_options": null
+ },
+ "https://www.trafficcoffee.com/products/sublime": {
+  "checked": "2026-11-24",
+  "members_only": false,
+  "visible_options": [
+   "2lb",
+   "300g",
+   "5lb"
+  ]
+ },
+ "https://www.trafficcoffee.com/products/umarell-blend-5lb": {
+  "checked": "2026-11-24",
   "members_only": true,
   "visible_options": null
  },
