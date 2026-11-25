@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beangrid Explore</title>
+  <meta name="description" content="Every coffee offer in a sortable, filterable grid.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/styles/ag-grid.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/styles/ag-theme-quartz.css">
+  <style>
+    .explore-bar { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 16px 0 10px; }
+    .explore-bar input[type=search] { font: inherit; font-size: 14px; color: var(--ink); background: var(--bg);
+      border: 1px solid var(--line); border-radius: 7px; padding: 6px 8px; width: 260px; max-width: 100%; }
+    .explore-bar label { font-size: 13px; color: var(--ink-2); display: inline-flex; gap: 6px; align-items: center; }
+    .explore-bar button { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--surface);
+      color: var(--ink-2); border-radius: 7px; padding: 5px 10px; cursor: pointer; }
+    #grid { height: calc(100vh - 210px); min-height: 420px; width: 100%; }
+    #grid-count { color: var(--ink-3); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div>
+        <h1>Beangrid Explore</h1>
+        <p class="tagline">Every coffee offer in one grid: sort and filter any column. <a href="./">← Back to deals</a></p>
+      </div>
+      <p class="meta" id="meta">Loading…</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="explore-bar">
+      <input type="search" id="quick" placeholder="Search everything" aria-label="Search everything">
+      <label><input type="checkbox" id="f-instock" checked> In stock</label>
+      <label><input type="checkbox" id="f-public" checked> Hide wholesale &amp; members-only</label>
+      <label><input type="checkbox" id="f-clean" checked> Hide questionable</label>
+      <label><input type="checkbox" id="f-green"> Include green beans</label>
+      <label id="f-hidden-wrap" hidden><input type="checkbox" id="f-hidden" checked> <span id="f-hidden-label"></span></label>
+      <button type="button" id="csv">Download CSV</button>
+      <span id="grid-count"></span>
+    </div>
+    <div id="grid" class="ag-theme-quartz"></div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.3/dist/ag-grid-community.min.js"></script>
+  <script src="explore.js"></script>
+</body>
+</html>

@@ -51,7 +51,7 @@
     <section aria-labelledby="browse-h" class="browse">
       <div class="section-head">
         <h2 id="browse-h">Browse every coffee</h2>
-        <span class="count" id="count"></span>
+        <span class="count"><span id="count"></span> · <a href="explore.html">Open in grid view</a></span>
       </div>
 
       <form class="filters" id="filters" autocomplete="off">
@@ -97,6 +97,14 @@
         </fieldset>
         <button type="reset" class="linkish">Reset filters</button>
       </form>
+      <details class="hide-roasters">
+        <summary><span id="hide-summary">Hide roasters…</span></summary>
+        <div class="hide-panel">
+          <input type="search" id="hide-search" placeholder="Find a roaster" aria-label="Find a roaster">
+          <div id="hide-list" class="hide-list"></div>
+          <button type="button" class="linkish" id="hide-clear" hidden>Show all roasters</button>
+        </div>
+      </details>
 
       <div class="table-wrap">
         <table class="results" id="results">
@@ -147,7 +155,7 @@
             <li><a href="data/catalog.csv">catalog.csv</a>: what each history key refers to</li>
             <li>The same as Parquet, all years in one file: <a href="data/history.parquet">history.parquet</a>,
               <a href="data/catalog.parquet">catalog.parquet</a> (e.g. <code>duckdb -c "from 'https://beangrid.mcconomy.org/data/history.parquet'"</code>)</li>
-            <li><a id="datasette" href="#">Explore in Datasette</a> · <a href="jupyterlite/">Jupyter Lite</a></li>
+            <li><a href="explore.html">Grid view</a> (sort and filter every column) · <a id="datasette" href="#">Explore in Datasette</a> · <a href="jupyterlite/">Jupyter Lite</a></li>
           </ul>
         </div>
       </div>

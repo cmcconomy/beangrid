@@ -29,7 +29,8 @@ uv run beangrid canvass [--write]   # prune dead stores from sites.txt, propose 
   paced requests + circuit breaker in `fetch.py`, stores already scraped today reused (02:23 + 14:23 UTC runs),
   gate counts carried-forward stores as usable but needs some fresh ones
 - `src/beangrid/export.py`: Parquet copies of history + catalog for `_site/data/` (built each run, never committed)
-- `site/`: static front end (vanilla JS, no build). Reads `_site/data/offers.json`
+- `site/`: static front end (vanilla JS, no build). Reads `_site/data/offers.json`. `explore.html` is an AG Grid
+  Community (CDN) grid over the same data; both share the visitor's hidden-roasters list (localStorage)
 - `src/beangrid/promos.py`: homepage promo scan (codes, free-shipping thresholds, subscriber %), only in the
   14:23 run (`BEANGRID_SCAN_PROMOS`); `data/promos.json` keeps last known per store, `data/promo_log.csv`
   logs codes appearing/disappearing. Add a real banner to `tests/test_promos.py` before changing the regexes

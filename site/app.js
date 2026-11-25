@@ -61,11 +61,27 @@ const DEAL_TABS = [
 ];
 
 // mode: "roasted" (default) or "green" (unroasted beans for home roasters). view = offers in the current mode.
-const state = { data: null, offers: [], view: [], mode: "roasted", shown: PAGE, tab: "top", promos: {} };
+const state = { data: null, offers: [], view: [], mode: "roasted", shown: PAGE, tab: "top", promos: {}, hidden: new Set() };
+
+// Roasters the visitor opted out of: remembered in this browser, and carried in shared links (#hide=a~b).
+const HIDE_KEY = "beangrid.hiddenRoasters";
+const HIDE_SEP = "~";
+
+function loadHidden() {
+  try { return new Set(JSON.parse(localStorage.getItem(HIDE_KEY) || "[]")); } catch { return new Set(); }
+}
+
+function saveHidden() {
+  try { localStorage.setItem(HIDE_KEY, JSON.stringify([...state.hidden].sort())); } catch { /* private mode */ }
+}
+
+function rebuildView() {
+  state.view = state.offers.filter((o) => Boolean(o.green) === (state.mode === "green") && !state.hidden.has(o.roaster));
+}
 
 function setMode(mode) {
   state.mode = mode === "green" ? "green" : "roasted";
-  state.view = state.offers.filter((o) => Boolean(o.green) === (state.mode === "green"));
+  rebuildView();
   document.body.classList.toggle("mode-green", state.mode === "green");
   for (const b of document.querySelectorAll("#mode button")) b.setAttribute("aria-pressed", String(b.dataset.mode === state.mode));
   $(".tagline").textContent = state.mode === "green"
@@ -248,7 +264,7 @@ function readFilters() {
     decaf: f.get("decaf"), bucket: f.get("bucket"), maxppk: parseFloat(f.get("maxppk")) || null,
     sort: f.get("sort"), instock: f.get("instock") === "on", nosamples: f.get("nosamples") === "on",
     clean: f.get("clean") === "on", nowholesale: f.get("nowholesale") === "on",
-    beans: state.mode,
+    beans: state.mode, hide: [...state.hidden].sort().join(HIDE_SEP),
   };
 }
 
@@ -332,7 +348,7 @@ function renderTable(resetPaging = false) {
 
 // ---- URL state so filtered views can be shared ------------------------------------------
 
-const DEFAULTS = { sort: "deal", instock: true, nosamples: true, clean: true, nowholesale: true, beans: "roasted" };
+const DEFAULTS = { sort: "deal", instock: true, nosamples: true, clean: true, nowholesale: true, beans: "roasted", hide: "" };
 
 function writeHash(f) {
   const p = new URLSearchParams();
@@ -347,6 +363,8 @@ function writeHash(f) {
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
   const form = $("#filters");
+  // A shared link's #hide wins over what this browser remembers.
+  state.hidden = p.has("hide") ? new Set(p.get("hide").split(HIDE_SEP).filter(Boolean)) : loadHidden();
   setMode(p.get("beans"));
   for (const [k, v] of p) {
     const input = form.elements[k];
@@ -354,6 +372,38 @@ function readHash() {
     if (input.type === "checkbox") input.checked = v === "1";
     else input.value = v;
   }
+}
+
+function renderHidePanel() {
+  const counts = new Map();
+  for (const o of state.offers) counts.set(o.roaster, (counts.get(o.roaster) || 0) + 1);
+  const names = [...counts.keys()].filter(Boolean).sort((a, b) => a.localeCompare(b));
+  $("#hide-list").replaceChildren(...names.map((name) => {
+    const box = el("input", { type: "checkbox", value: name });
+    box.checked = state.hidden.has(name);
+    box.addEventListener("change", () => {
+      if (box.checked) state.hidden.add(name); else state.hidden.delete(name);
+      onHiddenChange();
+    });
+    return el("label", { class: "hide-item", "data-name": name.toLowerCase() }, box, ` ${name} `,
+      el("span", { class: "n", text: String(counts.get(name)) }));
+  }));
+  updateHideSummary();
+}
+
+function updateHideSummary() {
+  const n = state.hidden.size;
+  $("#hide-summary").textContent = n ? `Hiding ${n} roaster${n === 1 ? "" : "s"}` : "Hide roasters…";
+  $("#hide-clear").hidden = n === 0;
+}
+
+function onHiddenChange() {
+  saveHidden();
+  rebuildView();
+  updateHideSummary();
+  renderTabs();
+  renderDeals();
+  renderTable(true);
 }
 
 function fillSelect(name, values) {
@@ -452,6 +502,16 @@ async function main() {
     }
   }
   readHash();
+  renderHidePanel();
+  $("#hide-search").addEventListener("input", (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    for (const item of document.querySelectorAll("#hide-list .hide-item")) item.hidden = !!q && !item.dataset.name.includes(q);
+  });
+  $("#hide-clear").addEventListener("click", () => {
+    state.hidden.clear();
+    for (const box of document.querySelectorAll("#hide-list input")) box.checked = false;
+    onHiddenChange();
+  });
   renderTabs();
   renderDeals();
   renderTable(true);

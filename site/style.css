@@ -118,7 +118,7 @@ h2 { font-size: 20px; letter-spacing: -.01em; }
 }
 .filters label { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--ink-3); min-width: 0; }
 .filters .f-search { grid-column: span 2; }
-.filters input[type=search], .filters input[type=number], .filters select {
+.filters input[type=search], .filters input[type=number], .filters select, .hide-panel input[type=search] {
   font: inherit; font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
   border-radius: 7px; padding: 6px 8px; width: 100%; min-width: 0;
 }
@@ -164,6 +164,13 @@ svg.spark circle { fill: var(--spark); }
 .promo .copy { border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); border-radius: 6px; font: inherit; font-size: 12px; padding: 2px 8px; cursor: pointer; }
 .promo .terms { margin: 0; color: var(--ink-2); font-size: 13px; overflow-wrap: anywhere; }
 .promo .since { color: var(--ink-3); font-size: 12px; }
+.hide-roasters { margin: 10px 0 4px; }
+.hide-roasters summary { cursor: pointer; color: var(--ink-2); font-size: 14px; }
+.hide-panel { margin-top: 8px; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.hide-panel input[type=search] { width: 100%; max-width: 320px; margin-bottom: 8px; }
+.hide-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 2px 16px; max-height: 280px; overflow-y: auto; }
+.hide-item { font-size: 13px; color: var(--ink-2); display: flex; align-items: center; gap: 6px; padding: 2px 0; overflow-wrap: anywhere; }
+.hide-item .n { color: var(--ink-3); font-size: 12px; }
 .promo-ship { margin-top: 14px; }
 .promo-ship summary { cursor: pointer; color: var(--ink-2); }
 .promo-ship table { border-collapse: collapse; margin-top: 8px; font-size: 13px; }
