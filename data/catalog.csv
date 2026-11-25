@@ -891,8 +891,14 @@ key,site,product_id,title,variant_title,grams,category,url,first_seen
 94celcius.com:43796959363151,94celcius.com,7902696407119,Subminimal Subscale | Balance Numérique de Café – Tasse de Dosage Intégrée,Noir,,equipment,https://94celcius.com/products/subminimal-subscale-balance-numerique-de-cafe-tasse-de-dosage-integree,2026-11-13
 94celcius.com:43796972634191,94celcius.com,7902698766415,Normcore – Outil de Distribution WDT V3 (avec support),Noir,,equipment,https://94celcius.com/products/normcore-outil-de-distribution-wdt-v3-avec-support,2026-11-13
 94celcius.com:43816552792143,94celcius.com,7908467048527,Sirop d’Érable Vieilli en Fût de Chêne (Rhum),,,syrup_food,https://94celcius.com/products/sirop-d-erable-vieilli-en-fut-de-chene-rhum,2026-11-13
+94celcius.com:43830140174415,94celcius.com,7911191019599,Las Flores – Honduras,300g,300,coffee,https://94celcius.com/products/las-flores-honduras,2026-11-25
+94celcius.com:43830140207183,94celcius.com,7911191019599,Las Flores – Honduras,907g,907,coffee,https://94celcius.com/products/las-flores-honduras,2026-11-25
+94celcius.com:43830140239951,94celcius.com,7911191019599,Las Flores – Honduras,2253g,2253,coffee,https://94celcius.com/products/las-flores-honduras,2026-11-25
 94celcius.com:4394073161759,94celcius.com,319803686943,Cascara Bolivie Caranavi,50 g,50,syrup_food,https://94celcius.com/products/bolivie-caranavi,2026-11-13
 94celcius.com:44043272290383,94celcius.com,7174419447887,Trio surprise - filtre ou espresso ou premium,Premium,900,bundle,https://94celcius.com/products/trio-surprise-filtre-ou-espresso,2026-11-13
+94celcius.com:44431075803215,94celcius.com,8101803753551,Sweet Papayo - Colombie,300g,300,coffee,https://94celcius.com/products/sweet-papayo-colombie,2026-11-25
+94celcius.com:44431075835983,94celcius.com,8101803753551,Sweet Papayo - Colombie,907g,907,coffee,https://94celcius.com/products/sweet-papayo-colombie,2026-11-25
+94celcius.com:44431075868751,94celcius.com,8101803753551,Sweet Papayo - Colombie,2253g,2253,coffee,https://94celcius.com/products/sweet-papayo-colombie,2026-11-25
 94celcius.com:44518649528399,94celcius.com,8131211755599,Saison des pluies,300g,300,coffee,https://94celcius.com/products/saison-des-pluies,2026-11-13
 94celcius.com:44518649561167,94celcius.com,8131211755599,Saison des pluies,907g,907,coffee,https://94celcius.com/products/saison-des-pluies,2026-11-13
 94celcius.com:44518649593935,94celcius.com,8131211755599,Saison des pluies,2253g (5 Lbs),2253,coffee,https://94celcius.com/products/saison-des-pluies,2026-11-13
@@ -2262,12 +2268,12 @@ beannorth.com:39321940066367,beannorth.com,6603482103871,Boreal Brew,Cone Filter
 beannorth.com:39321940099135,beannorth.com,6603482103871,Boreal Brew,Espresso grind / 454 gr / 1 lb,454,coffee,https://beannorth.com/products/boreal-brew-1,2023-11-28
 beannorth.com:39321940131903,beannorth.com,6603482103871,Boreal Brew,French Press / 5lb,2268,coffee,https://beannorth.com/products/boreal-brew-1,2023-11-28
 beannorth.com:39321940164671,beannorth.com,6603482103871,Boreal Brew,Percolator / 454 gr / 1 lb,454,coffee,https://beannorth.com/products/boreal-brew-1,2023-11-28
-beannorth.com:39321953534015,beannorth.com,6603486855231,Bean North House Blend,Whole bean / 454 g,454,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
-beannorth.com:39321953599551,beannorth.com,6603486855231,Bean North House Blend,Auto Filter / 454 g,454,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
-beannorth.com:39321953632319,beannorth.com,6603486855231,Bean North House Blend,Cone Filter / 454 g,454,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
+beannorth.com:39321953534015,beannorth.com,6603486855231,Bean North House Blend,Whole bean / 340g,340,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
+beannorth.com:39321953599551,beannorth.com,6603486855231,Bean North House Blend,Auto Filter / 340g,340,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
+beannorth.com:39321953632319,beannorth.com,6603486855231,Bean North House Blend,Cone Filter / 340g,340,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
 beannorth.com:39321953665087,beannorth.com,6603486855231,Bean North House Blend,espresso grind / 454 gr / 1 lb,454,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
 beannorth.com:39321953697855,beannorth.com,6603486855231,Bean North House Blend,French Press / 454 gr / 1 lb,454,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
-beannorth.com:39321953763391,beannorth.com,6603486855231,Bean North House Blend,percolator / 454 g,454,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
+beannorth.com:39321953763391,beannorth.com,6603486855231,Bean North House Blend,percolator / 340g,340,coffee,https://beannorth.com/products/bean-north-house-blend-1,2023-11-28
 beannorth.com:39322056196159,beannorth.com,6603532271679,Cabin Blend,Whole bean / 340 g,340,coffee,https://beannorth.com/products/cabin-blend-1,2023-11-28
 beannorth.com:39322056228927,beannorth.com,6603532271679,Cabin Blend,Auto Filter / 340 g,340,coffee,https://beannorth.com/products/cabin-blend-1,2023-11-28
 beannorth.com:39322056261695,beannorth.com,6603532271679,Cabin Blend,Cone Filter / 340 g,340,coffee,https://beannorth.com/products/cabin-blend-1,2023-11-28
@@ -19240,6 +19246,10 @@ beannorth.com:43086125432895,beannorth.com,7298694545471,2lb Coffee Bag,Italian 
 beannorth.com:43135372492863,beannorth.com,6663628324927,Decaf Midnight Magic,Whole bean / 5lb,2268,coffee,https://beannorth.com/products/decaf-midnight-magic,2026-07-21
 beannorth.com:43135372525631,beannorth.com,6663628324927,Decaf Midnight Magic,Auto Filter / 5lb,2268,coffee,https://beannorth.com/products/decaf-midnight-magic,2026-07-21
 beannorth.com:43135372558399,beannorth.com,6663628324927,Decaf Midnight Magic,Cone Filter / 5lb,2268,coffee,https://beannorth.com/products/decaf-midnight-magic,2026-07-21
+beannorth.com:43144830582847,beannorth.com,6603486855231,Bean North House Blend,Whole bean / 5lb,2268,coffee,https://beannorth.com/products/bean-north-house-blend-1,2026-11-25
+beannorth.com:43144830615615,beannorth.com,6603486855231,Bean North House Blend,Auto Filter / 5lb,2268,coffee,https://beannorth.com/products/bean-north-house-blend-1,2026-11-25
+beannorth.com:43144830648383,beannorth.com,6603486855231,Bean North House Blend,Cone Filter / 5lb,2268,coffee,https://beannorth.com/products/bean-north-house-blend-1,2026-11-25
+beannorth.com:43144830681151,beannorth.com,6603486855231,Bean North House Blend,percolator / 5lb,2268,coffee,https://beannorth.com/products/bean-north-house-blend-1,2026-11-25
 beannorth.com:43146837262399,beannorth.com,7934430904383,Mountain Mocha Java,Whole bean / 5lb,2268,coffee,https://beannorth.com/products/tombstone-espresso-copy,2026-04-29
 beannorth.com:43146837295167,beannorth.com,7934430904383,Mountain Mocha Java,Auto Filter / 5lb,2268,coffee,https://beannorth.com/products/tombstone-espresso-copy,2026-04-29
 beannorth.com:43146837327935,beannorth.com,7934430904383,Mountain Mocha Java,Cone Filter / 5lb,2268,coffee,https://beannorth.com/products/tombstone-espresso-copy,2026-04-29
@@ -20275,6 +20285,9 @@ bowscoffee.com:45520372269287,bowscoffee.com,8260012441831,José Antonio Ramirez
 bowscoffee.com:45532063498471,bowscoffee.com,8260691296487,Winter In America - Holiday Blend,300g,300,coffee,https://bowscoffee.com/products/winter-in-america-holiday-blend-2026,2023-11-30
 bowscoffee.com:45532063531239,bowscoffee.com,8260691296487,Winter In America - Holiday Blend,2lb,907.2,coffee,https://bowscoffee.com/products/winter-in-america-holiday-blend-2026,2023-11-30
 bowscoffee.com:45532063564007,bowscoffee.com,8260691296487,Winter In America - Holiday Blend,5lb,2268,coffee,https://bowscoffee.com/products/winter-in-america-holiday-blend-2026,2023-11-30
+bowscoffee.com:45877812068583,bowscoffee.com,8281702203623,Chelbesa,300g,300,coffee,https://bowscoffee.com/products/danche-chelbesa,2026-11-25
+bowscoffee.com:45877812101351,bowscoffee.com,8281702203623,Chelbesa,2lb,907.2,coffee,https://bowscoffee.com/products/danche-chelbesa,2026-11-25
+bowscoffee.com:45877812134119,bowscoffee.com,8281702203623,Chelbesa,5lb,2268,coffee,https://bowscoffee.com/products/danche-chelbesa,2026-11-25
 bowscoffee.com:45888876740839,bowscoffee.com,8282518487271,Quelvin Jiménez,300g,300,coffee,https://bowscoffee.com/products/quelvin-jimenez-1,2023-12-21
 bowscoffee.com:45888876773607,bowscoffee.com,8282518487271,Quelvin Jiménez,2lb,907.2,coffee,https://bowscoffee.com/products/quelvin-jimenez-1,2023-12-21
 bowscoffee.com:45888876839143,bowscoffee.com,8282518487271,Quelvin Jiménez,5lb,2268,coffee,https://bowscoffee.com/products/quelvin-jimenez-1,2023-12-21
@@ -22673,6 +22686,9 @@ cafebarista.ca:42175511560374,cafebarista.ca,7579934654646,Moulin Santos 04,NOIR
 cafebarista.ca:42192646537398,cafebarista.ca,7583098601654,Cafetière Newco ACE-D,,12200,equipment,https://cafebarista.ca/products/newco-ace-d-brewer,2026-11-20
 cafebarista.ca:42204687990966,cafebarista.ca,7423264293046,Cafetière Moccamaster KBGV Select,CRÈME,4200,equipment,https://cafebarista.ca/products/cafetiere-filtre-moccamaster-kbgv-select,2026-11-20
 cafebarista.ca:42204688023734,cafebarista.ca,7423264293046,Cafetière Moccamaster KBGV Select,OLIVE,4200,equipment,https://cafebarista.ca/products/cafetiere-filtre-moccamaster-kbgv-select,2026-11-20
+cafebarista.ca:42205671096502,cafebarista.ca,7585162100918,Moulin Macap Leo 55,Noir Satin,5000,equipment,https://cafebarista.ca/products/moulin-espresso-macap-leo-55,2026-11-25
+cafebarista.ca:42205671129270,cafebarista.ca,7585162100918,Moulin Macap Leo 55,Blanc,5000,equipment,https://cafebarista.ca/products/moulin-espresso-macap-leo-55,2026-11-25
+cafebarista.ca:42205672571062,cafebarista.ca,7585162100918,Moulin Macap Leo 55,Chrome,5000,equipment,https://cafebarista.ca/products/moulin-espresso-macap-leo-55,2026-11-25
 cafebarista.ca:42209980022966,cafebarista.ca,3669445345345,Filtres Hario V60,V60-02 / 100,113,equipment,https://cafebarista.ca/products/filtres-hario,2026-11-20
 cafebarista.ca:42213099831478,cafebarista.ca,7516621668534,Entonnoir de dosage 58mm,CHROME,,equipment,https://cafebarista.ca/products/entonnoir-de-dosage-58mm,2026-11-20
 cafebarista.ca:42213099864246,cafebarista.ca,7516621668534,Entonnoir de dosage 58mm,NOIR,,equipment,https://cafebarista.ca/products/entonnoir-de-dosage-58mm,2026-11-20
@@ -22778,6 +22794,7 @@ cafebarista.ca:43000339398838,cafebarista.ca,7879528612022,Pichet à lait 20 ans
 cafebarista.ca:43000408178870,cafebarista.ca,7879541129398,Knock box 20 ans,Noir,454,equipment,https://cafebarista.ca/products/knock-box-20-ans,2026-11-20
 cafebarista.ca:43000507170998,cafebarista.ca,7879550730422,Tapis de pressage 20 ans,58 mm / Noir,100,equipment,https://cafebarista.ca/products/tapis-de-pressage-20-ans,2026-11-20
 cafebarista.ca:43000534401206,cafebarista.ca,7879561281718,Presse-café 20 ans,58mm / Noir,,equipment,https://cafebarista.ca/products/presse-cafe-20-ans,2026-11-20
+cafebarista.ca:43000595022006,cafebarista.ca,7879579074742,Kit du Barista,,1000,equipment,https://cafebarista.ca/products/kit-du-barista,2026-11-25
 cafebarista.ca:43089883562166,cafebarista.ca,7925325889718,Moulin Bellucci Casa,,2500,equipment,https://cafebarista.ca/products/bellucci-casa,2026-11-20
 cafebarista.ca:43094755967158,cafebarista.ca,7925304918198,Bellucci Espresso Bar,Chrome,8000,equipment,https://cafebarista.ca/products/bellucci-espresso-bar,2026-11-20
 cafebarista.ca:43199278350518,cafebarista.ca,7966867456182,Pourboire / Tip,1$,,gift_card,https://cafebarista.ca/products/pourboire-tip,2026-11-20
@@ -22988,6 +23005,11 @@ cafebarista.ca:67996748185782,cafebarista.ca,15453299146934,Rocket R58 Tune,Noir
 cafebarista.ca:67996753363126,cafebarista.ca,15453299146934,Rocket R58 Tune,Chrome,,equipment,https://cafebarista.ca/products/rocket-r58-tune,2026-11-20
 cafebarista.ca:68008949350582,cafebarista.ca,15457694580918,Tasse Club Café,,300,subscription,https://cafebarista.ca/products/tasse-club-cafe,2026-11-20
 cafebarista.ca:68008964718774,cafebarista.ca,15457699463350,Mélange à Brownies Moka -  Barista x Withenshaw,,650,equipment,https://cafebarista.ca/products/melange-a-brownies-saveur-moka,2026-11-20
+cafebarista.ca:68009006039222,cafebarista.ca,15457720500406,Tapis de pressage en coin logo Barista 58 mm,,200,equipment,https://cafebarista.ca/products/tapis-de-pressage-en-coin-logo-barista-58-mm,2026-11-25
+cafebarista.ca:68009017049270,cafebarista.ca,15457723383990,Presse-café Barista 58mm,,300,equipment,https://cafebarista.ca/products/presse-cafe-barista,2026-11-25
+cafebarista.ca:68009022390454,cafebarista.ca,15457725841590,Pichet à lait Barista,,200,syrup_food,https://cafebarista.ca/products/pichet-a-lait-barista,2026-11-25
+cafebarista.ca:68009031303350,cafebarista.ca,15457731051702,Knock box barista,,454,equipment,https://cafebarista.ca/products/knock-box-barista,2026-11-25
+cafebarista.ca:68039854817462,cafebarista.ca,15466781999286,Sirop au caramel salé,,225,syrup_food,https://cafebarista.ca/products/sirop-au-caramel-sale,2026-11-25
 cafepista.com:19908388716614,cafepista.com,1957389271110,Chemex,8 tasses - Vitre,675,equipment,https://cafepista.com/products/chemex,2023-11-28
 cafepista.com:19911009206342,cafepista.com,1958231146566,AeroPress,,454,equipment,https://cafepista.com/products/aeropress,2023-11-28
 cafepista.com:19911201259590,cafepista.com,1958265815110,Carte cadeau virtuelle,$25.00,,gift_card,https://cafepista.com/products/gift-card,2023-11-28
@@ -25231,6 +25253,8 @@ cafepista.com:68455128203509,cafepista.com,4430872674374,Filtres Chemex,Carré,5
 cafepista.com:68455128236277,cafepista.com,4430872674374,Filtres Chemex,Rond,500,equipment,https://cafepista.com/products/filtre-a-chemex,2026-11-19
 cafepista.com:68456069660917,cafepista.com,15908514267381,"Hokusan - Niju Uji, matcha torréfié de Kyoto",,,tea,https://cafepista.com/products/hokusan-niju-uji-matcha-torrefie-de-kyoto,2026-11-21
 cafepista.com:68538336477429,cafepista.com,15942642991349,OSMO - Filtres en papier Wave,Wave 02 (185),,equipment,https://cafepista.com/products/osmo-filtres-en-papier-wave,2026-11-24
+cafepista.com:68558619082997,cafepista.com,15946660741365,Moulin électrique Baratza Encore,,,equipment,https://cafepista.com/products/moulin-electrique-baratza-encore,2026-11-25
+cafepista.com:68558619115765,cafepista.com,15946660774133,Moulin électrique Baratza Encore ESP Pro,,,equipment,https://cafepista.com/products/moulin-electrique-baratza-encore-esp-pro,2026-11-25
 cafetouche.ca:19476765704278,cafetouche.ca,1943900717142,Café Ricardo Espresso,1kg,1000,coffee,https://cafetouche.ca/products/espresso,2026-11-20
 cafetouche.ca:29432970674262,cafetouche.ca,3936494026838,Tasseur en acier inox et manche en bois rouge LELIT,57.35 mm,,equipment,https://cafetouche.ca/products/pressoir-en-acier-inox-manche-en-bois-avec-petit-rebord,2026-11-20
 cafetouche.ca:29432970707030,cafetouche.ca,3936494026838,Tasseur en acier inox et manche en bois rouge LELIT,58.55 mm,,equipment,https://cafetouche.ca/products/pressoir-en-acier-inox-manche-en-bois-avec-petit-rebord,2026-11-20
@@ -25780,6 +25804,8 @@ cafetouche.ca:55653156356387,cafetouche.ca,10387090112803,Récipient de nettoyag
 cafetouche.ca:55811166109987,cafetouche.ca,10415544369443,Machine espresso Conti NG-X,2 groupes / Noir,,equipment,https://cafetouche.ca/products/machine-espresso-conti-ng-x,2026-11-20
 cafetouche.ca:55811166142755,cafetouche.ca,10415544369443,Machine espresso Conti NG-X,2 groupes / Blanc,,equipment,https://cafetouche.ca/products/machine-espresso-conti-ng-x,2026-11-20
 cafetouche.ca:55902733664547,cafetouche.ca,10429958095139,Ensemble promo E8 novembre 2026,,,bundle,https://cafetouche.ca/products/ensemble-promo-e8-novembre-2026,2026-11-20
+cafetouche.ca:56133677449507,cafetouche.ca,10460325118243,Business Connect,,,equipment,https://cafetouche.ca/products/business-connect,2026-11-25
+cafetouche.ca:56140229607715,cafetouche.ca,10461723689251,Payment Connect,,,equipment,https://cafetouche.ca/products/payment-connect,2026-11-25
 candidcoffeeroasters.ca:39480747262136,candidcoffeeroasters.ca,6609172267192,Espresso,,250,coffee,https://candidcoffeeroasters.ca/products/espresso,2023-11-23
 candidcoffeeroasters.ca:39686632571064,candidcoffeeroasters.ca,6667757879480,Decaf,,250,coffee,https://candidcoffeeroasters.ca/products/decaf,2023-11-23
 candidcoffeeroasters.ca:41026486534328,candidcoffeeroasters.ca,7018640736440,Espresso,,1000,coffee,https://candidcoffeeroasters.ca/products/bedhatu-jibicho,2023-11-23
@@ -32028,6 +32054,18 @@ detourcoffee.com:62995812188530,detourcoffee.com,15344655073650,India Karadykan 
 detourcoffee.com:62995812221298,detourcoffee.com,15344655073650,India Karadykan Natural,300g / Medium Filter Grind,300,coffee,https://detourcoffee.com/products/india-karadykan-natural,2026-11-20
 detourcoffee.com:62995812254066,detourcoffee.com,15344655073650,India Karadykan Natural,1Kg / Whole Bean,1000,coffee,https://detourcoffee.com/products/india-karadykan-natural,2026-11-20
 detourcoffee.com:62995812286834,detourcoffee.com,15344655073650,India Karadykan Natural,2.27Kg / Whole Bean,2270,coffee,https://detourcoffee.com/products/india-karadykan-natural,2026-11-20
+detourcoffee.com:63058665767282,detourcoffee.com,15360994967922,Ethiopia Qabballe Natural,300g / Whole Bean,300,coffee,https://detourcoffee.com/products/ethiopia-qabballe-natural-2026,2026-11-25
+detourcoffee.com:63058665800050,detourcoffee.com,15360994967922,Ethiopia Qabballe Natural,300g / Medium Filter Grind,300,coffee,https://detourcoffee.com/products/ethiopia-qabballe-natural-2026,2026-11-25
+detourcoffee.com:63058665832818,detourcoffee.com,15360994967922,Ethiopia Qabballe Natural,1Kg / Whole Bean,1000,coffee,https://detourcoffee.com/products/ethiopia-qabballe-natural-2026,2026-11-25
+detourcoffee.com:63058665865586,detourcoffee.com,15360994967922,Ethiopia Qabballe Natural,2.27Kg / Whole Bean,2270,coffee,https://detourcoffee.com/products/ethiopia-qabballe-natural-2026,2026-11-25
+detourcoffee.com:63058675007858,detourcoffee.com,15360998015346,Uganda Sironko Yellow Honey,300g / Whole Bean,300,coffee,https://detourcoffee.com/products/uganda-sironko-yellow-honey-2026,2026-11-25
+detourcoffee.com:63058675040626,detourcoffee.com,15360998015346,Uganda Sironko Yellow Honey,300g / Medium Filter Grind,300,coffee,https://detourcoffee.com/products/uganda-sironko-yellow-honey-2026,2026-11-25
+detourcoffee.com:63058675073394,detourcoffee.com,15360998015346,Uganda Sironko Yellow Honey,1Kg / Whole Bean,1000,coffee,https://detourcoffee.com/products/uganda-sironko-yellow-honey-2026,2026-11-25
+detourcoffee.com:63058675106162,detourcoffee.com,15360998015346,Uganda Sironko Yellow Honey,2.27Kg / Whole Bean,2270,coffee,https://detourcoffee.com/products/uganda-sironko-yellow-honey-2026,2026-11-25
+detourcoffee.com:63058703384946,detourcoffee.com,15361008042354,Ethiopia Ela Telicha,300g / Whole Bean,300,coffee,https://detourcoffee.com/products/ethiopia-ela-telicha,2026-11-25
+detourcoffee.com:63058703417714,detourcoffee.com,15361008042354,Ethiopia Ela Telicha,300g / Medium Filter Grind,300,coffee,https://detourcoffee.com/products/ethiopia-ela-telicha,2026-11-25
+detourcoffee.com:63058703450482,detourcoffee.com,15361008042354,Ethiopia Ela Telicha,1Kg / Whole Bean,1000,coffee,https://detourcoffee.com/products/ethiopia-ela-telicha,2026-11-25
+detourcoffee.com:63058703483250,detourcoffee.com,15361008042354,Ethiopia Ela Telicha,2.27Kg / Whole Bean,2270,coffee,https://detourcoffee.com/products/ethiopia-ela-telicha,2026-11-25
 detourcoffee.com:7076889460780,detourcoffee.com,5457250245,Cascara - Coffee Cherry Tea,300g,300,tea,https://detourcoffee.com/products/cascara-cherry-tea,2023-11-23
 detourcoffee.com:8818496471084,detourcoffee.com,818966134828,Third Wave Water 1 Gallon Classic Profile (Pack of 12),,,equipment,https://detourcoffee.com/products/third-wave-water-1-gallon-classic-profile,2023-11-23
 discoverycoffee.com:12203960516,discoverycoffee.com,3921952708,AeroPress,,400,equipment,https://discoverycoffee.com/products/aeropress,2023-11-23
@@ -36002,8 +36040,8 @@ epochchemistry.ca:68461978255583,epochchemistry.ca,15508444053727,Epoch Chemsitr
 epochchemistry.ca:68461978288351,epochchemistry.ca,15508444053727,Epoch Chemsitry Coffee Crewneck,L,,equipment,https://epochchemistry.ca/products/epoch-chemsitry-coffee-crewneck,2026-11-15
 epochchemistry.ca:68461978321119,epochchemistry.ca,15508444053727,Epoch Chemsitry Coffee Crewneck,XL,,equipment,https://epochchemistry.ca/products/epoch-chemsitry-coffee-crewneck,2026-11-15
 epochchemistry.ca:68461978353887,epochchemistry.ca,15508444053727,Epoch Chemsitry Coffee Crewneck,XXL,,equipment,https://epochchemistry.ca/products/epoch-chemsitry-coffee-crewneck,2026-11-15
-epochchemistry.ca:68466746196191,epochchemistry.ca,15508737491167,12 Days of Winter,,,coffee,https://epochchemistry.ca/products/12-days-of-winter,2026-11-15
-epochchemistry.ca:68533278245087,epochchemistry.ca,15519463145695,Holiday Gift Box,,,bundle,https://epochchemistry.ca/products/gift-box,2026-11-20
+epochchemistry.ca:68466746196191,epochchemistry.ca,15508737491167,12 Days of Winter Box,,,coffee,https://epochchemistry.ca/products/12-days-of-winter,2026-11-15
+epochchemistry.ca:68533278245087,epochchemistry.ca,15519463145695,Holiday Gift Box (for one bag),,,bundle,https://epochchemistry.ca/products/gift-box,2026-11-20
 equatorcoffeeroasters.com:33306805895213,equatorcoffeeroasters.com,4789110341677,Freakin' Good Coffee,340g/12oz / Whole Bean,340,coffee,https://equatorcoffeeroasters.com/products/freakin-good-coffee-organic-fair-trade,2026-11-15
 equatorcoffeeroasters.com:33306805927981,equatorcoffeeroasters.com,4789110341677,Freakin' Good Coffee,340g/12oz / Ground - Medium,340,coffee,https://equatorcoffeeroasters.com/products/freakin-good-coffee-organic-fair-trade,2026-11-15
 equatorcoffeeroasters.com:33306805993517,equatorcoffeeroasters.com,4789110341677,Freakin' Good Coffee,2.27kg/5lb / Whole Bean,2270,coffee,https://equatorcoffeeroasters.com/products/freakin-good-coffee-organic-fair-trade,2026-11-15
@@ -43087,6 +43125,18 @@ javaroasters.ca:68057747456191,javaroasters.ca,15485145514175,ETHIOPIA | Halo Be
 javaroasters.ca:68057747488959,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),1kg (online only) / GROUND (medium grind),1000,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
 javaroasters.ca:68057747521727,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),5lbs (online only) / COFFEE BEANS,2268,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
 javaroasters.ca:68057747554495,javaroasters.ca,15485145514175,ETHIOPIA | Halo Beriti (NEW),5lbs (online only) / GROUND (medium grind),2268,coffee,https://javaroasters.ca/products/ethiopia-haloberiti,2026-11-20
+javaroasters.ca:68098919071935,javaroasters.ca,15497737699519,WINTER COFFEE | Holiday Season ESPRESSO,250g / COFFEE BEANS,250,coffee,https://javaroasters.ca/products/wintercoffee-espresso,2026-11-25
+javaroasters.ca:68098919104703,javaroasters.ca,15497737699519,WINTER COFFEE | Holiday Season ESPRESSO,250g / GROUND (medium grind),250,coffee,https://javaroasters.ca/products/wintercoffee-espresso,2026-11-25
+javaroasters.ca:68098919137471,javaroasters.ca,15497737699519,WINTER COFFEE | Holiday Season ESPRESSO,1kg (online only) / COFFEE BEANS,1000,coffee,https://javaroasters.ca/products/wintercoffee-espresso,2026-11-25
+javaroasters.ca:68098919170239,javaroasters.ca,15497737699519,WINTER COFFEE | Holiday Season ESPRESSO,1kg (online only) / GROUND (medium grind),1000,coffee,https://javaroasters.ca/products/wintercoffee-espresso,2026-11-25
+javaroasters.ca:68098919203007,javaroasters.ca,15497737699519,WINTER COFFEE | Holiday Season ESPRESSO,5lbs (online only) / COFFEE BEANS,2268,coffee,https://javaroasters.ca/products/wintercoffee-espresso,2026-11-25
+javaroasters.ca:68098919235775,javaroasters.ca,15497737699519,WINTER COFFEE | Holiday Season ESPRESSO,5lbs (online only) / GROUND (medium grind),2268,coffee,https://javaroasters.ca/products/wintercoffee-espresso,2026-11-25
+javaroasters.ca:68099040182463,javaroasters.ca,15497797566655,WINTER COFFEE | Holiday Season FILTER,250g / COFFEE BEANS,250,coffee,https://javaroasters.ca/products/winter-coffee-holiday-season-filter,2026-11-25
+javaroasters.ca:68099040215231,javaroasters.ca,15497797566655,WINTER COFFEE | Holiday Season FILTER,250g / GROUND (medium grind),250,coffee,https://javaroasters.ca/products/winter-coffee-holiday-season-filter,2026-11-25
+javaroasters.ca:68099550052543,javaroasters.ca,15497797566655,WINTER COFFEE | Holiday Season FILTER,1kg (online only) / COFFEE BEANS,1000,coffee,https://javaroasters.ca/products/winter-coffee-holiday-season-filter,2026-11-25
+javaroasters.ca:68099550085311,javaroasters.ca,15497797566655,WINTER COFFEE | Holiday Season FILTER,1kg (online only) / GROUND (medium grind),1000,coffee,https://javaroasters.ca/products/winter-coffee-holiday-season-filter,2026-11-25
+javaroasters.ca:68099550118079,javaroasters.ca,15497797566655,WINTER COFFEE | Holiday Season FILTER,5lb (online only) / COFFEE BEANS,2268,coffee,https://javaroasters.ca/products/winter-coffee-holiday-season-filter,2026-11-25
+javaroasters.ca:68099550150847,javaroasters.ca,15497797566655,WINTER COFFEE | Holiday Season FILTER,5lb (online only) / GROUND (medium grind),2268,coffee,https://javaroasters.ca/products/winter-coffee-holiday-season-filter,2026-11-25
 jjbeancoffee.com:31538010980465,jjbeancoffee.com,4438192685169,Eastside,340g (12oz) / Whole Bean,340,coffee,https://jjbeancoffee.com/products/eastside,2023-11-28
 jjbeancoffee.com:31538011013233,jjbeancoffee.com,4438192685169,Eastside,340g (12oz) / French Press,340,coffee,https://jjbeancoffee.com/products/eastside,2023-11-28
 jjbeancoffee.com:31538011046001,jjbeancoffee.com,4438192685169,Eastside,340g (12oz) / Cold Brew,340,coffee,https://jjbeancoffee.com/products/eastside,2023-11-28
@@ -43808,7 +43858,7 @@ jjbeancoffee.com:44469642264689,jjbeancoffee.com,7791623733361,JJ Bean 12oz Stai
 jjbeancoffee.com:44469642297457,jjbeancoffee.com,7791623733361,JJ Bean 12oz Stainless Steel Flip Traveller,Altitude Blue,340.2,merch,https://jjbeancoffee.com/products/jj-bean-12oz-stainless-steel-flip-traveller,2026-09-05
 jjbeancoffee.com:44469658812529,jjbeancoffee.com,7791621177457,JJ Bean 16oz Stainless Steel Flip Traveller,Altitude Blue,453.6,merch,https://jjbeancoffee.com/products/jj-bean-16oz-stainless-steel-flip-traveller,2026-09-05
 jjbeancoffee.com:44469658845297,jjbeancoffee.com,7791621177457,JJ Bean 16oz Stainless Steel Flip Traveller,Evergreen,453.6,merch,https://jjbeancoffee.com/products/jj-bean-16oz-stainless-steel-flip-traveller,2026-09-05
-jjbeancoffee.com:44469663170673,jjbeancoffee.com,7791631401073,JJ Bean 12oz Stainless Steel Tumbler,Navy,340.2,drinkware,https://jjbeancoffee.com/products/jj-bean-12oz-stainless-steel-tumbler,2026-09-05
+jjbeancoffee.com:44469663170673,jjbeancoffee.com,7791631401073,JJ Bean 12oz Stainless Steel Tumbler,Tidal Blue,340.2,drinkware,https://jjbeancoffee.com/products/jj-bean-12oz-stainless-steel-tumbler,2026-09-05
 jjbeancoffee.com:44469663203441,jjbeancoffee.com,7791631401073,JJ Bean 12oz Stainless Steel Tumbler,Evergreen,340.2,drinkware,https://jjbeancoffee.com/products/jj-bean-12oz-stainless-steel-tumbler,2026-09-05
 jjbeancoffee.com:44561486905457,jjbeancoffee.com,7835945861233,Kenya Muchagara AA,340g (12oz) / Whole Bean,340,coffee,https://jjbeancoffee.com/products/kenya-muchagara-aa,2026-11-07
 jjbeancoffee.com:44561486938225,jjbeancoffee.com,7835945861233,Kenya Muchagara AA,340g (12oz) / Percolator,340,coffee,https://jjbeancoffee.com/products/kenya-muchagara-aa,2026-11-07
@@ -44182,8 +44232,8 @@ justuscoffee.com:50843408990370,justuscoffee.com,10386532925602,Banko In Bloom R
 justuscoffee.com:50911586713762,justuscoffee.com,10404818944162,Co-operators Roast,340 g / Whole Bean,340,coffee,https://justuscoffee.com/products/co-operators-roast,2026-11-20
 justuscoffee.com:50911586746530,justuscoffee.com,10404818944162,Co-operators Roast,340 g / Ground,340,coffee,https://justuscoffee.com/products/co-operators-roast,2026-11-20
 justuscoffee.com:50911943065762,justuscoffee.com,10404855677090,Upcycled Burlap Coffee Sacks,1 sack,750,merch,https://justuscoffee.com/products/upcycled-burlap-coffee-sacks,2026-11-19
-justuscoffee.com:50911943098530,justuscoffee.com,10404855677090,Upcycled Burlap Coffee Sacks,5 sacks,3750,merch,https://justuscoffee.com/products/upcycled-burlap-coffee-sacks,2026-11-19
-justuscoffee.com:50911943131298,justuscoffee.com,10404855677090,Upcycled Burlap Coffee Sacks,10 sacks,7500,merch,https://justuscoffee.com/products/upcycled-burlap-coffee-sacks,2026-11-19
+justuscoffee.com:50911943098530,justuscoffee.com,10404855677090,Upcycled Burlap Coffee Sacks,5 sacks,4000,merch,https://justuscoffee.com/products/upcycled-burlap-coffee-sacks,2026-11-19
+justuscoffee.com:50911943131298,justuscoffee.com,10404855677090,Upcycled Burlap Coffee Sacks,10 sacks,8000,merch,https://justuscoffee.com/products/upcycled-burlap-coffee-sacks,2026-11-19
 justuscoffee.com:50912020037794,justuscoffee.com,8851456852130,French,6 x 2 lb case / Ground,5443.1,coffee,https://justuscoffee.com/products/french,2026-11-19
 justuscoffee.com:50912026362018,justuscoffee.com,8851456950434,Italian,6 x 2 lb case / Ground,5443.1,coffee,https://justuscoffee.com/products/italian,2026-11-19
 justuscoffee.com:50912035438754,justuscoffee.com,8851457147042,Rise Again,6 x 2 lb case / Ground,5443.1,coffee,https://justuscoffee.com/products/rise-again,2026-11-19
@@ -45517,7 +45567,7 @@ lheureuxinc.com:42393678479516,lheureuxinc.com,7585834336412,Vario Knob,,,equipm
 lheureuxinc.com:42393678577820,lheureuxinc.com,7585834401948,"Contenant à grains pour dose simple (Encore, Virt+. Vario. Forte)",,,equipment,https://lheureuxinc.com/products/baratza-sp0101468,2026-11-20
 lheureuxinc.com:42393688211612,lheureuxinc.com,7585836531868,ESP8 COLLAR GROUPHEAD 50MM Breville,,,equipment,https://lheureuxinc.com/products/breville-sp0003232,2026-11-20
 lheureuxinc.com:42393688244380,lheureuxinc.com,7585836564636,Breville SP0027464 : meule supérieure et support assemblés Etzinger (PDC 1926 et plus récent),,,equipment,https://lheureuxinc.com/products/breville-sp0027464,2026-11-20
-lheureuxinc.com:42393688309916,lheureuxinc.com,7585836597404,Meule supérieure assemblée Pré 1926 PDC,,227,equipment,https://lheureuxinc.com/products/breville-sp0001801,2026-11-20
+lheureuxinc.com:42393688309916,lheureuxinc.com,7585836597404,Breville SP0001801 : meule supérieure assemblée avec poignée (avant PDC 1926),,227,equipment,https://lheureuxinc.com/products/breville-sp0001801,2026-11-20
 lheureuxinc.com:42393688342684,lheureuxinc.com,7585836630172,Screw Showerhead M5 X 17,,,equipment,https://lheureuxinc.com/products/breville-sp0027819,2026-11-20
 lheureuxinc.com:42393688375452,lheureuxinc.com,7585836662940,Fouet Cappuccino,,,equipment,https://lheureuxinc.com/products/breville-sp0002498,2026-11-20
 lheureuxinc.com:42393688440988,lheureuxinc.com,7585836728476,Ressort Pf 50Mm,,,equipment,https://lheureuxinc.com/products/breville-sp0000168,2026-11-20
@@ -45957,7 +46007,7 @@ lheureuxinc.com:42649455001756,lheureuxinc.com,7708015657116,Tiroir d'égoutteme
 lheureuxinc.com:42649455067292,lheureuxinc.com,7708015722652,Valve de sécurité ECAM,,,equipment,https://lheureuxinc.com/products/valve-de-securite-ecam,2026-11-20
 lheureuxinc.com:42649455165596,lheureuxinc.com,7708015820956,Électrovalve 2 voies avec connecteurs ESAM,,,equipment,https://lheureuxinc.com/products/electrovalve-2-voies-avec-connecteurs-esam,2026-11-20
 lheureuxinc.com:42649455198364,lheureuxinc.com,7708015853724,Électrovalve 3 voies ECAm,,,equipment,https://lheureuxinc.com/products/electrovalve-3-voies-ecam,2026-11-20
-lheureuxinc.com:42649455263900,lheureuxinc.com,7708015919260,Électrovalve 3 voies avec connecteur clip 120V EC93 et ECAM,,,equipment,https://lheureuxinc.com/products/electrovalve-3-voies-avec-connecteur-clip-120v-ec93-et-ecam,2026-11-20
+lheureuxinc.com:42649455263900,lheureuxinc.com,7708015919260,Électrovalve 3 voies 120 V avec connecteur clip : pièce d'origine De'Longhi 5213218271 pour EC93 et ECAM,,,equipment,https://lheureuxinc.com/products/electrovalve-3-voies-avec-connecteur-clip-120v-ec93-et-ecam,2026-11-20
 lheureuxinc.com:42649455984796,lheureuxinc.com,7708016738460,Parker - Électrovalve 3 voies,,,equipment,https://lheureuxinc.com/products/electrovalve-3-voies-parker-incluant-cables-220v-20bar-ac,2026-11-20
 lheureuxinc.com:42651084259484,lheureuxinc.com,7585830961308,Kluberlub - Graisse NH1 11-222,Tube de 5g,,equipment,https://lheureuxinc.com/products/saeco-421946017941,2026-11-20
 lheureuxinc.com:42652898525340,lheureuxinc.com,7710292148380,Porte-filtre 1 dose Simonelli,,,equipment,https://lheureuxinc.com/products/porte-filtre-1-dose-simonelli,2026-11-20
@@ -46009,7 +46059,7 @@ lheureuxinc.com:42652956229788,lheureuxinc.com,7710315708572,PIVOT DOOR TOP DC22
 lheureuxinc.com:42652956885148,lheureuxinc.com,7710315872412,RECEIVER TANK FUSIBLE PLUG,,,equipment,https://lheureuxinc.com/products/receiver-tank-fusible-plug,2026-11-20
 lheureuxinc.com:42652957081756,lheureuxinc.com,7710316069020,SPRING DOOR DC40/49S,,,equipment,https://lheureuxinc.com/products/spring-door-dc40-49s,2026-11-20
 lheureuxinc.com:42652957114524,lheureuxinc.com,7710316101788,SPRING DOOR DCR/12/22,,,equipment,https://lheureuxinc.com/products/spring-door-dcr-12-22,2026-11-20
-lheureuxinc.com:42652957180060,lheureuxinc.com,7710316167324,TABLETTES CD10/CD12,,,equipment,https://lheureuxinc.com/products/tablettes-cd10-cd12,2026-11-20
+lheureuxinc.com:42652957180060,lheureuxinc.com,7710316167324,"QBD CD10-HC / CD12-HC : tablette de remplacement pour réfrigérateur présentoir 1 porte vitrée, 52,4 x 44,5 cm",,,equipment,https://lheureuxinc.com/products/tablettes-cd10-cd12,2026-11-20
 lheureuxinc.com:42652957212828,lheureuxinc.com,7710316200092,TABLETTES CD20,,,equipment,https://lheureuxinc.com/products/tablettes-cd20,2026-11-20
 lheureuxinc.com:42652957245596,lheureuxinc.com,7710316232860,"QBD - Tablettes pour réfrigérateur CD26 25.75"" (L) x 23.38"" (W) x 1.06",,,equipment,https://lheureuxinc.com/products/tablettes-cd26,2026-11-20
 lheureuxinc.com:42652957278364,lheureuxinc.com,7710316265628,Wheel Sliding Door,,,equipment,https://lheureuxinc.com/products/wheel-sliding-door,2026-11-20
@@ -47457,6 +47507,8 @@ lheureuxinc.com:48512880738460,lheureuxinc.com,9011279986844,"Moccamaster KBGV -
 lheureuxinc.com:48512880771228,lheureuxinc.com,9011279986844,"Moccamaster KBGV - Cafetière filtre certifiée SCA, carafe en verre, arrêt automatique, 1,25 L (10 tasses)",Orange,,equipment,https://lheureuxinc.com/products/moccamaster-kbgv-cafetiere-filtre-certifiee-sca-carafe-en-verre-arret-automatique-1-25-l-10-tasses,2026-11-24
 lheureuxinc.com:48512880803996,lheureuxinc.com,9011279986844,"Moccamaster KBGV - Cafetière filtre certifiée SCA, carafe en verre, arrêt automatique, 1,25 L (10 tasses)",Gris pierre,,equipment,https://lheureuxinc.com/products/moccamaster-kbgv-cafetiere-filtre-certifiee-sca-carafe-en-verre-arret-automatique-1-25-l-10-tasses,2026-11-24
 lheureuxinc.com:48513331265692,lheureuxinc.com,7664193798300,"La Marzocco Linea Micra — Machine à espresso domestique compacte, double chaudière, groupe saturé, 58 mm",Argent satiné,,equipment,https://lheureuxinc.com/products/lamarzocco-linea-micra,2026-11-24
+lheureuxinc.com:48530327503004,lheureuxinc.com,9430857613468,"KitchenAid KF2 : machine à espresso entièrement automatique, moulin IntelliGrind, café glacé, certifiée Quiet Mark",,,equipment,https://lheureuxinc.com/products/kitchenaid-kf2-machine-a-espresso-super-automatique,2026-11-25
+lheureuxinc.com:48530781077660,lheureuxinc.com,9430915645596,"KitchenAid KF3 : machine à espresso entièrement automatique, moulin IntelliGrind, lait automatique, 15+ recettes chaudes et glacées, porcelaine",,,equipment,https://lheureuxinc.com/products/kitchenaid-kf3-machine-a-espresso-super-automatique-porcelaine,2026-11-25
 littlesistercoffeemaker.ca:1026957352,littlesistercoffeemaker.ca,385529408,Kalita Stainless Steel Wave Kettle,,,equipment,https://www.littlesistercoffeemaker.ca/products/kalita-wave-kettlr,2023-11-23
 littlesistercoffeemaker.ca:32736762232972,littlesistercoffeemaker.ca,4700838461580,Raaka Chocolate Bourbon Cask Aged,,,syrup_food,https://www.littlesistercoffeemaker.ca/products/rose-cardomom-raaka-chocolate,2023-11-23
 littlesistercoffeemaker.ca:32736789921932,littlesistercoffeemaker.ca,4700848390284,Raaka Chocolate Pink Sea Salt,,,syrup_food,https://www.littlesistercoffeemaker.ca/products/pink-sea-salt-raaka-chocolate,2023-11-23
@@ -49791,6 +49843,18 @@ monogramcoffee.com:67491819618675,monogramcoffee.com,15691952357747,Daterra Pear
 monogramcoffee.com:67491819651443,monogramcoffee.com,15691952357747,Daterra Pearl Decaf Espresso,2LB,907.2,coffee,https://monogramcoffee.com/products/daterra-pearl-decaf-espresso,2026-11-21
 monogramcoffee.com:67491819684211,monogramcoffee.com,15691952357747,Daterra Pearl Decaf Espresso,5LB,2268,coffee,https://monogramcoffee.com/products/daterra-pearl-decaf-espresso,2026-11-21
 monogramcoffee.com:67510575694195,monogramcoffee.com,15696689299827,Pepe Jijon Typica,100g,100,coffee,https://monogramcoffee.com/products/pepe-jijon-typica,2026-11-23
+monogramcoffee.com:67544608178547,monogramcoffee.com,15702996582771,Carlos Cadena Mundo Maya,300g,300,coffee,https://monogramcoffee.com/products/carlos-cadena-natural,2026-11-25
+monogramcoffee.com:67544608211315,monogramcoffee.com,15702996582771,Carlos Cadena Mundo Maya,2LB,907.2,coffee,https://monogramcoffee.com/products/carlos-cadena-natural,2026-11-25
+monogramcoffee.com:67544608244083,monogramcoffee.com,15702996582771,Carlos Cadena Mundo Maya,5LB,2268,coffee,https://monogramcoffee.com/products/carlos-cadena-natural,2026-11-25
+monogramcoffee.com:67544679743859,monogramcoffee.com,15703015457139,Carlos Cadena Mundo Maya Espresso,300g,300,coffee,https://monogramcoffee.com/products/carlos-cadena-natural-espresso,2026-11-25
+monogramcoffee.com:67544679776627,monogramcoffee.com,15703015457139,Carlos Cadena Mundo Maya Espresso,2LB,907.2,coffee,https://monogramcoffee.com/products/carlos-cadena-natural-espresso,2026-11-25
+monogramcoffee.com:67544679809395,monogramcoffee.com,15703015457139,Carlos Cadena Mundo Maya Espresso,5LB,2268,coffee,https://monogramcoffee.com/products/carlos-cadena-natural-espresso,2026-11-25
+monogramcoffee.com:67544872354163,monogramcoffee.com,15703067754867,Yerin Sagastume,300g,300,coffee,https://monogramcoffee.com/products/sagastume-honey-pacas,2026-11-25
+monogramcoffee.com:67544872386931,monogramcoffee.com,15703067754867,Yerin Sagastume,2LB,907.2,coffee,https://monogramcoffee.com/products/sagastume-honey-pacas,2026-11-25
+monogramcoffee.com:67544872419699,monogramcoffee.com,15703067754867,Yerin Sagastume,5LB,2268,coffee,https://monogramcoffee.com/products/sagastume-honey-pacas,2026-11-25
+monogramcoffee.com:67545044124019,monogramcoffee.com,15703108419955,Yerin Sagastume Espresso,300g,300,coffee,https://monogramcoffee.com/products/sagastume-honey-pacas-espresso,2026-11-25
+monogramcoffee.com:67545044156787,monogramcoffee.com,15703108419955,Yerin Sagastume Espresso,2LB,907.2,coffee,https://monogramcoffee.com/products/sagastume-honey-pacas-espresso,2026-11-25
+monogramcoffee.com:67545044189555,monogramcoffee.com,15703108419955,Yerin Sagastume Espresso,5LB,2268,coffee,https://monogramcoffee.com/products/sagastume-honey-pacas-espresso,2026-11-25
 monogramcoffee.com:8498750029877,monogramcoffee.com,435084853285,Monogram x MiiR Tumbler,12 oz,340.2,drinkware,https://monogramcoffee.com/products/monogram-tumbler-8oz,2023-11-23
 movingcoffee.com:12623369142341,movingcoffee.com,1310834917490,MVCR - Stainless Steel Coffee Tumblers 12oz,Delivery,340.2,drinkware,https://www.movingcoffee.com/products/mvc-stainless-steel-coffee-tumblers-12oz-white,2024-08-26
 movingcoffee.com:13251033732,movingcoffee.com,4121504324,Espresso & Tasting,Beginner,,service,https://www.movingcoffee.com/products/espresso-tasting-workshop,2023-11-23
@@ -51763,6 +51827,10 @@ nemesis.coffee:53501957537973,nemesis.coffee,10628287430837,NICARAGUA | Claudia 
 nemesis.coffee:53501957669045,nemesis.coffee,10628287430837,NICARAGUA | Claudia Lovo,1kg,1000,coffee,https://www.nemesis.coffee/products/nicaragua-claudia-lovo,2026-10-25
 nemesis.coffee:53639495057589,nemesis.coffee,10658503491765,DECAF | BURUNDI - Kalico,250g,250,coffee,https://www.nemesis.coffee/products/decaf-burundi-kalico,2026-10-31
 nemesis.coffee:53639495090357,nemesis.coffee,10658503491765,DECAF | BURUNDI - Kalico,1kg,1000,coffee,https://www.nemesis.coffee/products/decaf-burundi-kalico,2026-10-31
+nemesis.coffee:53746339283125,nemesis.coffee,10675934855349,FEATURE ESPRESSO - ETHIOPIA | Uraga Suke,250g,250,coffee,https://www.nemesis.coffee/products/feature-espresso-ethiopia-uraga-suke,2026-11-25
+nemesis.coffee:53746339446965,nemesis.coffee,10675934855349,FEATURE ESPRESSO - ETHIOPIA | Uraga Suke,1kg,1000,coffee,https://www.nemesis.coffee/products/feature-espresso-ethiopia-uraga-suke,2026-11-25
+nemesis.coffee:53856942457013,nemesis.coffee,10699085217973,ESPRESSO | ETHIOPIA - Danche,250g,250,coffee,https://www.nemesis.coffee/products/espresso-ethiopia-danche,2026-11-25
+nemesis.coffee:53856942489781,nemesis.coffee,10699085217973,ESPRESSO | ETHIOPIA - Danche,1kg,1000,coffee,https://www.nemesis.coffee/products/espresso-ethiopia-danche,2026-11-25
 noctcoffee.myshopify.com:46415774875897,noctcoffee.myshopify.com,8783434481913,Nocturne,250g,250,coffee,https://noctcoffee.myshopify.com/products/nocturne,2026-11-13
 noctcoffee.myshopify.com:46415774908665,noctcoffee.myshopify.com,8783434481913,Nocturne,2kg,2000,coffee,https://noctcoffee.myshopify.com/products/nocturne,2026-11-13
 noctcoffee.myshopify.com:46416187425017,noctcoffee.myshopify.com,8783626895609,Eclipse,250g,250,coffee,https://noctcoffee.myshopify.com/products/eclipse,2026-11-13
@@ -51803,6 +51871,317 @@ noctcoffee.myshopify.com:67319450632441,noctcoffee.myshopify.com,15292748136697,
 noctcoffee.myshopify.com:67645754343673,noctcoffee.myshopify.com,10235201618169,CAFEC Abaca Conical Coffee Paper Filters (100pk),2 Cup,,equipment,https://noctcoffee.myshopify.com/products/cafec-abaca-conical-coffee-paper-filters-100pk,2026-11-13
 noctcoffee.myshopify.com:67648748814585,noctcoffee.myshopify.com,15367498268921,Ethiopia Aricha Adorsi Washed,250g,250,coffee,https://noctcoffee.myshopify.com/products/ethiopia-aricha-adorsi,2026-11-13
 noctcoffee.myshopify.com:67648767394041,noctcoffee.myshopify.com,15367510720761,Colombia Blackberry Co Ferment,150g,150,coffee,https://noctcoffee.myshopify.com/products/colombia-blackberry-co-ferment,2026-11-13
+nordik.ca:38862948466873,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",300 G / Grains,300,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:39062274474169,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",300 G / Grains,300,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:39062274670777,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",1 kg / Grains,1000,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:39062274965689,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",2.27 kg / Grains,2270,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:39493838110905,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",1 kg / Grains,1000,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:39493840404665,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",2.27 kg / Grains,2270,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:39526769852601,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",300 g / Grains,300,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:39663751987385,nordik.ca,6629646893241,Carte cadeau physique Nordik,25$,,gift_card,https://nordik.ca/products/carte-cadeaux,2026-11-25
+nordik.ca:39663752020153,nordik.ca,6629646893241,Carte cadeau physique Nordik,50$,,gift_card,https://nordik.ca/products/carte-cadeaux,2026-11-25
+nordik.ca:39663752052921,nordik.ca,6629646893241,Carte cadeau physique Nordik,100$,,gift_card,https://nordik.ca/products/carte-cadeaux,2026-11-25
+nordik.ca:40018733564089,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",1 kg / Grains,1000,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:40051085181113,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",300 g / Grains,300,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:40683907154105,nordik.ca,6888457339065,"Esmeralda, El Salvador",300 g / Grains,300,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:40683907317945,nordik.ca,6888457339065,"Esmeralda, El Salvador",1 kg / Grains,1000,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:40683907481785,nordik.ca,6888457339065,"Esmeralda, El Salvador",2.27 kg / Grains,2270,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:43168627327161,nordik.ca,7574007939257,Carte cadeau (Électronique),$10.00,,gift_card,https://nordik.ca/products/carte-cadeau-electronique,2026-11-25
+nordik.ca:43168627359929,nordik.ca,7574007939257,Carte cadeau (Électronique),$25.00,,gift_card,https://nordik.ca/products/carte-cadeau-electronique,2026-11-25
+nordik.ca:43168627392697,nordik.ca,7574007939257,Carte cadeau (Électronique),$50.00,,gift_card,https://nordik.ca/products/carte-cadeau-electronique,2026-11-25
+nordik.ca:43168627425465,nordik.ca,7574007939257,Carte cadeau (Électronique),$100.00,,gift_card,https://nordik.ca/products/carte-cadeau-electronique,2026-11-25
+nordik.ca:43201271464121,nordik.ca,7579063943353,"Don Beto, Costa Rica",300 g / Grains,300,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:43201271660729,nordik.ca,7579063943353,"Don Beto, Costa Rica",1 kg / Grains,1000,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:43201271857337,nordik.ca,7579063943353,"Don Beto, Costa Rica",2.27 kg / Grains,2270,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:44450136817849,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",2.27 Kg / Grains,2270,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:44601395151033,nordik.ca,8017845944505,"Danila Barbosa, Brésil",300 g / Grains,300,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:44601395183801,nordik.ca,8017845944505,"Danila Barbosa, Brésil",1 kg / Grains,1000,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:44601395216569,nordik.ca,8017845944505,"Danila Barbosa, Brésil",2.27 kg / Grains,2270,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:44624503177401,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",1 kg / Grains,1000,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:45184304218297,nordik.ca,8171927535801,"Gubata, Éthiopie",300 g / Grains,300,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:45184304251065,nordik.ca,8171927535801,"Gubata, Éthiopie",1 kg / Grains,1000,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:45184304283833,nordik.ca,8171927535801,"Gubata, Éthiopie",2.27 kg / Grains,2270,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:45531811053753,nordik.ca,8275035652281,"Allianza, Costa Rica",300 g / Grains,300,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:45531811086521,nordik.ca,8275035652281,"Allianza, Costa Rica",1 kg / Grains,1000,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:45531811119289,nordik.ca,8275035652281,"Allianza, Costa Rica",2.27 kg / Grains,2270,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:46959567405241,nordik.ca,8475770552505,"Cajamarca Community, Pérou",300g / Grains,300,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:46959567438009,nordik.ca,8475770552505,"Cajamarca Community, Pérou",1 Kg / Grains,1000,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:46959567470777,nordik.ca,8475770552505,"Cajamarca Community, Pérou",2.27 Kg / Grains,2270,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334254265,nordik.ca,8475770552505,"Cajamarca Community, Pérou",300g / Bodum,300,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334287033,nordik.ca,8475770552505,"Cajamarca Community, Pérou",300g / Filtre,300,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334319801,nordik.ca,8475770552505,"Cajamarca Community, Pérou",300g / V60,300,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334352569,nordik.ca,8475770552505,"Cajamarca Community, Pérou",300g / Cafetière italienne,300,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334385337,nordik.ca,8475770552505,"Cajamarca Community, Pérou",300g / Espresso moyen,300,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334418105,nordik.ca,8475770552505,"Cajamarca Community, Pérou",300g / Espresso fin,300,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334450873,nordik.ca,8475770552505,"Cajamarca Community, Pérou",300g / Espresso très fin,300,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334483641,nordik.ca,8475770552505,"Cajamarca Community, Pérou",1 Kg / Bodum,1000,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334516409,nordik.ca,8475770552505,"Cajamarca Community, Pérou",1 Kg / Filtre,1000,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334549177,nordik.ca,8475770552505,"Cajamarca Community, Pérou",1 Kg / V60,1000,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334581945,nordik.ca,8475770552505,"Cajamarca Community, Pérou",1 Kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334614713,nordik.ca,8475770552505,"Cajamarca Community, Pérou",1 Kg / Espresso moyen,1000,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334647481,nordik.ca,8475770552505,"Cajamarca Community, Pérou",1 Kg / Espresso fin,1000,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334680249,nordik.ca,8475770552505,"Cajamarca Community, Pérou",1 Kg / Espresso très fin,1000,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334713017,nordik.ca,8475770552505,"Cajamarca Community, Pérou",2.27 Kg / Bodum,2270,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334745785,nordik.ca,8475770552505,"Cajamarca Community, Pérou",2.27 Kg / Filtre,2270,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334778553,nordik.ca,8475770552505,"Cajamarca Community, Pérou",2.27 Kg / V60,2270,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334811321,nordik.ca,8475770552505,"Cajamarca Community, Pérou",2.27 Kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334844089,nordik.ca,8475770552505,"Cajamarca Community, Pérou",2.27 Kg / Espresso moyen,2270,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334876857,nordik.ca,8475770552505,"Cajamarca Community, Pérou",2.27 Kg / Espresso fin,2270,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096334909625,nordik.ca,8475770552505,"Cajamarca Community, Pérou",2.27 Kg / Espresso très fin,2270,coffee,https://nordik.ca/products/cajamarca-community-peru,2026-11-25
+nordik.ca:47096389206201,nordik.ca,8275035652281,"Allianza, Costa Rica",300 g / Bodum,300,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389238969,nordik.ca,8275035652281,"Allianza, Costa Rica",300 g / Filtre,300,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389271737,nordik.ca,8275035652281,"Allianza, Costa Rica",300 g / V60,300,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389304505,nordik.ca,8275035652281,"Allianza, Costa Rica",300 g / Cafetière italienne,300,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389337273,nordik.ca,8275035652281,"Allianza, Costa Rica",300 g / Espresso moyen,300,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389370041,nordik.ca,8275035652281,"Allianza, Costa Rica",300 g / Espresso fin,300,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389402809,nordik.ca,8275035652281,"Allianza, Costa Rica",300 g / Espresso très fin,300,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389435577,nordik.ca,8275035652281,"Allianza, Costa Rica",1 kg / Bodum,1000,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389468345,nordik.ca,8275035652281,"Allianza, Costa Rica",1 kg / Filtre,1000,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389501113,nordik.ca,8275035652281,"Allianza, Costa Rica",1 kg / V60,1000,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389533881,nordik.ca,8275035652281,"Allianza, Costa Rica",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389566649,nordik.ca,8275035652281,"Allianza, Costa Rica",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389599417,nordik.ca,8275035652281,"Allianza, Costa Rica",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389632185,nordik.ca,8275035652281,"Allianza, Costa Rica",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389664953,nordik.ca,8275035652281,"Allianza, Costa Rica",2.27 kg / Bodum,2270,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389697721,nordik.ca,8275035652281,"Allianza, Costa Rica",2.27 kg / Filtre,2270,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389730489,nordik.ca,8275035652281,"Allianza, Costa Rica",2.27 kg / V60,2270,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389763257,nordik.ca,8275035652281,"Allianza, Costa Rica",2.27 kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389796025,nordik.ca,8275035652281,"Allianza, Costa Rica",2.27 kg / Espresso moyen,2270,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389828793,nordik.ca,8275035652281,"Allianza, Costa Rica",2.27 kg / Espresso fin,2270,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096389861561,nordik.ca,8275035652281,"Allianza, Costa Rica",2.27 kg / Espresso très fin,2270,coffee,https://nordik.ca/products/allianza,2026-11-25
+nordik.ca:47096405819577,nordik.ca,8171927535801,"Gubata, Éthiopie",300 g / Bodum,300,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096405852345,nordik.ca,8171927535801,"Gubata, Éthiopie",300 g / Filtre,300,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096405885113,nordik.ca,8171927535801,"Gubata, Éthiopie",300 g / V60,300,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096405917881,nordik.ca,8171927535801,"Gubata, Éthiopie",300 g / Cafetière italienne,300,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096405950649,nordik.ca,8171927535801,"Gubata, Éthiopie",300 g / Espresso moyen,300,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096405983417,nordik.ca,8171927535801,"Gubata, Éthiopie",300 g / Espresso fin,300,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406016185,nordik.ca,8171927535801,"Gubata, Éthiopie",300 g / Espresso très fin,300,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406048953,nordik.ca,8171927535801,"Gubata, Éthiopie",1 kg / Bodum,1000,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406081721,nordik.ca,8171927535801,"Gubata, Éthiopie",1 kg / Filtre,1000,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406114489,nordik.ca,8171927535801,"Gubata, Éthiopie",1 kg / V60,1000,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406147257,nordik.ca,8171927535801,"Gubata, Éthiopie",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406180025,nordik.ca,8171927535801,"Gubata, Éthiopie",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406212793,nordik.ca,8171927535801,"Gubata, Éthiopie",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406245561,nordik.ca,8171927535801,"Gubata, Éthiopie",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406278329,nordik.ca,8171927535801,"Gubata, Éthiopie",2.27 kg / Bodum,2270,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406311097,nordik.ca,8171927535801,"Gubata, Éthiopie",2.27 kg / Filtre,2270,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406343865,nordik.ca,8171927535801,"Gubata, Éthiopie",2.27 kg / V60,2270,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406376633,nordik.ca,8171927535801,"Gubata, Éthiopie",2.27 kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406409401,nordik.ca,8171927535801,"Gubata, Éthiopie",2.27 kg / Espresso moyen,2270,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406442169,nordik.ca,8171927535801,"Gubata, Éthiopie",2.27 kg / Espresso fin,2270,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096406474937,nordik.ca,8171927535801,"Gubata, Éthiopie",2.27 kg / Espresso très fin,2270,coffee,https://nordik.ca/products/gubata-ethiopie,2026-11-25
+nordik.ca:47096414011577,nordik.ca,8017845944505,"Danila Barbosa, Brésil",300 g / Bodum,300,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414044345,nordik.ca,8017845944505,"Danila Barbosa, Brésil",300 g / Filtre,300,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414077113,nordik.ca,8017845944505,"Danila Barbosa, Brésil",300 g / V60,300,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414109881,nordik.ca,8017845944505,"Danila Barbosa, Brésil",300 g / Cafetière italienne,300,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414142649,nordik.ca,8017845944505,"Danila Barbosa, Brésil",300 g / Espresso moyen,300,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414175417,nordik.ca,8017845944505,"Danila Barbosa, Brésil",300 g / Espresso fin,300,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414208185,nordik.ca,8017845944505,"Danila Barbosa, Brésil",300 g / Espresso très fin,300,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414240953,nordik.ca,8017845944505,"Danila Barbosa, Brésil",1 kg / Bodum,1000,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414273721,nordik.ca,8017845944505,"Danila Barbosa, Brésil",1 kg / Filtre,1000,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414306489,nordik.ca,8017845944505,"Danila Barbosa, Brésil",1 kg / V60,1000,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414339257,nordik.ca,8017845944505,"Danila Barbosa, Brésil",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414372025,nordik.ca,8017845944505,"Danila Barbosa, Brésil",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414404793,nordik.ca,8017845944505,"Danila Barbosa, Brésil",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414437561,nordik.ca,8017845944505,"Danila Barbosa, Brésil",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414470329,nordik.ca,8017845944505,"Danila Barbosa, Brésil",2.27 kg / Bodum,2270,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414503097,nordik.ca,8017845944505,"Danila Barbosa, Brésil",2.27 kg / Filtre,2270,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414535865,nordik.ca,8017845944505,"Danila Barbosa, Brésil",2.27 kg / V60,2270,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414568633,nordik.ca,8017845944505,"Danila Barbosa, Brésil",2.27 kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414601401,nordik.ca,8017845944505,"Danila Barbosa, Brésil",2.27 kg / Espresso moyen,2270,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414634169,nordik.ca,8017845944505,"Danila Barbosa, Brésil",2.27 kg / Espresso fin,2270,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096414666937,nordik.ca,8017845944505,"Danila Barbosa, Brésil",2.27 kg / Espresso très fin,2270,coffee,https://nordik.ca/products/danila-barbosa-bresil,2026-11-25
+nordik.ca:47096422826169,nordik.ca,7579063943353,"Don Beto, Costa Rica",300 g / Bodum,300,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096422858937,nordik.ca,7579063943353,"Don Beto, Costa Rica",300 g / Filtre,300,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096422891705,nordik.ca,7579063943353,"Don Beto, Costa Rica",300 g / V60,300,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096422924473,nordik.ca,7579063943353,"Don Beto, Costa Rica",300 g / Cafetière italienne,300,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096422957241,nordik.ca,7579063943353,"Don Beto, Costa Rica",300 g / Espresso moyen,300,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096422990009,nordik.ca,7579063943353,"Don Beto, Costa Rica",300 g / Espresso fin,300,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423022777,nordik.ca,7579063943353,"Don Beto, Costa Rica",300 g / Espresso très fin,300,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423055545,nordik.ca,7579063943353,"Don Beto, Costa Rica",1 kg / Bodum,1000,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423088313,nordik.ca,7579063943353,"Don Beto, Costa Rica",1 kg / Filtre,1000,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423121081,nordik.ca,7579063943353,"Don Beto, Costa Rica",1 kg / V60,1000,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423153849,nordik.ca,7579063943353,"Don Beto, Costa Rica",1 kg / Cafetière italienne,1000,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423186617,nordik.ca,7579063943353,"Don Beto, Costa Rica",1 kg / Espresso moyen,1000,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423219385,nordik.ca,7579063943353,"Don Beto, Costa Rica",1 kg / Espresso fin,1000,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423252153,nordik.ca,7579063943353,"Don Beto, Costa Rica",1 kg / Espresso très fin,1000,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423284921,nordik.ca,7579063943353,"Don Beto, Costa Rica",2.27 kg / Bodum,2270,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423317689,nordik.ca,7579063943353,"Don Beto, Costa Rica",2.27 kg / Filtre,2270,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423350457,nordik.ca,7579063943353,"Don Beto, Costa Rica",2.27 kg / V60,2270,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423383225,nordik.ca,7579063943353,"Don Beto, Costa Rica",2.27 kg / Cafetière italienne,2270,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423415993,nordik.ca,7579063943353,"Don Beto, Costa Rica",2.27 kg / Espresso moyen,2270,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423448761,nordik.ca,7579063943353,"Don Beto, Costa Rica",2.27 kg / Espresso fin,2270,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096423481529,nordik.ca,7579063943353,"Don Beto, Costa Rica",2.27 kg / Espresso très fin,2270,service,https://nordik.ca/products/don-beto,2026-11-25
+nordik.ca:47096480530617,nordik.ca,6888457339065,"Esmeralda, El Salvador",300 g / Bodum,300,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480563385,nordik.ca,6888457339065,"Esmeralda, El Salvador",300 g / Filtre,300,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480596153,nordik.ca,6888457339065,"Esmeralda, El Salvador",300 g / V60,300,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480628921,nordik.ca,6888457339065,"Esmeralda, El Salvador",300 g / Cafetière italienne,300,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480661689,nordik.ca,6888457339065,"Esmeralda, El Salvador",300 g / Espresso moyen,300,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480694457,nordik.ca,6888457339065,"Esmeralda, El Salvador",300 g / Espresso fin,300,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480727225,nordik.ca,6888457339065,"Esmeralda, El Salvador",300 g / Espresso très fin,300,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480759993,nordik.ca,6888457339065,"Esmeralda, El Salvador",1 kg / Bodum,1000,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480792761,nordik.ca,6888457339065,"Esmeralda, El Salvador",1 kg / Filtre,1000,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480825529,nordik.ca,6888457339065,"Esmeralda, El Salvador",1 kg / V60,1000,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480858297,nordik.ca,6888457339065,"Esmeralda, El Salvador",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480891065,nordik.ca,6888457339065,"Esmeralda, El Salvador",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480923833,nordik.ca,6888457339065,"Esmeralda, El Salvador",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480956601,nordik.ca,6888457339065,"Esmeralda, El Salvador",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096480989369,nordik.ca,6888457339065,"Esmeralda, El Salvador",2.27 kg / Bodum,2270,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096481022137,nordik.ca,6888457339065,"Esmeralda, El Salvador",2.27 kg / Filtre,2270,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096481054905,nordik.ca,6888457339065,"Esmeralda, El Salvador",2.27 kg / V60,2270,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096481087673,nordik.ca,6888457339065,"Esmeralda, El Salvador",2.27 kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096481120441,nordik.ca,6888457339065,"Esmeralda, El Salvador",2.27 kg / Espresso moyen,2270,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096481153209,nordik.ca,6888457339065,"Esmeralda, El Salvador",2.27 kg / Espresso fin,2270,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096481185977,nordik.ca,6888457339065,"Esmeralda, El Salvador",2.27 kg / Espresso très fin,2270,coffee,https://nordik.ca/products/esmeralda-el-salvador,2026-11-25
+nordik.ca:47096493179065,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",300 g / Bodum,300,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493211833,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",300 g / Filtre,300,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493244601,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",300 g / V60,300,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493277369,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",300 g / Cafetière italienne,300,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493310137,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",300 g / Espresso moyen,300,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493342905,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",300 g / Espresso fin,300,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493375673,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",300 g / Espresso très fin,300,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493408441,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",1 kg / Bodum,1000,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493441209,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",1 kg / Filtre,1000,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493473977,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",1 kg / V60,1000,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493506745,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493539513,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493572281,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096493605049,nordik.ca,6724956258489,"Mélange Hivernal, Éthiopie et Pérou",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/melange-hivernal,2026-11-25
+nordik.ca:47096745689273,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",300 g / Bodum,300,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745722041,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",300 g / Filtre,300,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745754809,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",300 g / V60,300,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745787577,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",300 g / Cafetière italienne,300,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745820345,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",300 g / Espresso moyen,300,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745853113,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",300 g / Espresso fin,300,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745885881,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",300 g / Espresso très fin,300,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745918649,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",1 kg / Bodum,1000,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745951417,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",1 kg / Filtre,1000,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096745984185,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",1 kg / V60,1000,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746016953,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746049721,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746082489,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746115257,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746148025,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",2.27 Kg / Bodum,2270,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746180793,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",2.27 Kg / Filtre,2270,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746213561,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",2.27 Kg / V60,2270,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746246329,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",2.27 Kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746279097,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",2.27 Kg / Espresso moyen,2270,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746311865,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",2.27 Kg / Espresso fin,2270,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096746344633,nordik.ca,6600488452281,"Mélange Mi-Noir, café corsé avec 25 % de Robusta",2.27 Kg / Espresso très fin,2270,coffee,https://nordik.ca/products/melange-de-style-italien-mi-noir,2026-11-25
+nordik.ca:47096754897081,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",300 G / Bodum,300,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096754929849,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",300 G / Filtre,300,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096754962617,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",300 G / V60,300,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096754995385,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",300 G / Cafetière italienne,300,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755028153,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",300 G / Espresso moyen,300,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755060921,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",300 G / Espresso fin,300,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755093689,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",300 G / Espresso très fin,300,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755126457,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",1 kg / Bodum,1000,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755159225,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",1 kg / Filtre,1000,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755191993,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",1 kg / V60,1000,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755224761,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755257529,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755290297,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755323065,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755355833,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",2.27 kg / Bodum,2270,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755388601,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",2.27 kg / Filtre,2270,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755421369,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",2.27 kg / V60,2270,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755454137,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",2.27 kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755486905,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",2.27 kg / Espresso moyen,2270,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755519673,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",2.27 kg / Espresso fin,2270,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096755552441,nordik.ca,6320181084345,"Espresso Nordik, Brésil, Colombie, Costa Rica et Guatemala",2.27 kg / Espresso très fin,2270,coffee,https://nordik.ca/products/espresso-nordik,2026-11-25
+nordik.ca:47096771870905,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",300 G / Bodum,300,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096771903673,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",300 G / Filtre,300,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096771936441,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",300 G / V60,300,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096771969209,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",300 G / Cafetière italienne,300,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772001977,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",300 G / Espresso moyen,300,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772034745,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",300 G / Espresso fin,300,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772067513,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",300 G / Espresso très fin,300,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772100281,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",1 kg / Bodum,1000,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772133049,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",1 kg / Filtre,1000,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772165817,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",1 kg / V60,1000,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772198585,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772231353,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772264121,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772296889,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772329657,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",2.27 kg / Bodum,2270,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772362425,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",2.27 kg / Filtre,2270,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772395193,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",2.27 kg / V60,2270,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772427961,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",2.27 kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772460729,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",2.27 kg / Espresso moyen,2270,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772493497,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",2.27 kg / Espresso fin,2270,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:47096772526265,nordik.ca,6273142423737,"Décaféiné à l'eau naturelle, Mexique",2.27 kg / Espresso très fin,2270,coffee,https://nordik.ca/products/decaf,2026-11-25
+nordik.ca:67609348964537,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",300g / Grains,300,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609348997305,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",300g / Bodum,300,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349030073,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",300g / Filtre,300,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349062841,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",300g / V60,300,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349095609,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",300g / Cafetière italienne,300,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349128377,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",300g / Espresso moyen,300,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349161145,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",300g / Espresso fin,300,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349193913,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",300g / Espresso très fin,300,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349226681,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",1 kg / Grains,1000,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349259449,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",1 kg / Bodum,1000,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349292217,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",1 kg / Filtre,1000,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349324985,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",1 kg / V60,1000,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349357753,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",1 kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349390521,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",1 kg / Espresso moyen,1000,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349423289,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",1 kg / Espresso fin,1000,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349456057,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",1 kg / Espresso très fin,1000,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349488825,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",2.27 kg / Grains,2270,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349521593,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",2.27 kg / Bodum,2270,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349554361,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",2.27 kg / Filtre,2270,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349587129,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",2.27 kg / V60,2270,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349619897,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",2.27 kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349652665,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",2.27 kg / Espresso moyen,2270,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349685433,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",2.27 kg / Espresso fin,2270,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349718201,nordik.ca,15403418190009,"Finca Laderas, Pink Bourbon Colombie",2.27 kg / Espresso très fin,2270,coffee,https://nordik.ca/products/finca-laderas,2026-11-25
+nordik.ca:67609349750969,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),300g / Grains,300,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609349783737,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),300g / Bodum,300,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609349816505,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),300g / Filtre,300,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609349849273,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),300g / V60,300,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609349882041,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),300g / Cafetière italienne,300,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609349914809,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),300g / Espresso moyen,300,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609349947577,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),300g / Espresso fin,300,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609349980345,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),300g / Espresso très fin,300,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350013113,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),1 Kg / Grains,1000,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350045881,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),1 Kg / Bodum,1000,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350078649,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),1 Kg / Filtre,1000,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350111417,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),1 Kg / V60,1000,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350144185,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),1 Kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350176953,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),1 Kg / Espresso moyen,1000,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350209721,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),1 Kg / Espresso fin,1000,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350242489,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),1 Kg / Espresso très fin,1000,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350275257,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),2.27 Kg / Grains,2270,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350308025,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),2.27 Kg / Bodum,2270,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350340793,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),2.27 Kg / Filtre,2270,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350373561,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),2.27 Kg / V60,2270,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350406329,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),2.27 Kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350439097,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),2.27 Kg / Espresso moyen,2270,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350471865,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),2.27 Kg / Espresso fin,2270,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67609350504633,nordik.ca,15403418222777,Cajamarca Foncé (Dark Roast),2.27 Kg / Espresso très fin,2270,coffee,https://nordik.ca/products/cajamarca-dark-roast,2026-11-25
+nordik.ca:67906440003769,nordik.ca,15454319935673,"San Lázaro, Honduras",300g / Grains,300,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440036537,nordik.ca,15454319935673,"San Lázaro, Honduras",300g / Bodum,300,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440069305,nordik.ca,15454319935673,"San Lázaro, Honduras",300g / Filtre,300,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440102073,nordik.ca,15454319935673,"San Lázaro, Honduras",300g / V60,300,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440134841,nordik.ca,15454319935673,"San Lázaro, Honduras",300g / Cafetière italienne,300,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440167609,nordik.ca,15454319935673,"San Lázaro, Honduras",300g / Espresso moyen,300,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440200377,nordik.ca,15454319935673,"San Lázaro, Honduras",300g / Espresso fin,300,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440233145,nordik.ca,15454319935673,"San Lázaro, Honduras",300g / Espresso très fin,300,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440265913,nordik.ca,15454319935673,"San Lázaro, Honduras",1 Kg / Grains,1000,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440298681,nordik.ca,15454319935673,"San Lázaro, Honduras",1 Kg / Bodum,1000,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440331449,nordik.ca,15454319935673,"San Lázaro, Honduras",1 Kg / Filtre,1000,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440364217,nordik.ca,15454319935673,"San Lázaro, Honduras",1 Kg / V60,1000,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440396985,nordik.ca,15454319935673,"San Lázaro, Honduras",1 Kg / Cafetière italienne,1000,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440429753,nordik.ca,15454319935673,"San Lázaro, Honduras",1 Kg / Espresso moyen,1000,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440462521,nordik.ca,15454319935673,"San Lázaro, Honduras",1 Kg / Espresso fin,1000,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440495289,nordik.ca,15454319935673,"San Lázaro, Honduras",1 Kg / Espresso très fin,1000,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440528057,nordik.ca,15454319935673,"San Lázaro, Honduras",2.27 Kg / Grains,2270,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440560825,nordik.ca,15454319935673,"San Lázaro, Honduras",2.27 Kg / Bodum,2270,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440593593,nordik.ca,15454319935673,"San Lázaro, Honduras",2.27 Kg / Filtre,2270,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440626361,nordik.ca,15454319935673,"San Lázaro, Honduras",2.27 Kg / V60,2270,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440659129,nordik.ca,15454319935673,"San Lázaro, Honduras",2.27 Kg / Cafetière italienne,2270,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440691897,nordik.ca,15454319935673,"San Lázaro, Honduras",2.27 Kg / Espresso moyen,2270,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440724665,nordik.ca,15454319935673,"San Lázaro, Honduras",2.27 Kg / Espresso fin,2270,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
+nordik.ca:67906440757433,nordik.ca,15454319935673,"San Lázaro, Honduras",2.27 Kg / Espresso très fin,2270,coffee,https://nordik.ca/products/san-lazaro-honduras,2026-11-25
 originhillcoffee.com:43023841099854,originhillcoffee.com,7704886345806,Nicaragua - Bayardo Jimenez,100g,100,coffee,https://originhillcoffee.com/products/nicaragua-bayardo-jimenez-geisha,2026-11-13
 originhillcoffee.com:43023841132622,originhillcoffee.com,7704886345806,Nicaragua - Bayardo Jimenez,300g,300,coffee,https://originhillcoffee.com/products/nicaragua-bayardo-jimenez-geisha,2026-11-13
 originhillcoffee.com:43023862726734,originhillcoffee.com,7704884936782,Colombia - Diego Bermudez,100g,100,coffee,https://originhillcoffee.com/products/colombia-diego-bermudez-lychee-peach,2026-11-13
@@ -53819,6 +54198,8 @@ philsebastian.com:67889926897731,philsebastian.com,7332842897475,Sweet Habit Esp
 philsebastian.com:67894017949763,philsebastian.com,15457047806019,Snow Day,200 g,200,coffee,https://philsebastian.com/products/m-m-catuai,2026-11-07
 philsebastian.com:68008767488067,philsebastian.com,15504077717571,Finca Guarumo Geisha Natural,100 g,100,coffee,https://philsebastian.com/products/finca-guarumo-geisha-natural,2026-11-19
 philsebastian.com:68009276244035,philsebastian.com,15504210198595,Elder Chavez Geisha Natural,200 g,200,coffee,https://philsebastian.com/products/elder-chavez-geisha-natural,2026-11-19
+philsebastian.com:68105644703811,philsebastian.com,7332847222851,Mystic Melon,250 g / 26HON15,250,coffee,https://philsebastian.com/products/mystic-melon,2026-11-25
+philsebastian.com:68105644736579,philsebastian.com,7332847222851,Mystic Melon,2.5 lb / 26HON15,1134,coffee,https://philsebastian.com/products/mystic-melon,2026-11-25
 philsebastian.com:8674994520183,philsebastian.com,780067995767,"Panama, Hartmann Washed + Natural",300 g,300,coffee,https://philsebastian.com/products/panama-hartmann-washed-natural,2023-11-23
 philsebastian.com:8674994552951,philsebastian.com,780067995767,"Panama, Hartmann Washed + Natural",1.3 kg,1300,coffee,https://philsebastian.com/products/panama-hartmann-washed-natural,2023-11-23
 pilotcoffeeroasters.com:48209302978838,pilotcoffeeroasters.com,9384547614998,Heritage Blend,Whole Bean / 300 G,300,coffee,https://www.pilotcoffeeroasters.com/products/heritage-blend,2026-11-13
@@ -57911,7 +58292,7 @@ revolvercoffee.ca:55089034494271,revolvercoffee.ca,10562225209663,Morgon Colombi
 revolvercoffee.ca:55089089872191,revolvercoffee.ca,10562228027711,La Cabra Ethiopia Megadu *Anaerobic Natural Filter*,,340,coffee,https://revolvercoffee.ca/products/la-cabra-colombia-luis-edgar-aji-washed-filter,2026-08-12
 revolvercoffee.ca:55092992246079,revolvercoffee.ca,10564360962367,La Cabra Colombia Luis Edgar Camacho Geisha *Washed Filter*,,340,coffee,https://revolvercoffee.ca/products/la-cabra-colombia-luis-edgar-camacho-geisha-washed-filter,2026-08-12
 revolvercoffee.ca:55142812287295,revolvercoffee.ca,10580291748159,Funk 'The Fermentation Project'  ft. James Hoffman Live Global Tasting *Filter*,,250,coffee,https://revolvercoffee.ca/products/funk-the-fermentation-project-ft-james-hoffman-live-global-tasting-filter,2026-08-20
-revolvercoffee.ca:55148243943743,revolvercoffee.ca,10582419013951,*2026 Revolver Advent Coffee Calendar* (Ships Mid-Late November for Dec. 1st Start),,1000,bundle,https://revolvercoffee.ca/products/2026-revolver-advent-coffee-calendar-bonus-50-online-gift-card-for-all-orders-before-october-1,2026-08-21
+revolvercoffee.ca:55148243943743,revolvercoffee.ca,10582419013951,*2026 Revolver Advent Coffee Calendar* (Shipping Same Day if Ordered before Noon!),,1000,bundle,https://revolvercoffee.ca/products/2026-revolver-advent-coffee-calendar-bonus-50-online-gift-card-for-all-orders-before-october-1,2026-08-21
 revolvercoffee.ca:55155980697919,revolvercoffee.ca,10584183374143,Prodigal Ethiopia Nensebo G1 *Natural Espresso*,,340,coffee,https://revolvercoffee.ca/products/prodigal-ethiopia-nensebo-g1-natural-espresso,2026-08-22
 revolvercoffee.ca:55156012253503,revolvercoffee.ca,10584212209983,Rogue Wave Ethiopia Dinkalem Ademe Zema *Natural Filter + Espresso*,,340,coffee,https://revolvercoffee.ca/products/rogue-wave-ethiopia-chelchele-site-supernatural-anaerobic-natural-filter-espresso,2026-08-22
 revolvercoffee.ca:55258762281279,revolvercoffee.ca,10604703023423,Monogram Bolivia Finca Takesi Peaberry Geisha *Washed Filter*,,340,coffee,https://revolvercoffee.ca/products/monogram-bolivia-finca-takesi-peaberry-geisha-washed-filter,2026-09-02
@@ -57987,6 +58368,7 @@ revolvercoffee.ca:68147089015103,revolvercoffee.ca,15544551407935,Hey Happy Guat
 revolvercoffee.ca:68170397483327,revolvercoffee.ca,15552673644863,Barn Ethiopia Kayon Mountain BULK 1KG *Natural Filter + Espresso*,,1000,coffee,https://revolvercoffee.ca/products/barn-ethiopia-kayon-mountain-bulk-1kg-natural-filter-espresso-copy,2026-11-20
 revolvercoffee.ca:68174936441151,revolvercoffee.ca,15554407661887,Barn Christmas Coffee *Washed Filter + Espresso*,,340,coffee,https://revolvercoffee.ca/products/barn-christmas-coffee-washed-filter-espresso,2026-11-20
 revolvercoffee.ca:68184544444735,revolvercoffee.ca,15560186495295,DAK Sticky Pudding *Cinnamon Cardamom Mandarin Cherry Co-Ferment Filter*,,250,coffee,https://revolvercoffee.ca/products/dak-sticky-pudding-cinnamon-cardamom-mandarin-cherry-co-ferment-filter-1,2026-11-21
+revolvercoffee.ca:68228392059199,revolvercoffee.ca,15579974795583,Ex Animo Peru San Crispin *Honey Filter*,,340,coffee,https://revolvercoffee.ca/products/ex-animo-peru-san-crispin-honey-filter,2026-11-25
 rocanini.com:10300282629,rocanini.com,3524755653,THE TWIST Blend Organic,8oz/225g,226.8,coffee,https://www.rocanini.com/products/the-twist-blend,2023-11-28
 rocanini.com:10302152005,rocanini.com,90736701,Gift Card - physical card for Cafe,$50,,gift_card,https://www.rocanini.com/products/giftcard,2023-11-28
 rocanini.com:10302159813,rocanini.com,90736701,Gift Card - physical card for Cafe,$100,,gift_card,https://www.rocanini.com/products/giftcard,2023-11-28
@@ -60877,9 +61259,9 @@ roguewavecoffee.ca:52754477842803,roguewavecoffee.ca,15132068446579,Colombia - G
 roguewavecoffee.ca:52773931778419,roguewavecoffee.ca,15136899596659,Colombia - La Esperanza Geisha | Natural - Archived,200g,200,coffee,https://www.roguewavecoffee.ca/products/colombia-la-esperanza-geisha-natural-200g,2025-07-30
 roguewavecoffee.ca:52773949342067,roguewavecoffee.ca,15136899596659,Colombia - La Esperanza Geisha | Natural - Archived,40g,40,coffee,https://www.roguewavecoffee.ca/products/colombia-la-esperanza-geisha-natural-200g,2025-07-30
 roguewavecoffee.ca:52789332803955,roguewavecoffee.ca,15138855190899,Mazelab - SOLO Glass Server,,400,equipment,https://www.roguewavecoffee.ca/products/mazelab-solo-glass-server,2025-08-03
-roguewavecoffee.ca:52793814155635,roguewavecoffee.ca,15139373875571,OREA - Z1,Z1 Brewer (no filters),600,equipment,https://www.roguewavecoffee.ca/products/orea-z1-brewer,2025-08-03
-roguewavecoffee.ca:52793814188403,roguewavecoffee.ca,15139373875571,OREA - Z1,Z1 Filters - Pack of 50,100,equipment,https://www.roguewavecoffee.ca/products/orea-z1-brewer,2025-08-03
-roguewavecoffee.ca:52793814221171,roguewavecoffee.ca,15139373875571,OREA - Z1,Z1 Filters - Pack of 300,200,equipment,https://www.roguewavecoffee.ca/products/orea-z1-brewer,2025-08-03
+roguewavecoffee.ca:52793814155635,roguewavecoffee.ca,15139373875571,OREA - Z1 Brewer,Z1 Brewer (no filters),600,equipment,https://www.roguewavecoffee.ca/products/orea-z1-brewer,2025-08-03
+roguewavecoffee.ca:52793814188403,roguewavecoffee.ca,15139373875571,OREA - Z1 Brewer,Z1 Filters - Pack of 50,100,equipment,https://www.roguewavecoffee.ca/products/orea-z1-brewer,2025-08-03
+roguewavecoffee.ca:52793814221171,roguewavecoffee.ca,15139373875571,OREA - Z1 Brewer,Z1 Filters - Pack of 300,200,equipment,https://www.roguewavecoffee.ca/products/orea-z1-brewer,2025-08-03
 roguewavecoffee.ca:52811550589299,roguewavecoffee.ca,15141972050291,Panama - Mount Totumas Typica Bosque | Ply Natural 100g - Archived,100G,100,coffee,https://www.roguewavecoffee.ca/products/panama-mount-totumas-typica-bosque-ply-natural-100g,2025-08-08
 roguewavecoffee.ca:52815839134067,roguewavecoffee.ca,15142668534131,Attendee Ticket- Origami Cup Canada 2025  - August 15th - Vancouver,,,drinkware,https://www.roguewavecoffee.ca/products/attendee-ticket-origami-cup-canada-2025-august-15th-vancouver,2025-08-11
 roguewavecoffee.ca:52831331778931,roguewavecoffee.ca,15147374575987,Indonesia - Sumatra Bener Meriah | Lychee Coferment Wet Hull - Archived,200g,200,coffee,https://www.roguewavecoffee.ca/products/indonesia-sumatra-bener-meriah-lychee-coferment-wet-hull,2025-08-14
@@ -60992,7 +61374,7 @@ roguewavecoffee.ca:62165113340275,roguewavecoffee.ca,4732671754291,Brewista Arti
 roguewavecoffee.ca:62165126021491,roguewavecoffee.ca,15193553142131,Panama - Carmen Estate Geisha Lot 8 | Washed - 100g -Archived,,100,coffee,https://www.roguewavecoffee.ca/products/panama-carmen-estate-geisha-lot-8-washed-100g,2025-10-10
 roguewavecoffee.ca:62165147386227,roguewavecoffee.ca,15193560547699,Bonavita - 1.0 L Classic Gooseneck Precision Kettle,,750,equipment,https://www.roguewavecoffee.ca/products/bonavita-1-0-l-classic-gooseneck-precision-kettle,2025-10-09
 roguewavecoffee.ca:62165239791987,roguewavecoffee.ca,15193637781875,Bonavita - Enthusiast 8-cup Drip Coffee Maker with Thermal Carafe,,2000,equipment,https://www.roguewavecoffee.ca/products/bonavita-enthusiast-bonavita-8-cup-drip-coffee-maker,2025-10-09
-roguewavecoffee.ca:62167236149619,roguewavecoffee.ca,8854314582310,OREA  - Filter Paper - WAVE,185 - Large (V4 Filter),400,equipment,https://www.roguewavecoffee.ca/products/orea-filter-paper-wave,2025-10-10
+roguewavecoffee.ca:62167236149619,roguewavecoffee.ca,8854314582310,OREA  - Filter Paper - WAVE,185 - Large (V4/O2 Filter),400,equipment,https://www.roguewavecoffee.ca/products/orea-filter-paper-wave,2025-10-10
 roguewavecoffee.ca:62167236182387,roguewavecoffee.ca,8854314582310,OREA  - Filter Paper - WAVE,155 - Small (O1 Filter),400,equipment,https://www.roguewavecoffee.ca/products/orea-filter-paper-wave,2025-10-10
 roguewavecoffee.ca:62168788828531,roguewavecoffee.ca,8047588442406,Secret shop,Colombia - CGLE - Las Margaritas Sudan Rume COMP Lot 547 Natural - 100g - Oct. 07,100,coffee,https://www.roguewavecoffee.ca/products/secret-shop,2025-10-11
 roguewavecoffee.ca:62168788959603,roguewavecoffee.ca,8047588442406,Secret shop,Panama - Carmen Estate - Palomar Lot 3 Geisha Natural - 100g - Oct. 07,100,coffee,https://www.roguewavecoffee.ca/products/secret-shop,2025-10-11
@@ -61885,15 +62267,27 @@ roguewavecoffee.ca:67355202716019,roguewavecoffee.ca,15650057453939,Guatemala - 
 roguewavecoffee.ca:67355224867187,roguewavecoffee.ca,15650060992883,Panama - Carmen Palomar Estate Lot 6 Geisha | Natural - 100g,100 g,100,coffee,https://www.roguewavecoffee.ca/products/panama-carmen-palomar-estate-lot-6-geisha-natural-100g,2026-11-12
 roguewavecoffee.ca:67387323744627,roguewavecoffee.ca,6757751423027,Third Wave Water - Espresso Profile,1 Gallon,150,equipment,https://www.roguewavecoffee.ca/products/third-wave-water-espresso-profile,2026-11-13
 roguewavecoffee.ca:67387323777395,roguewavecoffee.ca,6757751423027,Third Wave Water - Espresso Profile,2 Liter,150,equipment,https://www.roguewavecoffee.ca/products/third-wave-water-espresso-profile,2026-11-13
-roguewavecoffee.ca:67398682182003,roguewavecoffee.ca,15663527231859,[PRE-ORDER] Coffee Gift Box | 6x Coffees (440g) & Gift Box,,440,bundle,https://www.roguewavecoffee.ca/products/pre-order-coffee-gift-box-6x-coffees-440g-gift-box,2026-11-15
+roguewavecoffee.ca:67398682182003,roguewavecoffee.ca,15663527231859,[PRE-ORDER] Coffee Gift Box,,,bundle,https://www.roguewavecoffee.ca/products/pre-order-coffee-gift-box-6x-coffees-440g-gift-box,2026-11-15
 roguewavecoffee.ca:67440928620915,roguewavecoffee.ca,15674128105843,Colombia - Las Margaritas Geisha | Honey - 100g,100 g,100,coffee,https://www.roguewavecoffee.ca/products/colombia-las-margaritas-geisha-honey-100g,2026-11-18
 roguewavecoffee.ca:67461351801203,roguewavecoffee.ca,15679312429427,Ethiopia - Hanan Million Getachew | Natural,250 g,250,coffee,https://www.roguewavecoffee.ca/products/ethiopia-hanan-million-getachew-natural,2026-11-20
 roguewavecoffee.ca:67461351833971,roguewavecoffee.ca,15679312429427,Ethiopia - Hanan Million Getachew | Natural,40 g,40,coffee,https://www.roguewavecoffee.ca/products/ethiopia-hanan-million-getachew-natural,2026-11-20
 roguewavecoffee.ca:67461351866739,roguewavecoffee.ca,15679312429427,Ethiopia - Hanan Million Getachew | Natural,1 kg,1000,coffee,https://www.roguewavecoffee.ca/products/ethiopia-hanan-million-getachew-natural,2026-11-20
 roguewavecoffee.ca:67461371232627,roguewavecoffee.ca,15679314788723,Guatemala - La Serrania Kimono | Natural (2026),200 g,200,coffee,https://www.roguewavecoffee.ca/products/guatemala-la-serrania-kimono-natural-2026,2026-11-20
 roguewavecoffee.ca:67461371265395,roguewavecoffee.ca,15679314788723,Guatemala - La Serrania Kimono | Natural (2026),40 g,40,coffee,https://www.roguewavecoffee.ca/products/guatemala-la-serrania-kimono-natural-2026,2026-11-20
+roguewavecoffee.ca:67461428314483,roguewavecoffee.ca,15679323799923,Kenya - Nyeri Hill Factory | Washed,250 g,250,coffee,https://www.roguewavecoffee.ca/products/kenya-nyeri-hill-factory-washed,2026-11-25
+roguewavecoffee.ca:67461428347251,roguewavecoffee.ca,15679323799923,Kenya - Nyeri Hill Factory | Washed,40 g,40,coffee,https://www.roguewavecoffee.ca/products/kenya-nyeri-hill-factory-washed,2026-11-25
+roguewavecoffee.ca:67461428380019,roguewavecoffee.ca,15679323799923,Kenya - Nyeri Hill Factory | Washed,1 kg,1000,coffee,https://www.roguewavecoffee.ca/products/kenya-nyeri-hill-factory-washed,2026-11-25
+roguewavecoffee.ca:67461432541555,roguewavecoffee.ca,15679324356979,Ecuador - Johann Jumbo Sidra | Natural,200 g,200,coffee,https://www.roguewavecoffee.ca/products/ecuador-johann-jumbo-sidra-natural,2026-11-25
+roguewavecoffee.ca:67461432607091,roguewavecoffee.ca,15679324356979,Ecuador - Johann Jumbo Sidra | Natural,40 g,40,coffee,https://www.roguewavecoffee.ca/products/ecuador-johann-jumbo-sidra-natural,2026-11-25
 roguewavecoffee.ca:67461451972979,roguewavecoffee.ca,15679329075571,Secret Drop | Panama - Mount Totumas Geisha Pre-Dried Bosque | Forest Ferment Natural - 50g,50 g,50,coffee,https://www.roguewavecoffee.ca/products/secret-drop-panama-mount-totumas-geisha-pre-dried-bosque-forest-ferment-natural-50-g,2026-11-19
 roguewavecoffee.ca:67461501682035,roguewavecoffee.ca,4474445496371,Gift Card - ONLINE & IN-STORE,$250.00 CAD,,gift_card,https://www.roguewavecoffee.ca/products/gift-card,2026-11-19
+roguewavecoffee.ca:67540260192627,roguewavecoffee.ca,15702598975859,Uganda - The Coffee Yards | Short-Drip Aerobic Natural,340 g,340,coffee,https://www.roguewavecoffee.ca/products/uganda-the-coffee-yards-short-drip-aerobic-natural,2026-11-25
+roguewavecoffee.ca:67540260225395,roguewavecoffee.ca,15702598975859,Uganda - The Coffee Yards | Short-Drip Aerobic Natural,1 kg,1000,coffee,https://www.roguewavecoffee.ca/products/uganda-the-coffee-yards-short-drip-aerobic-natural,2026-11-25
+roguewavecoffee.ca:67540260258163,roguewavecoffee.ca,15702598975859,Uganda - The Coffee Yards | Short-Drip Aerobic Natural,2.5 kg,2500,coffee,https://www.roguewavecoffee.ca/products/uganda-the-coffee-yards-short-drip-aerobic-natural,2026-11-25
+roguewavecoffee.ca:67540260290931,roguewavecoffee.ca,15702598975859,Uganda - The Coffee Yards | Short-Drip Aerobic Natural,40 g,40,coffee,https://www.roguewavecoffee.ca/products/uganda-the-coffee-yards-short-drip-aerobic-natural,2026-11-25
+roguewavecoffee.ca:67544418910579,roguewavecoffee.ca,15702928818547,OREA - Z1 Filters,Z1 Filters - Pack of 50,100,equipment,https://www.roguewavecoffee.ca/products/orea-z1-filters,2026-11-25
+roguewavecoffee.ca:67544418943347,roguewavecoffee.ca,15702928818547,OREA - Z1 Filters,Z1 Filters - Pack of 300,200,equipment,https://www.roguewavecoffee.ca/products/orea-z1-filters,2026-11-25
+roguewavecoffee.ca:67548020212083,roguewavecoffee.ca,8026677477670,Fellow - Stagg EKG Electric Kettle  |  PRO,Woodland + Walnut,1800,equipment,https://www.roguewavecoffee.ca/products/fellow-stagg-ekg-pro-electric-kettle,2026-11-25
 rohicoffee.ca:35407925477535,rohicoffee.ca,5463389536415,Cold Brew,12 oz / Whole Bean,340.2,coffee,https://rohicoffee.ca/products/cold-brew,2023-11-28
 rohicoffee.ca:35407925510303,rohicoffee.ca,5463389536415,Cold Brew,12 oz / Coarse Ground,340.2,coffee,https://rohicoffee.ca/products/cold-brew,2023-11-28
 rohicoffee.ca:35407965356191,rohicoffee.ca,5463402872991,Signature Blend,12 oz / Whole Bean,340.2,coffee,https://rohicoffee.ca/products/signature-blend,2023-11-28
@@ -64168,7 +64562,10 @@ sainthenri.ca:67797753233684,sainthenri.ca,15420638560532,Porte-clé Café Saint
 sainthenri.ca:67797753266452,sainthenri.ca,15420638560532,Porte-clé Café Saint-Henri,Pancarte,,coffee,https://sainthenri.ca/products/porte-cle-cafe-saint-henri,2026-10-27
 sainthenri.ca:68001340686612,sainthenri.ca,15420640821524,Café découverte (100g),Aucune mouture (grains),100,bundle,https://sainthenri.ca/products/cafe-en-format-decouverte-100g,2026-11-07
 sainthenri.ca:68001340719380,sainthenri.ca,15420640821524,Café découverte (100g),Mouture filtre,100,bundle,https://sainthenri.ca/products/cafe-en-format-decouverte-100g,2026-11-07
+sainthenri.ca:68051362840852,sainthenri.ca,9310114218260,Tasse réutilisable Kinto,Coyote,100,drinkware,https://sainthenri.ca/products/tasse-kinto,2026-11-25
+sainthenri.ca:68051920716052,sainthenri.ca,15478305947924,Gourde Kinto Café Saint-Henri,Ambre,100,coffee,https://sainthenri.ca/products/gourde-cafe-saint-henri,2026-11-25
 sainthenri.ca:68052144324884,sainthenri.ca,15478356869396,Tote bag 15e anniversaire Café Saint-Henri,,100,merch,https://sainthenri.ca/products/tote-bag-15e-anniversaire-cafe-saint-henri,2026-11-21
+sainthenri.ca:68153026576660,sainthenri.ca,15500514066708,Tote bag Marché Jean-Talon,,100,merch,https://sainthenri.ca/products/tote-bag-marche-jean-talon,2026-11-25
 sainthenri.ca:782935295,sainthenri.ca,337749271,Urnex Cafiza,,500,cleaning,https://sainthenri.ca/products/cafiza,2023-12-12
 sainthenri.ca:783017579,sainthenri.ca,311168047,Godshot,2lb,907.2,coffee,https://sainthenri.ca/products/godshot-2,2023-11-23
 sainthenri.ca:846366474252,sainthenri.ca,85849669644,Carte cadeau pour notre boutique en ligne,$25.00,,gift_card,https://sainthenri.ca/products/gift-card,2023-11-23
@@ -64617,14 +65014,22 @@ samjamescoffeebar.com:46477054935110,samjamescoffeebar.com,8527648948294,COSTA R
 samjamescoffeebar.com:46477054967878,samjamescoffeebar.com,8527648948294,COSTA RICA: LAS LAJAS,GROUND - COLD BREW,340,coffee,https://samjamescoffeebar.com/products/costa-rica-las-lajas,2026-09-05
 samjamescoffeebar.com:46483902201926,samjamescoffeebar.com,8528660856902,INSULATED TALL CAN,,340,instant,https://samjamescoffeebar.com/products/insulated-tall-can,2026-09-02
 samjamescoffeebar.com:46489836027974,samjamescoffeebar.com,8529450336326,CARAMEL CANDY MUG,,225,syrup_food,https://samjamescoffeebar.com/products/caramel-candy-mug,2026-09-03
-samjamescoffeebar.com:50696219295814,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,NO. WHOLE BEAN PLEASE,340,coffee,https://samjamescoffeebar.com/products/kenya-kiambu,2026-10-23
-samjamescoffeebar.com:50696219328582,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - ESPRESSO MACHINE,340,coffee,https://samjamescoffeebar.com/products/kenya-kiambu,2026-10-23
-samjamescoffeebar.com:50696219361350,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - ESPRESSO STOVE TOP,340,coffee,https://samjamescoffeebar.com/products/kenya-kiambu,2026-10-23
-samjamescoffeebar.com:50696219394118,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - AEROPRESS,340,coffee,https://samjamescoffeebar.com/products/kenya-kiambu,2026-10-23
-samjamescoffeebar.com:50696219426886,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - DRIP MACHINE,340,coffee,https://samjamescoffeebar.com/products/kenya-kiambu,2026-10-23
-samjamescoffeebar.com:50696219459654,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - POUR OVER,340,coffee,https://samjamescoffeebar.com/products/kenya-kiambu,2026-10-23
-samjamescoffeebar.com:50696219492422,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - FRENCH PRESS,340,coffee,https://samjamescoffeebar.com/products/kenya-kiambu,2026-10-23
-samjamescoffeebar.com:50696219525190,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - COLD BREW,340,coffee,https://samjamescoffeebar.com/products/kenya-kiambu,2026-10-23
+samjamescoffeebar.com:50696219295814,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,NO. WHOLE BEAN PLEASE,340,coffee,https://samjamescoffeebar.com/products/purple-diamond,2026-10-23
+samjamescoffeebar.com:50696219328582,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - ESPRESSO MACHINE,340,coffee,https://samjamescoffeebar.com/products/purple-diamond,2026-10-23
+samjamescoffeebar.com:50696219361350,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - ESPRESSO STOVE TOP,340,coffee,https://samjamescoffeebar.com/products/purple-diamond,2026-10-23
+samjamescoffeebar.com:50696219394118,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - AEROPRESS,340,coffee,https://samjamescoffeebar.com/products/purple-diamond,2026-10-23
+samjamescoffeebar.com:50696219426886,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - DRIP MACHINE,340,coffee,https://samjamescoffeebar.com/products/purple-diamond,2026-10-23
+samjamescoffeebar.com:50696219459654,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - POUR OVER,340,coffee,https://samjamescoffeebar.com/products/purple-diamond,2026-10-23
+samjamescoffeebar.com:50696219492422,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - FRENCH PRESS,340,coffee,https://samjamescoffeebar.com/products/purple-diamond,2026-10-23
+samjamescoffeebar.com:50696219525190,samjamescoffeebar.com,10264779587654,KENYA: KIAMBU,GROUND - COLD BREW,340,coffee,https://samjamescoffeebar.com/products/purple-diamond,2026-10-23
+samjamescoffeebar.com:51147147116614,samjamescoffeebar.com,10355698794566,HONDURAS: MONTECILLOS,WHOLE BEAN,340,coffee,https://samjamescoffeebar.com/products/gold-diamond,2026-11-25
+samjamescoffeebar.com:51147147149382,samjamescoffeebar.com,10355698794566,HONDURAS: MONTECILLOS,GROUND - ESPRESSO MACHINE,340,coffee,https://samjamescoffeebar.com/products/gold-diamond,2026-11-25
+samjamescoffeebar.com:51147147182150,samjamescoffeebar.com,10355698794566,HONDURAS: MONTECILLOS,GROUND - ESPRESSO STOVE TOP,340,coffee,https://samjamescoffeebar.com/products/gold-diamond,2026-11-25
+samjamescoffeebar.com:51147147214918,samjamescoffeebar.com,10355698794566,HONDURAS: MONTECILLOS,GROUND - AEROPRESS,340,coffee,https://samjamescoffeebar.com/products/gold-diamond,2026-11-25
+samjamescoffeebar.com:51147147247686,samjamescoffeebar.com,10355698794566,HONDURAS: MONTECILLOS,GROUND - DRIP MACHINE,340,coffee,https://samjamescoffeebar.com/products/gold-diamond,2026-11-25
+samjamescoffeebar.com:51147147280454,samjamescoffeebar.com,10355698794566,HONDURAS: MONTECILLOS,GROUND - POUR OVER,340,coffee,https://samjamescoffeebar.com/products/gold-diamond,2026-11-25
+samjamescoffeebar.com:51147147313222,samjamescoffeebar.com,10355698794566,HONDURAS: MONTECILLOS,GROUND - FRENCH PRESS,340,coffee,https://samjamescoffeebar.com/products/gold-diamond,2026-11-25
+samjamescoffeebar.com:51147147345990,samjamescoffeebar.com,10355698794566,HONDURAS: MONTECILLOS,GROUND - COLD BREW,340,coffee,https://samjamescoffeebar.com/products/gold-diamond,2026-11-25
 september.coffee:40273188126818,september.coffee,6848928252002,Coffee Subscription,,500,subscription,https://september.coffee/products/september-coffee-subscription,2023-11-23
 september.coffee:40273694687330,september.coffee,6849053950050,Daterra Blossom - Brazil Espresso,,300,coffee,https://september.coffee/products/daterra-blossom-brazil-espresso,2024-01-08
 september.coffee:40273695047778,september.coffee,6849054310498,Pink Lemonade - Colombia Pink Bourbon,,250,coffee,https://september.coffee/products/pink-lemonade-colombia-pink-bourbon,2024-01-08
@@ -65944,6 +66349,46 @@ sethtaylor.ca:62748998041681,sethtaylor.ca,16335592489041,"Ethiopia, Bombe",225g
 sethtaylor.ca:62748998074449,sethtaylor.ca,16335592489041,"Ethiopia, Bombe",500g,500,coffee,https://sethtaylor.ca/products/ethiopia-bombe,2026-11-02
 sethtaylor.ca:62748998107217,sethtaylor.ca,16335592489041,"Ethiopia, Bombe",1kg,1000,coffee,https://sethtaylor.ca/products/ethiopia-bombe,2026-11-02
 sethtaylor.ca:62748998303825,sethtaylor.ca,16335592489041,"Ethiopia, Bombe",2kg,2000,coffee,https://sethtaylor.ca/products/ethiopia-bombe,2026-11-02
+shop.devillecoffee.ca:42269295149079,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,"300g / Coarse - French Press, Clever",300,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269295181847,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,300g / Fine - Espresso,300,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269295214615,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,"300g / Medium - V60, Kalita",300,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269295247383,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,"300g / Medium Coarse - Chemex, Aeropress",300,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269295280151,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,300g / Whole Bean,300,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269419208727,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,"300g / Coarse - French Press, Clever",300,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269419241495,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,300g / Fine - Espresso,300,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269419274263,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,"300g / Medium - V60, Kalita",300,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269419307031,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,"300g / Medium Coarse - Chemex, Aeropress",300,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269419339799,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,300g / Whole Bean,300,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269563617303,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,"300g / Coarse - French Press, Clever",300,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269563650071,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,300g / Fine - Espresso,300,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269563682839,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,"300g / Medium - V60, Kalita",300,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269563715607,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,"300g / Medium Coarse - Chemex, Aeropress",300,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269563748375,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,300g / Whole Bean,300,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269625122839,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,"300g / Coarse - French Press, Clever",300,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269625155607,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,300g / Fine - Espresso,300,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269625188375,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,"300g / Medium - V60, Kalita",300,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269625221143,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,"300g / Medium Coarse - Chemex, Aeropress",300,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42269625253911,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,300g / Whole Bean,300,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952370520087,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,"5lb / Coarse - French Press, Clever",2268,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952370552855,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,5lb / Fine - Espresso,2268,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952370585623,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,"5lb / Medium - V60, Kalita",2268,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952370618391,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,"5lb / Medium Coarse - Chemex, Aeropress",2268,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952370651159,shop.devillecoffee.ca,7606368763927,Dark Roast | Direct Trade,5lb / Whole Bean,2268,coffee,https://shop.devillecoffee.ca/products/dark-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952379039767,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,"5lb / Coarse - French Press, Clever",2268,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952379072535,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,5lb / Fine - Espresso,2268,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952379105303,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,"5lb / Medium - V60, Kalita",2268,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952379138071,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,"5lb / Medium Coarse - Chemex, Aeropress",2268,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952379170839,shop.devillecoffee.ca,7606404874263,Decaf Roast | Direct Trade,5lb / Whole Bean,2268,coffee,https://shop.devillecoffee.ca/products/decaf-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952391688215,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,"5lb / Coarse - French Press, Clever",2268,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952391720983,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,5lb / Fine - Espresso,2268,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952391753751,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,"5lb / Medium - V60, Kalita",2268,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952391786519,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,"5lb / Medium Coarse - Chemex, Aeropress",2268,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952391819287,shop.devillecoffee.ca,7606179135511,Espresso Roast | Direct Trade,5lb / Whole Bean,2268,coffee,https://shop.devillecoffee.ca/products/espresso-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952399978519,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,"5lb / Coarse - French Press, Clever",2268,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952400011287,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,5lb / Fine - Espresso,2268,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952400044055,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,"5lb / Medium - V60, Kalita",2268,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952400076823,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,"5lb / Medium Coarse - Chemex, Aeropress",2268,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
+shop.devillecoffee.ca:42952400109591,shop.devillecoffee.ca,7606273343511,Medium Roast | Direct Trade,5lb / Whole Bean,2268,coffee,https://shop.devillecoffee.ca/products/medium-roast-direct-trade-1,2026-11-25
 shop.ethicaroasters.com:34259143917701,shop.ethicaroasters.com,5072048849029,Gift Card (Online Only),$20 Gift Card,,gift_card,https://shop.ethicaroasters.com/products/gift-card,2026-11-13
 shop.ethicaroasters.com:34259158696069,shop.ethicaroasters.com,5072048849029,Gift Card (Online Only),$50 Gift Card,,gift_card,https://shop.ethicaroasters.com/products/gift-card,2026-11-13
 shop.ethicaroasters.com:34259165118597,shop.ethicaroasters.com,5072048849029,Gift Card (Online Only),$100 Gift Card,,gift_card,https://shop.ethicaroasters.com/products/gift-card,2026-11-13
@@ -66146,12 +66591,12 @@ shop.ethicaroasters.com:41762097168517,shop.ethicaroasters.com,7296603291781,Mil
 shop.ethicaroasters.com:41762097365125,shop.ethicaroasters.com,7296569245829,Home Barista Basics,November 28 - 10:00 am to 12:00 pm,,service,https://shop.ethicaroasters.com/products/home-barista-basics,2026-11-13
 shop.ethicaroasters.com:41762097397893,shop.ethicaroasters.com,7296569245829,Home Barista Basics,December 19 - 10:00 am to 12:00 pm,,service,https://shop.ethicaroasters.com/products/home-barista-basics,2026-11-13
 shop.ethicaroasters.com:41762097627269,shop.ethicaroasters.com,6829705166981,Barista Basic,November 18 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41762097660037,shop.ethicaroasters.com,6829705166981,Barista Basic,December 09 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41762097692805,shop.ethicaroasters.com,6829705166981,Barista Basic,December 30 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41762098053253,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,December 02 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:41762097660037,shop.ethicaroasters.com,6829705166981,Barista Basic,December 05 - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:41762097692805,shop.ethicaroasters.com,6829705166981,Barista Basic,January 02 - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:41762098053253,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,December 20 - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
 shop.ethicaroasters.com:41762098086021,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,December 23 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
 shop.ethicaroasters.com:41762099527813,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Nov 25 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
-shop.ethicaroasters.com:41762099560581,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Dec 16 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:41762099560581,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Dec 12 - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
 shop.ethicaroasters.com:41764225843333,shop.ethicaroasters.com,7305471459461,Colombia Wilton Benitez,250 g,250,coffee,https://shop.ethicaroasters.com/products/colombia-wilton-benitez-washed,2026-11-13
 shop.ethicaroasters.com:41764225876101,shop.ethicaroasters.com,7305471459461,Colombia Wilton Benitez,1 kg,1000,coffee,https://shop.ethicaroasters.com/products/colombia-wilton-benitez-washed,2026-11-13
 shop.ethicaroasters.com:41764227678341,shop.ethicaroasters.com,7305472475269,Patlanalan Lot One,250 g,250,coffee,https://shop.ethicaroasters.com/products/mexico-patlanalan-lot-one-washed,2026-11-13
@@ -66180,32 +66625,32 @@ shop.ethicaroasters.com:41954735063173,shop.ethicaroasters.com,7349239283845,Nue
 shop.ethicaroasters.com:41972347535493,shop.ethicaroasters.com,7353984876677,Yabitu Koba,250 g,250,coffee,https://shop.ethicaroasters.com/products/yabitu-koba,2026-11-13
 shop.ethicaroasters.com:41972347568261,shop.ethicaroasters.com,7353984876677,Yabitu Koba,1 kg,1000,coffee,https://shop.ethicaroasters.com/products/yabitu-koba,2026-11-13
 shop.ethicaroasters.com:41972410941573,shop.ethicaroasters.com,7353999097989,Chelchele Site,250 g,250,coffee,https://shop.ethicaroasters.com/products/chelchele-site,2026-11-13
-shop.ethicaroasters.com:41995050385541,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,January 13 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:41995050385541,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,January 31 - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
 shop.ethicaroasters.com:41995050418309,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,February 03 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
-shop.ethicaroasters.com:41995050451077,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,February 24 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
-shop.ethicaroasters.com:41995050483845,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,March 17 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:41995050451077,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,February 28 - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:41995050483845,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,March 21 - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
 shop.ethicaroasters.com:41995050516613,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,April 07 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
-shop.ethicaroasters.com:41995050549381,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,April 28 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
-shop.ethicaroasters.com:41995050582149,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,May 19 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
-shop.ethicaroasters.com:41995050614917,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,June 09 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
-shop.ethicaroasters.com:41995050647685,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,June 30 - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:41995050549381,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,April 25 - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:41995050582149,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,May 30 - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:41995050614917,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,June 27 - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:41995050647685,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,July 25 - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
 shop.ethicaroasters.com:41995051073669,shop.ethicaroasters.com,6829705166981,Barista Basic,January 20 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41995051106437,shop.ethicaroasters.com,6829705166981,Barista Basic,February 10 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41995051139205,shop.ethicaroasters.com,6829705166981,Barista Basic,March 03 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:41995051106437,shop.ethicaroasters.com,6829705166981,Barista Basic,February 13 - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:41995051139205,shop.ethicaroasters.com,6829705166981,Barista Basic,March 06 - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
 shop.ethicaroasters.com:41995051171973,shop.ethicaroasters.com,6829705166981,Barista Basic,March 24 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41995051204741,shop.ethicaroasters.com,6829705166981,Barista Basic,April 14 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41995051237509,shop.ethicaroasters.com,6829705166981,Barista Basic,May 05 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41995051270277,shop.ethicaroasters.com,6829705166981,Barista Basic,May 26 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41995051303045,shop.ethicaroasters.com,6829705166981,Barista Basic,June 16 - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:41995051565189,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Jan 06 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:41995051204741,shop.ethicaroasters.com,6829705166981,Barista Basic,April 03 - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:41995051237509,shop.ethicaroasters.com,6829705166981,Barista Basic,May 01 - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:41995051270277,shop.ethicaroasters.com,6829705166981,Barista Basic,June 05 - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:41995051303045,shop.ethicaroasters.com,6829705166981,Barista Basic,July 03 - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:41995051565189,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Jan 16 - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
 shop.ethicaroasters.com:41995051597957,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Jan 27 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
-shop.ethicaroasters.com:41995051630725,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Feb 17 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
-shop.ethicaroasters.com:41995051663493,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Mar 10 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:41995051630725,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Feb 20 - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:41995051663493,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Mar 13 - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
 shop.ethicaroasters.com:41995051696261,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Mar 31 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
-shop.ethicaroasters.com:41995051729029,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Apr 21 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
-shop.ethicaroasters.com:41995051761797,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,May 12 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
-shop.ethicaroasters.com:41995051794565,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Jun 02 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
-shop.ethicaroasters.com:41995051827333,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Jun 23 - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:41995051729029,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Apr 10 - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:41995051761797,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,May 08 - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:41995051794565,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,June 12 - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:41995051827333,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,July 10 - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
 shop.ethicaroasters.com:41995079581829,shop.ethicaroasters.com,7296569245829,Home Barista Basics,January 30 - 10:00 am to 12:00 pm,,service,https://shop.ethicaroasters.com/products/home-barista-basics,2026-11-13
 shop.ethicaroasters.com:41995079614597,shop.ethicaroasters.com,7296569245829,Home Barista Basics,February 27 - 10:00 am to 12:00 pm,,service,https://shop.ethicaroasters.com/products/home-barista-basics,2026-11-13
 shop.ethicaroasters.com:41995079647365,shop.ethicaroasters.com,7296569245829,Home Barista Basics,March 20 - 10:00 am to 12:00 pm,,service,https://shop.ethicaroasters.com/products/home-barista-basics,2026-11-13
@@ -66230,9 +66675,9 @@ shop.ethicaroasters.com:42003081101445,shop.ethicaroasters.com,7361357742213,Not
 shop.ethicaroasters.com:42276385652869,shop.ethicaroasters.com,7375641084037,Ngozi,250 g,250,coffee,https://shop.ethicaroasters.com/products/ngozi,2026-11-13
 shop.ethicaroasters.com:42276385685637,shop.ethicaroasters.com,7375641084037,Ngozi,1kg,1000,coffee,https://shop.ethicaroasters.com/products/ngozi,2026-11-13
 shop.ethicaroasters.com:42529139654789,shop.ethicaroasters.com,6829704904837,Coffee Cupping,GIft ticket - 10am,,coffee,https://shop.ethicaroasters.com/products/coffee-cupping,2026-11-13
-shop.ethicaroasters.com:42529141686405,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Gift ticket - 8:30 am to 4:30 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
-shop.ethicaroasters.com:42529146732677,shop.ethicaroasters.com,6829705166981,Barista Basic,Gift ticket - 8:30 am to 4:30 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
-shop.ethicaroasters.com:42529146765445,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,Gift ticket - 1 pm to 4 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
+shop.ethicaroasters.com:42529141686405,shop.ethicaroasters.com,6829705068677,Alternative Brewing Methods,Gift ticket - 9:00 am to 5:00 pm,,equipment,https://shop.ethicaroasters.com/products/alternative-brewing-methods,2026-11-13
+shop.ethicaroasters.com:42529146732677,shop.ethicaroasters.com,6829705166981,Barista Basic,Gift ticket - 9:00 am to 5:00 pm,,service,https://shop.ethicaroasters.com/products/barista-basic,2026-11-13
+shop.ethicaroasters.com:42529146765445,shop.ethicaroasters.com,6829705298053,Introduction to Specialty Coffee,Gift ticket - 2 pm to 5 pm,,service,https://shop.ethicaroasters.com/products/introduction-to-specialty-coffee-1,2026-11-13
 shop.ethicaroasters.com:42529146798213,shop.ethicaroasters.com,7296569245829,Home Barista Basics,Gift ticket - 10 am to 12:00 pm,,service,https://shop.ethicaroasters.com/products/home-barista-basics,2026-11-13
 shop.ethicaroasters.com:42529150894213,shop.ethicaroasters.com,7296603291781,Milk Steaming & Latte Art,Gift ticket - 1:00 pm to 3:00 pm,,syrup_food,https://shop.ethicaroasters.com/products/milk-steaming-latte-art,2026-11-13
 shop.ethicaroasters.com:42701612449925,shop.ethicaroasters.com,7383417454725,"BooKoo Themis Ultra Coffee Scale Black, scale only",Classic Black,1000,equipment,https://shop.ethicaroasters.com/products/bookoo-themis-ultra-coffee-scale,2026-11-13
@@ -66435,6 +66880,9 @@ sorellina.ca:46976365265095,sorellina.ca,8857084625095,Frank Torres - Colombia -
 sorellina.ca:46976365297863,sorellina.ca,8857084625095,Frank Torres - Colombia - Sidra - Natural,1lb,453.6,coffee,https://sorellina.ca/products/frank-torres-colombia-sidra-natural,2026-11-13
 sorellina.ca:46976365330631,sorellina.ca,8857084625095,Frank Torres - Colombia - Sidra - Natural,5lb,2268,coffee,https://sorellina.ca/products/frank-torres-colombia-sidra-natural,2026-11-13
 sorellina.ca:46976842170567,sorellina.ca,8857210945735,Finca La Josefina - Ecuador - Typica/Catucai - Washed,227g,227,coffee,https://sorellina.ca/products/finca-la-josefina-ecuador-typica-washed,2026-11-13
+sorellina.ca:46981367759047,sorellina.ca,8858474315975,Madman: Man of Mystery - Black Friday Exclusive,227g,227,coffee,https://sorellina.ca/products/finca-la-josefina-ecuador-typica-washed-copy,2026-11-25
+sorellina.ca:46981367791815,sorellina.ca,8858474315975,Madman: Man of Mystery - Black Friday Exclusive,2lb,907.2,coffee,https://sorellina.ca/products/finca-la-josefina-ecuador-typica-washed-copy,2026-11-25
+sorellina.ca:46981367824583,sorellina.ca,8858474315975,Madman: Man of Mystery - Black Friday Exclusive,5lb,2268,coffee,https://sorellina.ca/products/finca-la-josefina-ecuador-typica-washed-copy,2026-11-25
 sorellina.ca:47091876102343,sorellina.ca,8885633122503,Buena Vista - Colombia - Caturra - Washed,227g,227,coffee,https://sorellina.ca/products/buena-vista-colombia-caturra-washed-copy,2026-11-13
 sorellina.ca:47091876135111,sorellina.ca,8885633122503,Buena Vista - Colombia - Caturra - Washed,2lb,907.2,coffee,https://sorellina.ca/products/buena-vista-colombia-caturra-washed-copy,2026-11-13
 sorellina.ca:47091876167879,sorellina.ca,8885633122503,Buena Vista - Colombia - Caturra - Washed,5lb,2268,coffee,https://sorellina.ca/products/buena-vista-colombia-caturra-washed-copy,2026-11-13
@@ -66444,9 +66892,9 @@ sorellina.ca:47494090096839,sorellina.ca,8912438821063,"Gedeb Danche ""Big Natty
 sorellina.ca:47494527254727,sorellina.ca,8912455499975,Ndiani Nyeri - Kenya - Natural,227g,227,coffee,https://sorellina.ca/products/ndiani-nyeri-kenya-natural,2026-11-13
 sorellina.ca:47494527287495,sorellina.ca,8912455499975,Ndiani Nyeri - Kenya - Natural,1lb,453.6,coffee,https://sorellina.ca/products/ndiani-nyeri-kenya-natural,2026-11-13
 sorellina.ca:47494527320263,sorellina.ca,8912455499975,Ndiani Nyeri - Kenya - Natural,2lb,907.2,coffee,https://sorellina.ca/products/ndiani-nyeri-kenya-natural,2026-11-13
-sorellina.ca:47494943965383,sorellina.ca,8912471130311,Dark Queen Lot#6 -  Costa Rica - Natural Geisha,100g,100,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
-sorellina.ca:47494943998151,sorellina.ca,8912471130311,Dark Queen Lot#6 -  Costa Rica - Natural Geisha,227g,227,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
-sorellina.ca:47494944030919,sorellina.ca,8912471130311,Dark Queen Lot#6 -  Costa Rica - Natural Geisha,1lb,453.6,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
+sorellina.ca:47494943965383,sorellina.ca,8912471130311,The Queen Lot#6 -  Costa Rica - Natural Geisha,100g,100,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
+sorellina.ca:47494943998151,sorellina.ca,8912471130311,The Queen Lot#6 -  Costa Rica - Natural Geisha,227g,227,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
+sorellina.ca:47494944030919,sorellina.ca,8912471130311,The Queen Lot#6 -  Costa Rica - Natural Geisha,1lb,453.6,coffee,https://sorellina.ca/products/senel-campos-costa-rica-natural-geisha,2026-11-13
 sorellina.ca:67819515510983,sorellina.ca,15387453882567,Seasoning Beans,1lb,453.6,seasoning,https://sorellina.ca/products/seasoning-beans,2026-11-13
 sorellina.ca:67819655364807,sorellina.ca,15387511324871,Roasters Choice,Single Origin 227g,227,coffee,https://sorellina.ca/products/roasters-choice,2026-11-13
 sorellina.ca:67819655397575,sorellina.ca,15387511324871,Roasters Choice,Brewer's Series 100g,100,coffee,https://sorellina.ca/products/roasters-choice,2026-11-13
@@ -68744,6 +69192,10 @@ subtext.coffee:68604933275861,subtext.coffee,15596534759637,"Luis Alberto Ballad
 subtext.coffee:68606107648213,subtext.coffee,15596749422805,"Faver Ninco, Colombia Washed Pink Bourbon",250g,250,coffee,https://www.subtext.coffee/products/faver-ninco-colombia-washed-pink-bourbon,2026-11-24
 subtext.coffee:68606107680981,subtext.coffee,15596749422805,"Faver Ninco, Colombia Washed Pink Bourbon",500g,500,coffee,https://www.subtext.coffee/products/faver-ninco-colombia-washed-pink-bourbon,2026-11-24
 subtext.coffee:68606107713749,subtext.coffee,15596749422805,"Faver Ninco, Colombia Washed Pink Bourbon",1kg,1000,coffee,https://www.subtext.coffee/products/faver-ninco-colombia-washed-pink-bourbon,2026-11-24
+subtext.coffee:68653013631189,subtext.coffee,15602616041685,Best of 2026 Coffee Box,,1000,coffee,https://www.subtext.coffee/products/best-of-2026-coffee-box,2026-11-25
+subtext.coffee:68653020774613,subtext.coffee,15602621513941,"Abel Salinas Holiday Coffee, Ecuador Washed Mejorado",250g,250,coffee,https://www.subtext.coffee/products/abel-salinas-holiday-coffee-ecuador-washed-mejorado,2026-11-25
+subtext.coffee:68653020807381,subtext.coffee,15602621513941,"Abel Salinas Holiday Coffee, Ecuador Washed Mejorado",1kg,1000,coffee,https://www.subtext.coffee/products/abel-salinas-holiday-coffee-ecuador-washed-mejorado,2026-11-25
+subtext.coffee:68653020840149,subtext.coffee,15602621513941,"Abel Salinas Holiday Coffee, Ecuador Washed Mejorado",500g,500,coffee,https://www.subtext.coffee/products/abel-salinas-holiday-coffee-ecuador-washed-mejorado,2026-11-25
 theangryroaster.com:39568145088671,theangryroaster.com,5763667394719,Brazil - Alta Mogiana,300g,300,coffee,https://theangryroaster.com/products/brazil-coffee,2023-11-23
 theangryroaster.com:39568145121439,theangryroaster.com,5763667394719,Brazil - Alta Mogiana,2kg,2000,coffee,https://theangryroaster.com/products/brazil-coffee,2023-11-23
 theangryroaster.com:39598909030559,theangryroaster.com,6642481103007,Specialty Coffee World Map,,,merch,https://theangryroaster.com/products/specialty-coffee-world-map-poster,2023-11-23
@@ -69075,6 +69527,9 @@ thelibraryspecialtycoffee.com:67888917479594,thelibraryspecialtycoffee.com,15452
 thelibraryspecialtycoffee.com:67889164320938,thelibraryspecialtycoffee.com,15452128542890,Finca El Paraiso - Pink Bourbon - Colombia,250G,250,coffee,https://www.thelibraryspecialtycoffee.com/products/finca-el-paraiso-colombia,2026-11-11
 thelibraryspecialtycoffee.com:67889164353706,thelibraryspecialtycoffee.com,15452128542890,Finca El Paraiso - Pink Bourbon - Colombia,1KG,1000,coffee,https://www.thelibraryspecialtycoffee.com/products/finca-el-paraiso-colombia,2026-11-11
 thelibraryspecialtycoffee.com:67889164386474,thelibraryspecialtycoffee.com,15452128542890,Finca El Paraiso - Pink Bourbon - Colombia,2.5KG,2500,coffee,https://www.thelibraryspecialtycoffee.com/products/finca-el-paraiso-colombia,2026-11-11
+thelibraryspecialtycoffee.com:68010339795114,thelibraryspecialtycoffee.com,15472091496618,Finca La Bolsa - Pacamara - Guatemala,250G,250,coffee,https://www.thelibraryspecialtycoffee.com/products/finca-la-bolsa-pacamara-guatemala,2026-11-25
+thelibraryspecialtycoffee.com:68010339827882,thelibraryspecialtycoffee.com,15472091496618,Finca La Bolsa - Pacamara - Guatemala,1KG,1000,coffee,https://www.thelibraryspecialtycoffee.com/products/finca-la-bolsa-pacamara-guatemala,2026-11-25
+thelibraryspecialtycoffee.com:68010339860650,thelibraryspecialtycoffee.com,15472091496618,Finca La Bolsa - Pacamara - Guatemala,2.5KG,2500,coffee,https://www.thelibraryspecialtycoffee.com/products/finca-la-bolsa-pacamara-guatemala,2026-11-25
 thombargen.com:33273261064330,thombargen.com,4831721717898,Fellow Opus Electric Grinder,,,equipment,https://www.thombargen.com/products/encore,2023-11-28
 thombargen.com:33289300803722,thombargen.com,4839380156554,Chemex Classic - 8 Cup,,300,equipment,https://www.thombargen.com/products/chemex,2023-11-28
 thombargen.com:33290294001802,thombargen.com,4839916601482,Chemex Filters,,,equipment,https://www.thombargen.com/products/chemex-filters,2023-11-28
@@ -70153,7 +70608,7 @@ transcendcoffee.ca:40412748283973,transcendcoffee.ca,6846118690885,Square Bracke
 transcendcoffee.ca:40416284180549,transcendcoffee.ca,6847299747909,Aurora Blend,300g,300,coffee,https://transcendcoffee.ca/products/aurora-blend,2023-11-23
 transcendcoffee.ca:40416284213317,transcendcoffee.ca,6847299747909,Aurora Blend,900g,900,coffee,https://transcendcoffee.ca/products/aurora-blend,2023-11-23
 transcendcoffee.ca:40416284246085,transcendcoffee.ca,6847299747909,Aurora Blend,2250g,2250,coffee,https://transcendcoffee.ca/products/aurora-blend,2023-11-23
-transcendcoffee.ca:40436366606405,transcendcoffee.ca,6854773473349,Cascara Coffee Cherry Tea 240g - Costa Rica,,240,tea,https://transcendcoffee.ca/products/cascara-coffee-cherry-tea-240g-costa-rica,2023-11-23
+transcendcoffee.ca:40436366606405,transcendcoffee.ca,6854773473349,Cascara Coffee Cherry Tea 100g - Costa Rica,,100,tea,https://transcendcoffee.ca/products/cascara-coffee-cherry-tea-100g-costa-rica,2023-11-23
 transcendcoffee.ca:40438166847557,transcendcoffee.ca,6855492894789,Duvis Moreno - Honduras,300g,300,coffee,https://transcendcoffee.ca/products/duvis-moreno-honduras,2023-11-23
 transcendcoffee.ca:40438166880325,transcendcoffee.ca,6855492894789,Duvis Moreno - Honduras,900g,900,coffee,https://transcendcoffee.ca/products/duvis-moreno-honduras,2023-11-23
 transcendcoffee.ca:40438166913093,transcendcoffee.ca,6855492894789,Duvis Moreno - Honduras,2250g,2250,coffee,https://transcendcoffee.ca/products/duvis-moreno-honduras,2023-11-23
@@ -71488,6 +71943,7 @@ virginhillcoffee.com:49357916373265,virginhillcoffee.com,9715525714193,Bodum Pav
 virginhillcoffee.com:49357925613841,virginhillcoffee.com,9715526664465,Aeropress Clear,,454,merch,https://virginhillcoffee.com/products/aeropress-clear,2026-11-18
 virginhillcoffee.com:49357929808145,virginhillcoffee.com,9715527287057,Cielo - Reusable Candle 3oz - Mimi and August,,85,merch,https://virginhillcoffee.com/products/cielo-reusable-candle-3oz-mimi-and-august,2026-11-13
 virginhillcoffee.com:49357929906449,virginhillcoffee.com,9715527352593,Cielo - Reusable Candle 5.5oz - Mimi & August,,155.9,merch,https://virginhillcoffee.com/products/cielo-la-bougie-r-utilisable-5-5oz-mimi-august-regular,2026-11-13
+virginhillcoffee.com:49357930758417,virginhillcoffee.com,9715527418129,Bellucci Descaler,,250,merch,https://virginhillcoffee.com/products/cl-caffitaly-descaler-regular,2026-11-25
 virginhillcoffee.com:49357956874513,virginhillcoffee.com,9715533086993,AeroPress Stainless Steel Filter - Standard,,250,merch,https://virginhillcoffee.com/products/aeropress-stainless-steel-filter-standard,2026-11-13
 virginhillcoffee.com:49357957726481,virginhillcoffee.com,9715533283601,Foresta - 5.5 oz Reusable Candle - Mimi & August,,155.9,merch,https://virginhillcoffee.com/products/foresta-la-bougie-r-utilisable-5-5oz-mimi-august-regular,2026-11-13
 virginhillcoffee.com:49357959495953,virginhillcoffee.com,9715533447441,Black Coffee Soap from François Lambert,,250,merch,https://virginhillcoffee.com/products/fran-ois-lambert-savon-regular,2026-11-13
@@ -71529,6 +71985,7 @@ virginhillcoffee.com:50838265561361,virginhillcoffee.com,9225965109521,Smooth Ta
 virginhillcoffee.com:50838265594129,virginhillcoffee.com,9225965109521,Smooth Tasting Kit,Filter grind (regular) / Yes + $8,2500,bundle,https://virginhillcoffee.com/products/smooth-tasting-kit,2026-11-13
 virginhillcoffee.com:50878436147473,virginhillcoffee.com,10212554211601,Mimi & August - Reusable Candle 5.5oz - Eucalipto,,155.9,merch,https://virginhillcoffee.com/products/mimi-august-reusable-candle-5-5oz-eucalipto,2026-11-13
 virginhillcoffee.com:50896712597777,virginhillcoffee.com,10218553475345,Moonday Lucky Cereal Latte Candle 6.7oz,,189.9,merch,https://virginhillcoffee.com/products/moonday-lucky-cereal-latte-candle-6-7oz,2026-11-13
+virginhillcoffee.com:50916327457041,virginhillcoffee.com,10223434400017,Virgin Mady Nougat,,100,merch,https://virginhillcoffee.com/products/virgin-mady-nougat,2026-11-25
 virginhillcoffee.com:50940973351185,virginhillcoffee.com,9226011738385,Organic Mont Sutton Blend,Filter Grind / 3/4-pound (340g),340.2,coffee,https://virginhillcoffee.com/products/organic-mont-sutton-blend,2026-11-13
 virginhillcoffee.com:50940973383953,virginhillcoffee.com,9226011738385,Organic Mont Sutton Blend,Filter Grind / 1kg / 2.2 lbs,1000,coffee,https://virginhillcoffee.com/products/organic-mont-sutton-blend,2026-11-13
 virginhillcoffee.com:50940973416721,virginhillcoffee.com,9226011738385,Organic Mont Sutton Blend,Filter Grind / 2kg / 4.4 lbs,2000,coffee,https://virginhillcoffee.com/products/organic-mont-sutton-blend,2026-11-13
@@ -71906,6 +72363,7 @@ virginhillcoffee.com:68096741933329,virginhillcoffee.com,15526546047249,Coffee C
 virginhillcoffee.com:68096752877841,virginhillcoffee.com,15526548635921,Coffee Clay Earrings (Large Coffee),,,merch,https://virginhillcoffee.com/products/coffee-clay-earrings-large-coffee,2026-11-19
 virginhillcoffee.com:68098976350481,virginhillcoffee.com,15526639894801,Handmade Ceramic Coffee Mug 10oz,Lilac,283.5,merch,https://virginhillcoffee.com/products/handmade-ceramic-coffee-mug-10oz,2026-11-19
 virginhillcoffee.com:68098976383249,virginhillcoffee.com,15526639894801,Handmade Ceramic Coffee Mug 10oz,Glossy White,283.5,merch,https://virginhillcoffee.com/products/handmade-ceramic-coffee-mug-10oz,2026-11-19
+virginhillcoffee.com:68108190875921,virginhillcoffee.com,15528748122385,Coffee Break Pencil Set,,,merch,https://virginhillcoffee.com/products/coffee-break-pencil-set,2026-11-25
 yourstrulycoffee.myshopify.com:49922320990487,yourstrulycoffee.myshopify.com,9774678442263,The Artist Series: Semilla x SHRINE,El Sapo,250,unknown,https://yourstrulycoffee.myshopify.com/products/semilla-x-shrine-present-el-sapo,2026-11-13
 yourstrulycoffee.myshopify.com:49922321023255,yourstrulycoffee.myshopify.com,9774678442263,The Artist Series: Semilla x SHRINE,Sarai Jimenez,250,unknown,https://yourstrulycoffee.myshopify.com/products/semilla-x-shrine-present-el-sapo,2026-11-13
 yourstrulycoffee.myshopify.com:49943239754007,yourstrulycoffee.myshopify.com,9685579235607,Liquid Love,300g,300,coffee,https://yourstrulycoffee.myshopify.com/products/liquid-love,2026-11-13

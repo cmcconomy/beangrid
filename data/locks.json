@@ -2550,6 +2550,30 @@
    "250g"
   ]
  },
+ "https://www.nemesis.coffee/products/espresso-ethiopia-danche": {
+  "checked": "2026-11-25",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
+ "https://www.nemesis.coffee/products/ethiopia-chelchele": {
+  "checked": "2026-11-25",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
+ "https://www.nemesis.coffee/products/feature-espresso-ethiopia-uraga-suke": {
+  "checked": "2026-11-25",
+  "members_only": false,
+  "visible_options": [
+   "1kg",
+   "250g"
+  ]
+ },
  "https://www.nemesis.coffee/products/india-ashok-patre-ratnagiri-estate-1": {
   "checked": "2026-11-19",
   "members_only": true,
@@ -3214,6 +3238,16 @@
   "members_only": false,
   "visible_options": null
  },
+ "https://www.roguewavecoffee.ca/products/uganda-the-coffee-yards-short-drip-aerobic-natural": {
+  "checked": "2026-11-25",
+  "members_only": false,
+  "visible_options": [
+   "1 kg",
+   "2.5 kg",
+   "340 g",
+   "40 g"
+  ]
+ },
  "https://www.thelibraryspecialtycoffee.com/products/bishan-wate-ethiopia": {
   "checked": "2026-11-19",
   "members_only": false,
@@ -3234,6 +3268,15 @@
  },
  "https://www.thelibraryspecialtycoffee.com/products/finca-el-paraiso-colombia": {
   "checked": "2026-11-19",
+  "members_only": false,
+  "visible_options": [
+   "1KG",
+   "2.5KG",
+   "250G"
+  ]
+ },
+ "https://www.thelibraryspecialtycoffee.com/products/finca-la-bolsa-pacamara-guatemala": {
+  "checked": "2026-11-25",
   "members_only": false,
   "visible_options": [
    "1KG",
@@ -3406,6 +3449,11 @@
    "300g",
    "5lb"
   ]
+ },
+ "https://www.trafficcoffee.com/products/forbidden-fruit-co-ferment-blends-box": {
+  "checked": "2026-11-25",
+  "members_only": false,
+  "visible_options": null
  },
  "https://www.trafficcoffee.com/products/forin-house-blend": {
   "checked": "2026-11-21",
