@@ -486,9 +486,9 @@
  "lheureuxinc.com": {
   "url": "https://lheureuxinc.com",
   "roaster": "Brossard",
-  "status": "stale",
-  "error": "gave up after 7 attempts: HTTP 429",
-  "last_ok": "2026-11-25",
+  "status": "ok",
+  "error": null,
+  "last_ok": "2026-11-26",
   "coffee_variants": 108,
   "last_count": 2253,
   "pending_count": null,
