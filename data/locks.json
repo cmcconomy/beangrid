@@ -1070,7 +1070,7 @@
   ]
  },
  "https://ethicalbean.com/products/lush-medium-dark-whole-bean-coffee": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": [
    "whole bean bag (12oz)",
@@ -1511,7 +1511,7 @@
   ]
  },
  "https://justuscoffee.com/products/rise-again": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": [
    "12 oz",
@@ -1551,7 +1551,7 @@
   ]
  },
  "https://justuscoffee.com/products/tiera-madre": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": [
    "12 oz",
@@ -1694,6 +1694,11 @@
  },
  "https://lheureuxinc.com/products/faro-espresso-forte": {
   "checked": "2026-11-21",
+  "members_only": false,
+  "visible_options": null
+ },
+ "https://lheureuxinc.com/products/faro-espresso-italien": {
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
@@ -2609,27 +2614,27 @@
   ]
  },
  "https://www.roguewavecoffee.ca/products/bolivia-finca-rosita-catuai-anaerobic-natural": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/bolivia-finca-rosita-caturra-anaerobic-natural": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/bolivia-taypiplaya-community-lot-washed": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/bolivia-tuki-tuki-edwin-huanca-washed": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/brazil-daterra-full-bloom-natural-1": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": [
    "1 KG",
@@ -2647,37 +2652,37 @@
   ]
  },
  "https://www.roguewavecoffee.ca/products/brazil-rio-brilhante-icatu-natural": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/brazil-rio-brilhante-natural": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/brazil-rio-brilhante-tropicana-natural": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/burundi-kayanza-incuti-group-washed": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-buesaco-regional-lot-washed": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-condor-decaf-1": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-el-vergel-condor-decaf-2025": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
@@ -2692,42 +2697,42 @@
   ]
  },
  "https://www.roguewavecoffee.ca/products/colombia-el-vergel-decaf": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-finca-macarena-wilton-benitez-washed-castillo": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-huila-regional-decaf": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-huila-regional-lot-decaf": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-huila-regional-rio-negro-iquira-ea-decaf-2025": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-huila-rio-negro-regional-lot-washed": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-la-esperanza-caturra-syrup-washed": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
  "https://www.roguewavecoffee.ca/products/colombia-la-lomita-eulises-guzman-pink-bourbon-washed": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
@@ -2742,7 +2747,7 @@
   ]
  },
  "https://www.roguewavecoffee.ca/products/colombia-laderas-del-tapias-catiope-natural": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
@@ -2757,7 +2762,7 @@
   ]
  },
  "https://www.roguewavecoffee.ca/products/colombia-laderas-del-tapias-estate-lot-washed": {
-  "checked": "2026-11-19",
+  "checked": "2026-11-27",
   "members_only": false,
   "visible_options": null
  },
